@@ -1,0 +1,30 @@
+{
+  "name": "manshour-studio",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm --prefix packages/core run build && node scripts/build-app.mjs",
+    "test": "npm --prefix packages/core test && node --test tests/*.test.mjs",
+    "check": "npm run build && npm test",
+    "start": "node scripts/serve.mjs",
+    "pack:core": "node scripts/pack-core.mjs",
+    "pack:studio": "python scripts/package-release.py"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@fontsource/cinzel": "5.3.0",
+    "@fontsource/fira-code": "5.3.0",
+    "@fontsource/vazirmatn": "5.3.0",
+    "@fortawesome/fontawesome-free": "6.5.1",
+    "acorn": "8.18.0",
+    "esbuild": "0.28.2",
+    "parse5": "8.0.1",
+    "postcss": "8.5.28",
+    "style-dictionary": "5.5.5",
+    "tailwindcss": "3.4.19",
+    "three": "0.128.0"
+  }
+}

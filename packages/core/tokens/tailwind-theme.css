@@ -1,0 +1,86 @@
+@theme {
+  /* کاشی‌کاری صفوی اصفهان (Safavid Tilework of Isfahan) */
+  --color-persian-isfahan-tiles-100: #120A8F; /* لاجوردی (Ultramarine) */
+  --color-persian-isfahan-tiles-200: #30D5C8; /* فیروزه‌ای اصیل (Persian Turquoise) */
+  --color-persian-isfahan-tiles-300: #00A693; /* آبی زنگاری شاهی (Persian Green) */
+  --color-persian-isfahan-tiles-400: #D4AF37; /* طلایی اسلیمی */
+  --color-persian-isfahan-tiles-500: #F4F1DE; /* عاجی گچی محراب */
+  --color-persian-isfahan-tiles-600: #0B132B; /* سرمه‌ای مقرنس */
+  /* شکوه هخامنشی تخت جمشید (Achaemenid Majesty & Persepolis) */
+  --color-persian-achaemenid-majesty-100: #CC3333; /* سرخ پارسی اصیل (Persian Red) */
+  --color-persian-achaemenid-majesty-200: #CFB53B; /* طلای شاهنشاهی (Old Gold) */
+  --color-persian-achaemenid-majesty-300: #1D3557; /* سرمه‌ای پارسه */
+  --color-persian-achaemenid-majesty-400: #2D6A4F; /* یشم باستانی */
+  --color-persian-achaemenid-majesty-500: #FDFBF7; /* سنگ مرمر آپادانا */
+  --color-persian-achaemenid-majesty-600: #1B1F24; /* سنگ سیاه تچر */
+  /* نگارگری و مینیاتور بهزاد (Master Behzad Persian Miniature) */
+  --color-persian-behzad-miniature-100: #E34234; /* شنگرف معدنی (Cinnabar/Vermilion) */
+  --color-persian-behzad-miniature-200: #0BDA51; /* سبز زنگار مالاکیت (Malachite Green) */
+  --color-persian-behzad-miniature-300: #1B263B; /* سرمه‌ای شبرنگ نگار */
+  --color-persian-behzad-miniature-400: #701C1C; /* شاه‌توت شاه‌عباسی (Persian Plum) */
+  --color-persian-behzad-miniature-500: #F6BD60; /* طلای حل‌کاری */
+  --color-persian-behzad-miniature-600: #FAF3E0; /* کاغذ سمرقندی */
+  /* دستبافته‌ها و قالی قشقایی و بختیاری (Qashqai & Bakhtiari Nomadic Rugs) */
+  --color-persian-nomadic-rugs-100: #A81C07; /* قرمز روناسی ناب (Madder Root) */
+  --color-persian-nomadic-rugs-200: #540B0E; /* لاکی شاه‌عباسی */
+  --color-persian-nomadic-rugs-300: #D99058; /* حنایی افشاری (Persian Orange) */
+  --color-persian-nomadic-rugs-400: #2B3A1C; /* سبز کله‌غازی عشایر */
+  --color-persian-nomadic-rugs-500: #EADDCF; /* کرم خامه پشمی */
+  --color-persian-nomadic-rugs-600: #422006; /* قهوه‌ای پوست گردو */
+  /* هنر میناکاری و قلم‌زنی (Isfahan Minakari & Repousse Metalwork) */
+  --color-persian-minakari-craft-100: #1C39BB; /* آبی مینایی ژرف (Persian Blue) */
+  --color-persian-minakari-craft-200: #008679; /* سبز فیروزه قلمی (Persian Green) */
+  --color-persian-minakari-craft-300: #E09F3E; /* زرد طلااندود */
+  --color-persian-minakari-craft-400: #94D2BD; /* فیروزه‌ای مرواریدی */
+  --color-persian-minakari-craft-500: #FDFBF7; /* سفید لعاب چینی */
+  --color-persian-minakari-craft-600: #0A192F; /* سرمه‌ای کوره مینا */
+  /* ترنج و اسلیمی کتاب‌آرایی (Persian Toranj Illumination (Tazhib)) */
+  --color-persian-toranj-illumination-100: #780000; /* زرشکی تذهیب تیموری */
+  --color-persian-toranj-illumination-200: #283655; /* نیلی لاجوردی شمسه (Indigo) */
+  --color-persian-toranj-illumination-300: #DAA520; /* طلای ناب شمسه (Goldenrod) */
+  --color-persian-toranj-illumination-400: #386641; /* سبز صمغی کهن */
+  --color-persian-toranj-illumination-500: #FDFBF4; /* پوست آهوی خطاطی */
+  --color-persian-toranj-illumination-600: #000000; /* مرکب سیاه کتابت (India Ink) */
+  /* راز خلیج فارس و مروارید قشم (Persian Gulf & Hormuz Crimson Coast) */
+  --color-persian-persian-gulf-pearls-100: #0067A5; /* آبی پارسی اصیل (Medium Persian Blue) */
+  --color-persian-persian-gulf-pearls-200: #00B4D8; /* آبی فیروزه‌ای قشم */
+  --color-persian-persian-gulf-pearls-300: #901C1C; /* خاک سرخ هرمز (Red Ochre) */
+  --color-persian-persian-gulf-pearls-400: #F2ECE4; /* مروارید صید لنگه */
+  --color-persian-persian-gulf-pearls-500: #DDA15E; /* ماسه گرم ساحلی */
+  --color-persian-persian-gulf-pearls-600: #03071E; /* آبی ژرفای خلیج */
+  /* باغ‌های اردیبهشت شیراز (Gardens of Shiraz & Eram Paradise) */
+  --color-persian-gardens-of-shiraz-100: #FE28A2; /* گل سرخ محمدی (Persian Rose) */
+  --color-persian-gardens-of-shiraz-200: #8B1E3F; /* انار قصرالدشت */
+  --color-persian-gardens-of-shiraz-300: #228B22; /* سبز سرو ناز (Cypress Green) */
+  --color-persian-gardens-of-shiraz-400: #FDE68A; /* شکوفه بهارنارنج */
+  --color-persian-gardens-of-shiraz-500: #F9F6F0; /* سفید یاسمن شیرازی */
+  --color-persian-gardens-of-shiraz-600: #182C18; /* سایه‌سار باغ ارم */
+  /* جواهرات و سنگ‌های خراسانی (Khorasan Gems & Turquoise Mines) */
+  --color-persian-khorasan-gems-100: #40E0D0; /* فیروزه شجری نیشابور (Turquoise) */
+  --color-persian-khorasan-gems-200: #9B111E; /* یاقوت اناری پارسی (Ruby) */
+  --color-persian-khorasan-gems-300: #50C878; /* زمرد نادری (Emerald) */
+  --color-persian-khorasan-gems-400: #FFBF00; /* کهربای کهن توس (Amber) */
+  --color-persian-khorasan-gems-500: #F4F6F8; /* مروارید نقره‌فام */
+  --color-persian-khorasan-gems-600: #1B1E23; /* سنگ چخماق دودی */
+  /* جنگل‌های هیرکانی و البرز (Ancient Hyrcanian Forests & Alborz) */
+  --color-persian-hyrcanian-forests-100: #1B4332; /* سرخس کهنسال هیرکانی */
+  --color-persian-hyrcanian-forests-200: #40916C; /* خزه مرطوب سنگ */
+  --color-persian-hyrcanian-forests-300: #74C69D; /* جوانه راشستان */
+  --color-persian-hyrcanian-forests-400: #4A3525; /* بلوط کهنسال خزری */
+  --color-persian-hyrcanian-forests-500: #F8F9FA; /* سپیدی برف دماوند */
+  --color-persian-hyrcanian-forests-600: #0D1F18; /* ژرفای جنگل مه‌آلود */
+  /* طلای سرخ و کویر یزد (Yazd Saffron Desert & Adobe Architecture) */
+  --color-persian-yazd-saffron-desert-100: #F4C430; /* زعفرانی سرگل (Saffron) */
+  --color-persian-yazd-saffron-desert-200: #D27D46; /* کاهگل آفتاب‌خورده (Adobe) */
+  --color-persian-yazd-saffron-desert-300: #E63946; /* عقیق سرخ ریگ‌جن */
+  --color-persian-yazd-saffron-desert-400: #F8E7D1; /* ماسه طلایی لوت */
+  --color-persian-yazd-saffron-desert-500: #1B1917; /* خشت سوخته کویر */
+  --color-persian-yazd-saffron-desert-600: #6B4226; /* چوب سنجد بادگیر */
+  /* راسته ادویه‌فروشان بازار کهن (Grand Bazaar Spices & Silk Road) */
+  --color-persian-bazaar-spices-100: #FFC000; /* زردچوبه ممتاز قلم (Turmeric) */
+  --color-persian-bazaar-spices-200: #D2691E; /* دارچینی باستانی (Cinnamon) */
+  --color-persian-bazaar-spices-300: #C32F27; /* پاپریکا و فلفل بیجار */
+  --color-persian-bazaar-spices-400: #93C572; /* پسته خندان رفسنجان (Pistachio Green) */
+  --color-persian-bazaar-spices-500: #FAF0CA; /* خامه شیرینی کهن */
+  --color-persian-bazaar-spices-600: #1E1E24; /* سیاه‌دانه و هل سیاه */
+}

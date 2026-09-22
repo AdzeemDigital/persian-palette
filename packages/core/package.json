@@ -1,0 +1,63 @@
+{
+  "name": "@persian-palette/core",
+  "version": "3.0.0",
+  "description": "Persian-inspired design colors, reference HCT and APCA, and DTCG 2025.10 tokens with explicit evidence provenance.",
+  "author": "Persian Palette Vault Working Group",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./tokens": "./tokens/w3c-tokens.json",
+    "./tokens/figma": "./tokens/figma-variables.json",
+    "./tokens/style-dictionary": "./tokens/style-dictionary.json",
+    "./tokens/tailwind": "./tokens/tailwind-theme.css",
+    "./tokens/studio": "./tokens/tokens-studio.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "tokens",
+    "types",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "licenses"
+  ],
+  "keywords": [
+    "design-tokens",
+    "w3c-dtcg",
+    "persian-colors",
+    "material-you",
+    "apple-hig",
+    "apca",
+    "color-science",
+    "figma-tokens"
+  ],
+  "scripts": {
+    "build": "tsc && node scripts/build.js",
+    "test": "node --test scripts/*.test.js",
+    "prepack": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@material/material-color-utilities": "0.3.0",
+    "apca-w3": "0.1.9"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

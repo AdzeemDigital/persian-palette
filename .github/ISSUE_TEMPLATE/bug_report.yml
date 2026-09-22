@@ -1,0 +1,48 @@
+name: 🐛 Bug Report
+description: Report an issue, rendering error, or inaccurate historical color data
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue in Persian Palette Studio!
+  - type: input
+    id: environment
+    attributes:
+      label: Environment & Runtime
+      description: What browser or Node.js version are you using?
+      placeholder: e.g. Chrome 134, Safari 18, Node.js 22.14.0
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected Component
+      options:
+        - "Web Studio (code_artifact.html / UI)"
+        - "@persian-palette/core (NPM Library)"
+        - "Color Calculations (HCT, APCA, Oklab)"
+        - "DTCG / W3C Tokens Export"
+        - "Design Tools (Figma, Tokens Studio, Tailwind)"
+        - "Historical Metadata / Provenance"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Open Studio or run code
+        2. Select color '...'
+        3. Observe error '...'
+    validations:
+      required: true

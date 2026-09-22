@@ -1,0 +1,168 @@
+html { color-scheme:dark; scroll-behavior:smooth; }
+html.light { color-scheme:light; }
+:focus-visible { outline:3px solid #67e8f9; outline-offset:4px; }
+button,a,input,select,[role=button] { -webkit-tap-highlight-color:transparent; }
+button { min-height:36px; }
+button[aria-label="بستن پنجره"],button[aria-label="Close dialog"] { min-width:44px; min-height:44px; }
+.skip-link { position:fixed;top:8px;right:8px;z-index:200;transform:translateY(-160%);background:#fcd34d;color:#111827;padding:12px 18px;border-radius:8px;font-weight:700; }
+.skip-link:focus { transform:translateY(0); }
+[dir="ltr"] .skip-link { right:auto;left:8px; }
+.evidence-provenance,.apca-note { line-height:1.9;font-size:12px;color:#cbd5e1; }
+.evidence-provenance { margin:0 0 20px;padding:14px 16px;border:1px solid #475569;border-radius:12px;background:#0f172a; }
+.evidence-provenance[data-state=conflicting] { border-color:#b45309;color:#fde68a; }
+body.dialog-open { overflow:hidden; }
+[role=dialog] { overscroll-behavior:contain; }
+[dir=ltr],pre,code { unicode-bidi:isolate; }
+#evidenceProvenance { overflow-wrap:anywhere; }
+input[type=range] { min-height:32px; }
+
+/* ==========================================================================
+   PERSPECTIVE & LIGHT THEME STYLES (کاغذ دست‌ساز عاجی، مرقعات و شیشه مات)
+   ========================================================================== */
+html.light body {
+  background-color: #F8F6F0 !important;
+  color: #1e293b !important;
+}
+html.light .bg-persian-mesh {
+  background-color: #F8F6F0 !important;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(26, 54, 93, 0.09) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(0, 168, 150, 0.08) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(158, 42, 43, 0.06) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.12) 0px, transparent 50%) !important;
+}
+html.light header {
+  background-color: rgba(255, 255, 255, 0.88) !important;
+  border-bottom-color: rgba(212, 175, 55, 0.35) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+html.light header h1 span:first-child {
+  color: #0f172a !important;
+}
+html.light header p {
+  color: #64748b !important;
+}
+html.light .glass-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.94) 0%, rgba(248, 250, 252, 0.88) 100%) !important;
+  border: 1px solid rgba(212, 175, 55, 0.38) !important;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08), inset 0 1px 0 0 rgba(255, 255, 255, 0.95) !important;
+  color: #0f172a !important;
+}
+html.light .glass-card:hover {
+  border-color: rgba(212, 175, 55, 0.75) !important;
+  box-shadow: 0 20px 45px -10px rgba(212, 175, 55, 0.2), 0 0 25px rgba(0, 168, 150, 0.12) !important;
+}
+html.light .glass-card p {
+  color: #334155 !important;
+}
+html.light .bg-slate-900,
+html.light .bg-slate-950 {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+html.light .border-slate-800,
+html.light .border-slate-700 {
+  border-color: #cbd5e1 !important;
+}
+html.light .text-slate-400 {
+  color: #475569 !important;
+}
+html.light .text-slate-300 {
+  color: #334155 !important;
+}
+html.light .text-slate-200,
+html.light .text-slate-100 {
+  color: #0f172a !important;
+}
+html.light #searchInput {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+html.light #searchInput::placeholder {
+  color: #94a3b8 !important;
+}
+html.light .apple-liquid-glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.92) 100%) !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.15), inset 0 1px 0 0 rgba(255, 255, 255, 1) !important;
+  color: #0f172a !important;
+}
+html.light [role="dialog"] .bg-slate-950,
+html.light [role="dialog"] .bg-slate-900 {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+html.light [role="dialog"] h3,
+html.light [role="dialog"] h4 {
+  color: #0f172a !important;
+}
+html.light .evidence-provenance {
+  background: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #334155 !important;
+}
+html.light .evidence-provenance[data-state=conflicting] {
+  border-color: #f59e0b !important;
+  background: #fffbeb !important;
+  color: #92400e !important;
+}
+html.light [data-i18n="heroHeading"],
+html.light h2.bg-clip-text {
+  background-image: linear-gradient(135deg, #1e1b4b 0%, #064e3b 50%, #831843 100%) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+}
+html.light section.grid > div.bg-slate-900\/60,
+html.light section.grid > div {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-color: rgba(212, 175, 55, 0.35) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04) !important;
+}
+html.light #categoryPills button:not(.bg-amber-500) {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-color: #cbd5e1 !important;
+  color: #1e293b !important;
+}
+html.light #categoryPills button:not(.bg-amber-500):hover {
+  background: #f1f5f9 !important;
+  border-color: #94a3b8 !important;
+}
+html.light pre {
+  background-color: #0f172a !important;
+  color: #38bdf8 !important;
+}
+html.light pre code {
+  color: #38bdf8 !important;
+}
+
+/* ==========================================================================
+   LTR & ENGLISH TYPOGRAPHY STYLES
+   ========================================================================== */
+html[dir="ltr"] body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  text-align: left;
+}
+html[dir="ltr"] .text-right {
+  text-align: left !important;
+}
+html[dir="ltr"] .text-left {
+  text-align: right !important;
+}
+html[dir="ltr"] .font-display {
+  font-family: 'Cinzel', serif;
+}
+
+@media(max-width:640px) {
+  [role=dialog] { padding:10px!important; }
+  [role=dialog] h3 { line-height:1.7; }
+  pre { font-size:11px; }
+  .glass-card { padding:18px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  *,*::before,*::after { animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important; }
+  .glass-card,.palette-art-banner { transform:none!important; }
+}
+

@@ -1,0 +1,238 @@
+{
+  "palettes": 12,
+  "colors": 72,
+  "unverifiedHeritageColors": 72,
+  "measuredSpectra": 0,
+  "coordinateConflicts": 11,
+  "conflicts": [
+    {
+      "id": "isfahan-tiles-c2",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 36.4633,
+          "alternative": 36.2133,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 58.8025,
+          "alternative": 58.7958,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "isfahan-tiles-c3",
+      "conflicts": [
+        {
+          "field": "geo.longitude",
+          "selected": 51.6778,
+          "alternative": 51.6775,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1570,
+          "alternative": 1574,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "isfahan-tiles-c4",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 32.6514,
+          "alternative": 32.6571,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 51.6776,
+          "alternative": 51.6769,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "isfahan-tiles-c5",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 32.6575,
+          "alternative": 32.6686,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 51.6778,
+          "alternative": 51.6853,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1574,
+          "alternative": 1578,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "isfahan-tiles-c6",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 32.6514,
+          "alternative": 32.6521,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 51.6776,
+          "alternative": 51.6773,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "behzad-miniature-c1",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 32.4279,
+          "alternative": 34.3283,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 53.688,
+          "alternative": 62.1926,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1400,
+          "alternative": 920,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "behzad-miniature-c2",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 32.9279,
+          "alternative": 38.08,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 53.988,
+          "alternative": 46.2919,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1400,
+          "alternative": 1360,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "behzad-miniature-c3",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 33.4279,
+          "alternative": 34.329,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 54.288000000000004,
+          "alternative": 62.193,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1400,
+          "alternative": 920,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "behzad-miniature-c4",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 33.9279,
+          "alternative": 32.657,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 54.588,
+          "alternative": 51.677,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1400,
+          "alternative": 1574,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "behzad-miniature-c5",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 34.4279,
+          "alternative": 36.2878,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 54.888000000000005,
+          "alternative": 59.6155,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1400,
+          "alternative": 985,
+          "resolution": "unresolved"
+        }
+      ]
+    },
+    {
+      "id": "behzad-miniature-c6",
+      "conflicts": [
+        {
+          "field": "geo.latitude",
+          "selected": 34.9279,
+          "alternative": 39.6542,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.longitude",
+          "selected": 55.188,
+          "alternative": 66.9597,
+          "resolution": "unresolved"
+        },
+        {
+          "field": "geo.elevationMeters",
+          "selected": 1400,
+          "alternative": 710,
+          "resolution": "unresolved"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1845 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>گنجینه رنگ‌های پارسی | Persian Palette Vault</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23120A8F' stroke='%23D4AF37' stroke-width='4'/%3E%3Cpath d='M50 15 L80 80 L20 80 Z' fill='none' stroke='%2330D5C8' stroke-width='4'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%23D4AF37'/%3E%3C/svg%3E">
+  
+  
+  
+
+  
+
+  <style>
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      background-color: #060913;
+      color: #f1f5f9;
+      overflow-x: hidden;
+    }
+    .bg-persian-mesh {
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(26, 54, 93, 0.45) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(0, 168, 150, 0.25) 0px, transparent 50%),
+        radial-gradient(at 50% 100%, rgba(158, 42, 43, 0.25) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.18) 0px, transparent 50%);
+      background-attachment: fixed;
+    }
+    .color-swatch-strip {
+      transition: flex-grow 0.35s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s ease;
+      flex-grow: 1;
+    }
+    .color-swatch-strip:hover {
+      flex-grow: 2.2;
+    }
+    .glass-card {
+      background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.6) 100%);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(245, 158, 11, 0.22);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.65), inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+      transform-style: preserve-3d;
+      perspective: 1200px;
+      transition: transform 0.25s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.2, 0, 0.2, 1), border-color 0.25s ease;
+      will-change: transform;
+    }
+    .glass-card:hover {
+      border-color: rgba(245, 158, 11, 0.55);
+      box-shadow: 0 20px 45px -10px rgba(245, 158, 11, 0.22), 0 0 30px rgba(6, 182, 212, 0.15);
+    }
+    .holo-shine {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      border-radius: inherit;
+      background: radial-gradient(circle 280px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255, 255, 255, 0.14), transparent 70%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      mix-blend-mode: screen;
+      z-index: 15;
+    }
+    .glass-card:hover .holo-shine {
+      opacity: 1;
+    }
+    .palette-art-banner {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.95rem;
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+      transform: translateZ(10px);
+    }
+    .glass-card:hover .palette-art-banner {
+      transform: translateZ(18px) scale(1.015);
+    }
+    .cultural-photo {
+      transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
+    }
+    .glass-card:hover .cultural-photo {
+      transform: scale(1.06);
+    }
+    /* SVG Color blindness filters */
+    .filter-protanopia { filter: url('#protanopia-filter'); }
+    .filter-deuteranopia { filter: url('#deuteranopia-filter'); }
+    .filter-tritanopia { filter: url('#tritanopia-filter'); }
+    .filter-achromatopsia { filter: grayscale(100%); }
+
+    
+    
+    /* V2.0 Scientific & Chemical Evidence Dashboard Styles */
+    .ev-tab-btn {
+      position: relative;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .ev-tab-btn.active {
+      color: #34d399;
+      background: rgba(16, 185, 129, 0.15);
+      border-color: rgba(52, 211, 153, 0.4);
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.15);
+    }
+    .ev-formula-badge {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      letter-spacing: 0.04em;
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.12), rgba(6, 78, 59, 0.25));
+      border: 1px solid rgba(52, 211, 153, 0.35);
+    }
+    .ev-color-pill {
+      transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .ev-color-pill.active {
+      transform: scale(1.18);
+      ring-width: 3px;
+      box-shadow: 0 0 16px var(--active-pill-glow, rgba(52, 211, 153, 0.6));
+    }
+
+    /* Apple HIG & VisionOS Spatial Liquid Glass */
+    .apple-liquid-glass {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.03) 100%);
+      backdrop-filter: blur(32px) saturate(190%) contrast(104%);
+      -webkit-backdrop-filter: blur(32px) saturate(190%);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.75), inset 0 1px 0 0 rgba(255, 255, 255, 0.22), inset 0 -1px 0 0 rgba(0, 0, 0, 0.4);
+    }
+    .apple-spring {
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .apple-spring-fast {
+      transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .apple-spring-fast:active {
+      transform: scale(0.96);
+    }
+    
+    /* Google Material You Dynamic Surface Tinting */
+    :root {
+      --palette-surface-tint: rgba(0, 168, 150, 0.06);
+      --palette-glow: rgba(0, 168, 150, 0.22);
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: radial-gradient(circle 900px at 50% 15%, var(--palette-surface-tint), transparent 75%);
+      z-index: 0;
+      transition: background 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Spatial Mode Active States */
+    body.spatial-vision-mode {
+      background-color: #03050a;
+    }
+    body.spatial-vision-mode .glass-card {
+      border-color: rgba(6, 182, 212, 0.35);
+      box-shadow: 0 0 35px -5px rgba(6, 182, 212, 0.2), inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    }
+    body.spatial-vision-mode header {
+      border-bottom-color: rgba(6, 182, 212, 0.4);
+      box-shadow: 0 4px 30px rgba(6, 182, 212, 0.12);
+    }
+
+    /* Custom Scrollbars */
+    ::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090d16;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+      border: 1px solid rgba(245, 158, 11, 0.2);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+  </style>
+<!-- BUILD:STYLES -->
+</head>
+
+<body class="bg-persian-mesh min-h-screen flex flex-col antialiased selection:bg-amber-500 selection:text-black">
+<a class="skip-link" href="#palettesGrid">رفتن به پالت‌ها</a>
+
+  <!-- Color Blindness SVG Filters -->
+  <svg class="hidden" aria-hidden="true">
+    <defs>
+      <filter id="protanopia-filter">
+        <feColorMatrix type="matrix" values="0.567, 0.433, 0, 0, 0 0.558, 0.442, 0, 0, 0 0 0.242, 0.758, 0, 0 0, 0, 0, 1, 0"/>
+      </filter>
+      <filter id="deuteranopia-filter">
+        <feColorMatrix type="matrix" values="0.625, 0.375, 0, 0, 0 0.7, 0.3, 0, 0, 0 0, 0.3, 0.7, 0, 0 0, 0, 0, 1, 0"/>
+      </filter>
+      <filter id="tritanopia-filter">
+        <feColorMatrix type="matrix" values="0.95, 0.05, 0, 0, 0 0, 0.433, 0.567, 0, 0 0, 0.475, 0.525, 0, 0 0, 0, 0, 1, 0"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <!-- Sticky Luxury Header -->
+  <header class="border-b border-amber-500/20 bg-slate-950/85 backdrop-blur-xl sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex flex-wrap items-center justify-between gap-4">
+      
+      <!-- Brand & Title -->
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-500 via-teal-500 to-rose-600 flex items-center justify-center shadow-lg shadow-amber-500/20 ring-1 ring-white/30">
+          <i class="fa-solid fa-atom text-slate-950 text-xl"></i>
+        </div>
+        <div>
+          <h1 class="text-base sm:text-lg font-black tracking-tight text-white flex items-center gap-2">
+            <span data-i18n="brandTitle">گنجینه دیزاین سیستم پارسی</span>
+            <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 font-bold">v3.0.0 Studio</span>
+          </h1>
+          <p class="text-[10px] text-slate-400 font-mono tracking-widest hidden sm:block" dir="ltr" data-i18n="brandTag">PERSIAN PALETTE • HCT · APCA · DTCG 2025.10</p>
+        </div>
+      </div>
+
+      <!-- Header Tools & Toggles -->
+        <button onclick="openNpmModal()" class="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 transition-all flex items-center gap-2 shadow-sm apple-spring-fast" title="معماری پکیج NPM و راهنمای نصب">
+          <i class="fa-brands fa-npm text-lg text-amber-400"></i>
+          <span class="hidden sm:inline" data-i18n="npmBtn">معماری پکیج NPM</span>
+        </button>
+
+        <button onclick="openMixerModal()" class="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-purple-500/15 hover:bg-purple-500/25 border border-purple-500/40 text-purple-300 transition-all flex items-center gap-2 shadow-sm apple-spring-fast" title="میکسر ادراکی رنگدانه‌های تاریخی">
+          <i class="fa-solid fa-vial text-purple-400"></i>
+          <span class="hidden sm:inline" data-i18n="mixerBtn">میکسر رنگدانه‌ها</span>
+        </button>
+
+        <button onclick="openExportAllModal()" class="px-3.5 py-1.5 rounded-xl text-xs font-medium bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 transition-all flex items-center gap-2 shadow-sm apple-spring-fast" title="صادرات توکن‌های W3C و فیگما">
+          <i class="fa-solid fa-code text-cyan-400"></i>
+          <span class="hidden sm:inline" data-i18n="tokensBtn">توکن‌های W3C</span>
+        </button>
+
+      <div class="flex items-center gap-2 sm:gap-3 flex-wrap">
+        
+        <!-- Art Mode Switcher: Generative Vector vs Cultural Heritage Photo -->
+        <div class="flex items-center p-0.5 rounded-xl bg-slate-900 border border-slate-800 text-xs">
+          <button 
+            id="artModeVectorBtn" 
+            onclick="setArtDisplayMode('vector')" 
+            class="px-2.5 py-1.5 rounded-lg font-medium transition flex items-center gap-1.5 bg-amber-500 text-slate-950 font-bold shadow-sm"
+            title="نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)"
+          >
+            <i class="fa-solid fa-draw-polygon text-[11px]"></i>
+            <span class="hidden sm:inline" data-i18n="vectorArt">هنر وکتور پارسی</span>
+          </button>
+          <button 
+            id="artModePhotoBtn" 
+            onclick="setArtDisplayMode('photo')" 
+            class="px-2.5 py-1.5 rounded-lg font-medium transition flex items-center gap-1.5 text-slate-400 hover:text-slate-200"
+            title="نمایش تصاویر پیوندشده از منابع بیرونی"
+          >
+            <i class="fa-solid fa-camera text-[11px]"></i>
+            <span class="hidden sm:inline" data-i18n="photoArt">عکس میراث فرهنگی</span>
+          </button>
+        </div>
+
+        <!-- Global Export Button -->
+        <button onclick="openExportAllModal()" class="px-3 py-1.5 rounded-xl text-xs sm:text-sm font-medium bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-300 transition-all flex items-center gap-1.5 shadow-sm">
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+          <span data-i18n="exportBtn">دریافت کدها</span>
+        </button>
+
+        <!-- Sound FX Synth Toggle -->
+        <button onclick="toggleSoundFx()" id="soundToggleBtn" class="px-3 py-1.5 rounded-xl text-xs sm:text-sm font-medium bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 transition-all flex items-center gap-1.5" title="روشن یا خاموش کردن افکت صوتی">
+          <i class="fa-solid fa-volume-xmark text-slate-400" id="soundIcon"></i>
+        </button>
+
+                <!-- Scientific M3 & Oklab Inspector Header Button -->
+        <button 
+          onclick="openScientificModalForActive()" 
+          class="px-3 py-1.5 rounded-xl text-xs sm:text-sm font-medium bg-purple-500/10 hover:bg-purple-500/20 border border-purple-500/30 text-purple-300 transition-all flex items-center gap-1.5 shadow-sm apple-spring-fast"
+          title="دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab"
+        >
+          <i class="fa-solid fa-atom text-purple-400"></i>
+          <span class="hidden md:inline" data-i18n="sciBtn">دیدبان علمی M3</span>
+        </button>
+
+        <!-- Futuristic Spatial VisionOS Mode Toggle -->
+        <button 
+          id="spatialModeToggle" 
+          onclick="toggleSpatialMode()" 
+          class="px-2.5 py-1.5 rounded-xl text-xs font-medium bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-cyan-300 transition-all flex items-center gap-1.5 shadow-sm apple-spring-fast"
+          title="تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)"
+        >
+          <i class="fa-solid fa-glasses text-[11px]"></i>
+          <span class="hidden lg:inline" data-i18n="spatialBtn">مود فضایی</span>
+        </button>
+
+        <!-- 3D GPU Studio Drawer Toggle -->
+        <button onclick="togglePreviewDrawer()" class="px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-medium bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-cyan-300 transition-all flex items-center gap-2 shadow-sm">
+          <i class="fa-solid fa-cube text-cyan-400"></i>
+          <span data-i18n="studioBtn">استودیو سه‌بعدی</span>
+        </button>
+
+        <!-- Theme Toggle: Light / Dark -->
+        <button 
+          id="themeToggleBtn" 
+          onclick="toggleTheme()" 
+          class="px-2.5 py-1.5 rounded-xl text-xs font-medium bg-slate-900 hover:bg-slate-800 border border-slate-800 text-amber-300 hover:text-amber-200 transition-all flex items-center gap-1.5 shadow-sm apple-spring-fast"
+          title="تغییر تم روشن و تیره (Light / Dark Theme)"
+          aria-label="تغییر تم بین روشن و تاریک"
+        >
+          <i class="fa-solid fa-moon text-amber-400" id="themeIcon"></i>
+          <span class="hidden sm:inline" id="themeLabel">تم روشن</span>
+        </button>
+
+        <!-- Language Switcher: Persian / English -->
+        <button 
+          id="langToggleBtn" 
+          onclick="toggleLanguage()" 
+          class="px-2.5 py-1.5 rounded-xl text-xs font-bold bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 transition-all flex items-center gap-1.5 shadow-sm apple-spring-fast"
+          title="تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)"
+          aria-label="تغییر زبان به انگلیسی"
+        >
+          <i class="fa-solid fa-language text-amber-400"></i>
+          <span id="langLabel">English</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Showcase Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8 flex-1 w-full space-y-8">
+    
+    <!-- Hero Introduction & Philosophy -->
+    <section class="text-center max-w-3xl mx-auto pt-2 space-y-3">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-900/90 border border-slate-800 text-xs text-amber-300 backdrop-blur-md shadow-inner">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span data-i18n="heroBadge">رنگ‌های الهام‌گرفته از میراث ایران، آمادهٔ طراحی</span>
+      </div>
+      <h2 data-i18n="heroHeading" class="text-2xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-teal-200 to-rose-200 leading-tight">
+        مستندات چندگانه، فیزیک نور و ارزیابی ادراکی APCA
+      </h2>
+      <p data-i18n="heroDesc" class="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-2xl mx-auto">
+        ۱۲ پالت و ۷۲ رنگ با محاسبات مرجع HCT و APCA، خروجی DTCG و وضعیت روشن منابع تاریخی. از انتخاب رنگ تا ساخت تم و دریافت توکن‌ها.
+      </p>
+
+      <!-- Search & Filters Container -->
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
+        <div class="relative w-full sm:w-80">
+          <label for="searchInput" class="sr-only">جستجوی پالت، نام رنگ یا کد هگز</label>
+          <i class="fa-solid fa-magnifying-glass absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+          <input 
+            type="text" 
+            id="searchInput" aria-label="جست‌وجوی پالت، نام رنگ یا کد هگز" 
+            placeholder="جستجوی پالت، نام رنگ یا کد هگز..." 
+            class="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl pr-9 pl-4 py-2 text-xs sm:text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-amber-400 transition"
+          >
+        </div>
+        <div id="categoryPills" class="flex flex-wrap items-center justify-center gap-1.5 w-full sm:w-auto"></div>
+      </div>
+    </section>
+
+    <!-- Global Telemetry & Design Metrics HUD -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-4xl mx-auto text-center">
+      <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-sm">
+        <div data-i18n="hudColorsTitle" class="text-[11px] text-slate-400">رنگ‌های مجموعه</div>
+        <div data-i18n="hudColorsVal" class="text-base font-black text-amber-300 font-mono mt-0.5">۷۲ رنگ sRGB</div>
+      </div>
+      <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-sm">
+        <div data-i18n="hudEngineTitle" class="text-[11px] text-slate-400">موتور کنتراست متن</div>
+        <div data-i18n="hudEngineVal" class="text-base font-black text-emerald-400 font-mono mt-0.5">APCA-W3 0.1.9</div>
+      </div>
+      <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-sm">
+        <div data-i18n="hudPreviewTitle" class="text-[11px] text-slate-400">پیش‌نمایش و منابع</div>
+        <div data-i18n="hudPreviewVal" class="text-base font-black text-cyan-300 font-mono mt-0.5">وکتور + تصویر اختیاری</div>
+      </div>
+      <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 backdrop-blur-sm">
+        <div data-i18n="hudGpuTitle" class="text-[11px] text-slate-400">شتاب‌دهی سخت‌افزاری</div>
+        <div data-i18n="hudGpuVal" class="text-base font-black text-rose-300 font-mono mt-0.5">WebGL Three.js GPU</div>
+      </div>
+    </section>
+
+    <!-- Color evidence and provenance dashboard -->
+    <div class="flex flex-wrap items-center justify-center gap-3 pt-3">
+      <button 
+        onclick="openEvidenceDashboard('isfahan-tiles', 0)" 
+        class="px-5 py-2.5 rounded-2xl bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white font-bold text-xs sm:text-sm flex items-center gap-2.5 shadow-xl shadow-emerald-500/20 border border-emerald-400/30 hover:scale-105 active:scale-95 transition-all"
+        title="شناسنامهٔ رنگ، شیمیایی، طیف‌سنجی نوری و ارزیابی ادراکی APCA"
+      >
+        <i class="fa-solid fa-flask-vial text-emerald-200 text-base"></i>
+        <span data-i18n="evidenceCta">شناسنامهٔ رنگ، محاسبات و منابع</span>
+        <span class="text-[10px] px-2 py-0.5 rounded-full bg-black/40 font-mono text-emerald-200 border border-emerald-400/20">V2.0 DTCG</span>
+      </button>
+    </div>
+
+    <!-- Main Palettes Grid Container -->
+    <section id="palettesGrid" tabindex="-1" aria-label="پالت‌های رنگ" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-2">
+      <!-- Injected via JavaScript -->
+    </section>
+
+    <!-- Empty search message -->
+    <div id="emptyState" class="hidden text-center py-16 bg-slate-900/40 rounded-2xl border border-slate-800">
+      <i class="fa-regular fa-face-frown text-4xl text-slate-600 mb-3"></i>
+      <h3 data-i18n="emptyTitle" class="text-lg font-bold text-slate-300">رنگی با این مشخصات یافت نشد</h3>
+      <p data-i18n="emptyDesc" class="text-sm text-slate-500 mt-1">واژه دیگری را امتحان کنید یا فیلتر دسته‌بندی را پاک کنید.</p>
+    </div>
+
+  </main>
+
+  <!-- Full-Screen 3D Studio & Test Drawer Modal -->
+  <div id="previewDrawer" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-amber-500/30 w-full max-w-5xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[92vh]">
+      
+      <!-- Drawer Header -->
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950">
+        <div class="flex items-center gap-3">
+          <span class="w-3 h-3 rounded-full bg-amber-400 animate-pulse"></span>
+          <h3 class="font-bold text-slate-100 text-sm sm:text-base">استودیو تست زنده، شافل هوشمند و ژنراتور سه‌بعدی</h3>
+          <span id="previewPaletteTitle" class="text-xs px-2.5 py-0.5 rounded-md bg-slate-800 text-amber-300 border border-amber-500/20 font-medium"></span>
+        </div>
+        <button onclick="togglePreviewDrawer()" class="text-slate-400 hover:text-white p-1">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Controls Toolbar: Shuffle, Reset, Accessibility Simulator -->
+      <div class="px-6 py-3 bg-slate-900/90 border-b border-slate-800 flex flex-wrap items-center justify-between gap-3 text-xs">
+        <div class="flex items-center gap-2 flex-wrap">
+          
+          <!-- Shuffle Button with Dropdown Modes -->
+          <div class="relative inline-flex rounded-xl shadow-sm">
+            <button 
+              onclick="smartShuffleStudioRoles()" 
+              class="px-3.5 py-2 rounded-r-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold shadow-md flex items-center gap-1.5 transition hover:scale-105 active:scale-95"
+              title="جابه‌جایی نقش رنگ‌ها و محاسبهٔ کنتراست"
+            >
+              <i class="fa-solid fa-shuffle"></i>
+              <span>شافل هوشمند</span>
+            </button>
+            <select 
+              id="studioShuffleModeSelect" 
+              class="bg-amber-600 hover:bg-amber-500 text-slate-950 font-bold px-2 py-2 rounded-l-xl border-r border-amber-700 text-xs focus:outline-none cursor-pointer"
+            >
+              <option value="dark">لوکس تیره (Dark Luxury AAA)</option>
+              <option value="light">کاغذی روشن (Editorial Light AAA)</option>
+              <option value="dynamic">کنتراست ماکزیمم (Dynamic AA+)</option>
+            </select>
+          </div>
+
+          <button 
+            onclick="resetStudioRoles()" 
+            class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center gap-1.5 transition"
+            title="بازنشانی به چیدمان استاندارد اولیه"
+          >
+            <i class="fa-solid fa-rotate-left"></i>
+            <span>بازنشانی</span>
+          </button>
+
+          <button 
+            onclick="openContrastMatrixForActive()" 
+            class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-cyan-500/30 flex items-center gap-1.5 transition"
+            title="مشاهده ماتریس کنتراست ۶×۶ این پالت"
+          >
+            <i class="fa-solid fa-table-cells"></i>
+            <span>ماتریس کنتراست ۶×۶</span>
+          </button>
+
+          <button 
+            onclick="copyCurrentShuffleCSS()" 
+            class="px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-300 border border-amber-500/30 flex items-center gap-1.5 transition"
+            title="کپی چیدمان فعال به صورت متغیرهای CSS"
+          >
+            <i class="fa-solid fa-file-code"></i>
+            <span>کپی CSS تم</span>
+          </button>
+        </div>
+
+        <div class="flex items-center gap-3 flex-wrap">
+          <!-- Component Template Switcher -->
+          <div class="flex items-center gap-1.5">
+            <span class="text-slate-400">قالب کامپوننت:</span>
+            <select 
+              id="studioTemplateSelect" 
+              onchange="changeStudioTemplate(this.value)" 
+              class="bg-slate-950 text-slate-200 border border-slate-700 rounded-lg px-2 py-1 text-xs focus:outline-none focus:border-amber-400"
+            >
+              <option value="product">کارت محصول / اثر هنری</option>
+              <option value="hud">داشبورد تلمتری (HUD Analytics)</option>
+              <option value="hero">بنر فراخوان اقدام (Hero CTA)</option>
+              <option value="form">فرم و کنترل‌های تعاملی</option>
+            </select>
+          </div>
+
+          <!-- Color Blindness Simulator -->
+          <div class="flex items-center gap-1.5">
+            <span class="text-slate-400 flex items-center gap-1">
+              <i class="fa-regular fa-eye text-cyan-400"></i>
+              <span>دید کاربر:</span>
+            </span>
+            <select 
+              id="visionModeSelect" 
+              onchange="applyVisionFilter(this.value)" 
+              class="bg-slate-950 text-slate-200 border border-slate-700 rounded-lg px-2 py-1 text-xs focus:outline-none focus:border-amber-400"
+            >
+              <option value="normal">عادی (Normal Vision)</option>
+              <option value="protanopia">پروتانوپیا (قرمز-کور)</option>
+              <option value="deuteranopia">دوترانوپیا (سبز-کور)</option>
+              <option value="tritanopia">تریتانوپیا (آبی-کور)</option>
+              <option value="achromatopsia">تک‌رنگ (Achromatopsia)</option>
+            </select>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Drawer Content: Split View between UI Mockup and 3D GPU Canvas -->
+      <div class="p-6 overflow-y-auto space-y-6 bg-slate-900 flex-1" id="previewCanvasArea">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+          
+          <!-- Mockup Component Area (7 cols) -->
+          <div class="lg:col-span-7 flex flex-col justify-between">
+            <div id="mockupCard" class="rounded-2xl p-6 border transition-all duration-500 shadow-xl flex-1 flex flex-col justify-between relative overflow-hidden">
+              <!-- Dynamically populated by JS according to selected template -->
+            </div>
+            
+            <!-- 60-30-10 Proportion Visualizer Bar -->
+            <div class="mt-3 p-3 rounded-xl bg-slate-950 border border-slate-800 text-xs">
+              <div class="flex items-center justify-between text-[11px] text-slate-400 mb-1.5">
+                <span>تناسب معماری رنگ‌ها (قانون ۶۰-۳۰-۱۰):</span>
+                <span class="text-amber-400 font-mono">Dominant: 60% | Secondary: 30% | Accent: 10%</span>
+              </div>
+              <div class="h-3 w-full rounded-full overflow-hidden flex shadow-inner border border-white/10" id="proportionBar">
+                <div class="h-full" style="width: 60%;" id="prop-dominant" title="زمینه غالب ۶۰٪"></div>
+                <div class="h-full" style="width: 30%;" id="prop-secondary" title="ساختار ثانویه ۳۰٪"></div>
+                <div class="h-full" style="width: 10%;" id="prop-accent" title="تاکید نگین ۱۰٪"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3D GPU Canvas Showcase (5 cols) -->
+          <div class="lg:col-span-5 flex flex-col">
+            <div class="bg-slate-950 rounded-2xl border border-slate-800 p-3 flex-1 flex flex-col justify-between relative overflow-hidden group">
+              <div class="flex items-center justify-between text-xs px-2 py-1 mb-1 z-10">
+                <span class="text-slate-300 flex items-center gap-1.5 font-medium">
+                  <i class="fa-solid fa-cube text-amber-400"></i>
+                  <span>تجسم سه‌بعدی GPU (ترنج بلورین پارسی)</span>
+                </span>
+                <span class="text-[10px] text-slate-400 font-mono">WebGL • Three.js</span>
+              </div>
+
+              <!-- Three.js Canvas Container -->
+              <div id="threeJsCanvasContainer" class="w-full h-56 sm:h-64 rounded-xl overflow-hidden relative cursor-grab active:cursor-grabbing border border-slate-800/80 bg-black/50">
+                <canvas id="threeCanvas" class="w-full h-full block"></canvas>
+                <div class="absolute bottom-2 right-2 text-[10px] bg-slate-900/85 backdrop-blur px-2 py-1 rounded text-slate-400 pointer-events-none">
+                  برای چرخش بکشید (Drag to Orbit)
+                </div>
+                
+                <!-- 3D Controls overlay -->
+                <div class="absolute top-2 left-2 flex items-center gap-1 z-10">
+                  <button onclick="toggleThreeAutoRotate()" id="threeRotateBtn" class="w-6 h-6 rounded bg-slate-900/80 border border-slate-700 text-amber-300 text-[10px] flex items-center justify-center hover:bg-slate-800" title="توقف/شروع چرخش خودکار">
+                    <i class="fa-solid fa-pause"></i>
+                  </button>
+                  <button onclick="toggleThreeWireframe()" id="threeWireBtn" class="w-6 h-6 rounded bg-slate-900/80 border border-slate-700 text-cyan-300 text-[10px] flex items-center justify-center hover:bg-slate-800" title="حالت سیمی (Wireframe)">
+                    <i class="fa-solid fa-circle-nodes"></i>
+                  </button>
+                  <select id="threeGeometrySelect" name="threeGeometry" aria-label="انتخاب هندسه سه‌بعدی" onchange="changeThreeGeometry(this.value)" class="bg-slate-900/90 text-slate-200 border border-slate-700 rounded text-[9px] px-1 py-0.5 focus:outline-none">
+                    <option value="dodecahedron">کریستال دوازده‌وجهی</option>
+                    <option value="octahedron">منشور هشت‌وجهی</option>
+                    <option value="icosahedron">ستاره بیست‌وجهی</option>
+                    <option value="torusKnot">گره اسلیمی (Torus)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Active Role Breakdown Pills -->
+              <div class="mt-3 grid grid-cols-3 gap-1.5 text-[10px] font-mono" id="activeRoleTags">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Palette Swatch Bar for active preview -->
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <div class="text-xs text-slate-400 font-medium">اجزای رنگی استفاده شده در این پیش‌نمایش:</div>
+            <div class="text-[11px] text-amber-400/80">روی هر رنگ کلیک کنید تا نقش دکمه اصلی به آن اختصاص یابد</div>
+          </div>
+          <div id="mockupSwatchesBar" class="grid grid-cols-2 sm:grid-cols-6 gap-2"></div>
+        </div>
+      </div>
+
+      <!-- Drawer Footer -->
+      <div class="p-4 border-t border-slate-800 bg-slate-950 flex flex-wrap justify-between items-center gap-3 text-xs text-slate-400">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-circle-check text-emerald-400"></i>
+          <span>کنتراست رنگ‌های انتخابی محاسبه می‌شود؛ پیش از استفاده، نسبت نمایش‌داده‌شده و اندازهٔ متن را بررسی کنید.</span>
+        </div>
+        <button onclick="togglePreviewDrawer()" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200">
+          بستن پیش‌نمایش
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6x6 Contrast Matrix Modal -->
+  <div id="matrixModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-cyan-500/40 w-full max-w-4xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-table-cells text-cyan-400"></i>
+          <h3 class="font-bold text-slate-100 text-sm sm:text-base" id="matrixModalTitle">ماتریس تعاملی ۶×۶ کنتراست و دسترسی‌پذیری WCAG</h3>
+        </div>
+        <button onclick="closeMatrixModal()" class="text-slate-400 hover:text-white p-1" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="p-6 overflow-y-auto space-y-4 bg-slate-950 flex-1">
+        <p class="text-xs text-slate-400">
+          جدول زیر نسبت کنتراست دقیق تمام ۳۶ جفت رنگ ممکن در این پالت را نمایش می‌دهد. سطرها نشان‌دهنده رنگ پس‌زمینه و ستون‌ها نشان‌دهنده رنگ متن هستند. برای اعمال هر جفت روی پیش‌نمایش، روی خانه مربوطه کلیک کنید:
+        </p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-center border-collapse text-xs" id="contrastMatrixTable">
+            <!-- Injected via JS -->
+          </table>
+        </div>
+        <div class="flex items-center justify-center gap-4 text-[11px] pt-2 flex-wrap">
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-emerald-500"></span> <span class="text-emerald-300">AAA (کنتراست &ge; ۷:۱)</span></span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-cyan-500"></span> <span class="text-cyan-300">AA (کنتراست &ge; ۴.۵:۱)</span></span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-amber-500"></span> <span class="text-amber-300">AA Large (کنتراست &ge; ۳:۱)</span></span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-rose-500"></span> <span class="text-rose-300">Fail (ناخوانا برای متن)</span></span>
+        </div>
+      </div>
+
+      <div class="p-3 border-t border-slate-800 bg-slate-950 flex justify-end">
+        <button onclick="closeMatrixModal()" class="px-4 py-1.5 rounded-lg text-xs bg-slate-800 text-slate-300 hover:bg-slate-700" aria-label="بستن پنجره">بستن</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modern Gradients Studio Modal -->
+  <div id="gradientModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-amber-500/30 w-full max-w-3xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[88vh]">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-wand-magic-sparkles text-amber-400"></i>
+          <h3 class="font-bold text-slate-100 text-sm sm:text-base" id="gradientModalTitle">استودیوی گرادیان‌های مدرن پالت</h3>
+        </div>
+        <button onclick="closeGradientModal()" class="text-slate-400 hover:text-white p-1" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="p-6 overflow-y-auto space-y-5 bg-slate-950">
+        <p class="text-xs text-slate-400">گرادیان‌های تولید شده به وسیله مش و تداخل نوری رنگ‌های اصیل این پالت:</p>
+        <div id="gradientsList" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+
+      <div class="p-3 border-t border-slate-800 bg-slate-950 flex justify-end">
+        <button onclick="closeGradientModal()" class="px-4 py-1.5 rounded-lg text-xs bg-slate-800 text-slate-300 hover:bg-slate-700" aria-label="بستن پنجره">بستن</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comprehensive Code Export Modal -->
+  <div id="exportModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+    <div class="bg-slate-900 border border-amber-500/30 w-full max-w-3xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
+      <div class="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-file-export text-amber-400"></i>
+          <h3 class="font-bold text-slate-100 text-sm sm:text-base" id="exportModalTitle">دریافت کدهای منبع</h3>
+        </div>
+        <button onclick="closeExportModal()" class="text-slate-400 hover:text-white p-1" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Format Tabs -->
+      <div class="flex border-b border-slate-800 bg-slate-900/60 px-4 pt-2 gap-2 text-xs overflow-x-auto">
+        <button onclick="switchExportTab('css')" id="tab-css" class="px-3.5 py-2 border-b-2 border-amber-400 text-amber-300 font-medium">CSS Variables</button>
+        <button onclick="switchExportTab('tailwind')" id="tab-tailwind" class="px-3.5 py-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200">Tailwind Config</button>
+        <button onclick="switchExportTab('json')" id="tab-json" class="px-3.5 py-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200">JSON Data</button>
+        <button onclick="switchExportTab('scss')" id="tab-scss" class="px-3.5 py-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200">SCSS / SASS</button>
+        <button onclick="switchExportTab('tokens')" id="tab-tokens" class="px-3.5 py-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200">Design Tokens</button>
+        <button onclick="switchExportTab('flutter')" id="tab-flutter" class="px-3.5 py-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200">Flutter / Dart</button>
+      </div>
+
+      <!-- Code Box Area -->
+      <div class="p-4 flex-1 bg-slate-950 overflow-hidden flex flex-col relative">
+        <pre class="bg-slate-900/90 p-4 rounded-xl border border-slate-800 font-mono text-xs text-slate-200 overflow-y-auto flex-1 select-all" dir="ltr" id="exportCodeBlock"></pre>
+      </div>
+
+      <!-- Footer Buttons -->
+      <div class="p-4 border-t border-slate-800 bg-slate-950 flex items-center justify-between">
+        <button onclick="downloadExportFile()" class="px-4 py-2 rounded-xl text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 flex items-center gap-2">
+          <i class="fa-solid fa-download"></i>
+          <span>دانلود فایل</span>
+        </button>
+        <button onclick="copyExportCode()" class="px-5 py-2 rounded-xl text-xs bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold flex items-center gap-2 shadow-md">
+          <i class="fa-regular fa-copy"></i>
+          <span>کپی در کلیپ‌بورد</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <!-- Scientific Color Inspector, Google M3 Tonal Scales & Oklab Radar Modal -->
+  <div id="scientificModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-xl hidden items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="apple-liquid-glass w-full max-w-5xl rounded-3xl shadow-2xl overflow-hidden flex flex-col my-auto border border-white/20">
+      
+      <!-- Modal Header with VisionOS styling -->
+      <div class="p-4 sm:p-5 border-b border-white/10 flex items-center justify-between bg-slate-950/80 backdrop-blur-2xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-purple-500 via-cyan-500 to-amber-500 flex items-center justify-center shadow-lg shadow-purple-500/20 ring-1 ring-white/30">
+            <i class="fa-solid fa-atom text-slate-950 text-base"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h3 class="font-black text-white text-sm sm:text-lg" id="scientificModalTitle">دیدبان علمی رنگ، پالت‌های تنال M3 و رادار Oklab</h3>
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">HCT / CAM16</span>
+            </div>
+            <p class="text-[11px] text-slate-400 font-light mt-0.5">محاسبات دقیق فضای ادراکی، بسط ۱۳ تنال، رادار کروما و تمایز ادراکی ΔE</p>
+          </div>
+        </div>
+        <button onclick="closeScientificModal()" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white flex items-center justify-center transition border border-white/10 apple-spring-fast" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Navigation Tabs (Pill Segmented Controls) -->
+      <div class="flex border-b border-white/10 bg-slate-900/60 px-4 pt-3 gap-2 text-xs overflow-x-auto">
+        <button onclick="switchScientificTab('tonal')" id="scitab-tonal" class="px-4 py-2.5 rounded-t-xl font-bold flex items-center gap-2 border-b-2 border-amber-400 text-amber-300 bg-white/5 transition">
+          <i class="fa-solid fa-layer-group"></i>
+          <span>پالت‌های تنال Google M3 (۰-۱۰۰)</span>
+        </button>
+        <button onclick="switchScientificTab('radar')" id="scitab-radar" class="px-4 py-2.5 rounded-t-xl font-medium flex items-center gap-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition">
+          <i class="fa-solid fa-compass-drafting"></i>
+          <span>رادار کروما و گاموت Oklab</span>
+        </button>
+        <button onclick="switchScientificTab('harmony')" id="scitab-harmony" class="px-4 py-2.5 rounded-t-xl font-medium flex items-center gap-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition">
+          <i class="fa-solid fa-circle-notch"></i>
+          <span>گردونه هارمونی ۳۶۰ درجه</span>
+        </button>
+        <button onclick="switchScientificTab('tokens')" id="scitab-tokens" class="px-4 py-2.5 rounded-t-xl font-medium flex items-center gap-2 border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition">
+          <i class="fa-solid fa-sliders"></i>
+          <span>توکن‌های سمانتیک دوگانه (اپل و گوگل)</span>
+        </button>
+      </div>
+
+      <!-- Modal Content Panels -->
+      <div class="p-4 sm:p-6 bg-slate-950/90 overflow-y-auto max-h-[70vh] space-y-6">
+        
+        <!-- Panel 1: Google M3 Tonal Scales -->
+        <div id="scipanel-tonal" class="space-y-5">
+          <!-- Palette Colors Selector Pills -->
+          <div>
+            <div class="text-xs text-slate-400 font-medium block mb-2">انتخاب رنگ مرجع جهت تولید ۱۳ پله تنال ادراکی:</div>
+            <div id="sciColorPills" class="flex flex-wrap gap-2"></div>
+          </div>
+
+          <!-- 13 Tones Grid -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between text-xs text-slate-400 flex-wrap gap-2">
+              <span>مقیاس ۱۳ پله‌ای تنال استاندارد Material 3 · روشن (Tone 0 تا Tone 100):</span>
+              <div class="flex items-center gap-2">
+                <button onclick="copyAllTones('json')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-[11px] flex items-center gap-1 border border-slate-700 apple-spring-fast">
+                  <i class="fa-regular fa-copy"></i>
+                  <span>کپی JSON</span>
+                </button>
+                <button onclick="copyAllTones('css')" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-[11px] flex items-center gap-1 border border-slate-700 apple-spring-fast">
+                  <i class="fa-regular fa-copy"></i>
+                  <span>کپی CSS Variables</span>
+                </button>
+              </div>
+            </div>
+            <div id="m3TonesContainer" class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 lg:grid-cols-13 gap-2 pt-2">
+              <!-- 13 tones dynamically rendered -->
+            </div>
+          </div>
+
+          <!-- M3 Tone Documentation Alert -->
+          <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 text-xs text-slate-300 space-y-1.5 font-light">
+            <div class="font-bold text-amber-300 flex items-center gap-1.5">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>منطق علمی تنال گوگل متریال یو (Material HCT / CAM16):</span>
+            </div>
+            <p class="leading-relaxed text-[11px] text-slate-400">
+              برخلاف فضای HSL که روشنایی رنگ‌ها به صورت ریاضی تغییر می‌کند و رنگ زرد بسیار روشن‌تر از رنگ آبی با روشنایی ۵۰٪ دیده می‌شود، در HCT، تن از L* و فام و کروما از CAM16 محاسبه می‌شوند. رنگ‌های خارج از گستره با حل‌گر مرجع به sRGB نگاشت می‌شوند؛ خوانایی هر جفت متن و زمینه باید جداگانه سنجیده شود.
+            </p>
+          </div>
+        </div>
+
+        <!-- Panel 2: Oklab Chromaticity Radar Scope & Delta E -->
+        <div id="scipanel-radar" class="hidden space-y-6">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+            <!-- Canvas Radar -->
+            <div class="lg:col-span-6 flex flex-col items-center justify-center p-4 rounded-3xl bg-slate-900/70 border border-slate-800/90 relative overflow-hidden">
+              <div class="absolute top-3 right-3 text-[10px] font-mono text-cyan-400 px-2 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/30">
+                OKLAB SCOPE (a* b*)
+              </div>
+              <canvas id="oklabRadarCanvas" width="340" height="340" class="max-w-full"></canvas>
+              <div class="text-[10px] text-slate-400 mt-2 text-center">
+                محور افقی $a$ (سبز تا سرخ) • محور عمودی $b$ (آبی تا زرد) • دوایر هم‌مرکز: اشباع کروما (Chroma)
+              </div>
+            </div>
+
+            <!-- Delta E Metrics & Explanation -->
+            <div class="lg:col-span-6 space-y-4">
+              <h4 class="font-bold text-sm text-slate-200 flex items-center gap-2">
+                <i class="fa-solid fa-chart-line text-cyan-400"></i>
+                <span>ماتریس تمایز ادراکی رنگ‌ها (ΔE_ok)</span>
+              </h4>
+              <p class="text-xs text-slate-400 leading-relaxed font-light">
+                شاخص ΔE_ok فاصله ریاضی بین دو رنگ را در فضای ادراکی چشم انسان اندازه می‌گیرد. مقادیر بالای ۰.۱۵ نشان‌دهنده تمایز کامل و وضوح فوق‌العاده برای عناصر رابط کاربری هستند:
+              </p>
+              <div id="deltaETable" class="space-y-2">
+                <!-- Dynamically populated Delta E bars -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: Color Harmony Wheel -->
+        <div id="scipanel-harmony" class="hidden space-y-6">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+            <!-- Canvas Wheel -->
+            <div class="lg:col-span-6 flex flex-col items-center justify-center p-4 rounded-3xl bg-slate-900/70 border border-slate-800/90 relative overflow-hidden">
+              <div class="absolute top-3 right-3 text-[10px] font-mono text-amber-400 px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/30">
+                HARMONY WHEEL (360°)
+              </div>
+              <canvas id="harmonyWheelCanvas" width="340" height="340" class="max-w-full"></canvas>
+              <div class="text-[10px] text-slate-400 mt-2 text-center">
+                توزیع زاویه فام (Hue Angle) رنگ‌های پالت در چرخه ۳۶۰ درجه رنگی
+              </div>
+            </div>
+
+            <!-- Harmony Chords Explanation -->
+            <div class="lg:col-span-6 space-y-4">
+              <h4 class="font-bold text-sm text-slate-200 flex items-center gap-2">
+                <i class="fa-solid fa-shapes text-amber-400"></i>
+                <span>تحلیل هندسه هارمونیک پالت</span>
+              </h4>
+              <div id="harmonyAnalysisContainer" class="space-y-3">
+                <!-- Dynamically populated harmony chords -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 4: Dual Semantic Tokens (Google M3 vs Apple HIG) -->
+        <div id="scipanel-tokens" class="hidden space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            
+            <!-- Google M3 Tokens Column -->
+            <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+              <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+                <div class="flex items-center gap-2">
+                  <i class="fa-brands fa-google text-amber-400"></i>
+                  <span class="font-bold text-sm text-white">Material 3 · روشن Roles</span>
+                </div>
+                <span class="text-[10px] font-mono text-slate-400">Android / Flutter</span>
+              </div>
+              <div id="googleM3TokensList" class="space-y-2 text-xs font-mono">
+                <!-- Dynamically populated tokens -->
+              </div>
+            </div>
+
+            <!-- Apple HIG Tokens Column -->
+            <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+              <div class="flex items-center justify-between pb-2 border-b border-slate-800">
+                <div class="flex items-center gap-2">
+                  <i class="fa-brands fa-apple text-slate-200"></i>
+                  <span class="font-bold text-sm text-white">Material 3 · تاریک</span>
+                </div>
+                <span class="text-[10px] font-mono text-slate-400">Tonal Spot / Dark</span>
+              </div>
+              <div id="appleHIGTokensList" class="space-y-2 text-xs font-mono">
+                <!-- Dynamically populated tokens -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-white/10 bg-slate-950/90 flex items-center justify-between">
+        <div class="text-xs text-slate-400 hidden sm:block">
+          استانداردسازی علمی بر مبنای فضای رنگ ادراکی Oklab (W3C CSS Color 4)
+        </div>
+        <button onclick="closeScientificModal()" class="px-5 py-2 rounded-xl text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 transition apple-spring-fast" aria-label="بستن پنجره">
+          بستن دیدبان علمی
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <!-- Color calculations and source annotations -->
+  <div id="evidenceDashboardModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-2xl hidden items-center justify-center p-2 sm:p-4 overflow-y-auto">
+    <div class="apple-liquid-glass w-full max-w-5xl rounded-3xl shadow-2xl overflow-hidden flex flex-col my-auto border border-emerald-500/30 max-h-[95vh]">
+      
+      <!-- Modal Header -->
+      <div class="p-4 sm:p-5 border-b border-white/10 flex flex-wrap items-center justify-between gap-3 bg-slate-950/85 backdrop-blur-2xl">
+        <div class="flex items-center gap-3">
+          <div id="evHeaderColorSwatch" class="w-12 h-12 rounded-2xl shadow-xl border-2 border-white/30 flex items-center justify-center relative overflow-hidden flex-shrink-0 transition-colors duration-300">
+            <i class="fa-solid fa-flask-vial text-white text-base drop-shadow"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2 flex-wrap">
+              <h3 class="font-black text-white text-base sm:text-lg" id="evHeaderColorTitle">لاجوردی صفوی</h3>
+              <span class="text-[11px] font-mono px-2 py-0.5 rounded-md bg-white/10 text-emerald-300 border border-emerald-500/30 font-bold" id="evHeaderColorHex">#120A8F</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30" id="evHeaderPaletteName">کاشی‌کاری صفوی اصفهان</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-0.5 font-display" id="evHeaderColorSub">Safavid Ultramarine Lapis Lazuli • UNESCO Heritage Documented</p>
+          </div>
+        </div>
+
+        <!-- Header Controls: Palette Selector & 6-Color Swatch Strip & Close -->
+        <div class="flex items-center gap-2 flex-wrap">
+          <select id="evPaletteSelect" onchange="onEvidencePaletteChange(this.value)" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-xl px-2.5 py-1.5 focus:outline-none focus:border-emerald-400">
+            <!-- Populated dynamically with 12 palettes -->
+          </select>
+          
+          <div id="evPaletteColorPills" class="flex items-center gap-1 bg-slate-900/80 p-1 rounded-xl border border-slate-800">
+            <!-- 6 color circles injected by JS -->
+          </div>
+
+          <button onclick="closeEvidenceDashboard()" class="w-9 h-9 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center border border-white/10 transition apple-spring-fast" aria-label="بستن پنجره">
+            <i class="fa-solid fa-xmark text-base"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Segmented Tab Navigation -->
+      <div class="flex border-b border-white/10 bg-slate-900/70 px-3 sm:px-6 pt-2 gap-1.5 sm:gap-2 text-xs overflow-x-auto">
+        <button onclick="switchEvidenceTab('spectral')" id="evtab-spectral" class="ev-tab-btn active px-3 sm:px-4 py-2.5 rounded-t-xl border-b-2 border-emerald-400 text-emerald-300 font-bold flex items-center gap-2 flex-shrink-0">
+          <i class="fa-solid fa-wave-square text-emerald-400"></i>
+          <span>طیف نوری و APCA</span>
+        </button>
+        <button onclick="switchEvidenceTab('chemical')" id="evtab-chemical" class="ev-tab-btn px-3 sm:px-4 py-2.5 rounded-t-xl border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-medium flex items-center gap-2 flex-shrink-0">
+          <i class="fa-solid fa-flask text-slate-400"></i>
+          <span>یادداشت ماده و منبع</span>
+        </button>
+        <button onclick="switchEvidenceTab('geospatial')" id="evtab-geospatial" class="ev-tab-btn px-3 sm:px-4 py-2.5 rounded-t-xl border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-medium flex items-center gap-2 flex-shrink-0">
+          <i class="fa-solid fa-compass text-slate-400"></i>
+          <span>ژئوانفورماتیک و GPS</span>
+        </button>
+        <button onclick="switchEvidenceTab('mixer')" id="evtab-mixer" class="ev-tab-btn px-3 sm:px-4 py-2.5 rounded-t-xl border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-medium flex items-center gap-2 flex-shrink-0">
+          <i class="fa-solid fa-droplet text-slate-400"></i>
+          <span>میکسر رنگ‌های تاریخی</span>
+        </button>
+        <button onclick="switchEvidenceTab('photogrammetry')" id="evtab-photogrammetry" class="ev-tab-btn px-3 sm:px-4 py-2.5 rounded-t-xl border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-medium flex items-center gap-2 flex-shrink-0">
+          <i class="fa-solid fa-cube text-slate-400"></i>
+          <span>شبیه‌سازی بافت و بافت سه‌بعدی</span>
+        </button>
+        <button onclick="switchEvidenceTab('tokens')" id="evtab-tokens" class="ev-tab-btn px-3 sm:px-4 py-2.5 rounded-t-xl border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-medium flex items-center gap-2 flex-shrink-0">
+          <i class="fa-solid fa-code text-slate-400"></i>
+          <span>توکن‌های W3C و فیگما</span>
+        </button>
+      </div>
+
+      <!-- Tab Content Area -->
+      <div class="p-4 sm:p-6 overflow-y-auto space-y-6 bg-slate-950/90 flex-1 text-slate-200">
+
+        <!-- ================= PANEL 1: SPECTRAL PHYSICS & APCA ================= -->
+        <p id="evidenceProvenance" class="evidence-provenance" role="status"></p>
+<div id="evpanel-spectral" class="space-y-6">
+<p class="apca-note">منحنی زیر یک مدل نمایشی از پارامترهای اولیه است و دادهٔ اندازه‌گیری‌شدهٔ طیف‌سنج نیست.</p>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            
+            <!-- Left: Spectral Reflectance Curve Canvas -->
+            <div class="lg:col-span-7 space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-chart-area text-emerald-400"></i>
+                  <h4 class="font-bold text-sm text-white">منحنی توزیع بازتاب طیف نوری (۳۸۰ تا ۷۰۰ نانومتر)</h4>
+                </div>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-emerald-300 border border-emerald-500/20" id="evSpectralPeakBadge">λ_max: 455 nm</span>
+              </div>
+              
+              <!-- Canvas Container -->
+              <div class="rounded-2xl p-3 bg-slate-900/80 border border-slate-800 shadow-xl relative overflow-hidden">
+                <canvas id="evSpectralCanvas" width="580" height="230" class="w-full h-56 block rounded-xl bg-slate-950"></canvas>
+                <!-- Visible spectrum gradient ribbon -->
+                <div class="h-2 w-full mt-2 rounded-full overflow-hidden shadow-inner" style="background: linear-gradient(to left, #7e00db 0%, #0000ff 15%, #00ffff 35%, #00ff00 50%, #ffff00 65%, #ff7f00 80%, #ff0000 100%);"></div>
+                <div class="flex justify-between text-[9px] font-mono text-slate-400 mt-1 px-1">
+                  <span>۷۰۰ nm (قرمز)</span>
+                  <span>۶۰۰ nm (زرد)</span>
+                  <span>۵۰۰ nm (سبز/سیان)</span>
+                  <span>۴۰۰ nm (آبی)</span>
+                  <span>۳۸۰ nm (بنفش)</span>
+                </div>
+              </div>
+
+              <!-- Telemetry Metrics Grid -->
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-center">
+                <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div class="text-[10px] text-slate-400">طول موج قله نوری</div>
+                  <div class="text-sm font-black font-mono text-emerald-300 mt-0.5" id="evMetricPeak">455 nm</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div class="text-[10px] text-slate-400">پهنای نیمه (FWHM)</div>
+                  <div class="text-sm font-black font-mono text-cyan-300 mt-0.5" id="evMetricFWHM">45 nm</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div class="text-[10px] text-slate-400">انرژی فوتون قله</div>
+                  <div class="text-sm font-black font-mono text-amber-300 mt-0.5" id="evMetricEnergy">2.72 eV</div>
+                </div>
+                <div class="p-2.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <div class="text-[10px] text-slate-400">بازه بازتاب سطحی</div>
+                  <div class="text-sm font-black font-mono text-purple-300 mt-0.5" id="evMetricRange">3% - 45%</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: APCA-W3 Lightness Contrast Analyzer -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-eye text-emerald-400"></i>
+                  <h4 class="font-bold text-sm text-white">ارزیابی کنتراست ادراکی APCA-W3</h4>
+                </div>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">SAPC-0.0.98G</span>
+              </div>
+
+              <!-- Dual APCA Scores Card -->
+              <div class="grid grid-cols-2 gap-3">
+                <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-1.5">
+                  <div class="flex items-center justify-between text-[11px] text-slate-400">
+                    <span>در برابر سفید خالص</span>
+                    <span class="w-3 h-3 rounded-full bg-white border border-slate-400"></span>
+                  </div>
+                  <div class="text-xl font-black font-mono text-white" id="evApcaWhiteScore">Lc 98.4</div>
+                  <span class="text-[10px] px-2 py-0.5 rounded font-bold block truncate" id="evApcaWhiteBadge">متن روان (Lc 90+)</span>
+                </div>
+
+                <div class="p-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-1.5">
+                  <div class="flex items-center justify-between text-[11px] text-slate-400">
+                    <span>در برابر مشکی خالص</span>
+                    <span class="w-3 h-3 rounded-full bg-black border border-slate-700"></span>
+                  </div>
+                  <div class="text-xl font-black font-mono text-white" id="evApcaBlackScore">Lc 14.2</div>
+                  <span class="text-[10px] px-2 py-0.5 rounded font-bold block truncate" id="evApcaBlackBadge">غیر قابل خواندن</span>
+                </div>
+              </div>
+
+              <!-- Interactive Custom Background Tester -->
+              <div class="p-4 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
+                <div class="flex items-center justify-between text-xs">
+                  <span class="font-bold text-slate-200">آزمایشگاه زنده خوانایی روی پس‌زمینه‌های مختلف:</span>
+                  <span class="text-[10px] font-mono text-amber-400" id="evCustomApcaLcBadge">Lc: --</span>
+                </div>
+
+                <!-- Background Preset Chips -->
+                <div class="flex items-center gap-1.5 flex-wrap">
+                  <button onclick="setCustomApcaBg('#FFFFFF')" class="px-2 py-1 rounded-lg text-[10px] font-mono bg-white text-slate-900 font-bold border border-slate-300">سفید</button>
+                  <button onclick="setCustomApcaBg('#F4F1DE')" class="px-2 py-1 rounded-lg text-[10px] font-mono bg-[#F4F1DE] text-slate-900 font-bold border border-slate-300">عاجی صفوی</button>
+                  <button onclick="setCustomApcaBg('#E9D8A6')" class="px-2 py-1 rounded-lg text-[10px] font-mono bg-[#E9D8A6] text-slate-900 font-bold border border-slate-400">ماسه‌سنگ</button>
+                  <button onclick="setCustomApcaBg('#1E293B')" class="px-2 py-1 rounded-lg text-[10px] font-mono bg-[#1E293B] text-slate-100 font-bold border border-slate-600">اسلیت تیره</button>
+                  <button onclick="setCustomApcaBg('#0B132B')" class="px-2 py-1 rounded-lg text-[10px] font-mono bg-[#0B132B] text-slate-100 font-bold border border-slate-700">سرمه‌ای شب</button>
+                  <input type="color" id="evCustomBgInput" name="evCustomBgInput" aria-label="انتخاب رنگ دلخواه زمینه" onchange="setCustomApcaBg(this.value)" value="#FFFFFF" class="w-7 h-7 rounded-lg bg-transparent border-0 cursor-pointer" title="انتخاب رنگ دلخواه">
+                </div>
+
+                <!-- Live Type Preview Box -->
+                <div id="evLiveTypePreview" class="p-4 rounded-xl border transition-colors duration-300 space-y-1.5" style="background-color: #FFFFFF;">
+                  <div class="text-sm font-black" id="evPreviewHeading" style="color: #120A8F;">عنوان نمونه: هنر کاشی‌کاری صفوی</div>
+                  <div class="text-xs font-normal leading-relaxed" id="evPreviewBody" style="color: #120A8F;">
+                    این متن نمونه برای مقایسهٔ رنگ متن و پس‌زمینه است. مقدار APCA به‌تنهایی خوانایی فونت فارسی یا انطباق کامل دسترسی‌پذیری را تأیید نمی‌کند.
+                  </div>
+                </div>
+              </div>
+
+              <!-- APCA Font Size & Weight Matrix Table -->
+              <div class="rounded-xl border border-slate-800 bg-slate-900/60 overflow-hidden text-[11px]">
+                <table class="w-full text-center">
+                  <thead class="bg-slate-950 text-slate-400 border-b border-slate-800 text-[10px]">
+                    <tr>
+                      <th class="py-1.5 px-2 text-right">اندازه قلم</th>
+                      <th class="py-1.5 px-2">سبک (300)</th>
+                      <th class="py-1.5 px-2">معمولی (400)</th>
+                      <th class="py-1.5 px-2">ضخیم (700)</th>
+                    </tr>
+                  </thead>
+                  <tbody id="evApcaMatrixTbody" class="font-mono divide-y divide-slate-800/60">
+                    <!-- Populated by JS -->
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================= PANEL 2: CHEMICAL & MINERAL EVIDENCE ================= -->
+        <div id="evpanel-chemical" class="hidden space-y-5">
+          
+          <!-- Top Chemical Hero Card -->
+          <div class="p-5 rounded-3xl bg-slate-900/80 border border-emerald-500/30 space-y-3 relative overflow-hidden">
+            <div class="flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <i class="fa-solid fa-atom text-emerald-400 text-lg"></i>
+                <span class="font-bold text-sm text-white">اطلاعات ماده در منبع اولیه</span>
+              </div>
+              <span class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40" id="evCrystalSystemBadge">مونوکلینیک</span>
+            </div>
+
+            <div class="ev-formula-badge p-4 rounded-2xl text-emerald-300 text-sm sm:text-base font-bold text-center tracking-wider shadow-inner" id="evChemicalFormula" dir="ltr" style="unicode-bidi: isolate;">
+              Na6Ca2[Al6Si6O24](SO4,S,Cl)2 + CoO
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">
+              <div class="p-3 rounded-xl bg-slate-950/70 border border-slate-800/80">
+                <span class="text-slate-400 block text-[10px] mb-0.5">نام کانی‌شناسی اصیل (فارسی):</span>
+                <span class="font-bold text-slate-100" id="evMineralNameFa">لاجورد بدخشان و کبالت قمصر</span>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-950/70 border border-slate-800/80">
+                <span class="text-slate-400 block text-[10px] mb-0.5">نام ماده در دادهٔ اولیه (انگلیسی):</span>
+                <span class="font-bold font-mono text-emerald-300" id="evMineralNameEn">Lapis Lazuli / Cobalt Glaze</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Deep Historical Extraction & Manuscript Documentation -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-2.5">
+              <div class="flex items-center gap-2 text-amber-400 text-xs font-bold">
+                <i class="fa-solid fa-mortar-pestle"></i>
+                <span>روش سنتی استخراج، تغلیظ و فراوری رنگدانه</span>
+              </div>
+              <p class="text-xs leading-relaxed text-slate-300 font-light" id="evTraditionalExtraction">
+                تکلیس کانی لاجورد با صمغ عربی و کداخت کبالت در کوره کاشی هفت‌رنگ صفوی...
+              </p>
+            </div>
+
+            <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-2.5">
+              <div class="flex items-center gap-2 text-cyan-400 text-xs font-bold">
+                <i class="fa-solid fa-book-bookmark"></i>
+                <span>رساله کهن خطی و سند تاریخی مرجع</span>
+              </div>
+              <p class="text-xs leading-relaxed text-slate-300 font-light" id="evManuscriptRef">
+                عرائس الجواهر و نفائس الأطایب - ابوالقاسم کاشانی (قرن هشتم هجری)
+              </p>
+            </div>
+
+          </div>
+
+          <!-- Color Science Coordinates Grid -->
+          <div class="p-5 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+            <h4 class="text-xs font-bold text-slate-200 flex items-center gap-2">
+              <i class="fa-solid fa-compass-drafting text-purple-400"></i>
+              <span>مختصات فیزیکی رنگ در فضاهای ادراکی مدرن (Oklab & CIE)</span>
+            </h4>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center text-xs font-mono">
+              <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                <div class="text-[10px] text-slate-400">Oklab Lightness (L)</div>
+                <div class="text-sm font-bold text-slate-100 mt-1" id="evCoordOklabL">0.2412</div>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                <div class="text-[10px] text-slate-400">Oklab a (Green-Red)</div>
+                <div class="text-sm font-bold text-emerald-400 mt-1" id="evCoordOklabA">-0.0125</div>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                <div class="text-[10px] text-slate-400">Oklab b (Blue-Yellow)</div>
+                <div class="text-sm font-bold text-cyan-400 mt-1" id="evCoordOklabB">-0.2150</div>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-950 border border-slate-800">
+                <div class="text-[10px] text-slate-400">sRGB Raw Channels</div>
+                <div class="text-sm font-bold text-amber-300 mt-1" id="evCoordSrgb" dir="ltr" style="unicode-bidi: isolate;">18, 10, 143</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ================= PANEL 3: GEOSPATIAL & GPS ================= -->
+        <div id="evpanel-geospatial" class="hidden space-y-5">
+<p class="apca-note">مختصات و انتساب‌های میراثی از دادهٔ اولیه نقل شده‌اند. وضعیت تعارض را در شناسنامهٔ رنگ بررسی کنید.</p>
+          
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            
+            <!-- Geo Canvas Radar -->
+            <div class="lg:col-span-7 space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-map-location-dot text-emerald-400"></i>
+                  <h4 class="font-bold text-sm text-white">رادار ژئوانفورماتیک خاستگاه جغرافیایی فلات ایران</h4>
+                </div>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-amber-300 border border-amber-500/20" id="evGeoUnescoBadge">UNESCO 115</span>
+              </div>
+
+              <!-- Map Canvas -->
+              <div class="rounded-2xl p-3 bg-slate-900/80 border border-slate-800 shadow-xl relative overflow-hidden">
+                <canvas id="evGeoMapCanvas" width="580" height="260" class="w-full h-64 block rounded-xl bg-slate-950"></canvas>
+                <div class="absolute bottom-5 right-5 text-[10px] font-mono bg-slate-900/90 backdrop-blur px-2.5 py-1 rounded-lg border border-slate-700 text-slate-300">
+                  فلات ایران: ۲۵° تا ۴۰° شمالی • ۴۴° تا ۶۴° شرقی
+                </div>
+              </div>
+            </div>
+
+            <!-- Provenance & Coordinates Card -->
+            <div class="lg:col-span-5 space-y-4">
+              
+              <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
+                <div class="text-xs text-slate-400">بنای تاریخی یا کانسار معدنی:</div>
+                <div class="text-base font-black text-white" id="evGeoSiteFa">میدان نقش جهان، مسجد شاه اصفهان</div>
+                <div class="text-xs text-slate-400 font-display" id="evGeoSiteEn">Shah Mosque, Naqsh-e Jahan Square, Isfahan</div>
+
+                <div class="pt-2 border-t border-slate-800 space-y-2">
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-slate-400">عرض جغرافیایی (Latitude):</span>
+                    <span class="font-mono text-emerald-300 font-bold" id="evGeoLat" dir="ltr" style="unicode-bidi: isolate;">32.6514° N</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-slate-400">طول جغرافیایی (Longitude):</span>
+                    <span class="font-mono text-emerald-300 font-bold" id="evGeoLng" dir="ltr" style="unicode-bidi: isolate;">51.6776° E</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-slate-400">ارتفاع از سطح دریا:</span>
+                    <span class="font-mono text-cyan-300 font-bold" id="evGeoAlt">1574 متر</span>
+                  </div>
+                </div>
+
+                <!-- Action links -->
+                <div class="pt-3 border-t border-slate-800 flex items-center gap-2">
+                  <a 
+                    id="evGeoGoogleMapsLink" 
+                    href="#" 
+                    target="_blank" 
+                    class="flex-1 py-2 rounded-xl text-center text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white transition flex items-center justify-center gap-1.5 shadow-md shadow-emerald-600/20"
+                  >
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <span>مشاهدهٔ موقعیت ثبت‌شده</span>
+                  </a>
+                  <button 
+                    onclick="copyGeoCoords()" 
+                    class="px-3 py-2 rounded-xl text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 transition"
+                    title="کپی مختصات عددی"
+                  >
+                    <i class="fa-regular fa-copy"></i>
+                  </button>
+                </div>
+
+              </div>
+
+              <!-- Cultural Provenance Citation Box -->
+              <div class="p-4 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-xs text-amber-200 leading-relaxed">
+                <i class="fa-solid fa-landmark-dome ml-1 text-amber-400"></i>
+                <span id="evGeoCulturalContext">انتساب تاریخی از دادهٔ اولیه آمده است و نیازمند بررسی منبع است.</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- ================= PANEL 4: HISTORICAL PIGMENT MIXER ================= -->
+        <div id="evpanel-mixer" class="hidden space-y-6">
+          
+          <div class="p-5 rounded-3xl bg-slate-900/80 border border-slate-800 space-y-5">
+            <div class="flex items-center justify-between">
+              <div>
+                <h4 class="font-bold text-sm text-white flex items-center gap-2">
+                  <i class="fa-solid fa-blender text-emerald-400"></i>
+                  <span>میکسر ادراکی رنگدانه‌های باستانی در فضای Oklab</span>
+                </h4>
+                <p class="text-xs text-slate-400 mt-0.5">ترکیب پیوسته و یکدست بدون افت شفافیت یا ایجاد ماتی خاکستری معمول در فضای sRGB</p>
+              </div>
+              <span class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">OKLAB INTERPOLATION</span>
+            </div>
+
+            <!-- Two Pigment Selectors Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+              
+              <!-- Pigment A (Base Color) -->
+              <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-center gap-3">
+                <div id="evMixerSwatchA" class="w-12 h-12 rounded-xl shadow border-2 border-white/30 flex-shrink-0" style="background-color: #120A8F;"></div>
+                <div class="min-w-0 flex-1">
+                  <div class="text-[10px] text-slate-400">رنگدانه اول (مبنا):</div>
+                  <div class="text-xs font-bold text-white truncate" id="evMixerTitleA">لاجوردی صفوی</div>
+                  <div class="text-[11px] font-mono text-emerald-400 font-bold" id="evMixerHexA">#120A8F</div>
+                </div>
+              </div>
+
+              <!-- Pigment B (Partner Color Selector) -->
+              <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex items-center gap-3">
+                <div id="evMixerSwatchB" class="w-12 h-12 rounded-xl shadow border-2 border-white/30 flex-shrink-0" style="background-color: #F4C430;"></div>
+                <div class="min-w-0 flex-1">
+                  <div class="text-[10px] text-slate-400">رنگدانه دوم (برای ترکیب):</div>
+                  <select id="evMixerSelectB" onchange="onMixerPartnerChange(this.value)" class="w-full bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-2 py-1 focus:outline-none focus:border-emerald-400 font-medium">
+                    <!-- Populated by JS with 72 colors -->
+                  </select>
+                  <div class="text-[11px] font-mono text-amber-400 font-bold mt-0.5" id="evMixerHexB">#F4C430</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Ratio Slider -->
+            <div class="space-y-2 pt-2">
+              <div class="flex items-center justify-between text-xs">
+                <span class="text-slate-300 font-medium">نسبت ترکیب رنگدانه‌ها (Ratio):</span>
+                <span class="font-mono text-emerald-300 font-bold" id="evMixerRatioLabel">50% مبنا • 50% ثانویه</span>
+              </div>
+              <input 
+                type="range" 
+                id="evMixerRangeInput" 
+                name="evMixerRangeInput"
+                aria-label="نسبت ترکیب رنگدانه‌ها"
+                min="0" 
+                max="100" 
+                value="50" 
+                oninput="updatePigmentMixer()"
+                class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-emerald-500"
+              >
+            </div>
+
+            <!-- 5-Step Perceptual Interpolation Gradient Strip -->
+            <div class="space-y-2 pt-2">
+              <div class="text-xs text-slate-400">پله‌های ترکیب نوری پیوسته در فضای Oklab:</div>
+              <div class="grid grid-cols-5 gap-2" id="evMixerGradientSteps">
+                <!-- 5 step swatches generated by JS -->
+              </div>
+            </div>
+
+            <!-- Midpoint Result Card & Comparison with sRGB -->
+            <div class="p-4 rounded-2xl bg-slate-950 border border-slate-800 flex flex-wrap items-center justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <div id="evMixerResultSwatch" class="w-14 h-14 rounded-2xl shadow-xl border-2 border-white/40 flex-shrink-0" style="background-color: #737883;"></div>
+                <div>
+                  <div class="text-xs text-slate-400">رنگ ترکیبی نهایی (Midpoint Blend):</div>
+                  <div class="text-base font-black font-mono text-emerald-300" id="evMixerResultHex">#737883</div>
+                  <div class="text-[10px] text-slate-400 font-mono" id="evMixerResultOklab">Oklab: L 0.52 | a 0.01 | b -0.04</div>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-2">
+                <button 
+                  onclick="copyMixerResultHex()" 
+                  class="px-4 py-2 rounded-xl text-xs font-bold bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white shadow-md flex items-center gap-1.5"
+                >
+                  <i class="fa-regular fa-copy"></i>
+                  <span>کپی کد هگز ترکیبی</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        
+        <!-- ================= PANEL 6: 3D PHOTOGRAMMETRY & MATERIAL TEXTURE ================= -->
+        <div id="evpanel-photogrammetry" class="hidden space-y-6">
+<p class="apca-note">این تصویر یک بافت رویه‌ای است؛ از اسکن یا فتوگرامتری نمونهٔ فیزیکی به دست نیامده است.</p>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            
+            <!-- Left: Photogrammetric Specimen 3D Canvas -->
+            <div class="lg:col-span-7 space-y-3">
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i class="fa-solid fa-gem text-emerald-400"></i>
+                  <h4 class="font-bold text-sm text-white">پیش‌نمایش بافت و تابش نور</h4>
+                </div>
+                <span class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30" id="evPhotoSpecimenBadge">موزه هنرهای اسلامی</span>
+              </div>
+
+              <!-- Canvas Container -->
+              <div class="rounded-2xl p-3 bg-slate-900/80 border border-slate-800 shadow-xl relative overflow-hidden group">
+                <canvas id="evPhotogrammetryCanvas" width="580" height="260" class="w-full h-64 block rounded-xl bg-slate-950 cursor-crosshair"></canvas>
+                <div class="absolute bottom-5 right-5 text-[10px] font-mono bg-slate-900/90 backdrop-blur px-2.5 py-1 rounded-lg border border-slate-700 text-slate-300">
+                  برای تغییر جهت تابش نور ماوس را روی سطح بکشید
+                </div>
+              </div>
+
+              <!-- Lighting & Specular Controls -->
+              <div class="p-4 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-3">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div class="space-y-1">
+                    <div class="flex items-center justify-between text-xs">
+                      <span class="text-slate-300">زاویه تابش نور (Light Incident Angle):</span>
+                      <span class="font-mono text-emerald-300 font-bold" id="evPhotoLightLabel">45°</span>
+                    </div>
+                    <input type="range" id="evPhotoLightSlider" name="evPhotoLightSlider" aria-label="زاویه تابش نور" min="0" max="360" value="45" oninput="updatePhotogrammetryShader()" class="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-emerald-500">
+                  </div>
+                  <div class="space-y-1">
+                    <div class="flex items-center justify-between text-xs">
+                      <span class="text-slate-300">ضریب صیقل و بازتاب لعاب (Gloss/Specular):</span>
+                      <span class="font-mono text-cyan-300 font-bold" id="evPhotoGlossLabel">85%</span>
+                    </div>
+                    <input type="range" id="evPhotoGlossSlider" name="evPhotoGlossSlider" aria-label="ضریب صیقل و بازتاب لعاب" min="10" max="100" value="85" oninput="updatePhotogrammetryShader()" class="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-500">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Material & Artifact Comparison Details -->
+            <div class="lg:col-span-5 space-y-4">
+              
+              <!-- Material Archetype Card -->
+              <div class="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
+                <div class="text-xs text-slate-400">آرکی‌تایپ فیزیکی ماده اصلی:</div>
+                <div class="text-base font-black text-white" id="evPhotoMaterialTitle">لعاب کاشی هفت‌رنگ صفوی</div>
+                <p class="text-xs text-slate-300 leading-relaxed font-light" id="evPhotoMaterialDesc">
+                  بافت نمایشی با الگوی ترک لعاب و نور قابل تنظیم. این تصویر برای مقایسهٔ بصری ساخته می‌شود و از یک نمونهٔ فیزیکی برداشت نشده است.
+                </p>
+
+                <!-- Comparison Swatches: Digital Hex vs Physical Pigment -->
+                <div class="pt-3 border-t border-slate-800 space-y-2">
+                  <div class="text-xs font-bold text-slate-200">مقایسهٔ رنگ تخت با سایه‌روشن نمایشی:</div>
+                  <div class="grid grid-cols-2 gap-3">
+                    <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 text-center space-y-1.5">
+                      <div class="h-10 w-full rounded-lg shadow-inner border border-white/20" id="evPhotoDigitalSwatch" style="background-color: #120A8F;"></div>
+                      <div class="text-[10px] font-mono text-slate-300 font-bold">رنگ استاندارد دیجیتال</div>
+                      <div class="text-[9px] font-mono text-emerald-400" id="evPhotoDigitalHex">#120A8F</div>
+                    </div>
+                    <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 text-center space-y-1.5">
+                      <div class="h-10 w-full rounded-lg shadow-inner border border-white/20 relative overflow-hidden" id="evPhotoPhysicalSwatch" style="background: radial-gradient(circle at 40% 40%, #1a10aa, #0b065a); box-shadow: inset 0 0 10px rgba(0,0,0,0.6);">
+                        <div class="absolute inset-0 bg-white/10 mix-blend-overlay"></div>
+                      </div>
+                      <div class="text-[10px] font-mono text-slate-300 font-bold">بافت نمایشی</div>
+                      <div class="text-[9px] font-mono text-amber-300">نور و سایهٔ شبیه‌سازی‌شده</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-2 border-t border-slate-800 flex items-center justify-between text-xs text-slate-400">
+                  <span>روش تولید بافت:</span>
+                  <span class="font-mono text-emerald-300 font-bold">مدل نمایشی؛ بدون سنجش نمونه</span>
+                </div>
+              </div>
+
+              <!-- AR Wall Simulator Trigger Banner -->
+              <div class="p-4 rounded-2xl bg-gradient-to-r from-emerald-500/15 to-cyan-500/15 border border-emerald-500/30 flex items-center justify-between gap-3">
+                <div>
+                  <div class="text-xs font-bold text-white flex items-center gap-1.5">
+                    <i class="fa-solid fa-camera-viewfinder text-emerald-400"></i>
+                    <span>پیش‌نمایش رنگ در اتاق (Camera overlay)</span>
+                  </div>
+                  <div class="text-[11px] text-slate-300 mt-0.5">مشاهده زنده این رنگ روی دیوارهای اتاق با دوربین</div>
+                </div>
+                <button onclick="openARSimulator()" class="px-3.5 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg transition flex items-center gap-1.5 flex-shrink-0">
+                  <span>شروع AR</span>
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ================= PANEL 5: W3C DTCG & FIGMA TOKENS ================= -->
+        <div id="evpanel-tokens" class="hidden space-y-5">
+<p class="apca-note">خروجی Figma با اسکریپت واردکنندهٔ همراه پروژه استفاده می‌شود؛ فایل DTCG را جداگانه دریافت کنید.</p>
+          
+          <div class="flex items-center justify-between">
+            <div>
+              <h4 class="font-bold text-sm text-white flex items-center gap-2">
+                <i class="fa-solid fa-cubes text-emerald-400"></i>
+                <span>توکن‌های DTCG و بستهٔ انتقال متغیرها</span>
+              </h4>
+              <p class="text-xs text-slate-400 mt-0.5">آماده واردسازی مستقیم در Figma Token Studio، Style Dictionary و Tailwind v4</p>
+            </div>
+            <span class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">DTCG 2025.10</span>
+          </div>
+
+          <!-- Token Format Tabs -->
+          <div class="flex gap-2 text-xs border-b border-slate-800 pb-2">
+            <button onclick="switchEvidenceTokenCode('w3c')" id="evtok-w3c" class="px-3 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold">W3C DTCG JSON</button>
+            <button onclick="switchEvidenceTokenCode('figma')" id="evtok-figma" class="px-3 py-1.5 rounded-lg bg-slate-900 text-slate-400 hover:text-white border border-slate-800 font-medium">Figma Local Variables</button>
+            <button onclick="switchEvidenceTokenCode('tailwind')" id="evtok-tailwind" class="px-3 py-1.5 rounded-lg bg-slate-900 text-slate-400 hover:text-white border border-slate-800 font-medium">Tailwind v4 @theme</button>
+            <button onclick="switchEvidenceTokenCode('css')" id="evtok-css" class="px-3 py-1.5 rounded-lg bg-slate-900 text-slate-400 hover:text-white border border-slate-800 font-medium">CSS Custom Props</button>
+          </div>
+
+          <!-- Code Box -->
+          <div class="relative">
+            <pre id="evTokenCodePre" class="bg-slate-950 p-4 rounded-2xl border border-slate-800/90 font-mono text-xs text-emerald-300 overflow-x-auto max-h-80 select-all leading-relaxed" dir="ltr"></pre>
+            <button 
+              onclick="copyEvidenceTokenCode()" 
+              class="absolute top-3 left-3 px-3 py-1.5 rounded-lg bg-slate-800/90 hover:bg-slate-700 text-slate-200 text-xs flex items-center gap-1.5 shadow border border-slate-700 backdrop-blur transition"
+            >
+              <i class="fa-regular fa-copy text-amber-400"></i>
+              <span>کپی کد</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-white/10 bg-slate-950/90 flex flex-wrap items-center justify-between gap-3 text-xs">
+        <div class="text-slate-400 flex items-center gap-2">
+          <i class="fa-solid fa-circle-check text-emerald-400"></i>
+          <span>منبع استاندارد داده‌ها بر پایه پکیج رسمی <code class="text-emerald-300 font-mono">@persian-palette/core</code></span>
+        </div>
+        <button onclick="closeEvidenceDashboard()" class="px-5 py-2 rounded-xl text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 transition apple-spring-fast" aria-label="بستن پنجره">
+          بستن شناسنامهٔ رنگ
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <!-- WebXR / AR Camera & Spatial Wall Simulator Modal -->
+  <div id="arSimulatorModal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-2xl hidden items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="apple-liquid-glass w-full max-w-4xl rounded-3xl shadow-2xl overflow-hidden flex flex-col my-auto border border-cyan-500/30 max-h-[92vh]">
+      
+      <!-- AR Header -->
+      <div class="p-4 sm:p-5 border-b border-white/10 flex items-center justify-between bg-slate-950/80 backdrop-blur-2xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-cyan-500 to-emerald-500 flex items-center justify-center shadow-lg shadow-cyan-500/20">
+            <i class="fa-solid fa-camera-viewfinder text-slate-950 text-base"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h3 class="font-black text-white text-base sm:text-lg">پیش‌نمایش رنگ در اتاق (Camera overlay) و رنگ‌آمیزی فضایی</h3>
+              <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">SPATIAL AR</span>
+            </div>
+            <p class="text-xs text-slate-400 mt-0.5">تجسم زنده رنگ‌های اصیل ایرانی در فضای معماری و اتاق واقعی</p>
+          </div>
+        </div>
+
+        <button onclick="closeARSimulator()" class="w-9 h-9 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center border border-white/10 transition" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-base"></i>
+        </button>
+      </div>
+
+      <!-- AR Main Content -->
+      <div class="p-4 sm:p-6 overflow-y-auto space-y-5 bg-slate-950/95 flex-1 text-slate-200">
+        
+        <!-- AR Mode Switcher (Camera Feed vs 3D Architectural Scene) -->
+        <div class="flex items-center justify-between flex-wrap gap-3">
+          <div class="flex items-center gap-2 bg-slate-900 p-1 rounded-xl border border-slate-800 text-xs">
+            <button onclick="setARDisplayMode('room')" id="arBtnModeRoom" class="px-3 py-1.5 rounded-lg bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/30">اتاق معماری سه‌بعدی</button>
+            <button onclick="setARDisplayMode('camera')" id="arBtnModeCamera" class="px-3 py-1.5 rounded-lg text-slate-400 hover:text-white">دوربین زنده (Live Camera)</button>
+          </div>
+
+          <div class="flex items-center gap-2 text-xs">
+            <span class="text-slate-400">رنگ فعال پالت:</span>
+            <div id="arActiveColorBadge" class="px-3 py-1 rounded-xl font-mono font-bold text-xs border flex items-center gap-2" style="background-color: #120A8F; color: #FFFFFF; border-color: #34d399;">
+              <span id="arActiveColorName">لاجوردی صفوی</span>
+              <span id="arActiveColorHex">#120A8F</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AR Viewport Container -->
+        <div class="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-2xl flex items-center justify-center">
+          
+          <!-- Mode 1: 3D Architectural Room SVG Simulator -->
+          <div id="arRoomView" class="w-full h-full relative">
+            <svg id="arRoomSvg" viewBox="0 0 800 450" class="w-full h-full object-cover">
+              <!-- Defs with dynamic lighting filter -->
+              <defs>
+                <linearGradient id="arWallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" id="arWallStop1" stop-color="#120A8F" stop-opacity="0.85" />
+                  <stop offset="100%" id="arWallStop2" stop-color="#080447" stop-opacity="0.95" />
+                </linearGradient>
+                <linearGradient id="arFloorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#1e293b" />
+                  <stop offset="100%" stop-color="#0f172a" />
+                </linearGradient>
+                <radialGradient id="arLampGlow" cx="50%" cy="30%" r="50%">
+                  <stop offset="0%" stop-color="#ffd54f" stop-opacity="0.35" />
+                  <stop offset="100%" stop-color="#ffd54f" stop-opacity="0" />
+                </radialGradient>
+              </defs>
+
+              <!-- Back Wall (Tinted with Active Color) -->
+              <rect x="140" y="50" width="520" height="260" fill="url(#arWallGrad)" id="arSvgBackWall" />
+
+              <!-- Persian Orosi Arch / Niches in Back Wall -->
+              <path d="M 280,310 L 280,180 Q 400,80 520,180 L 520,310 Z" fill="rgba(0,0,0,0.3)" stroke="rgba(212,175,55,0.6)" stroke-width="3" id="arSvgArch" />
+              
+              <!-- Left Perspective Wall -->
+              <polygon points="0,0 140,50 140,310 0,450" fill="#0f172a" opacity="0.95" />
+              
+              <!-- Right Perspective Wall -->
+              <polygon points="800,0 660,50 660,310 800,450" fill="#0b1120" opacity="0.95" />
+              
+              <!-- Ceiling -->
+              <polygon points="0,0 800,0 660,50 140,50" fill="#1e293b" opacity="0.8" />
+              
+              <!-- Floor -->
+              <polygon points="0,450 800,450 660,310 140,310" fill="url(#arFloorGrad)" />
+
+              <!-- Ambient Persian Chandelier / Light Source -->
+              <circle cx="400" cy="110" r="140" fill="url(#arLampGlow)" />
+              <line x1="400" y1="50" x2="400" y2="105" stroke="#d4af37" stroke-width="2" />
+              <circle cx="400" cy="110" r="8" fill="#ffd54f" filter="drop-shadow(0 0 8px #ffd54f)" />
+
+              <!-- Accent Architectural Furniture -->
+              <rect x="330" y="270" width="140" height="40" rx="6" fill="#334155" id="arSvgConsole" />
+              <ellipse cx="400" cy="300" rx="160" ry="30" fill="#000000" opacity="0.3" />
+            </svg>
+          </div>
+
+          <!-- Mode 2: Live Camera Video Stream -->
+          <div id="arCameraView" class="w-full h-full relative hidden">
+            <video id="arVideoElement" autoplay playsinline class="w-full h-full object-cover"></video>
+            <div id="arCameraTintOverlay" class="absolute inset-0 pointer-events-none mix-blend-color opacity-50" style="background-color: #120A8F;"></div>
+            <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <div class="w-24 h-24 rounded-full border-2 border-dashed border-white/60 flex items-center justify-center">
+                <div class="w-2 h-2 rounded-full bg-emerald-400"></div>
+              </div>
+            </div>
+            <div id="arCameraErrorMsg" class="absolute inset-0 bg-slate-950/90 hidden flex-col items-center justify-center p-6 text-center text-xs text-slate-300">
+              <i class="fa-solid fa-camera-slash text-3xl text-rose-400 mb-2"></i>
+              <p class="font-bold text-white">دسترسی به دوربین برقرار نشد</p>
+              <p class="text-slate-400 mt-1">مرورگر شما مجوز دوربین را مسدود کرده است، یا دستگاه به وب‌کم متصل نیست. می‌توانید از شبیه‌ساز اتاق سه‌بعدی استفاده فرمایید.</p>
+            </div>
+          </div>
+
+          <!-- Bottom Control Bar inside Viewport -->
+          <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between bg-slate-950/80 backdrop-blur-md px-3 py-2 rounded-xl border border-white/10 text-xs">
+            <div class="flex items-center gap-2">
+              <span class="text-[11px] text-slate-300">دمای نور محیط (Kelvin):</span>
+              <button onclick="setARColorTemp(3000)" class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 text-[10px]">3000K (گرم صفوی)</button>
+              <button onclick="setARColorTemp(5500)" class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 text-[10px]">5500K (نور روز)</button>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <button onclick="cycleARColor()" class="px-3 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[11px] flex items-center gap-1">
+                <i class="fa-solid fa-palette"></i>
+                <span>تغییر رنگ دیوار</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- AR Modal Footer -->
+      <div class="p-4 border-t border-white/10 bg-slate-950/90 flex items-center justify-between text-xs">
+        <div class="text-slate-400">
+          تطبیق فوتومتریک نور محیط با استانداردهای رندرینگ معماری ایرانی
+        </div>
+        <button onclick="closeARSimulator()" class="px-5 py-2 rounded-xl text-xs bg-slate-800 hover:bg-slate-700 text-slate-200 transition" aria-label="بستن پنجره">
+          بستن شبیه‌ساز AR
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification Box -->
+  <div id="toast" role="status" aria-live="polite" aria-atomic="true" class="fixed bottom-6 left-6 z-50 max-w-sm rounded-xl bg-slate-900 border border-amber-500/40 p-4 shadow-2xl transition-all duration-300 transform translate-y-20 opacity-0 pointer-events-none flex items-center gap-3">
+    <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center flex-shrink-0">
+      <i class="fa-solid fa-check"></i>
+    </div>
+    <div class="min-w-0 flex-1">
+      <h5 class="text-xs font-bold text-white truncate" id="toastTitle">کپی شد!</h5>
+      <p class="text-[11px] text-slate-400 truncate mt-0.5" id="toastDesc">کد رنگ در حافظه قرار گرفت.</p>
+    </div>
+  </div>
+
+  
+
+  <!-- Local NPM package information -->
+  <div id="npmModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-xl hidden items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="apple-liquid-glass w-full max-w-3xl rounded-3xl shadow-2xl overflow-hidden flex flex-col my-auto border border-amber-500/30">
+      
+      <div class="p-4 sm:p-5 border-b border-white/10 flex items-center justify-between bg-slate-950/80">
+        <div class="flex items-center gap-3 text-amber-400">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/20 border border-amber-500/30 flex items-center justify-center">
+            <i class="fa-brands fa-npm text-2xl text-amber-400"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-white text-base">پکیج قابل نصب NPM (@persian-palette/core v3.0.0)</h3>
+            <p class="text-[11px] text-slate-400 font-mono" dir="ltr">W3C DESIGN TOKENS FORMAT MODULE • SEMVER 2.0.0</p>
+          </div>
+        </div>
+        <button onclick="closeNpmModal()" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white flex items-center justify-center border border-white/10 transition" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="p-6 bg-slate-950 space-y-4 text-xs font-sans">
+        <div class="p-3.5 rounded-xl bg-slate-900 border border-slate-800 text-slate-300 flex items-center justify-between">
+          <div class="font-mono text-xs text-amber-300 select-all" dir="ltr">
+            <span class="text-amber-500">$</span> npm install ./release/persian-palette-core-3.0.0.tgz
+          </div>
+          <button onclick="copyNpmInstallCmd()" id="btnCopyNpmCmd" class="px-3 py-1 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-mono text-[11px] border border-amber-500/30 transition">
+            کپی دستور
+          </button>
+        </div>
+
+        <p class="text-slate-300 leading-relaxed">
+          نمونه کد کامل جاوااسکریپت و تایپ‌اسکریپت جهت استفاده در پروژه‌های فرانت‌اند و سیستم‌های دیزاین سازمانی:
+        </p>
+
+        <div class="relative">
+          <pre class="p-4 rounded-xl bg-slate-900/90 border border-slate-800 text-cyan-200 overflow-x-auto text-[11px] font-mono leading-relaxed" dir="ltr"><code id="npmCodeSnippet">import { 
+  PersianEngine, 
+  calculateAPCA, 
+  mixColors, 
+  exportToW3CTokens 
+} from '@persian-palette/core';
+
+// ۱. دریافت رنگ دیجیتال و یادداشت ماده از منبع تأییدنشده
+const lapis = PersianEngine.getColor('isfahan-tiles', 'ultramarine');
+console.log(lapis.evidence.chemical.formula); // Na₆Ca₂[S|AlSiO₄]₆
+
+// ۲. ارزیابی کنتراست پیشرفته APCA-W3
+const contrastLc = calculateAPCA('#120A8F', '#F4F1DE'); 
+// Lc ≈ 90.68؛ ارزیابی نهایی به اندازه و وزن فونت وابسته است.
+
+// ۳. درون‌یابی رنگ دیجیتال در فضای Oklab
+const mixedColor = mixColors('#120A8F', '#F4C430', 0.4); // سهم رنگ دوم ۴۰٪ است.
+console.log(mixedColor.hex);
+
+// ۴. صادرات به استاندارد رسمی توکن‌های W3C DTCG
+const w3cTokens = exportToW3CTokens();
+</code></pre>
+          <button onclick="copyNpmCodeSnippet()" id="btnCopyNpmCode" class="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-md bg-slate-800/90 hover:bg-slate-700 text-slate-200 text-[10px] font-mono border border-slate-700 transition">
+            کپی نمونه کد
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-slate-300">
+          <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80">
+            <div class="font-bold text-amber-300 mb-1">خروجی DTCG 2025.10</div>
+            <p class="text-[11px] text-slate-400">توکن‌های آماده با تایپ رسمی $type: "color" و متادیتاهای شواهد.</p>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80">
+            <div class="font-bold text-cyan-300 mb-1">موتور ادراکی APCA</div>
+            <p class="text-[11px] text-slate-400">محاسبهٔ مرجع APCA-W3 برای متن روی نمایشگر؛ نتیجه، گواهی انطباق دسترس‌پذیری نیست.</p>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80">
+            <div class="font-bold text-purple-300 mb-1">فضای Oklab</div>
+            <p class="text-[11px] text-slate-400">درون‌یابی ادراکی رنگ‌های دیجیتال در Oklab.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 border-t border-white/10 bg-slate-950 flex items-center justify-between">
+        <button onclick="openExportAllModal(); closeNpmModal();" class="text-xs text-amber-400 hover:text-amber-300 font-bold flex items-center gap-1.5">
+          <i class="fa-solid fa-download"></i>
+          <span>دانلود بسته‌های توکن استاتیک (W3C, Figma, Tailwind)</span>
+        </button>
+        <button onclick="closeNpmModal()" class="px-4 py-2 rounded-xl bg-slate-800 text-slate-300 hover:bg-slate-700 text-xs transition" aria-label="بستن پنجره">
+          بستن پنجره
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Digital Oklab color mixer -->
+  <div id="mixerModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-xl hidden items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="apple-liquid-glass w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden flex flex-col my-auto border border-purple-500/30">
+      
+      <div class="p-4 sm:p-5 border-b border-white/10 flex items-center justify-between bg-slate-950/80">
+        <div class="flex items-center gap-2.5 text-purple-300">
+          <div class="w-10 h-10 rounded-xl bg-purple-500/20 border border-purple-500/30 flex items-center justify-center">
+            <i class="fa-solid fa-vial text-lg text-purple-400"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-white text-base">آزمایشگاه ترکیب رنگدانه‌های تاریخی (Oklab Pigment Mixer)</h3>
+            <p class="text-[11px] text-slate-400 font-mono" dir="ltr">PERCEPTUAL OKLAB INTERPOLATION</p>
+          </div>
+        </div>
+        <button onclick="closeMixerModal()" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white flex items-center justify-center border border-white/10 transition" aria-label="بستن پنجره">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="p-6 bg-slate-950 space-y-5 text-xs">
+        <p class="text-slate-300 leading-relaxed">
+          دو رنگ را انتخاب کنید تا درون‌یابی دیجیتال آنها در فضای ادراکی <span class="font-mono text-purple-300">Oklab</span> شبیه‌سازی شود:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+            <label for="quickMixColor1" class="block text-slate-300 font-bold flex items-center justify-between">
+              <span>رنگدانه مبدا اول:</span>
+              <span id="quickMixHex1" class="font-mono text-[11px] text-amber-400">#120A8F</span>
+            </label>
+            <select id="quickMixColor1" onchange="updateQuickMixer()" class="w-full bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-white font-mono text-xs focus:outline-none focus:border-purple-400">
+              <!-- Populated by JS -->
+            </select>
+          </div>
+
+          <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+            <label for="quickMixColor2" class="block text-slate-300 font-bold flex items-center justify-between">
+              <span>رنگدانه مبدا دوم:</span>
+              <span id="quickMixHex2" class="font-mono text-[11px] text-cyan-400">#F4C430</span>
+            </label>
+            <select id="quickMixColor2" onchange="updateQuickMixer()" class="w-full bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-white font-mono text-xs focus:outline-none focus:border-purple-400">
+              <!-- Populated by JS -->
+            </select>
+          </div>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 space-y-2">
+          <div class="flex justify-between text-slate-300 font-bold">
+            <span>سهم رنگ اول / رنگ دوم:</span>
+            <span id="quickMixRatioLabel" class="font-mono text-amber-400">50% / 50%</span>
+          </div>
+          <input type="range" id="quickMixRatio" name="quickMixRatio" aria-label="سهم رنگ اول به رنگ دوم" min="0" max="100" value="50" oninput="updateQuickMixer()" class="w-full accent-amber-500 cursor-pointer">
+          <div class="flex justify-between text-[10px] text-slate-500 font-mono">
+            <span>100% رنگ ۱</span>
+            <span>50% متوازن</span>
+            <span>100% رنگ ۲</span>
+          </div>
+        </div>
+
+        <!-- Result Preview -->
+        <div class="p-4 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-between flex-wrap gap-4">
+          <div class="flex items-center gap-3.5">
+            <div id="quickMixResultSwatch" class="w-14 h-14 rounded-2xl border-2 border-white/20 shadow-xl flex-shrink-0 transition-colors duration-200"></div>
+            <div>
+              <div class="text-[11px] text-slate-400">رنگدانه جدید ترکیبی در فضای Oklab:</div>
+              <div id="quickMixResultHex" class="font-mono text-lg font-black text-amber-300 mt-0.5 select-all" dir="ltr">#000000</div>
+              <div id="quickMixResultOklab" class="font-mono text-[10px] text-purple-300 mt-0.5"></div>
+            </div>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="copyQuickMixedHex()" class="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold transition flex items-center gap-1.5 shadow-md">
+              <i class="fa-regular fa-clone"></i>
+              <span>کپی هگز</span>
+            </button>
+            <button onclick="openDeepEvidenceForQuickMix()" class="px-3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium transition" title="مشاهده شناسنامه کامل رنگ ۱">
+              <i class="fa-solid fa-flask"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 border-t border-white/10 bg-slate-950 flex justify-end">
+        <button onclick="closeMixerModal()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition" aria-label="بستن پنجره">
+          بستن پنجره
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+<!-- BUILD:SCRIPTS -->
+</body>
+</html>

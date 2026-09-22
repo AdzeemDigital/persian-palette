@@ -1,0 +1,1166 @@
+{
+  "schema": "persian-palette/figma-interchange",
+  "schemaVersion": 1,
+  "collections": [
+    {
+      "name": "Persian Palette Vault",
+      "modes": [
+        "Default"
+      ],
+      "variables": [
+        {
+          "name": "Persian/isfahan-tiles/Ultramarine Lapis",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.07058823529411765,
+              "g": 0.0392156862745098,
+              "b": 0.5607843137254902,
+              "a": 1
+            }
+          },
+          "description": "لاجوردی (Ultramarine) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/isfahan-tiles/Persian Turquoise",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.18823529411764706,
+              "g": 0.8352941176470589,
+              "b": 0.7843137254901961,
+              "a": 1
+            }
+          },
+          "description": "فیروزه‌ای اصیل (Persian Turquoise) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/isfahan-tiles/Persian Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0,
+              "g": 0.6509803921568628,
+              "b": 0.5764705882352941,
+              "a": 1
+            }
+          },
+          "description": "آبی زنگاری شاهی (Persian Green) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/isfahan-tiles/Arabesque Gold",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8313725490196079,
+              "g": 0.6862745098039216,
+              "b": 0.21568627450980393,
+              "a": 1
+            }
+          },
+          "description": "طلایی اسلیمی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/isfahan-tiles/Alabaster Glaze",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9568627450980393,
+              "g": 0.9450980392156862,
+              "b": 0.8705882352941177,
+              "a": 1
+            }
+          },
+          "description": "عاجی گچی محراب — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/isfahan-tiles/Midnight Muqarnas",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.043137254901960784,
+              "g": 0.07450980392156863,
+              "b": 0.16862745098039217,
+              "a": 1
+            }
+          },
+          "description": "سرمه‌ای مقرنس — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/achaemenid-majesty/Persian Red",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8,
+              "g": 0.2,
+              "b": 0.2,
+              "a": 1
+            }
+          },
+          "description": "سرخ پارسی اصیل (Persian Red) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/achaemenid-majesty/Old Gold",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8117647058823529,
+              "g": 0.7098039215686275,
+              "b": 0.23137254901960785,
+              "a": 1
+            }
+          },
+          "description": "طلای شاهنشاهی (Old Gold) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/achaemenid-majesty/Persepolis Deep Navy",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.11372549019607843,
+              "g": 0.20784313725490197,
+              "b": 0.3411764705882353,
+              "a": 1
+            }
+          },
+          "description": "سرمه‌ای پارسه — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/achaemenid-majesty/Ancient Royal Jade",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.17647058823529413,
+              "g": 0.41568627450980394,
+              "b": 0.30980392156862746,
+              "a": 1
+            }
+          },
+          "description": "یشم باستانی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/achaemenid-majesty/Apadana Alabaster",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9921568627450981,
+              "g": 0.984313725490196,
+              "b": 0.9686274509803922,
+              "a": 1
+            }
+          },
+          "description": "سنگ مرمر آپادانا — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/achaemenid-majesty/Tacara Basalt Black",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.10588235294117647,
+              "g": 0.12156862745098039,
+              "b": 0.1411764705882353,
+              "a": 1
+            }
+          },
+          "description": "سنگ سیاه تچر — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/behzad-miniature/Cinnabar Vermilion",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8901960784313725,
+              "g": 0.25882352941176473,
+              "b": 0.20392156862745098,
+              "a": 1
+            }
+          },
+          "description": "شنگرف معدنی (Cinnabar/Vermilion) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/behzad-miniature/Malachite Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.043137254901960784,
+              "g": 0.8549019607843137,
+              "b": 0.3176470588235294,
+              "a": 1
+            }
+          },
+          "description": "سبز زنگار مالاکیت (Malachite Green) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/behzad-miniature/Night Sky Miniature Navy",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.10588235294117647,
+              "g": 0.14901960784313725,
+              "b": 0.23137254901960785,
+              "a": 1
+            }
+          },
+          "description": "سرمه‌ای شبرنگ نگار — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/behzad-miniature/Persian Plum",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.4392156862745098,
+              "g": 0.10980392156862745,
+              "b": 0.10980392156862745,
+              "a": 1
+            }
+          },
+          "description": "شاه‌توت شاه‌عباسی (Persian Plum) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/behzad-miniature/Illuminated Leaf Gold",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9647058823529412,
+              "g": 0.7411764705882353,
+              "b": 0.3764705882352941,
+              "a": 1
+            }
+          },
+          "description": "طلای حل‌کاری — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/behzad-miniature/Samarkand Silk Paper",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9803921568627451,
+              "g": 0.9529411764705882,
+              "b": 0.8784313725490196,
+              "a": 1
+            }
+          },
+          "description": "کاغذ سمرقندی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/nomadic-rugs/Madder Root Red",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.6588235294117647,
+              "g": 0.10980392156862745,
+              "b": 0.027450980392156862,
+              "a": 1
+            }
+          },
+          "description": "قرمز روناسی ناب (Madder Root) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/nomadic-rugs/Persian Crimson Lacquer",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.32941176470588235,
+              "g": 0.043137254901960784,
+              "b": 0.054901960784313725,
+              "a": 1
+            }
+          },
+          "description": "لاکی شاه‌عباسی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/nomadic-rugs/Persian Orange",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8509803921568627,
+              "g": 0.5647058823529412,
+              "b": 0.34509803921568627,
+              "a": 1
+            }
+          },
+          "description": "حنایی افشاری (Persian Orange) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/nomadic-rugs/Peacock Forest Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.16862745098039217,
+              "g": 0.22745098039215686,
+              "b": 0.10980392156862745,
+              "a": 1
+            }
+          },
+          "description": "سبز کله‌غازی عشایر — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/nomadic-rugs/Raw Wool Cream",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9176470588235294,
+              "g": 0.8666666666666667,
+              "b": 0.8117647058823529,
+              "a": 1
+            }
+          },
+          "description": "کرم خامه پشمی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/nomadic-rugs/Walnut Husk Brown",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.25882352941176473,
+              "g": 0.12549019607843137,
+              "b": 0.023529411764705882,
+              "a": 1
+            }
+          },
+          "description": "قهوه‌ای پوست گردو — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/minakari-craft/Persian Blue",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.10980392156862745,
+              "g": 0.2235294117647059,
+              "b": 0.7333333333333333,
+              "a": 1
+            }
+          },
+          "description": "آبی مینایی ژرف (Persian Blue) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/minakari-craft/Deep Persian Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0,
+              "g": 0.5254901960784314,
+              "b": 0.4745098039215686,
+              "a": 1
+            }
+          },
+          "description": "سبز فیروزه قلمی (Persian Green) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/minakari-craft/Gilded Brass Yellow",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8784313725490196,
+              "g": 0.6235294117647059,
+              "b": 0.24313725490196078,
+              "a": 1
+            }
+          },
+          "description": "زرد طلااندود — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/minakari-craft/Pearl Turquoise Glaze",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5803921568627451,
+              "g": 0.8235294117647058,
+              "b": 0.7411764705882353,
+              "a": 1
+            }
+          },
+          "description": "فیروزه‌ای مرواریدی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/minakari-craft/Porcelain Enamel White",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9921568627450981,
+              "g": 0.984313725490196,
+              "b": 0.9686274509803922,
+              "a": 1
+            }
+          },
+          "description": "سفید لعاب چینی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/minakari-craft/Kiln Shadow Navy",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.0392156862745098,
+              "g": 0.09803921568627451,
+              "b": 0.1843137254901961,
+              "a": 1
+            }
+          },
+          "description": "سرمه‌ای کوره مینا — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/toranj-illumination/Timurid Crimson Carmine",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.47058823529411764,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          },
+          "description": "زرشکی تذهیب تیموری — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/toranj-illumination/Indigo Shamseh Navy",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.1568627450980392,
+              "g": 0.21176470588235294,
+              "b": 0.3333333333333333,
+              "a": 1
+            }
+          },
+          "description": "نیلی لاجوردی شمسه (Indigo) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/toranj-illumination/Goldenrod Gold",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8549019607843137,
+              "g": 0.6470588235294118,
+              "b": 0.12549019607843137,
+              "a": 1
+            }
+          },
+          "description": "طلای ناب شمسه (Goldenrod) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/toranj-illumination/Malachite Resin Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.2196078431372549,
+              "g": 0.4,
+              "b": 0.2549019607843137,
+              "a": 1
+            }
+          },
+          "description": "سبز صمغی کهن — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/toranj-illumination/Parchment Vellum White",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9921568627450981,
+              "g": 0.984313725490196,
+              "b": 0.9568627450980393,
+              "a": 1
+            }
+          },
+          "description": "پوست آهوی خطاطی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/toranj-illumination/India Ink Black",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          },
+          "description": "مرکب سیاه کتابت (India Ink) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/persian-gulf-pearls/Medium Persian Blue",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0,
+              "g": 0.403921568627451,
+              "b": 0.6470588235294118,
+              "a": 1
+            }
+          },
+          "description": "آبی پارسی اصیل (Medium Persian Blue) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/persian-gulf-pearls/Qeshm Turquoise Shore",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0,
+              "g": 0.7058823529411765,
+              "b": 0.8470588235294118,
+              "a": 1
+            }
+          },
+          "description": "آبی فیروزه‌ای قشم — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/persian-gulf-pearls/Hormuz Red Ochre",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5647058823529412,
+              "g": 0.10980392156862745,
+              "b": 0.10980392156862745,
+              "a": 1
+            }
+          },
+          "description": "خاک سرخ هرمز (Red Ochre) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/persian-gulf-pearls/Persian Gulf Pearl",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9490196078431372,
+              "g": 0.9254901960784314,
+              "b": 0.8941176470588236,
+              "a": 1
+            }
+          },
+          "description": "مروارید صید لنگه — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/persian-gulf-pearls/Sun warmed Coastal Sand",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8666666666666667,
+              "g": 0.6313725490196078,
+              "b": 0.3686274509803922,
+              "a": 1
+            }
+          },
+          "description": "ماسه گرم ساحلی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/persian-gulf-pearls/Abyssal Persian Deep Blue",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.011764705882352941,
+              "g": 0.027450980392156862,
+              "b": 0.11764705882352941,
+              "a": 1
+            }
+          },
+          "description": "آبی ژرفای خلیج — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/gardens-of-shiraz/Persian Rose",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.996078431372549,
+              "g": 0.1568627450980392,
+              "b": 0.6352941176470588,
+              "a": 1
+            }
+          },
+          "description": "گل سرخ محمدی (Persian Rose) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/gardens-of-shiraz/Ghasrodasht Ruby Pomegranate",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5450980392156862,
+              "g": 0.11764705882352941,
+              "b": 0.24705882352941178,
+              "a": 1
+            }
+          },
+          "description": "انار قصرالدشت — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/gardens-of-shiraz/Cypress Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.13333333333333333,
+              "g": 0.5450980392156862,
+              "b": 0.13333333333333333,
+              "a": 1
+            }
+          },
+          "description": "سبز سرو ناز (Cypress Green) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/gardens-of-shiraz/Orange Blossom Yellow",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9921568627450981,
+              "g": 0.9019607843137255,
+              "b": 0.5411764705882353,
+              "a": 1
+            }
+          },
+          "description": "شکوفه بهارنارنج — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/gardens-of-shiraz/Shirazi Jasmine White",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9764705882352941,
+              "g": 0.9647058823529412,
+              "b": 0.9411764705882353,
+              "a": 1
+            }
+          },
+          "description": "سفید یاسمن شیرازی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/gardens-of-shiraz/Deep Eram Garden Shade",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.09411764705882353,
+              "g": 0.17254901960784313,
+              "b": 0.09411764705882353,
+              "a": 1
+            }
+          },
+          "description": "سایه‌سار باغ ارم — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/khorasan-gems/Turquoise",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.25098039215686274,
+              "g": 0.8784313725490196,
+              "b": 0.8156862745098039,
+              "a": 1
+            }
+          },
+          "description": "فیروزه شجری نیشابور (Turquoise) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/khorasan-gems/Persian Ruby",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.6078431372549019,
+              "g": 0.06666666666666667,
+              "b": 0.11764705882352941,
+              "a": 1
+            }
+          },
+          "description": "یاقوت اناری پارسی (Ruby) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/khorasan-gems/Emerald Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.3137254901960784,
+              "g": 0.7843137254901961,
+              "b": 0.47058823529411764,
+              "a": 1
+            }
+          },
+          "description": "زمرد نادری (Emerald) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/khorasan-gems/Amber Gold",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 1,
+              "g": 0.7490196078431373,
+              "b": 0,
+              "a": 1
+            }
+          },
+          "description": "کهربای کهن توس (Amber) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/khorasan-gems/Silver Pearl Luster",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9568627450980393,
+              "g": 0.9647058823529412,
+              "b": 0.9725490196078431,
+              "a": 1
+            }
+          },
+          "description": "مروارید نقره‌فام — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/khorasan-gems/Flint Basalt Dark",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.10588235294117647,
+              "g": 0.11764705882352941,
+              "b": 0.13725490196078433,
+              "a": 1
+            }
+          },
+          "description": "سنگ چخماق دودی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/hyrcanian-forests/Ancient Hyrcanian Fern",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.10588235294117647,
+              "g": 0.2627450980392157,
+              "b": 0.19607843137254902,
+              "a": 1
+            }
+          },
+          "description": "سرخس کهنسال هیرکانی — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/hyrcanian-forests/Moist Rock Moss",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.25098039215686274,
+              "g": 0.5686274509803921,
+              "b": 0.4235294117647059,
+              "a": 1
+            }
+          },
+          "description": "خزه مرطوب سنگ — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/hyrcanian-forests/Beech Leaf Fresh Sprout",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.4549019607843137,
+              "g": 0.7764705882352941,
+              "b": 0.615686274509804,
+              "a": 1
+            }
+          },
+          "description": "جوانه راشستان — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/hyrcanian-forests/Caspian Oak Wood",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.2901960784313726,
+              "g": 0.20784313725490197,
+              "b": 0.1450980392156863,
+              "a": 1
+            }
+          },
+          "description": "بلوط کهنسال خزری — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/hyrcanian-forests/Damavand Glacier White",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9725490196078431,
+              "g": 0.9764705882352941,
+              "b": 0.9803921568627451,
+              "a": 1
+            }
+          },
+          "description": "سپیدی برف دماوند — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/hyrcanian-forests/Deep Forest Shadow",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.050980392156862744,
+              "g": 0.12156862745098039,
+              "b": 0.09411764705882353,
+              "a": 1
+            }
+          },
+          "description": "ژرفای جنگل مه‌آلود — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/yazd-saffron-desert/Saffron Yellow",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9568627450980393,
+              "g": 0.7686274509803922,
+              "b": 0.18823529411764706,
+              "a": 1
+            }
+          },
+          "description": "زعفرانی سرگل (Saffron) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/yazd-saffron-desert/Adobe Terracotta",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8235294117647058,
+              "g": 0.49019607843137253,
+              "b": 0.27450980392156865,
+              "a": 1
+            }
+          },
+          "description": "کاهگل آفتاب‌خورده (Adobe) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/yazd-saffron-desert/Rig e Jenn Red Agate",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9019607843137255,
+              "g": 0.2235294117647059,
+              "b": 0.27450980392156865,
+              "a": 1
+            }
+          },
+          "description": "عقیق سرخ ریگ‌جن — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/yazd-saffron-desert/Lut Golden Sand Dune",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9725490196078431,
+              "g": 0.9058823529411765,
+              "b": 0.8196078431372549,
+              "a": 1
+            }
+          },
+          "description": "ماسه طلایی لوت — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/yazd-saffron-desert/Sun baked Adobe Shadow",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.10588235294117647,
+              "g": 0.09803921568627451,
+              "b": 0.09019607843137255,
+              "a": 1
+            }
+          },
+          "description": "خشت سوخته کویر — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/yazd-saffron-desert/Senjed Windcatcher Timber",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.4196078431372549,
+              "g": 0.25882352941176473,
+              "b": 0.14901960784313725,
+              "a": 1
+            }
+          },
+          "description": "چوب سنجد بادگیر — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/bazaar-spices/Turmeric Gold",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 1,
+              "g": 0.7529411764705882,
+              "b": 0,
+              "a": 1
+            }
+          },
+          "description": "زردچوبه ممتاز قلم (Turmeric) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/bazaar-spices/Ancient Cinnamon Brown",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.8235294117647058,
+              "g": 0.4117647058823529,
+              "b": 0.11764705882352941,
+              "a": 1
+            }
+          },
+          "description": "دارچینی باستانی (Cinnamon) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/bazaar-spices/Paprika   Pepper Crimson",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.7647058823529411,
+              "g": 0.1843137254901961,
+              "b": 0.15294117647058825,
+              "a": 1
+            }
+          },
+          "description": "پاپریکا و فلفل بیجار — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/bazaar-spices/Pistachio Green",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.5764705882352941,
+              "g": 0.7725490196078432,
+              "b": 0.4470588235294118,
+              "a": 1
+            }
+          },
+          "description": "پسته خندان رفسنجان (Pistachio Green) — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/bazaar-spices/Ancient Saffron Pastry Cream",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.9803921568627451,
+              "g": 0.9411764705882353,
+              "b": 0.792156862745098,
+              "a": 1
+            }
+          },
+          "description": "خامه شیرینی کهن — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        {
+          "name": "Persian/bazaar-spices/Nigella Seed   Black Cardamom",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "Default": {
+              "r": 0.11764705882352941,
+              "g": 0.11764705882352941,
+              "b": 0.1411764705882353,
+              "a": 1
+            }
+          },
+          "description": "سیاه‌دانه و هل سیاه — Heritage annotation not independently verified",
+          "scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      ]
+    }
+  ]
+}

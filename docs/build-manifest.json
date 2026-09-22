@@ -1,0 +1,11 @@
+{
+  "version": "3.0.0",
+  "artifact": "code_artifact.html",
+  "sha256": "1585ddeab92d43a493bcd22062316c538e5f643127ba10bff5713100183e24ef",
+  "bytes": 3149695,
+  "artifact_en": "code_artifact_en.html",
+  "sha256_en": "92a489c47a46a1714f9c2e8d3872762b0b2c8e23d94c60d3797114623c261fd8",
+  "bytes_en": 3149695,
+  "source": "app/template.html + app/app.js + app/enhancements.js + packages/core/src",
+  "remoteRuntimeDependencies": 0
+}

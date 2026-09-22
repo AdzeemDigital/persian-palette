@@ -1,0 +1,28 @@
+name: 💡 Feature Request / Proposal
+description: Suggest an enhancement, new historical palette, or integration target
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome proposals for new cultural palettes, export formats, or algorithmic refinements!
+  - type: input
+    id: title_input
+    attributes:
+      label: Feature Title
+      placeholder: e.g. Add Qajar Enamelware Palette or Android Compose Theme Generator
+    validations:
+      required: true
+  - type: textarea
+    id: concept
+    attributes:
+      label: Description & Cultural / Technical Rationale
+      description: Explain why this feature should be added and its provenance/evidence basis.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Approaches Considered
+      description: What workarounds exist currently?

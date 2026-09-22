@@ -1,0 +1,386 @@
+{
+  "isfahan-tiles": {
+    "ultramarine-lapis": {
+      "value": "#120A8F",
+      "type": "color",
+      "description": "لاجوردی (Ultramarine)"
+    },
+    "persian-turquoise": {
+      "value": "#30D5C8",
+      "type": "color",
+      "description": "فیروزه‌ای اصیل (Persian Turquoise)"
+    },
+    "persian-green": {
+      "value": "#00A693",
+      "type": "color",
+      "description": "آبی زنگاری شاهی (Persian Green)"
+    },
+    "arabesque-gold": {
+      "value": "#D4AF37",
+      "type": "color",
+      "description": "طلایی اسلیمی"
+    },
+    "alabaster-glaze": {
+      "value": "#F4F1DE",
+      "type": "color",
+      "description": "عاجی گچی محراب"
+    },
+    "midnight-muqarnas": {
+      "value": "#0B132B",
+      "type": "color",
+      "description": "سرمه‌ای مقرنس"
+    }
+  },
+  "achaemenid-majesty": {
+    "persian-red": {
+      "value": "#CC3333",
+      "type": "color",
+      "description": "سرخ پارسی اصیل (Persian Red)"
+    },
+    "old-gold": {
+      "value": "#CFB53B",
+      "type": "color",
+      "description": "طلای شاهنشاهی (Old Gold)"
+    },
+    "persepolis-deep-navy": {
+      "value": "#1D3557",
+      "type": "color",
+      "description": "سرمه‌ای پارسه"
+    },
+    "ancient-royal-jade": {
+      "value": "#2D6A4F",
+      "type": "color",
+      "description": "یشم باستانی"
+    },
+    "apadana-alabaster": {
+      "value": "#FDFBF7",
+      "type": "color",
+      "description": "سنگ مرمر آپادانا"
+    },
+    "tacara-basalt-black": {
+      "value": "#1B1F24",
+      "type": "color",
+      "description": "سنگ سیاه تچر"
+    }
+  },
+  "behzad-miniature": {
+    "cinnabar-vermilion": {
+      "value": "#E34234",
+      "type": "color",
+      "description": "شنگرف معدنی (Cinnabar/Vermilion)"
+    },
+    "malachite-green": {
+      "value": "#0BDA51",
+      "type": "color",
+      "description": "سبز زنگار مالاکیت (Malachite Green)"
+    },
+    "night-sky-miniature-navy": {
+      "value": "#1B263B",
+      "type": "color",
+      "description": "سرمه‌ای شبرنگ نگار"
+    },
+    "persian-plum": {
+      "value": "#701C1C",
+      "type": "color",
+      "description": "شاه‌توت شاه‌عباسی (Persian Plum)"
+    },
+    "illuminated-leaf-gold": {
+      "value": "#F6BD60",
+      "type": "color",
+      "description": "طلای حل‌کاری"
+    },
+    "samarkand-silk-paper": {
+      "value": "#FAF3E0",
+      "type": "color",
+      "description": "کاغذ سمرقندی"
+    }
+  },
+  "nomadic-rugs": {
+    "madder-root-red": {
+      "value": "#A81C07",
+      "type": "color",
+      "description": "قرمز روناسی ناب (Madder Root)"
+    },
+    "persian-crimson-lacquer": {
+      "value": "#540B0E",
+      "type": "color",
+      "description": "لاکی شاه‌عباسی"
+    },
+    "persian-orange": {
+      "value": "#D99058",
+      "type": "color",
+      "description": "حنایی افشاری (Persian Orange)"
+    },
+    "peacock-forest-green": {
+      "value": "#2B3A1C",
+      "type": "color",
+      "description": "سبز کله‌غازی عشایر"
+    },
+    "raw-wool-cream": {
+      "value": "#EADDCF",
+      "type": "color",
+      "description": "کرم خامه پشمی"
+    },
+    "walnut-husk-brown": {
+      "value": "#422006",
+      "type": "color",
+      "description": "قهوه‌ای پوست گردو"
+    }
+  },
+  "minakari-craft": {
+    "persian-blue": {
+      "value": "#1C39BB",
+      "type": "color",
+      "description": "آبی مینایی ژرف (Persian Blue)"
+    },
+    "deep-persian-green": {
+      "value": "#008679",
+      "type": "color",
+      "description": "سبز فیروزه قلمی (Persian Green)"
+    },
+    "gilded-brass-yellow": {
+      "value": "#E09F3E",
+      "type": "color",
+      "description": "زرد طلااندود"
+    },
+    "pearl-turquoise-glaze": {
+      "value": "#94D2BD",
+      "type": "color",
+      "description": "فیروزه‌ای مرواریدی"
+    },
+    "porcelain-enamel-white": {
+      "value": "#FDFBF7",
+      "type": "color",
+      "description": "سفید لعاب چینی"
+    },
+    "kiln-shadow-navy": {
+      "value": "#0A192F",
+      "type": "color",
+      "description": "سرمه‌ای کوره مینا"
+    }
+  },
+  "toranj-illumination": {
+    "timurid-crimson-carmine": {
+      "value": "#780000",
+      "type": "color",
+      "description": "زرشکی تذهیب تیموری"
+    },
+    "indigo-shamseh-navy": {
+      "value": "#283655",
+      "type": "color",
+      "description": "نیلی لاجوردی شمسه (Indigo)"
+    },
+    "goldenrod-gold": {
+      "value": "#DAA520",
+      "type": "color",
+      "description": "طلای ناب شمسه (Goldenrod)"
+    },
+    "malachite-resin-green": {
+      "value": "#386641",
+      "type": "color",
+      "description": "سبز صمغی کهن"
+    },
+    "parchment-vellum-white": {
+      "value": "#FDFBF4",
+      "type": "color",
+      "description": "پوست آهوی خطاطی"
+    },
+    "india-ink-black": {
+      "value": "#000000",
+      "type": "color",
+      "description": "مرکب سیاه کتابت (India Ink)"
+    }
+  },
+  "persian-gulf-pearls": {
+    "medium-persian-blue": {
+      "value": "#0067A5",
+      "type": "color",
+      "description": "آبی پارسی اصیل (Medium Persian Blue)"
+    },
+    "qeshm-turquoise-shore": {
+      "value": "#00B4D8",
+      "type": "color",
+      "description": "آبی فیروزه‌ای قشم"
+    },
+    "hormuz-red-ochre": {
+      "value": "#901C1C",
+      "type": "color",
+      "description": "خاک سرخ هرمز (Red Ochre)"
+    },
+    "persian-gulf-pearl": {
+      "value": "#F2ECE4",
+      "type": "color",
+      "description": "مروارید صید لنگه"
+    },
+    "sun-warmed-coastal-sand": {
+      "value": "#DDA15E",
+      "type": "color",
+      "description": "ماسه گرم ساحلی"
+    },
+    "abyssal-persian-deep-blue": {
+      "value": "#03071E",
+      "type": "color",
+      "description": "آبی ژرفای خلیج"
+    }
+  },
+  "gardens-of-shiraz": {
+    "persian-rose": {
+      "value": "#FE28A2",
+      "type": "color",
+      "description": "گل سرخ محمدی (Persian Rose)"
+    },
+    "ghasrodasht-ruby-pomegranate": {
+      "value": "#8B1E3F",
+      "type": "color",
+      "description": "انار قصرالدشت"
+    },
+    "cypress-green": {
+      "value": "#228B22",
+      "type": "color",
+      "description": "سبز سرو ناز (Cypress Green)"
+    },
+    "orange-blossom-yellow": {
+      "value": "#FDE68A",
+      "type": "color",
+      "description": "شکوفه بهارنارنج"
+    },
+    "shirazi-jasmine-white": {
+      "value": "#F9F6F0",
+      "type": "color",
+      "description": "سفید یاسمن شیرازی"
+    },
+    "deep-eram-garden-shade": {
+      "value": "#182C18",
+      "type": "color",
+      "description": "سایه‌سار باغ ارم"
+    }
+  },
+  "khorasan-gems": {
+    "turquoise": {
+      "value": "#40E0D0",
+      "type": "color",
+      "description": "فیروزه شجری نیشابور (Turquoise)"
+    },
+    "persian-ruby": {
+      "value": "#9B111E",
+      "type": "color",
+      "description": "یاقوت اناری پارسی (Ruby)"
+    },
+    "emerald-green": {
+      "value": "#50C878",
+      "type": "color",
+      "description": "زمرد نادری (Emerald)"
+    },
+    "amber-gold": {
+      "value": "#FFBF00",
+      "type": "color",
+      "description": "کهربای کهن توس (Amber)"
+    },
+    "silver-pearl-luster": {
+      "value": "#F4F6F8",
+      "type": "color",
+      "description": "مروارید نقره‌فام"
+    },
+    "flint-basalt-dark": {
+      "value": "#1B1E23",
+      "type": "color",
+      "description": "سنگ چخماق دودی"
+    }
+  },
+  "hyrcanian-forests": {
+    "ancient-hyrcanian-fern": {
+      "value": "#1B4332",
+      "type": "color",
+      "description": "سرخس کهنسال هیرکانی"
+    },
+    "moist-rock-moss": {
+      "value": "#40916C",
+      "type": "color",
+      "description": "خزه مرطوب سنگ"
+    },
+    "beech-leaf-fresh-sprout": {
+      "value": "#74C69D",
+      "type": "color",
+      "description": "جوانه راشستان"
+    },
+    "caspian-oak-wood": {
+      "value": "#4A3525",
+      "type": "color",
+      "description": "بلوط کهنسال خزری"
+    },
+    "damavand-glacier-white": {
+      "value": "#F8F9FA",
+      "type": "color",
+      "description": "سپیدی برف دماوند"
+    },
+    "deep-forest-shadow": {
+      "value": "#0D1F18",
+      "type": "color",
+      "description": "ژرفای جنگل مه‌آلود"
+    }
+  },
+  "yazd-saffron-desert": {
+    "saffron-yellow": {
+      "value": "#F4C430",
+      "type": "color",
+      "description": "زعفرانی سرگل (Saffron)"
+    },
+    "adobe-terracotta": {
+      "value": "#D27D46",
+      "type": "color",
+      "description": "کاهگل آفتاب‌خورده (Adobe)"
+    },
+    "rig-e-jenn-red-agate": {
+      "value": "#E63946",
+      "type": "color",
+      "description": "عقیق سرخ ریگ‌جن"
+    },
+    "lut-golden-sand-dune": {
+      "value": "#F8E7D1",
+      "type": "color",
+      "description": "ماسه طلایی لوت"
+    },
+    "sun-baked-adobe-shadow": {
+      "value": "#1B1917",
+      "type": "color",
+      "description": "خشت سوخته کویر"
+    },
+    "senjed-windcatcher-timber": {
+      "value": "#6B4226",
+      "type": "color",
+      "description": "چوب سنجد بادگیر"
+    }
+  },
+  "bazaar-spices": {
+    "turmeric-gold": {
+      "value": "#FFC000",
+      "type": "color",
+      "description": "زردچوبه ممتاز قلم (Turmeric)"
+    },
+    "ancient-cinnamon-brown": {
+      "value": "#D2691E",
+      "type": "color",
+      "description": "دارچینی باستانی (Cinnamon)"
+    },
+    "paprika-pepper-crimson": {
+      "value": "#C32F27",
+      "type": "color",
+      "description": "پاپریکا و فلفل بیجار"
+    },
+    "pistachio-green": {
+      "value": "#93C572",
+      "type": "color",
+      "description": "پسته خندان رفسنجان (Pistachio Green)"
+    },
+    "ancient-saffron-pastry-cream": {
+      "value": "#FAF0CA",
+      "type": "color",
+      "description": "خامه شیرینی کهن"
+    },
+    "nigella-seed-black-cardamom": {
+      "value": "#1E1E24",
+      "type": "color",
+      "description": "سیاه‌دانه و هل سیاه"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+name: Release Pipeline
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Setup Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          npm ci
+          npm --prefix packages/core ci
+
+      - name: Build & Package Release
+        run: |
+          npm run build
+          npm test
+          npm run pack:core
+          npm run pack:studio
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            code_artifact.html
+            code_artifact_en.html
+            release/persian-palette-core-3.0.0.tgz
+            release/manshour-studio-3.0.0.zip
+            docs/build-manifest.json
+          generate_release_notes: true
