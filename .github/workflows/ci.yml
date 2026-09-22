@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches: [main, 'fix/**']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Node ${{ matrix.node }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            packages/core/package-lock.json
+      - name: Install studio dependencies
+        run: npm ci
+      - name: Install core dependencies
+        run: npm --prefix packages/core ci
+      - name: Build both editions and run tests
+        run: npm run check
+      - name: Build npm tarball
+        run: npm run pack:core
+      - name: Install and verify the package and documentation examples
+        run: npm run verify:package
+      - name: Upload tested output
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 24
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: studio-${{ github.sha }}
+          retention-days: 14
+          if-no-files-found: error
+          path: |
+            code_artifact.html
+            code_artifact_en.html
+            release/persian-palette-core-*.tgz
+            docs/build-manifest.json
