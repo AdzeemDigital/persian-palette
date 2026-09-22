@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 
@@ -8,8 +9,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const { version } = JSON.parse(await fs.readFile(path.join(root, 'packages/core/package.json'), 'utf8'));
 const archive = path.join(root, 'release', `persian-palette-core-${version}.tgz`);
 await fs.access(archive);
-await fs.mkdir(path.join(root, '.tmp'), { recursive: true });
-const consumer = await fs.mkdtemp(path.join(root, '.tmp', 'package-consumer-'));
+const temporaryRoot = path.resolve(os.tmpdir());
+const consumer = await fs.mkdtemp(path.join(temporaryRoot, 'persian-palette-consumer-'));
+assert.ok(!consumer.startsWith(root + path.sep), 'Consumer must be outside the repository');
 const npm = process.env.npm_execpath;
 assert.ok(npm, 'Run this check with npm run verify:package');
 
@@ -72,6 +74,11 @@ await fs.writeFile(path.join(consumer, 'tsconfig.json'), JSON.stringify({
 run(process.execPath, [path.join(root, 'packages/core/node_modules/typescript/bin/tsc'), '--project', 'tsconfig.json']);
 console.log('Installed tarball: strict TypeScript ESM/CommonJS consumers passed.');
 
+// Example tooling is deliberately installed only after core runtime/type checks.
+// A standalone consumer must not inherit dependencies from the repository.
+const project = JSON.parse(await fs.readFile(path.join(root, 'package.json'), 'utf8'));
+run(process.execPath, [npm, 'install', '--save-dev', `style-dictionary@${project.devDependencies['style-dictionary']}`, '--ignore-scripts', '--no-audit', '--no-fund']);
+
 let examples = 0;
 for (const document of ['README.md', 'docs/QUICKSTART.md', 'docs/API_REFERENCE.md']) {
   const source = await fs.readFile(path.join(root, document), 'utf8');
@@ -84,3 +91,7 @@ for (const document of ['README.md', 'docs/QUICKSTART.md', 'docs/API_REFERENCE.m
   }
 }
 console.log(`Installed tarball: ${examples} documentation examples executed successfully.`);
+// Remove only the task-specific directory allocated by mkdtemp above.
+assert.equal(path.dirname(path.resolve(consumer)), temporaryRoot);
+assert.ok(path.basename(consumer).startsWith('persian-palette-consumer-'));
+await fs.rm(consumer, { recursive: true });
