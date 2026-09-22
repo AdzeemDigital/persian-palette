@@ -1,64 +1,37 @@
-# Persian Palette Design System Specification
+# Color methods and evidence
 
-## 1. Cultural Taxonomy & 12 Historical Pillars
+Persian Palette contains curated sRGB design colors inspired by Persian cultural references. It is not a pigment-authentication database.
 
-The Persian Palette Design System (Manshour) digitizes 72 authentic historical pigments across 12 cultural eras, monuments, crafts, and natural wonders of Iran:
+## Evidence
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                     12 CANONICAL PERSIAN COLOR PALETTES                     │
-├────────────────────────────────┬────────────────────────────────────────────┤
-│ Category                       │ Palettes                                   │
-├────────────────────────────────┼────────────────────────────────────────────┤
-│ 1. Architecture & Tiles        │ • Safavid Tilework of Isfahan              │
-│                                │ • Nasir al-Mulk Pink Mosque                │
-│                                │ • Turquoise & Yazd Desert Windcatchers     │
-├────────────────────────────────┼────────────────────────────────────────────┤
-│ 2. History & Civilization      │ • Achaemenid Majesty & Persepolis          │
-│                                │ • Sasanian Imperial Silk & Metalwork       │
-│                                │ • Ctesiphon & Imperial Archway             │
-├────────────────────────────────┼────────────────────────────────────────────┤
-│ 3. Miniature & Arts            │ • Master Behzad Persian Miniature          │
-│                                │ • Royal Shiraz Illumination (Tazhib)       │
-│                                │ • Qajar Glassware & Stained Glass          │
-├────────────────────────────────┼────────────────────────────────────────────┤
-│ 4. Rugs & Textiles             │ • Tabriz Silk Rug Masterpieces             │
-│                                │ • Kashan Traditional Crimson Carpet        │
-├────────────────────────────────┼────────────────────────────────────────────┤
-│ 5. Nature & Climate            │ • Hormuz Island Rainbow Geology            │
-│                                │ • Damavand Alborz Summit & Snowscapes      │
-└────────────────────────────────┴────────────────────────────────────────────┘
+The [data-quality report](../packages/core/tokens/data-quality.json) records 12 palettes, 72 colors, 72 unverified heritage annotations, zero measured spectra and 11 colors with conflicting coordinates.
+
+heritage-data.ts preserves source annotations. palettes.ts derives digital metrics from HEX, harmonizes aliases and retains alternatives in evidence.provenance.conflicts. A selected display coordinate is not proof of geographic correctness.
+
+Corrections need a traceable source identifying exactly which claim it supports. Documentary evidence and physical measurements must remain distinguishable.
+
+## Methods
+
+- HCT/CAM16, CIELAB and Material Tonal Spot use Material Color Utilities 0.3.0. Tone is CIELAB L*, not linear physical luminance.
+- APCA uses apca-w3 0.1.9 and preserves text/background polarity. Its reference font lookup is based on Barlow; Persian type needs separate evaluation.
+- Oklab follows published transformation matrices. Mixing interpolates digital coordinates and maps back to sRGB; it does not simulate subtractive pigment chemistry or guarantee a particular appearance.
+- Spectral curves are Gaussian illustrations using legacy parameters. No spectrophotometer measurements are present.
+
+See [dependencies](../packages/core/package.json), [math source](../packages/core/src/math) and [licenses](../THIRD_PARTY_NOTICES.md).
+
+## Palette inventory
+
+The authoritative IDs/names are in ALL_PALETTES_LIST, with six colors per palette:
+
+```js
+import { ALL_PALETTES_LIST } from '@persian-palette/core';
+console.table(ALL_PALETTES_LIST.map(p => ({ id: p.id, name: p.nameEn, colors: p.colors.length })));
 ```
 
----
+Tailwind slots 100–600 identify curated entries, not tonal ramps. Use generateTonalPalette for a lightness scale.
 
-## 2. Color Spaces & Perceptual Science
+## Studio and verification
 
-### HCT (Hue, Chroma, Tone) via CAM16
-Google's Material Design 3 model models color perception:
-- **Tone ($L^*$)**: Linear measure of human lightness perception ($0 = \text{black}, 100 = \text{white}$).
-- **Chroma**: Perceptual colorfulness, avoiding out-of-gamut distortions.
-- **Hue**: Polar angle in CAM16 color appearance model.
+The studio has light/dark themes and Persian/English controls. README images are previews. Embedded runtime assets allow local operation; optional photographs and map links are external.
 
-### APCA-W3 (Accessible Perceptual Contrast Algorithm)
-Unlike legacy WCAG 2.1 contrast formulas which fail on dark-mode text and saturated chromatic pairs, APCA models:
-- Spatial frequency and font weight.
-- Polarity (dark text on light vs light text on dark).
-- Local luminance adaptation.
-
-### Oklab Digital Mixing
-Digital interpolation between pigment colors occurs in the **Oklab** color space developed by Björn Ottosson, ensuring uniform perceived transitions without the ugly gray/muddy artifacts of standard linear sRGB interpolation.
-
----
-
-## 3. Dual Theme Design Tokens
-
-### Cosmic Obsidian (Dark Mode)
-- **Background**: `#070B14` (Deep Night Sky)
-- **Surface**: `rgba(15, 23, 42, 0.75)` with 20px Gaussian blur
-- **Accents**: Neon Turquoise (`#30D5C8`), Imperial Gold (`#D4AF37`)
-
-### Safavid Ivory Parchment (Luxury Light Mode)
-- **Background**: `#F8F6F0` (Handmade Muraqqa' Ivory Paper)
-- **Surface**: `rgba(255, 255, 255, 0.88)` with golden borders (`rgba(212, 175, 55, 0.38)`)
-- **Accents**: Deep Cobalt (`#120A8F`), Pomegranate Crimson (`#C70039`)
+Automated tests cover calculations, formats, selected contrast pairs and static UI connections. They are not a browser accessibility audit or native-platform build report. See [verification scope](verification.md).

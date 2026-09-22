@@ -1,240 +1,87 @@
-<div align="center">
+# Persian Palette (Manshour)
 
-# 🏛️ Persian Palette Design System (Manshour)
-### Enterprise-Grade Heritage Color System, Spectral Physics & Multi-Platform Design Tokens
+**12 Persian-inspired palettes, 72 sRGB colors**, a Persian/English studio, and a TypeScript library for color calculations and design-token exports.
 
-[![Version 3.0.0](https://img.shields.io/badge/version-3.0.0-6366f1.svg?style=for-the-badge&logo=semver&logoColor=white)](package.json)
-[![License: MIT](https://img.shields.io/badge/License-MIT-10b981.svg?style=for-the-badge)](LICENSE)
-[![TypeScript 5.7](https://img.shields.io/badge/TypeScript-5.7-3178c6.svg?style=for-the-badge&logo=typescript&logoColor=white)](packages/core)
-[![W3C DTCG](https://img.shields.io/badge/W3C_DTCG-2025.10-8b5cf6.svg?style=for-the-badge)](https://tr.designtokens.org/format/)
-[![APCA Contrast](https://img.shields.io/badge/APCA--W3-0.1.9-06b6d4.svg?style=for-the-badge)](https://github.com/Myndex/apca-w3)
-[![Google HCT](https://img.shields.io/badge/Google_HCT-CAM16-f59e0b.svg?style=for-the-badge)](https://github.com/material-foundation/material-color-utilities)
-[![Zero Runtime Deps](https://img.shields.io/badge/Runtime_Deps-0-emerald.svg?style=for-the-badge)](code_artifact.html)
+[![CI](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml/badge.svg)](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml)
+[![Project license: MIT](https://img.shields.io/badge/project_license-MIT-blue.svg)](LICENSE)
 
-[🇮🇷 مستندات فارسی (Persian)](README.fa.md) • [🚀 Quick Start](docs/QUICKSTART.md) • [📚 API Reference](docs/API_REFERENCE.md) • [🎨 Design System](docs/DESIGN_SYSTEM.md) • [🤝 Contributing](CONTRIBUTING.md)
+[فارسی](README.fa.md) · [Quick start](docs/QUICKSTART.md) · [API reference](docs/API_REFERENCE.md) · [Contributing](CONTRIBUTING.md)
 
-</div>
+## Capabilities
 
----
+- Persian/Arabic name normalization, English names and stable color IDs, with errors for missing or ambiguous queries.
+- HCT/CAM16 and Material Tonal Spot through Google's Material Color Utilities, APCA-W3 contrast and digital Oklab interpolation.
+- DTCG 2025.10 consumed by Style Dictionary 5, Tailwind v3/v4 exports, and generated SwiftUI/Kotlin source.
+- Separate Tokens Studio JSON and a documented Figma interchange format.
+- A studio with embedded JavaScript, CSS, fonts and icons, light/dark themes, previews and export tools.
 
-## 🌟 Visual Showcase
+This is an early-stage public project. Its contribution is reusable Persian-inspired tooling; broad adoption and laboratory authentication are not claimed.
 
-Persian Palette Studio provides a luxury dual-theme experience designed to showcase historical colors under modern perceptual science and architectural lighting:
+## Data provenance and limits
 
-<div align="center">
+The [generated data-quality report](packages/core/tokens/data-quality.json) records **72 unverified heritage annotations, zero measured spectra, and 11 colors with conflicting coordinates**. Historical names, material descriptions and coordinates await independent verification. Digital HEX values are curated design choices. Spectral curves and textures are illustrative; Oklab interpolation does not model physical pigment mixing.
 
-### Luxury Light Theme — Inspired by Safavid Muraqqa' Ivory Parchment (`#F8F6F0`)
-![Persian Palette Studio - Luxury Light Theme](docs/shot_v3_light_theme.png)
+APCA estimates screen-text contrast; it does not certify Persian-font readability or full WCAG compliance. Figma import and native Swift/Kotlin compilation have not been validated in their target applications. See [verification scope](docs/verification.md) and [methods](docs/DESIGN_SYSTEM.md).
 
-### Cosmic Obsidian Theme — Deep Iranian Night Sky (`#070B14`)
-![Persian Palette Studio - Obsidian Dark Theme](docs/shot_v3_dark_theme.png)
+## Run the studio
 
-</div>
+Requires Node.js 22 or newer. From a clone or extracted release:
 
----
-
-## 💎 What is Persian Palette Design System?
-
-**Persian Palette Design System (Manshour)** bridges millennia of Persian visual civilization with modern software engineering and perceptual color science. 
-
-It digitizes **12 curated historical palettes and 72 authentic colors** — from the cobalt and turquoise tilework of Isfahan to the scarlet clays of Persepolis and illuminated miniatures of Master Behzad — backed by **W3C Design Token (DTCG 2025.10)** standards, **Google Material 3 CAM16 HCT**, and **APCA-W3** perceptual contrast metrics.
-
-### 5 Architectural Pillars
-
-| Pillar | Engineering Foundation | Key Capabilities |
-| :--- | :--- | :--- |
-| 🏛️ **Cultural Provenance** | Historical & Geographic Mapping | 12 cultural eras, 72 authenticated pigment formulas, mineral archetypes, and geo-provenance. |
-| 🔬 **Spectral Physics** | Perceptual Color Science | True digital mixing in **Oklab**, Google M3 **CAM16 HCT** 13-tone scales, and **APCA-W3** lightness contrast. |
-| ⚡ **Universal Tokens** | W3C DTCG 2025.10 Standard | Instant compilation to **Style Dictionary 5**, **Tailwind CSS (v3/v4)**, **SwiftUI**, **Compose**, and **Figma**. |
-| 🎨 **Dual Luxury Themes** | Dynamic Multi-Theme Engine | Safavid Ivory Paper (`#F8F6F0`) with gold leaf borders + Cosmic Obsidian (`#070B14`) with glassmorphism. |
-| 🚀 **Zero-Dependency Studio** | Standalone Single-File Delivery | 100% offline self-contained HTML (`code_artifact.html`) featuring embedded **Three.js WebGL GPU**, AR simulation, and audio. |
-
----
-
-## ⚡ Quick Start
-
-### 1. Launch the Interactive Studio Locally
-
-Clone the repository and start the offline development server:
-
-```bash
+```sh
 git clone https://github.com/AdzeemDigital/persian-palette.git
 cd persian-palette
-npm ci
 npm start
 ```
 
-Open **`http://127.0.0.1:4173`** in your browser.
+Open [the local studio](http://127.0.0.1:4173). The checked-in HTML needs no dependency installation to run. Both [the default edition](code_artifact.html) and [English edition](code_artifact_en.html) embed their runtime assets; optional external photographs and maps need connectivity. Camera and clipboard behavior depend on browser support and permissions.
 
-> [!TIP]
-> Both [`code_artifact.html`](code_artifact.html) (bilingual) and [`code_artifact_en.html`](code_artifact_en.html) (English standalone) can be opened directly as standalone local files in any browser with **zero installation, zero internet, and zero build steps required**!
+## Use the library
 
----
+Install the tarball from the [GitHub release](https://github.com/AdzeemDigital/persian-palette/releases/tag/v3.0.0), or use the one in this checkout:
 
-### 2. NPM Package Integration (`@persian-palette/core`)
-
-Install the core package from the local release tarball:
-
-```bash
+```sh
 npm install ./release/persian-palette-core-3.0.0.tgz
 ```
 
-#### TypeScript / JavaScript Usage
+This is a local installation; public npm registry publication is not claimed. ESM, CommonJS and conditional TypeScript declarations are provided.
 
-```typescript
-import { 
-  PersianEngine, 
-  calculateAPCA, 
-  generateM3DynamicScheme, 
-  mixColors 
-} from '@persian-palette/core';
-
-// 1. Retrieve authentic colors with robust normalization
+<!-- test:esm -->
+```js
+import { PersianEngine, calculateAPCA, generateM3DynamicScheme, mixColors } from '@persian-palette/core';
 const turquoise = PersianEngine.getColor('isfahan-tiles', 'فیروزه‌ای اصیل');
-console.log(turquoise.name); // "Persian Turquoise"
-console.log(turquoise.hex);  // "#30D5C8"
-
-// 2. Measure Accessible Perceptual Contrast (APCA-W3)
-const contrast = calculateAPCA('#120A8F', '#F4F1DE');
-console.log(`APCA Score: ${contrast.toFixed(1)} Lc`);
-
-// 3. Generate 13 Material 3 tonal steps (Google CAM16 HCT)
+console.log(turquoise.nameEn, turquoise.hex); // Persian Turquoise, #30D5C8
+console.log(turquoise.evidence.provenance.heritageStatus); // unverified
+console.log(calculateAPCA('#120A8F', '#F4F1DE')); // about 90.68 Lc
+console.log(mixColors('#120A8F', '#F4C430', 0.4).hex); // #5C6888
 const scheme = generateM3DynamicScheme(turquoise.hex);
-console.log('M3 Light Primary:', scheme.light.primary);
-console.log('M3 Dark Primary:', scheme.dark.primary);
-
-// 4. Perceptual digital pigment mixing in Oklab space
-const blend = mixColors('#120A8F', '#F4C430', 0.5);
-console.log('Blended Oklab Hex:', blend.hex);
+console.log(scheme.light.primary, scheme.dark.primary);
 ```
 
----
+Working integration examples are in [Quick start](docs/QUICKSTART.md).
 
-### 3. Tailwind CSS Integration
+## Build and verify
 
-#### Tailwind CSS v3 (`tailwind.config.js`)
-```javascript
-const { exportTailwindTheme } = require('@persian-palette/core');
-
-module.exports = {
-  theme: {
-    extend: {
-      colors: exportTailwindTheme()
-    }
-  }
-};
-```
-
-#### Tailwind CSS v4 (`theme.css`)
-```css
-@import "tailwindcss";
-@import "@persian-palette/core/tokens/tailwind-v4.css";
-```
-
-Classes available immediately:
-`bg-isfahan-tiles-100`, `text-persepolis-gold-300`, `border-behzad-miniature-500`
-
----
-
-## 🎨 The 12 Canonical Palettes (72 Colors)
-
-| Palette | Historical / Cultural Origin | Signature Colors |
-| :--- | :--- | :--- |
-| **Safavid Tilework of Isfahan** | Shah Mosque & Sheikh Lotfollah (17th c.) | Ultramarine Cobalt, Persian Turquoise, Emerald Zangari |
-| **Achaemenid Majesty & Persepolis** | Apadana Palace & Darius Grand Hall (518 BC) | Persepolis Red, Imperial Gold, Shush Marble White |
-| **Master Behzad Persian Miniature** | Herat Timurid School of Art (15th c.) | Cinnabar Scarlet, Malachite Green, Lapis Lazuli |
-| **Tabriz Silk Rug Masterpieces** | UNESCO Master Silk Weavers (16th c.) | Madder Red, Raw Silk Cream, Indigo Night |
-| **Nasir al-Mulk Pink Mosque** | Shiraz Stained Glass & Kaleidoscopic Light | Shiraz Rose Pink, Violet Prism, Amber Sunlight |
-| **Turquoise & Yazd Windcatchers** | Desert Adobe & Historical Windcatchers | Adobe Sun-Dried Earth, Neyshabur Turquoise, Desert Ochre |
-| **Royal Shiraz Illumination (Tazhib)** | Quranic Gold Illuminations & Floral Borders | 24K Leaf Gold, Azure Celestial, Lacquer Red |
-| **Hormuz Rainbow Island** | Volcanic Ocher & Red Soil Beaches | Gelak Red Soil, Saffron Salt, Silver Iron Sand |
-| **Sasanian Imperial Silk** | Taq-e Bostan Royal Robes & Metalwork | Tyrian Imperial Purple, Sasanian Silver, Ruby Red |
-| **Damavand Alborz Summit** | Mythological Peak & Alborz Range | Glacial Ice Blue, Basalt Gray, Alpine Flora Green |
-| **Kashan Traditional Carpet** | Mohtasham Kashan Master Workshops | Pomegranate Deep Crimson, Walnut Husk Brown, Pistachio |
-| **Qajar Stained Glass & Mirrors** | Golestan Palace & Mirrorwork Halls | Stained Ruby, Amber Stained Glass, Diamond Mirror |
-
-*Complete data table with hex values, RGB, APCA, and HCT coordinates is documented in [`packages/core/tokens/data-quality.json`](packages/core/tokens/data-quality.json).*
-
----
-
-## 🛠️ Multi-Platform Design Token Exports
-
-Pre-compiled production tokens ready to drop into any stack:
-
-```
-packages/core/tokens/
-├── dtcg.tokens.json          # W3C DTCG 2025.10 Standard Design Tokens
-├── tokens-studio.json        # Tokens Studio for Figma (JSON Schema)
-├── figma-variables.json      # Figma Variables Native Collection Format
-├── tailwind-v4.css           # Tailwind CSS v4 @theme CSS Variables
-├── persian-palette.swift     # Native iOS/macOS SwiftUI Color Extensions
-├── persian-palette.kt        # Android Jetpack Compose Color Palette
-└── data-quality.json         # Automated Provenance & Contrast Verification
-```
-
----
-
-## 🧪 Testing & Verification
-
-The suite includes **26 automated unit & integration tests**, verified against Style Dictionary 5, live Node VM sandboxes, and headless Chrome DevTools:
-
-```bash
-# Run complete test suite & build check
+```sh
+npm ci
+npm --prefix packages/core ci
 npm run check
+npm run pack:core
+npm run verify:package
 ```
 
-```
-✔ Persian names and Arabic variants resolve correctly
-✔ All 72 IDs, full English and Persian names resolve uniquely
-✔ APCA independently pinned golden cases and polarity
-✔ HCT red golden coordinates use CAM16
-✔ Style Dictionary 5 actually consumes all DTCG colors and formats CSS
-✔ Standalone HTML has zero external runtime script, style or font requests
-✔ Static HTML IDs are unique and all literal UI targets exist
-✔ Console errors & accessibility violations in DevTools: 0
+CI targets Ubuntu/Windows and Node.js 22/24. It builds both HTML editions, runs tests and executable documentation examples, and installs the tarball in an isolated consumer to check ESM, CommonJS, exports and TypeScript types. **Configured checks are not evidence of a successful run.** Inspect [Actions](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml) for the tested commit.
 
-Tests: 26 passed, 0 failed, 100% pass rate
-```
+Run `npm run pack:studio` after packaging to create the source ZIP (Python 3 required). Original v3.0.0 release assets are retained; CI artifacts represent their workflow's commit.
 
----
+## Preview
 
-## 📦 Project Structure
+These images illustrate the studio; they are not accessibility or runtime audit reports.
 
-```
-├── app/                      # Web Studio Frontend Source
-│   ├── template.html         # Semantic HTML5 template (i18n ready)
-│   ├── app.js                # Studio state machine & reactive interactions
-│   ├── enhancements.js       # Focus traps, WebGL lifecycle, and audio engine
-│   └── polish.css            # Responsive layout & luxury Safavid light theme
-├── packages/
-│   └── core/                 # @persian-palette/core TypeScript NPM Package
-│       ├── src/              # Mathematical algorithms (HCT, APCA, Oklab)
-│       └── tokens/           # Generated DTCG, Figma, SwiftUI, and Kotlin files
-├── release/                  # Production build archives & tarballs
-│   ├── manshour-studio-3.0.0.zip
-│   └── persian-palette-core-3.0.0.tgz
-├── docs/                     # Technical specifications & guides
-├── .github/                  # CI/CD Workflows & Issue templates
-├── code_artifact.html        # Standalone self-contained Web Studio (Bilingual)
-└── code_artifact_en.html     # Standalone self-contained Web Studio (English)
-```
+![Dark studio preview](docs/shot_v3_dark_theme.png)
+![Light studio preview](docs/shot_v3_light_theme.png)
 
----
+## Contribute and license
 
-## 🤝 Contributing
+See the [roadmap](docs/ROADMAP.md) and [contribution instructions](CONTRIBUTING.md). Source corrections should provide citations and distinguish documentary research from measurement.
 
-We welcome contributions from designers, historians, and developers! Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before submitting pull requests.
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).  
-Historical names and cultural descriptions are provided for educational and design purposes.
-
----
-
-<div align="center">
-  <b>Built with reverence for Persian cultural heritage and modern software craftsmanship.</b><br>
-  <sub>Maintained by <a href="https://github.com/AdzeemDigital">Adzeem Digital</a></sub>
-</div>
+Original project code is [MIT licensed](LICENSE). Dependencies retain their own licenses, including APCA-W3's terms and colorparsley's AGPL v3 license; see [third-party notices](THIRD_PARTY_NOTICES.md).

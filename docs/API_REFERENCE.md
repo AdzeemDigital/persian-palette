@@ -1,94 +1,63 @@
-# API Reference: `@persian-palette/core`
+# Core API reference
 
-Complete documentation for the `@persian-palette/core` library API.
+This guide describes v3.0.0. [Generated declarations](../packages/core/dist/index.d.ts) are the type reference.
 
----
+## Lookup
 
-## Engine & Retrieval (`PersianEngine`)
+| Method | Result |
+| --- | --- |
+| PersianEngine.getColor(paletteId, query) | PersianColorToken; throws for unknown palettes and empty, unknown or ambiguous queries |
+| PersianEngine.getToken(paletteId, query) | Alias of getColor |
+| PersianEngine.getPalette(paletteId) | PersianPaletteTokenGroup or undefined |
+| PersianEngine.getAllPalettes() | Record keyed by palette ID |
+| PersianEngine.getAllColors() | Array of all 72 tokens |
 
-### `PersianEngine.getPalettes()`
-Returns an array of all 12 canonical palettes.
+Queries accept IDs, English names/slugs, Persian names, equivalent Persian/Arabic letters and unambiguous partial names. **HEX lookup is not supported by getColor.** getPalettes() is not an exported method.
 
-```typescript
-function getPalettes(): ReadonlyArray<PersianPalette>
-```
+Tokens have id, hex, nameFa, nameEn, evidence and DTCG fields. $value is an sRGB object. Palette token groups have a tokens record. ALL_PALETTES_LIST and PERSIAN_PALETTES expose deeply frozen canonical definitions.
 
-### `PersianEngine.getPalette(idOrSlug: string)`
-Retrieves a palette by ID or slug. Returns `undefined` if not found.
-
-```typescript
-function getPalette(idOrSlug: string): PersianPalette | undefined
-```
-
-### `PersianEngine.getColor(paletteId: string, query: string)`
-Searches and retrieves a specific color from a palette.
-- **`query`**: Accepts color ID, English name, Persian name, Arabic normalized variants (`ی` / `ي`, `ک` / `ك`), or hex code.
-- Throws an explicit error if the color or palette is not found or if the query is ambiguous.
-
-```typescript
-function getColor(paletteId: string, query: string): PersianColorToken
-```
-
-**Example:**
-```typescript
+<!-- test:esm -->
+```js
 import { PersianEngine } from '@persian-palette/core';
-
-const color1 = PersianEngine.getColor('isfahan-tiles', 'لاجوردی');
-const color2 = PersianEngine.getColor('isfahan-tiles', 'ultramarine');
-const color3 = PersianEngine.getColor('isfahan-tiles', '#120A8F');
-// All three resolve to the exact same canonical token:
-console.log(color1.hex); // #120A8F
+const color = PersianEngine.getColor('isfahan-tiles', 'ultramarine');
+console.log(color.hex, color.nameEn, color.$value.colorSpace);
+console.log(Object.keys(PersianEngine.getAllPalettes()).length); // 12
+console.log(PersianEngine.getAllColors().length); // 72
 ```
 
----
+## Calculations
 
-## Perceptual Color Science & Contrast
+Color arguments accept opaque #RGB or #RRGGBB; invalid values throw.
 
-### `calculateAPCA(textColor: string, bgColor: string)`
-Calculates the **Accessible Perceptual Contrast Algorithm (APCA-W3)** lightness contrast score (`Lc`).
-- Returns a floating point number (typically from `-108` to `+106`).
-- Positive values indicate dark text on light background.
-- Negative values indicate light text on dark background.
+| Function | Contract |
+| --- | --- |
+| calculateAPCA(textHex, backgroundHex) | Signed Lc, negative for light text on darker backgrounds |
+| getApcaFontSizes(lc) | Reference Barlow lookup for weights 100–900; values >=400 are special codes |
+| mixColors(firstHex, secondHex, ratio=0.5) | Oklab interpolation; finite ratio in [0,1] is the second color's weight |
+| generatePigmentGradient(firstHex, secondHex, steps=5) | Digital gradient; integer steps 1–1000 |
+| hexToHct(hex) | hue, chroma, tone from reference HCT/CAM16 |
+| hctToHex(hue, chroma, tone) | Finite values, nonnegative chroma, tone in [0,100] |
+| generateTonalPalette(hex, tones?) | Record from tone to HEX |
+| generateM3DynamicScheme(hex) | seedHex, hct, light, dark, tonalScale and method |
 
-```typescript
-function calculateAPCA(textColor: string, bgColor: string): number
-```
+mixHistoricalPigments is a compatibility alias for digital interpolation. Mixed results contain ratio, hex, oklab and string-coercion helpers.
 
-### `mixColors(color1: string, color2: string, ratio?: number)`
-Performs digital interpolation in perceptual **Oklab** color space.
-- **`ratio`**: Number in `[0, 1]`. Represents the weight of `color2` (e.g., `0.5` = 50% / 50%).
-- Returns an object containing the interpolated `#hex` and computed Oklab coordinates.
+Light/dark schemes each have 24 roles. Default tones are 0,10,20,30,40,50,60,70,80,90,95,98,100. There is no tonalPalette.primary field. APCA is not a certification; spectral functions are illustrative.
 
-```typescript
-function mixColors(color1: string, color2: string, ratio: number = 0.5): {
-  hex: string;
-  oklab: { L: number; a: number; b: number };
-}
-```
+## Exporters
 
-### `generateM3DynamicScheme(sourceHex: string)`
-Generates Google Material Design 3 (M3) tonal palettes and light/dark color roles from a seed color using **CAM16 HCT**.
+These accept an optional array of PersianPaletteDefinition values; use ALL_PALETTES_LIST or a subset.
 
-```typescript
-function generateM3DynamicScheme(sourceHex: string): {
-  light: MaterialSchemeRoles;
-  dark: MaterialSchemeRoles;
-  tonalPalette: {
-    primary: Record<number, string>; // Tones: 0, 10, 20, ..., 90, 95, 99, 100
-  };
-}
-```
+| Export | Result |
+| --- | --- |
+| exportW3CTokens / exportToW3CTokens | DTCG 2025.10 document with sRGB objects and namespaced metadata |
+| exportTokensStudio | Separate legacy HEX-token JSON |
+| exportFigmaVariables | Project interchange schema, one Default mode |
+| exportTailwindTheme | Complete theme.extend.colors.persian configuration fragment |
+| exportTailwindV4CSS | CSS @theme with --color-persian-* variables |
+| exportSwiftUI | Color extension with built-in sRGB initializers |
+| exportMaterialKotlin | Material light/dark ColorScheme declarations |
 
----
+Package subpaths under @persian-palette/core: /tokens, /tokens/figma, /tokens/style-dictionary, /tokens/tailwind and /tokens/studio. See [working integrations](QUICKSTART.md).
 
-## Token Export Functions
-
-| Function | Output Format | Description |
-| :--- | :--- | :--- |
-| `exportW3CTokens()` | W3C DTCG 2025.10 | Standard W3C Design Tokens JSON format with sRGB components and namespaced extensions. |
-| `exportTokensStudio()` | Tokens Studio JSON | Legacy hex tokens format for Tokens Studio Figma plugin. |
-| `exportFigmaVariables()` | Figma Interchange | Structured JSON mapping to Figma Variable collections and modes. |
-| `exportTailwindTheme()` | JS Object | Tailwind CSS theme extensions with 100–600 scale color slots. |
-| `exportTailwindV4CSS()` | CSS string | Tailwind CSS v4 `@theme` format. |
-| `exportSwiftUI()` | Swift string | Native SwiftUI `Color` extensions with sRGB initializer. |
-| `exportMaterialKotlin()` | Kotlin string | Jetpack Compose `androidx.compose.ui.graphics.Color` tokens with Light and Dark schemes. |
+getDataQualityReport returns counts and unresolved conflicts. evidence.provenance distinguishes computed metrics, unverified historical annotations and illustrative spectra. Retained citations are not independent validation.

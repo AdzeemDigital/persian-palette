@@ -1,155 +1,84 @@
-# Quick Start Guide: Persian Palette Design System
+# Quick start
 
-Get up and running with Persian Palette Design System (Manshour) in minutes across web, mobile, and design tools.
+Requires Node.js 22+. Install the local tarball from this checkout or the GitHub v3.0.0 release:
 
----
-
-## 1. Web & Framework Integration
-
-### Installation
-
-Install the `@persian-palette/core` package:
-
-```bash
-# If using local release tarball
+```sh
 npm install ./release/persian-palette-core-3.0.0.tgz
-
-# Or once published to npm
-npm install @persian-palette/core
 ```
 
-### React / Next.js / TypeScript Example
+## JavaScript and TypeScript
 
-```tsx
-import React from 'react';
-import { PersianEngine, calculateAPCA, generateM3DynamicScheme } from '@persian-palette/core';
+Use nameEn/nameFa on returned tokens. A Material foreground belongs with its corresponding role background, not necessarily with the original seed HEX.
 
-export function PersianColorCard({ paletteId, colorName }: { paletteId: string; colorName: string }) {
-  const color = PersianEngine.getColor(paletteId, colorName);
-  const scheme = generateM3DynamicScheme(color.hex);
-  const contrast = calculateAPCA('#FFFFFF', color.hex);
-
-  return (
-    <div 
-      className="p-6 rounded-2xl shadow-xl transition hover:scale-105"
-      style={{ backgroundColor: color.hex, color: scheme.dark.onPrimary }}
-    >
-      <h3 className="text-xl font-bold font-serif">{color.name}</h3>
-      <p className="text-sm opacity-80">{color.nameFa}</p>
-      <div className="mt-4 flex items-center justify-between text-xs font-mono">
-        <span>{color.hex}</span>
-        <span>APCA Lc: {contrast.toFixed(1)}</span>
-      </div>
-    </div>
-  );
-}
+<!-- test:esm -->
+```js
+import { PersianEngine, generateM3DynamicScheme, calculateAPCA } from '@persian-palette/core';
+const color = PersianEngine.getColor('isfahan-tiles', 'ultramarine');
+const scheme = generateM3DynamicScheme(color.hex);
+const background = scheme.light.primary;
+const foreground = scheme.light.onPrimary;
+console.log(color.nameEn, background, foreground);
+console.log(calculateAPCA(foreground, background));
 ```
 
-### Tailwind CSS Integration
+Handle errors from user-entered queries. Empty, unknown and ambiguous queries throw.
 
-To use the 72 authentic Persian colors directly as Tailwind CSS utility classes:
+## Tailwind v3
 
-#### Tailwind CSS v3 (`tailwind.config.js`)
-```javascript
+exportTailwindTheme returns a complete theme.extend.colors.persian configuration fragment. Do not place that entire object inside colors. Save as tailwind.config.cjs:
+
+```js
 const { exportTailwindTheme } = require('@persian-palette/core');
-
 module.exports = {
-  theme: {
-    extend: {
-      colors: exportTailwindTheme()
-    }
-  }
+  ...exportTailwindTheme(),
+  content: ['./src/**/*.{html,js,jsx,ts,tsx}']
 };
 ```
-Now you can use classes like `bg-isfahan-tiles-100`, `text-persepolis-gold-300`, `border-behzad-miniature-500`!
 
-#### Tailwind CSS v4 (`theme.css`)
+Classes: bg-persian-isfahan-tiles-100, text-persian-achaemenid-majesty-300 and border-persian-behzad-miniature-500. Slots 100–600 identify curated colors, not lightness-ordered tones.
+
+## Tailwind v4
+
 ```css
 @import "tailwindcss";
-@import "@persian-palette/core/tokens/tailwind-v4.css";
+@import "@persian-palette/core/tokens/tailwind";
 ```
 
----
+## Style Dictionary 5
 
-## 2. Design Tokens & Multi-Platform Delivery
+Install Style Dictionary separately. Use the exported object without relying on a private token filename.
 
-The core library compiles tokens into standard **W3C Design Tokens Community Group (DTCG 2025.10)** formats.
-
-### Style Dictionary 5 Integration
-
-In your `config.json` or `build.js`:
-
-```javascript
+<!-- test:esm -->
+```js
 import StyleDictionary from 'style-dictionary';
-
-const sd = new StyleDictionary({
-  source: ['node_modules/@persian-palette/core/tokens/dtcg.tokens.json'],
+import { exportW3CTokens } from '@persian-palette/core';
+const dictionary = new StyleDictionary({
+  tokens: exportW3CTokens(),
+  usesDtcg: true,
+  log: { verbosity: 'silent' },
   platforms: {
     css: {
       transformGroup: 'css',
-      buildPath: 'dist/css/',
-      files: [{
-        destination: 'variables.css',
-        format: 'css/variables'
-      }]
+      files: [{ destination: 'colors.css', format: 'css/variables' }]
     }
   }
 });
-
-await sd.buildAllPlatforms();
+const [file] = await dictionary.formatPlatform('css');
+console.log(file.output); // 72 CSS custom properties
 ```
 
-### iOS / macOS (SwiftUI)
+## Native source
 
-```swift
-import SwiftUI
-// Import compiled tokens from tokens/persian-palette.swift
+Copy [Colors.swift](../packages/core/tokens/Colors.swift) into your SwiftUI target; for example, Color.persian_isfahan_tiles_1 is generated with a built-in sRGB initializer.
 
-struct PaletteView: View {
-    var body: some View {
-        VStack {
-            Text("Safavid Ultramarine")
-                .foregroundColor(Color.PersianPalette.SafavidTileworkOfIsfahan.ultramarine)
-                .background(Color.PersianPalette.SafavidTileworkOfIsfahan.persianTurquoise)
-        }
-    }
-}
-```
+Copy [ColorSchemes.kt](../packages/core/tokens/ColorSchemes.kt) into a Compose project with Material 3. It contains isfahanTilesLightColorScheme and isfahanTilesDarkColorScheme. These files have structural checks; native compilation has not been verified.
 
-### Android (Jetpack Compose / Material 3)
+## Figma and Tokens Studio
 
-```kotlin
-import androidx.compose.ui.graphics.Color
-// Import compiled tokens from tokens/persian-palette.kt
+[figma-variables.json](../packages/core/tokens/figma-variables.json) is a project-specific interchange document. [figma-import.js](figma-import.js) defines importPersianVariables(document) for a Figma plugin context. Supply parsed JSON to that function in a development plugin. Pasting the function into a console does not perform an import. Each call creates new collections with one Default mode, not dark/light Material modes. This is not a published plugin or a REST payload.
 
-val PrimaryPersianBlue = Color(0xFF120A8F)
-val SafavidTurquoise = Color(0xFF30D5C8)
-```
+[tokens-studio.json](../packages/core/tokens/tokens-studio.json) is a separate legacy HEX-token format. Target-plugin import has not been tested; review it before using it in a shared file.
 
----
+## Studio
 
-## 3. UI/UX Designers: Figma & Tokens Studio
-
-### Figma Variables Auto-Import
-
-1. Open your Figma document.
-2. Open the **Console** tab in Figma desktop (`Plugins > Development > Open Console`).
-3. Copy the contents of [`docs/figma-import.js`](figma-import.js).
-4. Paste and press `Enter`.
-5. Figma will automatically create a variable collection named **"Persian Palette Vault"** containing all 12 palettes, 72 colors, and their respective dark/light tokens!
-
-### Tokens Studio for Figma
-
-Import the [`packages/core/tokens/tokens-studio.json`](../packages/core/tokens/tokens-studio.json) file directly into the Tokens Studio plugin.
-
----
-
-## 4. Running the Interactive Studio Locally
-
-Run the standalone studio with Three.js 3D crystal preview, AR photogrammetry simulation, APCA contrast matrix, and color science radar:
-
-```bash
-npm start
-```
-Visit `http://127.0.0.1:4173`.
-You can also open [`code_artifact.html`](../code_artifact.html) or the standalone English edition [`code_artifact_en.html`](../code_artifact_en.html) directly in any modern browser without a local server.
+Run npm start from the repository root and open http://127.0.0.1:4173. Runtime code, fonts and styles are embedded. Optional external photographs/maps require connectivity. See [verification](verification.md) for browser-test limits.
