@@ -43,6 +43,6 @@ npm run pack:core
 npm run verify:package
 ```
 
-Consumer folders are created under ignored .tmp/. They are not shipped or uploaded by CI. [build-manifest.json](build-manifest.json) records the generated HTML hashes. Release assets remain tied to their original release; the CI artifact identifies its own commit.
+Consumer folders are created in the operating system's temporary directory, outside the repository, so Node cannot fall back to development dependencies in the repository. Core runtime/type checks run before Style Dictionary is explicitly installed for its documentation example. The temporary consumer is removed after success; failed runs retain it for diagnosis. It is not shipped or uploaded by CI. [build-manifest.json](build-manifest.json) records generated HTML hashes. Release assets remain tied to their original release; the CI artifact identifies its own commit.
 
 See [third-party notices](../THIRD_PARTY_NOTICES.md) for dependency terms.
