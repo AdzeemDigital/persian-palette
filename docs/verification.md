@@ -1,65 +1,48 @@
-# گزارش اعتبارسنجی نسخهٔ ۳.۰.۰
+# Verification scope
 
-تاریخ: ۲۰۲۶-۰۹-۲۲. محیط اجرا: Windows، Node.js 24.16.0، npm 11.13.0. حداقل اعلام‌شدهٔ پروژه Node.js 22 است؛ اجرای مستقل روی Node.js 22 در این نشست انجام نشده است.
+Reviewed on 2026-09-22 for the OSS-readiness changes. Local environment: Windows, Node.js 24.16.0, npm 11.13.0.
 
-## نتایج اجراشده
+## Executed locally
 
-| بررسی | نتیجه | دامنه |
-| --- | --- | --- |
-| ساخت TypeScript، CommonJS و HTML مستقل | موفق | ساخت از سورس فعلی |
-| آزمون هسته | ۱۸ از ۱۸ موفق | بازیابی فارسی، ورودی نامعتبر، رنگ مرجع، خروجی‌ها و داده |
-| آزمون یکپارچگی | ۸ از ۸ موفق | Style Dictionary، اتصال خروجی‌ها، تحلیل ایستای رابط و HTTP |
-| نصب فایل نهایی tgz در پروژهٔ مصرف‌کنندهٔ جداگانه | موفق | نصب آفلاین با ignore-scripts |
-| مصرف بستهٔ نصب‌شده با ESM و CommonJS | موفق | بازیابی فارسی، APCA و برابری ۷۲ توکن |
-| مصرف نوع‌های بسته با فایل‌های .mts و .cts | موفق | TypeScript strict، NodeNext، skipLibCheck=false |
+- npm run check: successful build of both HTML editions; 18 core tests and 8 integration tests passed.
+- npm run pack:core: successful build, core tests and tarball generation.
+- npm run verify:package: installed the actual tarball in a fresh consumer; checked ESM, CommonJS, Persian lookup, 72 exported tokens and package subpaths.
+- Strict TypeScript consumers in .mts and .cts: passed with NodeNext resolution and skipLibCheck=false.
+- Four runnable examples from README.md, QUICKSTART.md and API_REFERENCE.md: executed against the installed tarball.
+- CI YAML: parsed locally; four matrix entries and contents:read permission verified.
 
-آزمون افزوده‌شده برای بهینه‌سازی کنتراست، هر ۳۶ جفت رنگ در هر ۱۲ پالت را بررسی می‌کند. نتیجه باید کنتراست را حفظ یا بهتر کند و برچسب گزارش‌شده با مقدار محاسبه‌شده سازگار باشد. نمونهٔ زمینهٔ خاکستری میانی نیز تأیید می‌کند که برچسب AAA بدون رسیدن به آستانه نمایش داده نمی‌شود.
+The installed-package check is now reproducible rather than a one-off manual claim. It is separate from the 26 Node test-runner tests.
 
-آزمون‌های هسته شامل مقادیر مرجع ثابت APCA، مختصات HCT قرمز، دقت L* برای تن‌های همهٔ رنگ‌ها، جفت‌های منتخب متن/زمینهٔ Material در هر دو تم، تبدیل Oklab و مرزهای میکسر هستند. دادهٔ canonical قفل شده و تعارض‌های اولیه آشکارند.
+## Public CI
 
-Style Dictionary 5.5.5 واقعاً توکن‌های DTCG را خوانده و ۷۲ متغیر CSS تولید کرده است. بررسی HTML شامل تجزیهٔ اسکریپت‌ها، یکتایی شناسه‌ها، وجود مقصدهای ثابت DOM، توابع handler و نبود وابستگی اجرایی خارجی است. فقط کتابخانهٔ محاسبات رنگ و توابع عددی مستقل در Node VM اجرا شده‌اند.
+[CI runs](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml) identify the exact commit, environment, result and downloadable artifact. The workflow targets Ubuntu/Windows and Node.js 22/24; only a completed successful run establishes that environment's result. Check the run for the branch or commit you intend to use.
 
-## هویت خروجی نهایی
+## What the tests establish
 
-- خروجی HTML اصلی (دوزبانه/فارسی): `code_artifact.html`، اندازهٔ ۳,۱۴۹,۶۹۵ بایت.
-- هش SHA-256 نسخهٔ اصلی: `1585ddeab92d43a493bcd22062316c538e5f643127ba10bff5713100183e24ef`
-- خروجی HTML نسخهٔ انگلیسی مستقل: `code_artifact_en.html` (و در پوشهٔ release با نام `manshour-studio-en.html`)، اندازهٔ ۳,۱۴۹,۶۹۵ بایت.
-- هش SHA-256 نسخهٔ انگلیسی: `92a489c47a46a1714f9c2e8d3872762b0b2c8e23d94c60d3797114623c261fd8`
-- بستهٔ npm هسته: `release/persian-palette-core-3.0.0.tgz`، شامل ۹۱ فایل.
-- هش SHA-256 بستهٔ npm: `da0169c30c6b6f6a0fff6f9935fcbc351de147e5d160c46db0f7fabf8802be03`
-- آرشیو فشرده تحویل کامل استودیو: `release/manshour-studio-3.0.0.zip`، شامل ۱۳۶ فایل (حجم ۸,۹۹۳,۲۳۹ بایت).
-- هش SHA-256 آرشیو استودیو: `3a54a24457f22b77eb3e2483a18d7438e4172e384b1fb1db9070f7c33a1b1d06`
+Core checks cover lookup errors and normalization, reference APCA and HCT cases, tonal accuracy, selected Material role contrast pairs, Oklab conversion and interpolation, immutable data, exporter structure and explicit provenance.
 
-## محدودهٔ تأیید و تست زنده
+Integration checks consume all 72 DTCG tokens with Style Dictionary 5, parse generated scripts, compare the pure browser color bundle with the package, inspect static IDs/handlers, check contrast optimization and exercise the local HTTP server.
 
-۱. **آزمون زنده در مرورگر با Chrome DevTools:** سرور محلی با آدرس `http://127.0.0.1:4173/` اجرا و از طریق DevTools تست زنده به عمل آمد.
-   - خطاهای کنسول هنگام بارگذاری اولیه به صفر (۰ خطا) رسید (رفع ریشه‌ای باگ `updateDynamicSurfaceTint` و `updateApcaMatrixTable`).
-   - جابجایی بین تم تیره و تم روشن لوکس (بر پایه کاغذ دست‌ساز صفوی و کادربندی طلایی) بررسی شد و کنتراست المان‌ها و کارت‌ها به طور کامل اعتبارسنجی گردید.
-   - سوییچ پویای زبان به انگلیسی و باز شدن نسخه مستقل انگلیسی با جهت‌گیری چپ‌به‌راست (`dir="ltr"`) بدون هیچ خطایی تأیید شد.
-   - کشوی سه‌بعدی و مدال‌ها بدون گیر افتادن خصیصه `inert` باز و بسته می‌شوند.
-۲. **آزمون‌های یکپارچگی و توکن‌ها:** هر ۲۶ تست خودکار (`npm test`) با موفقیت ۱۰۰٪ پاس شدند.
-۳. **خروجی‌های پلتفرم:** ساختارهای خروجی SwiftUI و Material You بر اساس استانداردهای مهندسی نرم‌افزار ارزیابی و صادر شدند.
+Only the pure color library and numerical helpers run in Node VM. UI checks in this suite are static source checks.
 
-APCA از کتابخانهٔ مرجع و جدول اندازهٔ Barlow استفاده می‌کند؛ این نتیجه به‌تنهایی تأیید خوانایی متن فارسی یا گواهی انطباق کامل WCAG نیست. مجوزهای وابستگی‌ها در THIRD_PARTY_NOTICES.md و فایل‌های اصلی مجوز ثبت شده‌اند.
+## What has not been independently verified here
 
-## بازتولید آزمون‌ها
+Earlier project notes described manual browser checks and screenshots. This review does not reproduce those sessions and does not turn those notes into a zero-error or accessibility-certification claim. A live local-app browser session was not performed in this review. Camera, clipboard, WebGL, RTL layout and screen-reader behavior need repeatable browser/device tests.
 
-از ریشهٔ پروژه:
+Swift/Kotlin output is checked structurally; native compilation was not run. Figma/Tokens Studio import was not executed in target tools. The Figma file is a project interchange schema, not a universally accepted plugin format.
 
-```powershell
+All 72 heritage annotations remain unverified, measuredSpectra is zero and 11 colors have coordinate conflicts. These are recorded in [data-quality.json](../packages/core/tokens/data-quality.json). APCA's Barlow lookup does not certify Persian-font readability or full WCAG conformance.
+
+## Reproduce
+
+```sh
 npm ci
 npm --prefix packages/core ci
 npm run check
 npm run pack:core
+npm run verify:package
 ```
 
-نصب مصرف‌کنندهٔ واقعی در .tmp/package-smoke انجام شده است. این پوشه آزمایشی است و جزو بستهٔ تحویل نیست.
+Consumer folders are created under ignored .tmp/. They are not shipped or uploaded by CI. [build-manifest.json](build-manifest.json) records the generated HTML hashes. Release assets remain tied to their original release; the CI artifact identifies its own commit.
 
-## مراجع روش
-
-- [قرارداد رنگ DTCG 2025.10](https://www.designtokens.org/tr/2025.10/color/)
-- [Material Color Utilities](https://github.com/material-foundation/material-color-utilities)، نسخهٔ نصب‌شدهٔ 0.3.0؛ HCT/CAM16 و SchemeTonalSpot با contrastLevel=0.
-- [APCA-W3](https://github.com/Myndex/apca-w3)، نسخهٔ نصب‌شدهٔ 0.1.9.
-- [تعریف Oklab](https://bottosson.github.io/posts/oklab/).
-
-این پیوندها مراجع روش‌اند؛ نتیجهٔ آزمون‌ها از اجرای محلی به دست آمده است.
+See [third-party notices](../THIRD_PARTY_NOTICES.md) for dependency terms.

@@ -7,6 +7,7 @@ import postcss from 'postcss';
 import tailwindcss from 'tailwindcss';
 import { parse } from 'acorn';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+await fs.mkdir(path.join(root,'release'), {recursive:true});
 const read=(p)=>fs.readFile(path.join(root,p),'utf8');
 let html=await read('app/template.html');
 const app=(await read('app/app.js'))+'\n'+await read('app/enhancements.js');

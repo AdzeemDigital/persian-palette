@@ -11,11 +11,12 @@ if hashlib.sha256(artifact.read_bytes()).hexdigest() != manifest['sha256']:
     raise SystemExit('Artifact hash differs from build manifest. Run npm run build first.')
 
 files = [root / name for name in (
-    'code_artifact.html', 'code_artifact_en.html', 'README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
+    'code_artifact.html', 'code_artifact_en.html', 'README.md', 'README.fa.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
+    'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'SECURITY.md', '.gitignore',
     'walkthrough.md', 'implementation_plan.md', 'package.json', 'package-lock.json',
     'release/persian-palette-core-3.0.0.tgz', 'release/manshour-studio-en.html',
 )]
-for directory in ('app', 'docs', 'scripts', 'tests', 'packages/core', 'archive/v2.1.0'):
+for directory in ('app', 'docs', 'scripts', 'tests', 'packages/core', '.github', 'archive/v2.1.0'):
     for path in (root / directory).rglob('*'):
         if path.is_file() and not any(part in {'node_modules', '__pycache__', '.git'} for part in path.parts):
             files.append(path)

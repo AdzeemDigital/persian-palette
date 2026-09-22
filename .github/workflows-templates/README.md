@@ -1,20 +1,5 @@
-# GitHub Actions Workflows
+# Release automation template
 
-These workflow templates automate testing and release publishing for the Persian Palette Design System:
+The active CI configuration lives in [.github/workflows/ci.yml](../workflows/ci.yml). It builds and tests pull requests and main, and verifies the installed package and documentation examples on Ubuntu/Windows with Node.js 22/24.
 
-1. `ci.yml`: Multi-OS (Ubuntu, Windows) and multi-node (Node.js 22, 24) CI pipeline.
-2. `release.yml`: Release asset builder and publisher on git tag push (`v*`).
-
-### Enabling in GitHub
-
-To enable these workflows directly in your repository:
-```bash
-# Refresh your GitHub CLI token to include the workflow scope:
-gh auth refresh -s workflow
-
-# Move templates into active workflows folder:
-git mv .github/workflows-templates .github/workflows
-git commit -m "ci: enable GitHub Actions workflows"
-git push origin main
-```
-Or upload them directly via GitHub Web Interface in `.github/workflows/`.
+The release.yml file here is an inactive reference template, not an active workflow. It still contains v3.0.0 filenames and needs version/tag validation before it is suitable for future releases. No automatic publishing is enabled by activating CI.

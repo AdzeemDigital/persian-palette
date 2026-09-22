@@ -9,6 +9,7 @@
     "check": "npm run build && npm test",
     "start": "node scripts/serve.mjs",
     "pack:core": "node scripts/pack-core.mjs",
+    "verify:package": "node scripts/verify-package.mjs",
     "pack:studio": "python scripts/package-release.py"
   },
   "engines": {

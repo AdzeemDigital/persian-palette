@@ -1,103 +1,59 @@
-# گنجینهٔ رنگ‌های پارسی — Manshour Design System Studio
+# رنگ‌های پارسی — منشور
 
-[![نسخه ۳.۰.۰](https://img.shields.io/badge/version-3.0.0-blue.svg?style=flat-square)](package.json)
-[![مجوز MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
-[![استاندارد W3C DTCG](https://img.shields.io/badge/W3C_DTCG-2025.10-purple.svg?style=flat-square)](https://tr.designtokens.org/format/)
-[![کنتراست APCA](https://img.shields.io/badge/APCA--W3-0.1.9-emerald.svg?style=flat-square)](https://github.com/Myndex/apca-w3)
-[![موتور HCT گوگل](https://img.shields.io/badge/Google_HCT-CAM16-amber.svg?style=flat-square)](https://github.com/material-foundation/material-color-utilities)
+ابزاری برای طراحی رابط با **۱۲ پالت و ۷۲ رنگ دیجیتال الهام‌گرفته از فرهنگ ایرانی**، استودیوی فارسی/انگلیسی و کتابخانهٔ TypeScript.
 
-> [English Documentation](README.md) | مستندات فارسی
+[![CI](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml/badge.svg)](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml)
 
-گنجینه رنگ‌های پارسی (منشور)، اولین سیستم دیزاین سازمانی و مرجع علمی برای بازتولید، استانداردسازی دیجیتال و صادرات توکن‌های رنگی اصیل ایرانی است. این پلتفرم با تلفیق فیزیک نور ادراکی (Oklab، HCT و APCA) با میراث معماری، فرش، نگارگری و تمدن باستانی ایران، پلی میان اصالت چند هزار ساله و مهندسی نرم‌افزار مدرن ایجاد کرده است.
+[English](README.md) · [شروع سریع](docs/QUICKSTART.md) · [مرجع API](docs/API_REFERENCE.md) · [مشارکت](CONTRIBUTING.md)
 
----
+## قابلیت‌ها
 
-## ویژگی‌های کلیدی
+- بازیابی نام فارسی و انگلیسی، شناسهٔ رنگ و نویسه‌های معادل فارسی/عربی؛ نام ناموجود یا مبهم خطا می‌دهد.
+- محاسبات HCT/CAM16 و تم Material با کتابخانهٔ مرجع گوگل، APCA-W3 و درون‌یابی دیجیتال Oklab.
+- خروجی DTCG 2025.10 با آزمون مصرف در Style Dictionary 5؛ خروجی Tailwind، SwiftUI و Kotlin.
+- فرمت‌های جداگانهٔ Tokens Studio و انتقال متغیرهای Figma.
+- استودیوی تم روشن/تیره با پیش‌نمایش و خروجی؛ کد، فونت و استایل داخل فایل هستند.
 
-- 🏛️ **۱۲ پالت فاخر و ۷۲ رنگ تاریخی:** استخراج‌شده از کاشی‌کاری صفوی اصفهان، تخت جمشید، مسجد نصیرالملک، مینیاتور استاد بهزاد، فرش تبریز، جزیره هرمز و غیره.
-- 🔬 **محاسبات علمی و فیزیک ادراکی نور:**
-  - محاسبه دقیق تباین رنگی با الگوریتم **APCA-W3** و جدول مقیاس فونت بارلو.
-  - تولید ۱۳ پله تنال ادراکی مطابق مدل **Google Material 3 (HCT/CAM16)**.
-  - ترکیب و درون‌یابی دیجیتال رنگدانه‌ها در فضای ادراکی **Oklab**.
-- ⚡ **توکن‌های چندپلتفرمی سازگار با W3C:**
-  - فرمت رسمی W3C DTCG 2025.10 سازگار با Style Dictionary 5.
-  - پشتیبانی کامل از Tailwind CSS v3 و Tailwind CSS v4 (`@theme`).
-  - صدور توکن‌های بومی برای iOS/macOS (SwiftUI) و Android (Jetpack Compose).
-  - پشتیبانی از متغیرهای Figma و Tokens Studio.
-- 🎨 **سیستم دوگانه تم فاخر (Dual Themes):**
-  - تم تیره آبسیدین کیهانی (`#070B14`) با نورپردازی نئون فیروزه‌ای و لاجوردی.
-  - تم روشن عاجی صفوی (`#F8F6F0`) بر پایه کاغذ دست‌ساز مرقعات سنتی با کادرهای طلایی اسلیمی.
-- 🚀 **استودیوی وب ۱۰۰٪ مستقل و آفلاین:**
-  - بدون نیاز به اینترنت و بدون وابستگی خارجی در فایل تک‌سورس `code_artifact.html`.
-  - مجهز به نمایشگر کریستال سه‌بعدی Three.js، شبیه‌ساز فتوگرامتری بافت و موتور سنتز صدا.
-  - موتور دوزبانه پویا (فارسی / انگلیسی) با چیدمان استاندارد و بدون لود مجدد.
+این پروژهٔ عمومی نوپا است؛ ادعای پذیرش گسترده یا اندازه‌گیری آزمایشگاهی ندارد.
 
----
+## منشأ داده
 
-## نحوه اجرا و راه‌اندازی محلی
+[گزارش کیفیت](packages/core/tokens/data-quality.json) برای هر ۷۲ رنگ انتساب تاریخی تأییدنشده ثبت می‌کند؛ تعداد طیف‌های اندازه‌گیری‌شده صفر است و مختصات ۱۱ رنگ تعارض دارند. نام‌ها، مواد و مختصات به بررسی مستقل نیاز دارند. HEX انتخاب طراحی است؛ طیف و بافت مدل نمایشی‌اند و ترکیب Oklab درون‌یابی دیجیتال است.
 
-### اجرای استودیو
+APCA به‌تنهایی خوانایی فونت فارسی یا انطباق کامل WCAG را تأیید نمی‌کند. واردکردن در Figma و کامپایل Swift/Kotlin در محیط بومی آزمایش نشده‌اند. [محدودهٔ آزمون‌ها](docs/verification.md) و [روش و منبع](docs/DESIGN_SYSTEM.md) را ببینید.
 
-با داشتن Node.js 22 یا بالاتر، دستور زیر را در پوشه پروژه اجرا کنید:
+## اجرا و نصب
 
-```bash
+با Node.js 22 یا جدیدتر در پوشهٔ پروژه:
+
+```sh
 npm start
 ```
 
-سپس در مرورگر خود نشانی `http://127.0.0.1:4173/` را باز کنید. همچنین می‌توانید فایل‌های کامپایل‌شده زیر را مستقیماً در مرورگر باز نمایید:
-- نسخه دوزبانه (فارسی / انگلیسی): [`code_artifact.html`](code_artifact.html)
-- نسخه انگلیسی مستقل: [`code_artifact_en.html`](code_artifact_en.html)
+[استودیو محلی](http://127.0.0.1:4173) را باز کنید. HTML آماده به نصب وابستگی‌ها نیاز ندارد. نسخه‌های [پیش‌فرض](code_artifact.html) و [انگلیسی](code_artifact_en.html) دارایی‌های اجرایی را در خود دارند؛ تصاویر اختیاری و نقشه به اینترنت نیاز دارند. دوربین و کلیپ‌بورد به مرورگر و مجوز کاربر وابسته‌اند.
 
-### نصب پکیج هسته (`@persian-palette/core`)
+برای نصب کتابخانه از فایل محلی انتشار:
 
-```bash
+```sh
 npm install ./release/persian-palette-core-3.0.0.tgz
 ```
 
-نمونه استفاده در TypeScript:
+بسته ESM، CommonJS و نوع‌های TypeScript دارد؛ انتشار در رجیستری عمومی npm ادعا نشده است.
 
-```typescript
-import { PersianEngine, calculateAPCA, generateM3DynamicScheme } from '@persian-palette/core';
+## ساخت و آزمون
 
-// دریافت رنگ فیروزه‌ای اصیل اصفهان
-const turquoise = PersianEngine.getColor('isfahan-tiles', 'فیروزه‌ای اصیل');
-console.log(turquoise.hex); // #30D5C8
-
-// محاسبه کنتراست ادراکی APCA
-const lc = calculateAPCA('#120A8F', '#F4F1DE');
-console.log(`امتیاز کنتراست: ${lc}`);
-
-// ساخت نقش‌های تم متریال ۳
-const scheme = generateM3DynamicScheme(turquoise.hex);
-console.log(scheme.light.primary, scheme.dark.primary);
+```sh
+npm ci
+npm --prefix packages/core ci
+npm run check
+npm run pack:core
+npm run verify:package
 ```
 
----
+CI برای Ubuntu/Windows و Node.js 22/24 تنظیم شده است و ساخت، تست‌ها، نمونه‌های مستندات و نصب بسته را بررسی می‌کند. نتیجهٔ هر اجرا و commit را در [Actions](https://github.com/AdzeemDigital/persian-palette/actions/workflows/ci.yml) ببینید؛ وجود workflow به معنی موفقیت آزمون‌ها نیست.
 
-## ساختار دایرکتوری پروژه
+پس از ساخت و بسته‌بندی، `npm run pack:studio` با Python 3 فایل ZIP را می‌سازد. فایل‌های انتشار اصلی ۳.۰.۰ حفظ شده‌اند؛ خروجی CI به commit همان اجرا مربوط است.
 
-```
-Manshour/
-├── app/                  # سورس‌کدهای استودیوی وب (HTML، CSS، تعاملات JS)
-├── packages/
-│   └── core/             # پکیج هسته محاسبات رنگ، توکن‌ها و نوع‌های TypeScript
-├── release/              # فایل‌های فشرده و پکیج npm آماده تحویل
-├── docs/                 # مستندات فنی، راهنماها و تصاویر اعتبارسنجی
-├── scripts/              # اسکریپت‌های بیلد، سرور محلی و انتشار
-├── tests/                # تست‌های یکپارچگی و اعتبارسنجی
-├── code_artifact.html    # استودیوی مستقل فارسی / دوزبانه
-└── code_artifact_en.html # استودیوی مستقل نسخه انگلیسی
-```
+[نقشهٔ راه](docs/ROADMAP.md)، [مشارکت](CONTRIBUTING.md)، [مهاجرت نسخهٔ ۳](docs/migration-3.0.0.md) و [امنیت](SECURITY.md) در دسترس‌اند. اصلاح انتساب فرهنگی به منبع قابل بررسی نیاز دارد.
 
----
-
-## پیوند مستندات تکمیلی
-
-- [شروع سریع و ادغام با ابزارها (Quick Start)](docs/QUICKSTART.md)
-- [مرجع جامع توابع API](docs/API_REFERENCE.md)
-- [مشخصات سیستم دیزاین و فیزیک نور](docs/DESIGN_SYSTEM.md)
-- [گزارش آزمون‌ها و اعتبارسنجی](docs/verification.md)
-- [راهنمای مشارکت در پروژه](CONTRIBUTING.md)
-- [منشور اخلاقی توسعه‌دهندگان](CODE_OF_CONDUCT.md)
-- [خط‌مشی امنیت](SECURITY.md)
-- [متن مجوز (MIT)](LICENSE)
+کد اصلی پروژه [MIT](LICENSE) است؛ وابستگی‌ها مجوزهای خود را دارند. شرایط APCA-W3 و مجوز AGPL v3 وابستگی colorparsley در [اعلان مجوزها](THIRD_PARTY_NOTICES.md) ثبت شده‌اند.
