@@ -6,15 +6,15 @@
 | --- | --- | --- |
 | GUARD Oklab round trip (72 colors) | pass | A02: supports the claimed exactness |
 | GUARD APCA reference and polarity | pass | A02 |
-| DEFECT alef maksura normalization | fail | MSR-I18N-001 |
-| DEFECT evaluateAPCA special codes shown as px | fail | MSR-API-003 |
+| DEFECT alef maksura normalization | fail | MSR-I18N-003 |
+| DEFECT evaluateAPCA special codes shown as px | fail | MSR-API-002 |
 | DEFECT dominant wavelength for non-spectral colors | fail | MSR-SCI-001 |
 | DEFECT hard-coded data-quality counts | fail | MSR-DATA-002 |
-| DEFECT Tailwind v4 CSS comment break-out | fail | MSR-SEC-00x (W3) |
-| DEFECT token path depends on English display name | fail | MSR-API-002 |
-| DEFECT stale build manifest | fail | MSR-REL-001 |
-| DEFECT Persian `<title>` in the English edition | fail | MSR-I18N (W2) |
-| GUARD duplicate-HEX inventory | pass (1 duplicate: #FDFBF7) | MSR-DATA |
+| DEFECT Tailwind v4 CSS comment break-out | fail | MSR-INT-001 |
+| DEFECT token path depends on English display name | fail | MSR-API-001 |
+| DEFECT stale build manifest (both editions) | fail | MSR-REL-002 |
+| DEFECT Persian `<title>` in the English edition | fail | MSR-I18N-002 |
+| GUARD duplicate-HEX inventory | pass (1 duplicate: #FDFBF7) | DATA_QUALITY.md §1 |
 
 ## Proposed additions to the product suite (after fixes)
 
