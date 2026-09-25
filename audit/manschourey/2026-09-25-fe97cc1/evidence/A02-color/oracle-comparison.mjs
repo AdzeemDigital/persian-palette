@@ -1,7 +1,8 @@
 // A02 diagnostic: compare @persian-palette/core math against independent implementations.
 // Usage: node oracle-comparison.mjs <path-to-built-core-dist/index.js> <dir-with-colorjs.io-and-culori-node_modules>
-// Oracles: colorjs.io 0.5.2 (Oklab, HCT, APCA 0.0.98G-4g, WCAG 2.1), culori 4.x (Oklab).
+// Oracles (versions are read from the installed packages and recorded in the output): colorjs.io 0.5.2 (Oklab, HCT, APCA 0.0.98G-4g, WCAG 2.1), culori 4.x (Oklab).
 // These are separate code bases from apca-w3 / material-color-utilities / the project's own Oklab code.
+import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
@@ -14,6 +15,9 @@ const Color = typeof cjMod.default === 'function' ? cjMod.default : cjMod.defaul
 const culoriMod = await import(pathToFileURL(req.resolve('culori')).href);
 const culori = culoriMod.converter ? culoriMod : culoriMod.default;
 
+// Read oracle versions from the installed package.json on disk (colorjs.io does not export ./package.json).
+const pkgVersion = name => JSON.parse(fs.readFileSync(path.join(path.resolve(oracleDir), 'node_modules', name, 'package.json'), 'utf8')).version;
+
 // Deterministic PRNG (mulberry32) so runs are reproducible.
 let seed = 0x5eed1234;
 const rand = () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
@@ -22,7 +26,7 @@ const randHex = () => '#' + hex2(Math.floor(rand() * 256)) + hex2(Math.floor(ran
 const palette = core.ALL_PALETTES_LIST.flatMap(p => p.colors.map(c => c.hex));
 const edges = ['#000000', '#FFFFFF', '#FF0000', '#00FF00', '#0000FF', '#FFFF00', '#00FFFF', '#FF00FF', '#808080', '#010101', '#FEFEFE', '#777777'];
 const sample = [...new Set([...palette, ...edges, ...Array.from({ length: 5000 }, randHex)])];
-const out = { oracleVersions: { colorjs: '0.5.2', culori: req('culori/package.json').version }, sampleSize: sample.length };
+const out = { oracleVersions: { colorjs: pkgVersion('colorjs.io'), culori: pkgVersion('culori') }, sampleSize: sample.length };
 
 // 1. Oklab forward: core vs culori vs colorjs.
 let maxOk = 0, maxOkColor = '';

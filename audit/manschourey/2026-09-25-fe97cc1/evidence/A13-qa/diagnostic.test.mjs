@@ -62,8 +62,9 @@ test('DEFECT: token paths should be stable across an English display-name correc
 
 test('DEFECT: committed build manifest must describe the committed HTML', () => {
   const m = JSON.parse(fs.readFileSync(path.join(repo, 'docs/build-manifest.json'), 'utf8'));
-  const h = createHash('sha256').update(fs.readFileSync(path.join(repo, m.artifact))).digest('hex');
-  assert.equal(h, m.sha256);
+  const hash = file => createHash('sha256').update(fs.readFileSync(path.join(repo, file))).digest('hex');
+  assert.equal(hash(m.artifact), m.sha256, m.artifact);
+  assert.equal(hash(m.artifact_en), m.sha256_en, m.artifact_en);
 });
 
 test('DEFECT: English edition should have an English <title>', () => {
