@@ -11,7 +11,7 @@
 | Isolated clone | `git clone <repo> $SCRATCH/work` at fe97cc1 | ok | — |
 | Install | `npm ci` ; `npm --prefix packages/core ci` | ok (root 149 packages; core 5) | — |
 | Build + tests | `npm run check` | exit 0; core 18/18, integration 8/8 | `evidence/A00-baseline/check.log.txt` |
-| Generated drift | `git status` after build | **3 committed generated files change**: `docs/build-manifest.json` (stale hashes and sizes), `w3c-tokens.json` and `style-dictionary.json` (138 lines of last-digit float drift). The HTML is rebuilt byte-identically. | same |
+| Generated drift | `git status` after build | **3 committed generated files change**: `docs/build-manifest.json` (stale hashes and sizes), `w3c-tokens.json` and `style-dictionary.json` (69 value lines per file, 138 in total, of last-digit float drift; count corrected per A15). The HTML is rebuilt byte-identically. | same |
 | Pack | `npm run pack:core` | exit 0; 91 files, 234.6 kB | `evidence/A00-baseline/pack-core.log.txt` |
 | Committed tarball vs fresh pack | unpack both, compare with CR removed | only CRLF and float-ULP differences; `dist/index.cjs` identical. This suggests the committed tarball was packed on Windows from equivalent sources | this file |
 | Package consumer | `npm run verify:package` | exit 0 (ESM, CJS, strict .mts/.cts, 4 doc examples) | `evidence/A00-baseline/verify-package.log.txt` |

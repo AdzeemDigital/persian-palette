@@ -10,7 +10,7 @@ B,HCT/CAM16 and tonal palettes,A02,Compared against colorjs HCT; tested hue wrap
 B,APCA polarity and values,A02,"3,000 pairs against colorjs contrastAPCA",evidence/A02-color/,pass,-
 B,WCAG 2.x ratio,A02,"3,000 pairs against colorjs WCAG21",evidence/A02-color/,pass,Badge labels overclaim (MSR-UX-001)
 B,Gamut behavior in mixing,A02,"7,665 interpolants checked for gamut and clipping error",evidence/A02-color/,pass-with-limitation,MSR-SCI-003
-B,Measurement/spectral/physical wording,A02/W2,Grepped wording; tested dominant-wavelength plausibility,evidence/A02-color/; W2 MSR-UX-005,fail,"MSR-SCI-001, MSR-SCI-002"
+B,Measurement/spectral/physical wording,A02/W2,Grepped wording; tested dominant-wavelength plausibility,evidence/A02-color/; MSR-SCI-002,fail,"MSR-SCI-001, MSR-SCI-002"
 B,Physical measurement provenance,A02,Checked for instrument/illuminant/specimen metadata,DATA_QUALITY.md,not-applicable,No measurement is claimed in the data model (measuredSpectra 0); it must stay that way
 C,"Field-level cultural claims (72 colors, 12 palettes)",W1,"Generated 1,271-row ledger; reviewed statuses",CULTURAL_CLAIMS.csv; evidence/W1-cultural/build-claims.mjs,fail,MSR-CULT-001..005
 C,Primary/scholarly source verification,W1,"Attempted UNESCO, PubChem, CAS, Wikipedia, mindat and museum sites",SOURCES.md; evidence/W1-cultural/source-notes.md,blocked,Egress policy blocked primary sites; mirrors used; no manuscript read
@@ -23,10 +23,10 @@ E,"Persian orthography, ZWNJ, ye/kaf, digits",W1,Scripted scan of data and UI,ev
 E,Normalization / search keys,W1,24-case probe,evidence/W1-cultural/normalization-probe.out.txt,fail,MSR-I18N-003
 E,Bilingual semantic parity,A06/W1/W2,Verbatim fa vs en comparison; language-toggle leftover count,agents/W1-persian-language.md; W2,fail,"MSR-I18N-001 (High), MSR-I18N-002"
 E,Mixed RTL/LTR rendering,W2,Screenshots of hex/Latin in RTL,evidence/W2-browser/screens/,fail,MSR-I18N-006
-E,Unsupported superlatives,W1/W2/A06,Grepped Persian and English copy,agents/W1-persian-language.md §4,fail,"MSR-I18N-004, MSR-CULT-002"
+E,Unsupported superlatives,W1/W2/A06,Grepped Persian and English copy,agents/W1-persian-language.md §4,fail,"MSR-CULT-002 (merged with former I18N-004)"
 F,Automated accessibility (axe),W2,"axe-core 4.13.0 with WCAG 2.2 AA tags, 2 editions x 2 themes x dialogs",evidence/W2-browser/results/04-axe-summary.json,fail,"4 rules, 875 nodes"
 F,"Keyboard, focus, dialogs, skip link",W2,"80 tab stops; trap, Escape and restore",results/05-keyboard-a11y.json,pass,-
-F,Contrast of rendered text,W2,getComputedStyle sampling in both themes,results/06-perf-graphics.json,fail,"MSR-A11Y-001, MSR-A11Y-003"
+F,Contrast of rendered text,W2,getComputedStyle sampling in both themes,results/06-perf-graphics.json,fail,"MSR-A11Y-001 (merged with former A11Y-003)"
 F,Reflow and zoom,W2,320x640; 400% emulated at 320x256,results/08-zoom400.json,fail,MSR-A11Y-002
 F,Screen reader,W2,None available,-,not-tested,No NVDA/JAWS/VoiceOver/TalkBack in environment
 F,Persian font readability,A02/W2,-,-,not-tested,Requires user testing; APCA is calibrated for Barlow

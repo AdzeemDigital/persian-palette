@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | T1 | `npm ci` (ریشه) و `npm --prefix packages/core ci` | نصب تمیز | ۱۴۹ و ۵ بسته نصب شد | 0 | pass | — |
 | T2 | `npm run check` | ساخت هر دو نسخه و پاس‌شدن آزمون‌ها | ۱۸ از ۱۸ آزمون هسته و ۸ از ۸ آزمون یکپارچگی پاس شد | 0 | pass | `evidence/A00-baseline/check.log.txt` |
-| T3 | `git status` پس از T2 | بدون تغییر در فایل‌های تولیدی | ۳ فایل commit‌شده تغییر کرد: manifest، `w3c-tokens.json` و `style-dictionary.json` (۱۳۸ خط که فقط در رقم آخر ممیز شناور فرق دارند) | — | **fail** | MSR-REL-002 |
+| T3 | `git status` پس از T2 | بدون تغییر در فایل‌های تولیدی | ۳ فایل commit‌شده تغییر کرد: manifest، `w3c-tokens.json` و `style-dictionary.json` (در هر فایل ۶۹ مقدار که فقط در رقم آخر ممیز شناور فرق دارند؛ مجموعاً ۱۳۸ خط) | — | **fail** | MSR-REL-002 |
 | T4 | بایت‌های HTML بازسازی‌شده در برابر نسخهٔ commit‌شده | یکسان | یکسان | — | pass | A00 |
 | T5 | `dist/` بازسازی‌شده در برابر نسخهٔ commit‌شده | یکسان | یکسان | — | pass | W3 §7 |
 | T6 | `npm run pack:core` | ساخت tarball | ۹۱ فایل، ۲۳۴٫۶ کیلوبایت | 0 | pass | `evidence/A00-baseline/pack-core.log.txt` |
