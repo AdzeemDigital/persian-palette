@@ -1,0 +1,14 @@
+{
+  "before": {
+    "container": "364x254",
+    "drawingBuffer": "364x254",
+    "cssSize": "364pxx254px",
+    "aspect": 1.433
+  },
+  "after": {
+    "container": "590x254",
+    "drawingBuffer": "364x254",
+    "cssSize": "364pxx254px",
+    "aspect": 1.433
+  }
+}

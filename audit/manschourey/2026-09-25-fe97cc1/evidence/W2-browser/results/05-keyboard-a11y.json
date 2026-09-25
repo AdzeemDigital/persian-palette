@@ -1,0 +1,3002 @@
+{
+  "tabStops": [
+    {
+      "tag": "a",
+      "id": null,
+      "role": null,
+      "name": "رفتن به پالت‌ها",
+      "onclick": "",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1300,
+        8,
+        132,
+        48
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "معماری پکیج NPM",
+      "onclick": "openNpmModal()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        673,
+        19,
+        151,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "میکسر رنگدانه‌ها",
+      "onclick": "openMixerModal()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        386,
+        19,
+        129,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "توکن‌های W3C",
+      "onclick": "openExportAllModal()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        104,
+        19,
+        125,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": "artModeVectorBtn",
+      "role": null,
+      "name": "هنر وکتور پارسی",
+      "onclick": "setArtDisplayMode('vector')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1222,
+        80,
+        112,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": "artModePhotoBtn",
+      "role": null,
+      "name": "عکس میراث فرهنگی",
+      "onclick": "setArtDisplayMode('photo')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1086,
+        80,
+        135,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "دریافت کدها",
+      "onclick": "openExportAllModal()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        951,
+        80,
+        120,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": "soundToggleBtn",
+      "role": null,
+      "name": "روشن یا خاموش کردن افکت صوتی",
+      "onclick": "toggleSoundFx()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        898,
+        80,
+        42,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "دیدبان علمی M3",
+      "onclick": "openScientificModalForActive()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        747,
+        80,
+        139,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": "spatialModeToggle",
+      "role": null,
+      "name": "مود فضایی",
+      "onclick": "toggleSpatialMode()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        641,
+        80,
+        94,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "استودیو سه‌بعدی",
+      "onclick": "togglePreviewDrawer()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        481,
+        80,
+        148,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": "themeToggleBtn",
+      "role": null,
+      "name": "تغییر تم بین روشن و تاریک",
+      "onclick": "toggleTheme()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        390,
+        80,
+        79,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "button",
+      "id": "langToggleBtn",
+      "role": null,
+      "name": "تغییر زبان به انگلیسی",
+      "onclick": "toggleLanguage()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        295,
+        80,
+        83,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    {
+      "tag": "input",
+      "id": "searchInput",
+      "role": null,
+      "name": "جست‌وجوی پالت، نام رنگ یا کد هگز",
+      "onclick": "",
+      "outline": "solid 2px rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        843,
+        350,
+        261,
+        38
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "همه پالت‌ها",
+      "onclick": "setCategory('all')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        700,
+        330,
+        82,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "معماری و کاشی",
+      "onclick": "setCategory('architecture')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        594,
+        330,
+        100,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "فرش و منسوجات",
+      "onclick": "setCategory('textiles')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        478,
+        330,
+        109,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "تاریخ و تمدن",
+      "onclick": "setCategory('history')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        385,
+        330,
+        87,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "طبیعت و اقلیم",
+      "onclick": "setCategory('nature')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        588,
+        372,
+        97,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "نگارگری و هنرها",
+      "onclick": "setCategory('arts')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        482,
+        372,
+        100,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامهٔ رنگ، محاسبات و منابع V2.0 DTCG",
+      "onclick": "openEvidenceDashboard('isfahan-tiles', 0)",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        551,
+        577,
+        337,
+        48
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شافل",
+      "onclick": "cycleCardShuffle('isfahan-tiles')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1110,
+        864,
+        62,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+      "onclick": "openEvidenceDashboard('isfahan-tiles', 0)",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1074,
+        864,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "مشاهده ماتریس کنتراست ۶×۶",
+      "onclick": "openContrastMatrix('isfahan-tiles')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1038,
+        864,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "استودیوی گرادیان‌های مدرن",
+      "onclick": "openGradientModal('isfahan-tiles')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1002,
+        864,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+      "onclick": "applyAndShowStudio('isfahan-tiles')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        966,
+        864,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#120A8F",
+      "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1253,
+        420,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#30D5C8",
+      "onclick": "copyColorHex('#30D5C8', 'فیروزه‌ای اصیل (Persian T",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1196,
+        419,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#00A693",
+      "onclick": "copyColorHex('#00A693', 'آبی زنگاری شاهی (Persian ",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1139,
+        419,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#D4AF37",
+      "onclick": "copyColorHex('#D4AF37', 'طلایی اسلیمی')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1082,
+        419,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#F4F1DE",
+      "onclick": "copyColorHex('#F4F1DE', 'عاجی گچی محراب')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1024,
+        419,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#0B132B",
+      "onclick": "copyColorHex('#0B132B', 'سرمه‌ای مقرنس')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        967,
+        419,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": "card-btn-primary-isfahan-tiles",
+      "role": null,
+      "name": "کپی اکشن: #120A8F",
+      "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1184,
+        613,
+        112,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": "card-btn-secondary-isfahan-tiles",
+      "role": null,
+      "name": "تغییر مود",
+      "onclick": "cycleCardShuffle('isfahan-tiles')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1103,
+        613,
+        73,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "لاجوردی (Ultramarine) #120A8F",
+      "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1200,
+        680,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('is",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1218,
+        703,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "فیروزه‌ای اصیل (Persian Turquoise) #30D5C8",
+      "onclick": "copyColorHex('#30D5C8', 'فیروزه‌ای اصیل (Persian T",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1083,
+        680,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('is",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1101,
+        703,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "آبی زنگاری شاهی (Persian Green) #00A693",
+      "onclick": "copyColorHex('#00A693', 'آبی زنگاری شاهی (Persian ",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        966,
+        680,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('is",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        984,
+        703,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "طلایی اسلیمی #D4AF37",
+      "onclick": "copyColorHex('#D4AF37', 'طلایی اسلیمی')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1200,
+        752,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('is",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1218,
+        775,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "عاجی گچی محراب #F4F1DE",
+      "onclick": "copyColorHex('#F4F1DE', 'عاجی گچی محراب')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1083,
+        752,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('is",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1101,
+        775,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "سرمه‌ای مقرنس #0B132B",
+      "onclick": "copyColorHex('#0B132B', 'سرمه‌ای مقرنس')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        966,
+        752,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('is",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        984,
+        775,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شافل",
+      "onclick": "cycleCardShuffle('achaemenid-majesty')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        692,
+        331,
+        62,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+      "onclick": "openEvidenceDashboard('achaemenid-majesty', 0)",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        656,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "مشاهده ماتریس کنتراست ۶×۶",
+      "onclick": "openContrastMatrix('achaemenid-majesty')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        620,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "استودیوی گرادیان‌های مدرن",
+      "onclick": "openGradientModal('achaemenid-majesty')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        584,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+      "onclick": "applyAndShowStudio('achaemenid-majesty')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        548,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#CC3333",
+      "onclick": "copyColorHex('#CC3333', 'سرخ پارسی اصیل (Persian R",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        834,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#CFB53B",
+      "onclick": "copyColorHex('#CFB53B', 'طلای شاهنشاهی (Old Gold)'",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        777,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#1D3557",
+      "onclick": "copyColorHex('#1D3557', 'سرمه‌ای پارسه')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        720,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#2D6A4F",
+      "onclick": "copyColorHex('#2D6A4F', 'یشم باستانی')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        663,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#FDFBF7",
+      "onclick": "copyColorHex('#FDFBF7', 'سنگ مرمر آپادانا')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        606,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#1B1F24",
+      "onclick": "copyColorHex('#1B1F24', 'سنگ سیاه تچر')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        549,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": "card-btn-primary-achaemenid-majesty",
+      "role": null,
+      "name": "کپی اکشن: #1D3557",
+      "onclick": "copyColorHex('#1D3557', 'سرمه‌ای پارسه')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        765,
+        613,
+        112,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": "card-btn-secondary-achaemenid-majesty",
+      "role": null,
+      "name": "تغییر مود",
+      "onclick": "cycleCardShuffle('achaemenid-majesty')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        684,
+        613,
+        73,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "سرخ پارسی اصیل (Persian Red) #CC3333",
+      "onclick": "copyColorHex('#CC3333', 'سرخ پارسی اصیل (Persian R",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        781,
+        680,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('ac",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        799,
+        703,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "طلای شاهنشاهی (Old Gold) #CFB53B",
+      "onclick": "copyColorHex('#CFB53B', 'طلای شاهنشاهی (Old Gold)'",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        665,
+        680,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('ac",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        683,
+        703,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "سرمه‌ای پارسه #1D3557",
+      "onclick": "copyColorHex('#1D3557', 'سرمه‌ای پارسه')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        548,
+        680,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('ac",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        566,
+        703,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "یشم باستانی #2D6A4F",
+      "onclick": "copyColorHex('#2D6A4F', 'یشم باستانی')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        781,
+        752,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('ac",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        799,
+        775,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "سنگ مرمر آپادانا #FDFBF7",
+      "onclick": "copyColorHex('#FDFBF7', 'سنگ مرمر آپادانا')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        665,
+        752,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('ac",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        683,
+        775,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "سنگ سیاه تچر #1B1F24",
+      "onclick": "copyColorHex('#1B1F24', 'سنگ سیاه تچر')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        548,
+        752,
+        111,
+        66
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه علمی و طیف نوری",
+      "onclick": "event.stopPropagation(); openEvidenceDashboard('ac",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        566,
+        775,
+        14,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شافل",
+      "onclick": "cycleCardShuffle('behzad-miniature')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        273,
+        331,
+        62,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+      "onclick": "openEvidenceDashboard('behzad-miniature', 0)",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        237,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "مشاهده ماتریس کنتراست ۶×۶",
+      "onclick": "openContrastMatrix('behzad-miniature')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        201,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "استودیوی گرادیان‌های مدرن",
+      "onclick": "openGradientModal('behzad-miniature')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        165,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+      "onclick": "applyAndShowStudio('behzad-miniature')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        129,
+        331,
+        32,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#E34234",
+      "onclick": "copyColorHex('#E34234', 'شنگرف معدنی (Cinnabar/Ver",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        416,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#0BDA51",
+      "onclick": "copyColorHex('#0BDA51', 'سبز زنگار مالاکیت (Malach",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        358,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#1B263B",
+      "onclick": "copyColorHex('#1B263B', 'سرمه‌ای شبرنگ نگار')",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        301,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "role": "button",
+      "name": "#701C1C",
+      "onclick": "copyColorHex('#701C1C', 'شاه‌توت شاه‌عباسی (Persia",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        244,
+        435,
+        57,
+        62
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    }
+  ],
+  "tabSummary": {
+    "total": 80,
+    "withIndicator": 80,
+    "obscured": 0,
+    "unnamed": 0,
+    "roleButtons": 28
+  },
+  "skipLink": {
+    "first": {
+      "tag": "a",
+      "id": null,
+      "role": null,
+      "name": "رفتن به پالت‌ها",
+      "onclick": "",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        1300,
+        8,
+        132,
+        48
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    "skipVisible": true,
+    "afterSkip": {
+      "tag": "section",
+      "id": "palettesGrid",
+      "role": null,
+      "name": "پالت‌های رنگ",
+      "onclick": "",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        104,
+        449,
+        1232,
+        3031
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    "nextAfterSkip": {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "شافل",
+      "onclick": "cycleCardShuffle('isfahan-tiles')",
+      "outline": "solid 0px rgb(2, 6, 23)",
+      "focusVisible": true,
+      "visibleIndicator": false,
+      "rect": [
+        1110,
+        674,
+        62,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    }
+  },
+  "dialog": {
+    "initialFocus": {
+      "tag": "select",
+      "id": "evPaletteSelect",
+      "role": null,
+      "name": "تنظیم رنگ",
+      "onclick": "",
+      "outline": "solid 2px rgba(0, 0, 0, 0)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        795,
+        110,
+        416,
+        34
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    "dialogAttrs": {
+      "role": "dialog",
+      "modal": "true",
+      "labelledby": "evHeaderColorTitle",
+      "label": "لاجوردی (Ultramarine)",
+      "mainInert": true,
+      "headerInert": true
+    },
+    "tab70": {
+      "escaped": 0,
+      "distinct": 15
+    },
+    "shiftTabInside": true,
+    "tabsSemantics": [
+      {
+        "id": "evtab-spectral",
+        "role": null,
+        "selected": null,
+        "controls": null
+      },
+      {
+        "id": "evtab-chemical",
+        "role": null,
+        "selected": null,
+        "controls": null
+      },
+      {
+        "id": "evtab-geospatial",
+        "role": null,
+        "selected": null,
+        "controls": null
+      },
+      {
+        "id": "evtab-mixer",
+        "role": null,
+        "selected": null,
+        "controls": null
+      },
+      {
+        "id": "evtab-photogrammetry",
+        "role": null,
+        "selected": null,
+        "controls": null
+      },
+      {
+        "id": "evtab-tokens",
+        "role": null,
+        "selected": null,
+        "controls": null
+      }
+    ],
+    "arrowOnTab": {
+      "tag": "button",
+      "id": "evtab-spectral",
+      "role": null,
+      "name": "طیف نوری و APCA",
+      "onclick": "switchEvidenceTab('spectral')",
+      "outline": "solid 0px rgb(52, 211, 153)",
+      "focusVisible": true,
+      "visibleIndicator": false,
+      "rect": [
+        1060,
+        171,
+        147,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    "arFocus": {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "بستن پنجره",
+      "onclick": "closeARSimulator()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        293,
+        140,
+        44,
+        44
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": false
+    },
+    "arAttrs": {
+      "evModal": "false",
+      "evInert": true,
+      "arModal": "true",
+      "arInert": false
+    },
+    "afterEscAR": {
+      "focus": {
+        "tag": "button",
+        "id": null,
+        "role": null,
+        "name": "شروع AR",
+        "onclick": "openARSimulator()",
+        "outline": "solid 3px rgb(103, 232, 249)",
+        "focusVisible": true,
+        "visibleIndicator": true,
+        "rect": [
+          250,
+          735,
+          91,
+          36
+        ],
+        "inViewport": true,
+        "obscuredByHeader": false,
+        "fullyHidden": false
+      },
+      "arOpen": false,
+      "evOpen": true
+    },
+    "afterEscEv": {
+      "focus": {
+        "tag": "button",
+        "id": null,
+        "role": null,
+        "name": "شناسنامهٔ رنگ، محاسبات و منابع V2.0 DTCG",
+        "onclick": "openEvidenceDashboard('isfahan-tiles', 0)",
+        "outline": "solid 0px rgb(255, 255, 255)",
+        "focusVisible": true,
+        "visibleIndicator": false,
+        "rect": [
+          551,
+          577,
+          337,
+          48
+        ],
+        "inViewport": true,
+        "obscuredByHeader": false,
+        "fullyHidden": false
+      },
+      "evOpen": false,
+      "restoredToCTA": true
+    },
+    "backdropClose": true,
+    "drawerFirstFocus": {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "انتخاب رنگ",
+      "onclick": "togglePreviewDrawer()",
+      "outline": "solid 3px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": true,
+      "rect": [
+        225,
+        76,
+        22,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    },
+    "drawerRestore": {
+      "tag": "button",
+      "id": null,
+      "role": null,
+      "name": "استودیو سه‌بعدی",
+      "onclick": "togglePreviewDrawer()",
+      "outline": "solid 0px rgb(103, 232, 249)",
+      "focusVisible": true,
+      "visibleIndicator": false,
+      "rect": [
+        481,
+        80,
+        148,
+        36
+      ],
+      "inViewport": true,
+      "obscuredByHeader": false,
+      "fullyHidden": true
+    }
+  },
+  "names_fa": {
+    "total": 409,
+    "iconOnly": [
+      {
+        "id": "soundToggleBtn",
+        "name": "روشن یا خاموش کردن افکت صوتی",
+        "onclick": "toggleSoundFx()"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "onclick": "openEvidenceDashboard('isfahan-tiles', 0"
+      },
+      {
+        "id": "",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "onclick": "openContrastMatrix('isfahan-tiles')"
+      },
+      {
+        "id": "",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "onclick": "openGradientModal('isfahan-tiles')"
+      },
+      {
+        "id": "",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "onclick": "applyAndShowStudio('isfahan-tiles')"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "onclick": "openEvidenceDashboard('achaemenid-majest"
+      },
+      {
+        "id": "",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "onclick": "openContrastMatrix('achaemenid-majesty')"
+      },
+      {
+        "id": "",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "onclick": "openGradientModal('achaemenid-majesty')"
+      },
+      {
+        "id": "",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "onclick": "applyAndShowStudio('achaemenid-majesty')"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "onclick": "openEvidenceDashboard('behzad-miniature'"
+      },
+      {
+        "id": "",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "onclick": "openContrastMatrix('behzad-miniature')"
+      },
+      {
+        "id": "",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "onclick": "openGradientModal('behzad-miniature')"
+      },
+      {
+        "id": "",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "onclick": "applyAndShowStudio('behzad-miniature')"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "onclick": "openEvidenceDashboard('nomadic-rugs', 0)"
+      },
+      {
+        "id": "",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "onclick": "openContrastMatrix('nomadic-rugs')"
+      },
+      {
+        "id": "",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "onclick": "openGradientModal('nomadic-rugs')"
+      },
+      {
+        "id": "",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "onclick": "applyAndShowStudio('nomadic-rugs')"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "شناسنامه علمی و طیف نوری",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      }
+    ],
+    "iconOnlyCount": 134,
+    "genericNames": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "label": "انتخاب رنگ",
+        "onclick": "togglePreviewDrawer()"
+      },
+      {
+        "tag": "SELECT",
+        "id": "studioShuffleModeSelect",
+        "label": "تنظیم رنگ",
+        "onclick": ""
+      },
+      {
+        "tag": "SELECT",
+        "id": "studioTemplateSelect",
+        "label": "تنظیم رنگ",
+        "onclick": "changeStudioTemplate(this.value)"
+      },
+      {
+        "tag": "SELECT",
+        "id": "visionModeSelect",
+        "label": "تنظیم رنگ",
+        "onclick": "applyVisionFilter(this.value)"
+      },
+      {
+        "tag": "SELECT",
+        "id": "evPaletteSelect",
+        "label": "تنظیم رنگ",
+        "onclick": "onEvidencePaletteChange(this.value)"
+      },
+      {
+        "tag": "SELECT",
+        "id": "evMixerSelectB",
+        "label": "تنظیم رنگ",
+        "onclick": "onMixerPartnerChange(this.value)"
+      }
+    ],
+    "swatch": {
+      "role": "button",
+      "tabindex": 0,
+      "title": "لاجوردی (Ultramarine) (#120A8F) - کلیک برای کپی هگز",
+      "text": "#120A8F",
+      "ariaLabel": null
+    },
+    "labelInNameMismatch": [
+      {
+        "id": "themeToggleBtn",
+        "visible": "تم روشن",
+        "ariaLabel": "تغییر تم بین روشن و تاریک"
+      },
+      {
+        "id": "langToggleBtn",
+        "visible": "English",
+        "ariaLabel": "تغییر زبان به انگلیسی"
+      },
+      {
+        "id": "",
+        "visible": "بستن دیدبان علمی",
+        "ariaLabel": "بستن پنجره"
+      },
+      {
+        "id": "",
+        "visible": "بستن شناسنامهٔ رنگ",
+        "ariaLabel": "بستن پنجره"
+      },
+      {
+        "id": "",
+        "visible": "بستن شبیه‌ساز AR",
+        "ariaLabel": "بستن پنجره"
+      }
+    ],
+    "pressedState": [
+      {
+        "id": "soundToggleBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "spatialModeToggle",
+        "ariaPressed": null
+      },
+      {
+        "id": "artModeVectorBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "artModePhotoBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "threeRotateBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "threeWireBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "themeToggleBtn",
+        "ariaPressed": null
+      }
+    ],
+    "selectsNoLabel": [
+      {
+        "id": "studioShuffleModeSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "studioTemplateSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "visionModeSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "threeGeometrySelect",
+        "label": "انتخاب هندسه سه‌بعدی"
+      },
+      {
+        "id": "evPaletteSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "evMixerSelectB",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "quickMixColor1",
+        "label": "رنگدانه مبدا اول:\n              #120A8F"
+      },
+      {
+        "id": "quickMixColor2",
+        "label": "رنگدانه مبدا دوم:\n              #F4C430"
+      }
+    ]
+  },
+  "names_en": {
+    "total": 409,
+    "iconOnly": [
+      {
+        "id": "soundToggleBtn",
+        "name": "روشن یا خاموش کردن افکت صوتی",
+        "onclick": "toggleSoundFx()"
+      },
+      {
+        "id": "",
+        "name": "Spectral science & provenance dossier",
+        "onclick": "openEvidenceDashboard('isfahan-tiles', 0"
+      },
+      {
+        "id": "",
+        "name": "6x6 Contrast Matrix",
+        "onclick": "openContrastMatrix('isfahan-tiles')"
+      },
+      {
+        "id": "",
+        "name": "Modern Gradients Studio",
+        "onclick": "openGradientModal('isfahan-tiles')"
+      },
+      {
+        "id": "",
+        "name": "Open in Fullscreen 3D Studio",
+        "onclick": "applyAndShowStudio('isfahan-tiles')"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Spectral science & provenance dossier",
+        "onclick": "openEvidenceDashboard('achaemenid-majest"
+      },
+      {
+        "id": "",
+        "name": "6x6 Contrast Matrix",
+        "onclick": "openContrastMatrix('achaemenid-majesty')"
+      },
+      {
+        "id": "",
+        "name": "Modern Gradients Studio",
+        "onclick": "openGradientModal('achaemenid-majesty')"
+      },
+      {
+        "id": "",
+        "name": "Open in Fullscreen 3D Studio",
+        "onclick": "applyAndShowStudio('achaemenid-majesty')"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Spectral science & provenance dossier",
+        "onclick": "openEvidenceDashboard('behzad-miniature'"
+      },
+      {
+        "id": "",
+        "name": "6x6 Contrast Matrix",
+        "onclick": "openContrastMatrix('behzad-miniature')"
+      },
+      {
+        "id": "",
+        "name": "Modern Gradients Studio",
+        "onclick": "openGradientModal('behzad-miniature')"
+      },
+      {
+        "id": "",
+        "name": "Open in Fullscreen 3D Studio",
+        "onclick": "applyAndShowStudio('behzad-miniature')"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Spectral science & provenance dossier",
+        "onclick": "openEvidenceDashboard('nomadic-rugs', 0)"
+      },
+      {
+        "id": "",
+        "name": "6x6 Contrast Matrix",
+        "onclick": "openContrastMatrix('nomadic-rugs')"
+      },
+      {
+        "id": "",
+        "name": "Modern Gradients Studio",
+        "onclick": "openGradientModal('nomadic-rugs')"
+      },
+      {
+        "id": "",
+        "name": "Open in Fullscreen 3D Studio",
+        "onclick": "applyAndShowStudio('nomadic-rugs')"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      },
+      {
+        "id": "",
+        "name": "Color Science Dossier",
+        "onclick": "event.stopPropagation(); openEvidenceDas"
+      }
+    ],
+    "iconOnlyCount": 134,
+    "genericNames": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "label": "انتخاب رنگ",
+        "onclick": "togglePreviewDrawer()"
+      },
+      {
+        "tag": "SELECT",
+        "id": "studioShuffleModeSelect",
+        "label": "تنظیم رنگ",
+        "onclick": ""
+      },
+      {
+        "tag": "SELECT",
+        "id": "studioTemplateSelect",
+        "label": "تنظیم رنگ",
+        "onclick": "changeStudioTemplate(this.value)"
+      },
+      {
+        "tag": "SELECT",
+        "id": "visionModeSelect",
+        "label": "تنظیم رنگ",
+        "onclick": "applyVisionFilter(this.value)"
+      },
+      {
+        "tag": "SELECT",
+        "id": "evPaletteSelect",
+        "label": "تنظیم رنگ",
+        "onclick": "onEvidencePaletteChange(this.value)"
+      },
+      {
+        "tag": "SELECT",
+        "id": "evMixerSelectB",
+        "label": "تنظیم رنگ",
+        "onclick": "onMixerPartnerChange(this.value)"
+      }
+    ],
+    "swatch": {
+      "role": "button",
+      "tabindex": 0,
+      "title": "Ultramarine Lapis (#120A8F) - Click to copy HEX",
+      "text": "#120A8F",
+      "ariaLabel": null
+    },
+    "labelInNameMismatch": [
+      {
+        "id": "themeToggleBtn",
+        "visible": "Light Mode",
+        "ariaLabel": "تغییر تم بین روشن و تاریک"
+      },
+      {
+        "id": "langToggleBtn",
+        "visible": "فارسی",
+        "ariaLabel": "تغییر زبان به انگلیسی"
+      },
+      {
+        "id": "",
+        "visible": "بستن دیدبان علمی",
+        "ariaLabel": "بستن پنجره"
+      },
+      {
+        "id": "",
+        "visible": "بستن شناسنامهٔ رنگ",
+        "ariaLabel": "بستن پنجره"
+      },
+      {
+        "id": "",
+        "visible": "بستن شبیه‌ساز AR",
+        "ariaLabel": "بستن پنجره"
+      }
+    ],
+    "pressedState": [
+      {
+        "id": "soundToggleBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "spatialModeToggle",
+        "ariaPressed": null
+      },
+      {
+        "id": "artModeVectorBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "artModePhotoBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "threeRotateBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "threeWireBtn",
+        "ariaPressed": null
+      },
+      {
+        "id": "themeToggleBtn",
+        "ariaPressed": null
+      }
+    ],
+    "selectsNoLabel": [
+      {
+        "id": "studioShuffleModeSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "studioTemplateSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "visionModeSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "threeGeometrySelect",
+        "label": "انتخاب هندسه سه‌بعدی"
+      },
+      {
+        "id": "evPaletteSelect",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "evMixerSelectB",
+        "label": "تنظیم رنگ"
+      },
+      {
+        "id": "quickMixColor1",
+        "label": "رنگدانه مبدا اول:\n              #120A8F"
+      },
+      {
+        "id": "quickMixColor2",
+        "label": "رنگدانه مبدا دوم:\n              #F4C430"
+      }
+    ]
+  },
+  "liveRegions": [
+    {
+      "id": "evidenceProvenance",
+      "role": "status",
+      "live": null
+    },
+    {
+      "id": "toast",
+      "role": "status",
+      "live": "polite"
+    }
+  ],
+  "emptyStateAnnounced": {
+    "visible": true,
+    "inLive": false,
+    "hasLive": null
+  },
+  "reflow": {
+    "320x640-fa": {
+      "page": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 277,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "evidence": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 277,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "drawer": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 277,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "sci": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 277,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "matrix": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 277,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      }
+    },
+    "320x640-en": {
+      "page": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 233,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "evidence": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 233,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "drawer": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 233,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "sci": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 233,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "matrix": {
+        "scrollW": 320,
+        "clientW": 320,
+        "hScroll": false,
+        "headerHeight": 233,
+        "viewportH": 640,
+        "offenders": [],
+        "offenderCount": 0
+      }
+    },
+    "720x450-200pct-fa": {
+      "page": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "evidence": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "drawer": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "sci": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "matrix": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      }
+    },
+    "720x450-200pct-en": {
+      "page": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "evidence": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "drawer": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "sci": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      },
+      "matrix": {
+        "scrollW": 720,
+        "clientW": 720,
+        "hScroll": false,
+        "headerHeight": 232,
+        "viewportH": 450,
+        "offenders": [],
+        "offenderCount": 0
+      }
+    }
+  },
+  "reducedMotion": {
+    "pulseDuration": "1e-05s",
+    "meshRotates": false,
+    "threeFramesRenderedPerSecondStillRunning": 10,
+    "htmlScrollBehavior": "auto",
+    "cardTransformOnHover": "none"
+  },
+  "textContrast": {
+    "fa-dark": {
+      "sampled": 53,
+      "failing": 0,
+      "worst": []
+    },
+    "fa-light": {
+      "sampled": 213,
+      "failing": 176,
+      "worst": [
+        {
+          "text": "کاشی‌کاری صفوی اصفهان",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "شکوه هخامنشی تخت جمشید",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "نگارگری و مینیاتور بهزاد",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "دستبافته‌ها و قالی قشقایی و بختیاری",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "هنر میناکاری و قلم‌زنی",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "ترنج و اسلیمی کتاب‌آرایی",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "راز خلیج فارس و مروارید قشم",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "باغ‌های اردیبهشت شیراز",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "جواهرات و سنگ‌های خراسانی",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "جنگل‌های هیرکانی و البرز",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "طلای سرخ و کویر یزد",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "راسته ادویه‌فروشان بازار کهن",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "v3.0.0 Studio",
+          "sel": "span.text-[10px].font-mono.px-2",
+          "size": 10,
+          "ratio": 1.23,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "English",
+          "sel": "#langLabel",
+          "size": 12,
+          "ratio": 1.28,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "استودیو سه‌بعدی",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.31,
+          "need": 4.5,
+          "pass": false
+        }
+      ]
+    },
+    "en-dark": {
+      "sampled": 53,
+      "failing": 0,
+      "worst": []
+    },
+    "en-light": {
+      "sampled": 213,
+      "failing": 176,
+      "worst": [
+        {
+          "text": "Safavid Tilework of Isfahan",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Achaemenid Majesty & Persepolis",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Master Behzad Persian Miniature",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Qashqai & Bakhtiari Nomadic Rugs",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Isfahan Minakari & Repousse Metalwork",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Persian Toranj Illumination (Tazhib)",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Persian Gulf & Hormuz Crimson Coast",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Gardens of Shiraz & Eram Paradise",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Khorasan Gems & Turquoise Mines",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Ancient Hyrcanian Forests & Alborz",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Yazd Saffron Desert & Adobe Architecture",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "Grand Bazaar Spices & Silk Road",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.1,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "v3.0.0 Studio",
+          "sel": "span.text-[10px].font-mono.px-2",
+          "size": 10,
+          "ratio": 1.23,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "فارسی",
+          "sel": "#langLabel",
+          "size": 12,
+          "ratio": 1.28,
+          "need": 4.5,
+          "pass": false
+        },
+        {
+          "text": "3D Studio",
+          "sel": "span.",
+          "size": 14,
+          "ratio": 1.31,
+          "need": 4.5,
+          "pass": false
+        }
+      ]
+    }
+  },
+  "targetSize": {
+    "desktop": {
+      "visibleTargets": 321,
+      "under24": 72,
+      "groups": {
+        "event.stopPropagation 14x36": 72
+      }
+    },
+    "mobile": {
+      "visibleTargets": 321,
+      "under24": 72,
+      "groups": {
+        "event.stopPropagation 14x36": 72
+      }
+    }
+  },
+  "langParts_fa": {
+    "pageLang": "fa",
+    "bodyLangAttrs": 0,
+    "latinPhrasesUnderFa": 25,
+    "persianUnderEn": 0,
+    "examples": [
+      "WebGL Three.js GPU",
+      "VECTOR ART",
+      "Safavid Tilework of Isfahan",
+      "VECTOR ART",
+      "Achaemenid Majesty & Persepolis",
+      "VECTOR ART",
+      "Master Behzad Persian Miniature",
+      "VECTOR ART"
+    ]
+  },
+  "langParts_en": {
+    "pageLang": "en",
+    "bodyLangAttrs": 0,
+    "latinPhrasesUnderFa": 0,
+    "persianUnderEn": 53,
+    "examples": [
+      "رفتن به پالت‌ها",
+      "فارسی",
+      "جستجوی پالت، نام رنگ یا کد هگز",
+      "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ا",
+      "کاشی‌کاری صفوی اصفهان",
+      "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ا",
+      "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ا",
+      "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر"
+    ]
+  }
+}

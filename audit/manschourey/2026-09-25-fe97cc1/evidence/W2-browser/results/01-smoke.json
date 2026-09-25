@@ -1,0 +1,276 @@
+[
+  {
+    "id": "fa-desktop-dark",
+    "wallMs": 1296,
+    "nav": {
+      "dcl": 1203,
+      "load": 1286,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "fa",
+      "dir": "rtl",
+      "cls": "dark",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 1440,
+      "clientW": 1440,
+      "h1": "گنجینه دیزاین سیستم پارسی\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "fa-desktop-light",
+    "wallMs": 1012,
+    "nav": {
+      "dcl": 895,
+      "load": 976,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "fa",
+      "dir": "rtl",
+      "cls": "light",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 1440,
+      "clientW": 1440,
+      "h1": "گنجینه دیزاین سیستم پارسی\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "fa-mobile-dark",
+    "wallMs": 707,
+    "nav": {
+      "dcl": 631,
+      "load": 704,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "fa",
+      "dir": "rtl",
+      "cls": "dark",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 390,
+      "clientW": 390,
+      "h1": "گنجینه دیزاین سیستم پارسی\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "fa-mobile-light",
+    "wallMs": 649,
+    "nav": {
+      "dcl": 592,
+      "load": 639,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "fa",
+      "dir": "rtl",
+      "cls": "light",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 390,
+      "clientW": 390,
+      "h1": "گنجینه دیزاین سیستم پارسی\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "en-desktop-dark",
+    "wallMs": 709,
+    "nav": {
+      "dcl": 662,
+      "load": 703,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "en",
+      "dir": "ltr",
+      "cls": "dark",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 1440,
+      "clientW": 1440,
+      "h1": "Persian Palette Design System\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "en-desktop-light",
+    "wallMs": 658,
+    "nav": {
+      "dcl": 606,
+      "load": 653,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "en",
+      "dir": "ltr",
+      "cls": "light",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 1440,
+      "clientW": 1440,
+      "h1": "Persian Palette Design System\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "en-mobile-dark",
+    "wallMs": 630,
+    "nav": {
+      "dcl": 584,
+      "load": 625,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "en",
+      "dir": "ltr",
+      "cls": "dark",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 390,
+      "clientW": 390,
+      "h1": "Persian Palette Design System\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "en-mobile-light",
+    "wallMs": 720,
+    "nav": {
+      "dcl": 660,
+      "load": 715,
+      "transfer": 3144264,
+      "decoded": 3143964
+    },
+    "state": {
+      "lang": "en",
+      "dir": "ltr",
+      "cls": "light",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+      "cards": 12,
+      "scrollW": 390,
+      "clientW": 390,
+      "h1": "Persian Palette Design System\nv3.0.0 Studio",
+      "threeRenderer": true
+    },
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000042F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [],
+    "requestCount": 1,
+    "externalHosts": [],
+    "nonLocal": []
+  },
+  {
+    "id": "lang-persistence",
+    "afterToggle": {
+      "lang": "en",
+      "dir": "ltr",
+      "ls": "en"
+    },
+    "faAfterReload": {
+      "lang": "en",
+      "dir": "ltr"
+    },
+    "enAfterFaPref": {
+      "lang": "fa",
+      "dir": "rtl",
+      "ls": "fa",
+      "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault"
+    }
+  }
+]

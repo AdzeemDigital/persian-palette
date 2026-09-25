@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "id": "isfahan-tiles",
+      "dark": 16.18,
+      "dark_primaryBtn": 14.33,
+      "dark_accentVsBg": 8.74,
+      "light": 16.18,
+      "light_primaryBtn": 5.85,
+      "light_accentVsBg": 1.61
+    },
+    {
+      "id": "achaemenid-majesty",
+      "dark": 16.02,
+      "dark_primaryBtn": 12.36,
+      "dark_accentVsBg": 3.22,
+      "light": 16.02,
+      "light_primaryBtn": 6.39,
+      "light_accentVsBg": 1.97
+    },
+    {
+      "id": "behzad-miniature",
+      "dark": 13.67,
+      "dark_primaryBtn": 11.22,
+      "dark_accentVsBg": 8.05,
+      "light": 13.67,
+      "light_primaryBtn": 4.33,
+      "light_accentVsBg": 1.53
+    },
+    {
+      "id": "nomadic-rugs",
+      "dark": 11,
+      "dark_primaryBtn": 14.57,
+      "dark_accentVsBg": 1.98,
+      "light": 11,
+      "light_primaryBtn": 12.18,
+      "light_accentVsBg": 1.95
+    },
+    {
+      "id": "minakari-craft",
+      "dark": 17.03,
+      "dark_primaryBtn": 8.93,
+      "dark_accentVsBg": 7.71,
+      "light": 17.03,
+      "light_primaryBtn": 4.48,
+      "light_accentVsBg": 1.66
+    },
+    {
+      "id": "toranj-illumination",
+      "dark": 20.28,
+      "dark_primaryBtn": 12.01,
+      "dark_accentVsBg": 3.15,
+      "light": 20.28,
+      "light_primaryBtn": 11.68,
+      "light_accentVsBg": 2.16
+    },
+    {
+      "id": "persian-gulf-pearls",
+      "dark": 16.99,
+      "dark_primaryBtn": 8.87,
+      "dark_accentVsBg": 8.09,
+      "light": 16.99,
+      "light_primaryBtn": 6.03,
+      "light_accentVsBg": 1.92
+    },
+    {
+      "id": "gardens-of-shiraz",
+      "dark": 13.78,
+      "dark_primaryBtn": 8.92,
+      "dark_accentVsBg": 4.28,
+      "light": 13.78,
+      "light_primaryBtn": 4.39,
+      "light_accentVsBg": 1.15
+    },
+    {
+      "id": "khorasan-gems",
+      "dark": 15.43,
+      "dark_primaryBtn": 8.42,
+      "dark_accentVsBg": 10.11,
+      "light": 15.43,
+      "light_primaryBtn": 8.39,
+      "light_accentVsBg": 1.52
+    },
+    {
+      "id": "hyrcanian-forests",
+      "dark": 16.25,
+      "dark_primaryBtn": 11.49,
+      "dark_accentVsBg": 4.47,
+      "light": 16.25,
+      "light_primaryBtn": 11.08,
+      "light_accentVsBg": 1.93
+    },
+    {
+      "id": "yazd-saffron-desert",
+      "dark": 14.48,
+      "dark_primaryBtn": 8.63,
+      "dark_accentVsBg": 5.64,
+      "light": 14.48,
+      "light_primaryBtn": 4.28,
+      "light_accentVsBg": 1.36
+    },
+    {
+      "id": "bazaar-spices",
+      "dark": 14.52,
+      "dark_primaryBtn": 5.59,
+      "dark_accentVsBg": 8.27,
+      "light": 14.52,
+      "light_primaryBtn": 4.91,
+      "light_accentVsBg": 1.44
+    }
+  ],
+  "summary": {
+    "darkBelow7": [],
+    "lightBelow7": [],
+    "lightBelow4_5": []
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "caveat": "Headless Chromium 141 (SwiftShader software WebGL), 4 vCPU VM, no throttling, file:// load; lab-only, not field CWV.",
+  "payload": {
+    "totalBytes": 3143964,
+    "blocks": [
+      {
+        "tag": "style",
+        "bytes": 5716,
+        "head": " body { font-family: 'Vazirmatn', sans-serif; "
+      },
+      {
+        "tag": "style",
+        "bytes": 1825944,
+        "head": "*, ::before, ::after { --tw-border-spacing-x: 0; --tw-bo"
+      },
+      {
+        "tag": "script",
+        "bytes": 603445,
+        "head": "/** * @license * Copyright 2010-2021 Three.js Authors * S"
+      },
+      {
+        "tag": "script",
+        "bytes": 422805,
+        "head": "\"use strict\";var PersianCore=(()=>{var we=Object.definePrope"
+      },
+      {
+        "tag": "script",
+        "bytes": 177021,
+        "head": "const reducedMotion=window.matchMedia(\"(prefers-reduced-moti"
+      }
+    ],
+    "base64FontBytes": {
+      "font/woff2": 1659916
+    }
+  },
+  "loads": {
+    "fa": [
+      {
+        "dcl": 621,
+        "load": 669,
+        "fcp": 352,
+        "longTasks": [
+          78,
+          288
+        ],
+        "longTaskTotal": 366,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 629,
+        "load": 682,
+        "fcp": 340,
+        "longTasks": [
+          73,
+          281,
+          50
+        ],
+        "longTaskTotal": 404,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 635,
+        "load": 681,
+        "fcp": 384,
+        "longTasks": [
+          67,
+          315
+        ],
+        "longTaskTotal": 382,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 639,
+        "load": 703,
+        "fcp": 336,
+        "longTasks": [
+          66,
+          304
+        ],
+        "longTaskTotal": 370,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 679,
+        "load": 724,
+        "fcp": 352,
+        "longTasks": [
+          71,
+          315
+        ],
+        "longTaskTotal": 386,
+        "domNodes": 2958
+      }
+    ],
+    "en": [
+      {
+        "dcl": 627,
+        "load": 672,
+        "fcp": 372,
+        "longTasks": [
+          75,
+          298,
+          65
+        ],
+        "longTaskTotal": 438,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 616,
+        "load": 680,
+        "fcp": 336,
+        "longTasks": [
+          57,
+          319
+        ],
+        "longTaskTotal": 376,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 620,
+        "load": 668,
+        "fcp": 332,
+        "longTasks": [
+          70,
+          305
+        ],
+        "longTaskTotal": 375,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 586,
+        "load": 630,
+        "fcp": 324,
+        "longTasks": [
+          63,
+          277
+        ],
+        "longTaskTotal": 340,
+        "domNodes": 2958
+      },
+      {
+        "dcl": 634,
+        "load": 672,
+        "fcp": 436,
+        "longTasks": [
+          76,
+          266
+        ],
+        "longTaskTotal": 342,
+        "domNodes": 2958
+      }
+    ]
+  },
+  "loadMedians": {
+    "fa": {
+      "dcl": 635,
+      "load": 682,
+      "fcp": 352,
+      "longTaskTotal": 382,
+      "maxLongTask": 315
+    },
+    "en": {
+      "dcl": 620,
+      "load": 672,
+      "fcp": 336,
+      "longTaskTotal": 375,
+      "maxLongTask": 319
+    }
+  },
+  "heap": {
+    "afterLoad": {
+      "heapUsedMB": 3.24,
+      "nodes": 9222,
+      "listeners": 452,
+      "docs": 1
+    },
+    "after10Cycles": {
+      "heapUsedMB": 3.69,
+      "nodes": 10735,
+      "listeners": 482,
+      "docs": 1
+    },
+    "threeMemory": {
+      "geometries": 4,
+      "textures": 0
+    },
+    "after10LangToggles": {
+      "heapUsedMB": 3.86,
+      "nodes": 10735,
+      "listeners": 482,
+      "docs": 1
+    }
+  },
+  "idleDrawerClosed": {
+    "webglFramesIn3s": 181,
+    "mainThreadTaskSecondsIn3s": 0.167,
+    "drawerHidden": true
+  },
+  "radar": {
+    "angleAdvanceWhileHiddenTab1s": 0.12,
+    "afterCloseAdvance": 0
+  },
+  "interactionTiming": {
+    "setLangEn": 77,
+    "setLangFa": 87,
+    "renderPalettes": 16,
+    "openEvidence": 76,
+    "openExport": 1,
+    "exportTokensView": 5
+  },
+  "contextLoss": {
+    "lost": true,
+    "appHandlesContextLost": false
+  },
+  "noWebGL": {
+    "initial": {
+      "renderer": false,
+      "hud": "WebGL Three.js GPU",
+      "webgl": false
+    },
+    "drawerMessage": "برای چرخش بکشید (Drag to Orbit) کریستال دوازده‌وجهی منشور هشت‌وجهی ستاره بیست‌وجهی گره اسلیمی (Torus)",
+    "console": [
+      "error: THREE.WebGLRenderer: Error creating WebGL context.",
+      "warning: 3D preview unavailable Error: Error creating WebGL context.\n    at new ws (file:///tmp/claude-0/-home-user-persian-palette/e26ee6ea-c16b-528c-85e8-4b3bf9007cb6/"
+    ],
+    "pageErrors": []
+  },
+  "lightTargets": {
+    "cardBody": {
+      "claimedBadge": "16.2:1 (AAA)",
+      "fg": "rgb(51, 65, 85)",
+      "bg": "rgb(11, 19, 43)",
+      "ratio": 1.78,
+      "inlineStyleColor": "rgb(244, 241, 222)"
+    },
+    "colorItemHex": {
+      "fg": "rgb(71, 85, 105)",
+      "bgComposited": "rgb(103,105,115)",
+      "ratio": 1.4
+    },
+    "hudValue": {
+      "fg": "rgb(252, 211, 77)",
+      "bg": "rgba(255, 255, 255, 0.92)",
+      "ratio": 1.43
+    },
+    "headerExportBtn": {
+      "fg": "rgb(252, 211, 77)",
+      "bg": "rgba(245, 158, 11, 0.1)",
+      "ratio": 1.34
+    },
+    "versionBadge": {
+      "fg": "rgb(252, 211, 77)",
+      "ratio": 1.24
+    },
+    "drawerHeading": {
+      "fg": "rgb(15, 23, 42)",
+      "bg": "rgb(11, 19, 43)",
+      "badge": "16.2:1 (AAA)"
+    }
+  }
+}

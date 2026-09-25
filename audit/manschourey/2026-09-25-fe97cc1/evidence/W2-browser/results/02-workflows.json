@@ -1,0 +1,4095 @@
+{
+  "steps": [
+    {
+      "name": "swatch-strip-click-copies-hex",
+      "status": "pass-run",
+      "v": "#120A8F"
+    },
+    {
+      "name": "swatch-keyboard-enter",
+      "status": "pass-run",
+      "v": "#00A693"
+    },
+    {
+      "name": "toast-announce",
+      "status": "pass-run",
+      "v": {
+        "role": "status",
+        "live": "polite",
+        "title": "کپی شد: #00A693",
+        "desc": "آبی زنگاری شاهی (Persian Green) در کلیپ‌بورد ذخیره شد."
+      }
+    },
+    {
+      "name": "card-primary-copy",
+      "status": "pass-run",
+      "v": "#120A8F"
+    },
+    {
+      "name": "card-shuffle-cycle",
+      "status": "pass-run",
+      "v": {
+        "wcag": "16.2:1 (AAA)",
+        "btn": "کپی اکشن: #00A693"
+      }
+    },
+    {
+      "name": "evidence-open-cta",
+      "status": "pass-run",
+      "v": {
+        "provenance": "محاسبات رنگ: از sRGB • طیف و بافت: شبیه‌سازی • اطلاعات تاریخی و ماده: نیازمند بررسی منبع.",
+        "state": "unverified",
+        "focus": "<select id=\"evPaletteSelect\" onchange=\"onEvidencePaletteChange(this.value)\" class=\"bg-slate-900 border border-slate-700 ",
+        "notes": [
+          "منحنی زیر یک مدل نمایشی از پارامترهای اولیه است و دادهٔ اندازه‌گیری‌شدهٔ طیف‌سنج نیست.",
+          "راهنمای اندازه و وزن از جدول مرجع APCA با فونت Barlow است؛ خوانایی فونت فارسی نیاز به ارزیابی جداگانه دارد.",
+          "مختصات و انتساب‌های میراثی از دادهٔ اولیه نقل شده‌اند. وضعیت تعارض را در شناسنامهٔ رنگ بررسی کنید.",
+          "این تصویر یک بافت رویه‌ای است؛ از اسکن یا فتوگرامتری نمونهٔ فیزیکی به دست نیامده است.",
+          "خروجی Figma با اسکریپت واردکنندهٔ همراه پروژه استفاده می‌شود؛ فایل DTCG را جداگانه دریافت کنید."
+        ],
+        "sub": "Ultramarine Lapis • Safavid Tilework of Isfahan • ثبت میراث جهانی یونسکو (UNESCO World Heritage Site)",
+        "badge": "موزه هنرهای اسلامی",
+        "unesco": "UNESCO World Heritage Ref: 115 (Meidan Emam)"
+      }
+    },
+    {
+      "name": "evidence-tab-chemical",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "evidence-tab-geospatial",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "evidence-tab-mixer",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "evidence-tab-photogrammetry",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "evidence-tab-tokens",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "evidence-tab-spectral",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "evidence-conflict-color",
+      "status": "pass-run",
+      "v": {
+        "unverified": 61,
+        "conflicting": 11
+      }
+    },
+    {
+      "name": "evidence-pill-select",
+      "status": "pass-run",
+      "v": "#93C572"
+    },
+    {
+      "name": "evidence-palette-select",
+      "status": "pass-run",
+      "v": "ترنج و اسلیمی کتاب‌آرایی"
+    },
+    {
+      "name": "apca-custom-bg",
+      "status": "pass-run",
+      "v": "Lc 0.0 (ناکافی)"
+    },
+    {
+      "name": "apca-matrix-rows",
+      "status": "pass-run",
+      "v": [
+        "12 px — خارج از راهنما — خارج از راهنما — خارج از راهنما",
+        "14 px — خارج از راهنما — خارج از راهنما ✓ راهنمای مرجع",
+        "16 px — خارج از راهنما ✓ راهنمای مرجع ✓ راهنمای مرجع",
+        "24 px ✓ راهنمای مرجع ✓ راهنمای مرجع ✓ راهنمای مرجع",
+        "32 px ✓ راهنمای مرجع ✓ راهنمای مرجع ✓ راهنمای مرجع"
+      ]
+    },
+    {
+      "name": "geo-maps-link",
+      "status": "pass-run",
+      "v": {
+        "href": "https://www.google.com/maps?q=32.4279,53.688",
+        "rel": "",
+        "target": "_blank",
+        "alt": "1400 متر"
+      }
+    },
+    {
+      "name": "geo-copy",
+      "status": "pass-run",
+      "v": "32.4279, 53.688"
+    },
+    {
+      "name": "ev-mixer",
+      "status": "pass-run",
+      "v": {
+        "clip": "#A5584C",
+        "label": "70% مبنا • 30% ثانویه",
+        "steps": 5
+      }
+    },
+    {
+      "name": "ev-mixer-step-keyboard",
+      "status": "pass-run",
+      "v": "30"
+    },
+    {
+      "name": "ev-photogrammetry-sliders",
+      "status": "pass-run",
+      "v": "200°"
+    },
+    {
+      "name": "ev-token-w3c",
+      "status": "pass-run",
+      "v": {
+        "ok": true,
+        "hasProvenance": true,
+        "len": 5512
+      }
+    },
+    {
+      "name": "ev-token-figma",
+      "status": "pass-run",
+      "v": {
+        "ok": true,
+        "hasProvenance": false,
+        "len": 689
+      }
+    },
+    {
+      "name": "ev-token-tailwind",
+      "status": "pass-run",
+      "v": "@theme {\n  --color-persian-toranj-illumination-100: #780000;\n}"
+    },
+    {
+      "name": "ev-token-css",
+      "status": "pass-run",
+      "v": ":root {\n  --persian-toranj-illumination-timurid-crimson-carmine: #780000;\n}"
+    },
+    {
+      "name": "ar-open-room",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "ar-camera-granted",
+      "status": "pass-run",
+      "v": {
+        "hasStream": true,
+        "tracks": [
+          "live"
+        ],
+        "errVisible": false,
+        "w": 1280
+      }
+    },
+    {
+      "name": "ar-kelvin-cycle",
+      "status": "pass-run",
+      "v": "#283655"
+    },
+    {
+      "name": "ar-close-stops-tracks",
+      "status": "pass-run",
+      "v": {
+        "streamVar": false,
+        "states": [
+          "ended"
+        ],
+        "arOpen": false,
+        "evOpen": true
+      }
+    },
+    {
+      "name": "sci-open",
+      "status": "pass-run",
+      "v": "دیدبان علمی و پالت تنال: کاشی‌کاری صفوی اصفهان (Safavid Tilework of Isfahan)"
+    },
+    {
+      "name": "sci-tab-radar",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "sci-tab-harmony",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "sci-tab-tokens",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "sci-tab-tonal",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "sci-pill",
+      "status": "pass-run",
+      "v": 13
+    },
+    {
+      "name": "sci-copy-json",
+      "status": "pass-run",
+      "v": "{\n  \"palette\": \"Safavid Tilework of Isfahan\",\n  \"color\": \"Persian Green\",\n  \"keyHex\": \"#00A693\",\n  \"m3Tones\": {\n    \"tone_0\": \"#000000\",\n    \"tone_10\": \"#00201B"
+    },
+    {
+      "name": "sci-copy-css",
+      "status": "pass-run",
+      "v": "/* Material 3 · روشن Tones for آبی زنگاری شاهی (Persian Green) (#00A693) */\n:root {\n  --md-sys-color-isfahan-tiles-3-tone-0: #000000;\n  --md-sys-color-isfahan-t"
+    },
+    {
+      "name": "sci-tone-tile-copy",
+      "status": "pass-run",
+      "v": "#00A390"
+    },
+    {
+      "name": "matrix-open",
+      "status": "pass-run",
+      "v": 30
+    },
+    {
+      "name": "matrix-apply-pair",
+      "status": "pass-run",
+      "v": {
+        "matrixOpen": false
+      }
+    },
+    {
+      "name": "gradient-open-copy",
+      "status": "pass-run",
+      "v": "background: linear-gradient(135deg, #120A8F 0%, #30D5C8 50%, #D4AF37 100%);"
+    },
+    {
+      "name": "export-open",
+      "status": "pass-run",
+      "v": "خروجی کامل مخزن (۱۲ پالت • ۷۲ رنگ)"
+    },
+    {
+      "name": "export-css",
+      "status": "pass-run",
+      "v": {
+        "tab": "css",
+        "filename": "persian-palettes.css",
+        "bytes": 2949,
+        "cssVars": 72,
+        "mentionsUnverified": false,
+        "provenanceHits": 0,
+        "head": ":root {\n  --persian-isfahan-tiles-1: #120A8F;\n  --persian-isfahan-tiles-2: #30D5C8;\n  --persian-isfahan-tiles-3: #00A693;\n  --persian-isfahan-tiles-4: #D4AF37;\n  --persian-isfahan-tiles-5: #F4F1DE;\n  ",
+        "clipboardEqualsDownload": true
+      }
+    },
+    {
+      "name": "export-tailwind",
+      "status": "pass-run",
+      "v": {
+        "tab": "tailwind",
+        "filename": "persian-palettes.js",
+        "bytes": 2799,
+        "cssVars": 0,
+        "mentionsUnverified": false,
+        "provenanceHits": 0,
+        "head": "export default {\n  \"theme\": {\n    \"extend\": {\n      \"colors\": {\n        \"persian\": {\n          \"isfahan-tiles\": {\n            \"100\": \"#120A8F\",\n            \"200\": \"#30D5C8\",\n            \"300\": \"#00A69",
+        "clipboardEqualsDownload": true
+      }
+    },
+    {
+      "name": "export-json",
+      "status": "pass-run",
+      "v": {
+        "tab": "json",
+        "filename": "persian-palettes.json",
+        "bytes": 379625,
+        "jsonOk": true,
+        "topKeys": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "cssVars": 0,
+        "mentionsUnverified": true,
+        "provenanceHits": 72,
+        "head": "[\n  {\n    \"id\": \"isfahan-tiles\",\n    \"category\": \"architecture\",\n    \"nameFa\": \"کاشی‌کاری صفوی اصفهان\",\n    \"nameEn\": \"Safavid Tilework of Isfahan\",\n    \"description\": \"شاهکار هفت‌رنگ صفوی، کبالت و لا",
+        "clipboardEqualsDownload": true
+      }
+    },
+    {
+      "name": "export-scss",
+      "status": "pass-run",
+      "v": {
+        "tab": "scss",
+        "filename": "persian-palettes.scss",
+        "bytes": 2723,
+        "cssVars": 0,
+        "mentionsUnverified": false,
+        "provenanceHits": 0,
+        "head": "$persian-isfahan-tiles-1: #120A8F;\n$persian-isfahan-tiles-2: #30D5C8;\n$persian-isfahan-tiles-3: #00A693;\n$persian-isfahan-tiles-4: #D4AF37;\n$persian-isfahan-tiles-5: #F4F1DE;\n$persian-isfahan-tiles-6:",
+        "clipboardEqualsDownload": true
+      }
+    },
+    {
+      "name": "export-tokens",
+      "status": "pass-run",
+      "v": {
+        "tab": "tokens",
+        "filename": "persian-palettes.json",
+        "bytes": 403693,
+        "jsonOk": true,
+        "topKeys": [
+          "$description",
+          "$extensions",
+          "persian"
+        ],
+        "cssVars": 0,
+        "mentionsUnverified": true,
+        "provenanceHits": 72,
+        "head": "{\n  \"$description\": \"Persian Palette Vault design tokens\",\n  \"$extensions\": {\n    \"org.persian-palette\": {\n      \"version\": \"3.0.0\",\n      \"dtcgVersion\": \"2025.10\"\n    }\n  },\n  \"persian\": {\n    \"$desc",
+        "clipboardEqualsDownload": true
+      }
+    },
+    {
+      "name": "export-flutter",
+      "status": "pass-run",
+      "v": {
+        "tab": "flutter",
+        "filename": "persian-palettes.dart",
+        "bytes": 4444,
+        "cssVars": 0,
+        "mentionsUnverified": false,
+        "provenanceHits": 0,
+        "head": "import 'package:flutter/material.dart';\n\nclass PersianColors {\n  static const Color isfahan_tiles_1 = Color(0xFF120A8F);\n  static const Color isfahan_tiles_2 = Color(0xFF30D5C8);\n  static const Color ",
+        "clipboardEqualsDownload": true
+      }
+    },
+    {
+      "name": "npm-copy",
+      "status": "pass-run",
+      "v": {
+        "a": "npm install ./release/persian-palette-core-3.0.0.tgz",
+        "b": "import { \n  PersianEngine, \n  calculateAPCA, \n  mixColors, \n  exportToW3CTokens "
+      }
+    },
+    {
+      "name": "quick-mixer",
+      "status": "pass-run",
+      "v": {
+        "clip": "#602034",
+        "label": "25% / 75%",
+        "ok": "Oklab: L 0.347 | a 0.095 | b 0.005",
+        "caveatText": false,
+        "evOpenedFor": "#120A8F"
+      }
+    },
+    {
+      "name": "drawer-open",
+      "status": "pass-run",
+      "v": {
+        "w": 364,
+        "h": 254
+      }
+    },
+    {
+      "name": "drawer-shuffle-modes",
+      "status": "pass-run",
+      "v": [
+        "16.2:1 (AAA)",
+        "16.2:1 (AAA)",
+        "10.0:1 (AAA)"
+      ]
+    },
+    {
+      "name": "drawer-templates",
+      "status": "pass-run",
+      "v": {
+        "hud": "داشبورد تلمتری رنگ 10.0:1 (AAA) لومینانس زمینه 0.524 نسبت کنتراست متن 10.05:1 ارزیابی کنتراست رنگ متن و زمینه نسبت نشان‌داده‌شده برای رنگ م",
+        "hero": "HERO CTA SECTION هویت بصری بی‌بدیل با شکوه رنگ‌های پارسی ترکیب هارمونیک آبی زنگاری شاهی (Persian Green) و عاجی گچی محراب در ساختار رابط کار",
+        "form": "فرم ورودی و احراز هویت هوشمند 10.0:1 (AAA) نام و نشان پروژه پروژه طراحی برندینگ صفوی انتخاب نقش استراتژیک آبی زنگاری شاهی (Persian Green) (#",
+        "product": "طلایی اسلیمی 10.0:1 (AAA) میراث الهام‌بخش تجربه اصالت هنر کاشی‌کاری صفوی اصفهان شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندا"
+      }
+    },
+    {
+      "name": "drawer-vision",
+      "status": "pass-run",
+      "v": [
+        "filter-protanopia",
+        "filter-deuteranopia",
+        "filter-tritanopia",
+        "filter-achromatopsia",
+        "none"
+      ]
+    },
+    {
+      "name": "drawer-copy-css",
+      "status": "pass-run",
+      "v": "/* Neu-Persian Design Tokens - Safavid Tilework of Isfahan */\n:root {\n  --persian-surface: #30D5C8; /* فیروزه‌ای اصیل (Persian Turquoise) */\n  --persian-heading: #0B132B; /* سرمه‌ای مقرنس */\n  --persian-primary-cta: #00A693; /* آبی زنگاری شاهی (Persian Green) */\n  --persian-secondary: #F4F1DE; /* عاجی گچی محراب */\n  --persian-accent: #D4AF37; /* طلایی اسلیمی */\n  --persian-wcag-ratio: '10.05:1';\n}"
+    },
+    {
+      "name": "drawer-3d-controls",
+      "status": "pass-run",
+      "v": {
+        "auto": false,
+        "wire": false,
+        "geom": "TorusKnotGeometry",
+        "calls": 4,
+        "geoms": 3
+      }
+    },
+    {
+      "name": "drawer-swatch-primary",
+      "status": "pass-run",
+      "v": 4
+    },
+    {
+      "name": "drawer-reset",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "drawer-close-footer",
+      "status": "pass-run",
+      "v": false
+    },
+    {
+      "name": "sound-toggle",
+      "status": "pass-run",
+      "v": {
+        "soundEnabled": true,
+        "ctxState": "running",
+        "label": "روشن یا خاموش کردن افکت صوتی",
+        "pressed": null
+      }
+    },
+    {
+      "name": "spatial-toggle",
+      "status": "pass-run",
+      "v": true
+    },
+    {
+      "name": "art-photo-mode",
+      "status": "pass-run",
+      "v": {
+        "external": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg/960px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Persepolis_stairs_of_the_Apadana_relief.jpg/960px-Persepolis_stairs_of_the_Apadana_relief.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Behzad_1.jpg/960px-Behzad_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ghashghai_rug.jpg/960px-Ghashghai_rug.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Minakari_of_Isfahan.jpg/960px-Minakari_of_Isfahan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg/960px-Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Hormuz_Island%2C_Iran_%2849544498308%29.jpg/960px-Hormuz_Island%2C_Iran_%2849544498308%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Eram_Garden_Panorama_2.jpg/960px-Eram_Garden_Panorama_2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nishapur_Turquoise_Rough.jpg/960px-Nishapur_Turquoise_Rough.jpg"
+        ],
+        "imgs": [
+          {
+            "alt": "کاشی‌کاری صفوی اصفهان",
+            "cross": "anonymous",
+            "loading": "lazy",
+            "op": "0"
+          },
+          {
+            "alt": "شکوه هخامنشی تخت جمشید",
+            "cross": "anonymous",
+            "loading": "lazy",
+            "op": "0"
+          },
+          {
+            "alt": "نگارگری و مینیاتور بهزاد",
+            "cross": "anonymous",
+            "loading": "lazy",
+            "op": "0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "theme-toggle",
+      "status": "pass-run",
+      "v": {
+        "cls": "light",
+        "ls": "light",
+        "label": "تم تیره"
+      }
+    },
+    {
+      "name": "lang-toggle-to-en",
+      "status": "pass-run",
+      "v": {
+        "lang": "en",
+        "dir": "ltr",
+        "title": "گنجینه رنگ‌های پارسی | Persian Palette Vault",
+        "skip": "رفتن به پالت‌ها",
+        "searchLabel": "جست‌وجوی پالت، نام رنگ یا کد هگز",
+        "langBtnLabel": "تغییر زبان به انگلیسی",
+        "themeBtnLabel": "تغییر تم بین روشن و تاریک",
+        "gridLabel": "پالت‌های رنگ"
+      }
+    },
+    {
+      "name": "en-open-evidence",
+      "status": "pass-run",
+      "v": 82
+    },
+    {
+      "name": "en-open-drawer",
+      "status": "pass-run",
+      "v": 87
+    },
+    {
+      "name": "en-open-export",
+      "status": "pass-run",
+      "v": 56
+    },
+    {
+      "name": "en-open-mixer",
+      "status": "pass-run",
+      "v": 65
+    },
+    {
+      "name": "en-open-npm",
+      "status": "pass-run",
+      "v": 66
+    },
+    {
+      "name": "en-open-sci",
+      "status": "pass-run",
+      "v": 72
+    },
+    {
+      "name": "persistence-reload",
+      "status": "pass-run",
+      "v": {
+        "lang": "en",
+        "dir": "ltr",
+        "cls": "light",
+        "keys": [
+          "manshour_theme",
+          "manshour_lang"
+        ],
+        "session": [],
+        "cookies": ""
+      }
+    }
+  ],
+  "downloads": [
+    {
+      "tab": "css",
+      "filename": "persian-palettes.css",
+      "bytes": 2949,
+      "cssVars": 72,
+      "mentionsUnverified": false,
+      "provenanceHits": 0,
+      "head": ":root {\n  --persian-isfahan-tiles-1: #120A8F;\n  --persian-isfahan-tiles-2: #30D5C8;\n  --persian-isfahan-tiles-3: #00A693;\n  --persian-isfahan-tiles-4: #D4AF37;\n  --persian-isfahan-tiles-5: #F4F1DE;\n  ",
+      "clipboardEqualsDownload": true
+    },
+    {
+      "tab": "tailwind",
+      "filename": "persian-palettes.js",
+      "bytes": 2799,
+      "cssVars": 0,
+      "mentionsUnverified": false,
+      "provenanceHits": 0,
+      "head": "export default {\n  \"theme\": {\n    \"extend\": {\n      \"colors\": {\n        \"persian\": {\n          \"isfahan-tiles\": {\n            \"100\": \"#120A8F\",\n            \"200\": \"#30D5C8\",\n            \"300\": \"#00A69",
+      "clipboardEqualsDownload": true
+    },
+    {
+      "tab": "json",
+      "filename": "persian-palettes.json",
+      "bytes": 379625,
+      "jsonOk": true,
+      "topKeys": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "cssVars": 0,
+      "mentionsUnverified": true,
+      "provenanceHits": 72,
+      "head": "[\n  {\n    \"id\": \"isfahan-tiles\",\n    \"category\": \"architecture\",\n    \"nameFa\": \"کاشی‌کاری صفوی اصفهان\",\n    \"nameEn\": \"Safavid Tilework of Isfahan\",\n    \"description\": \"شاهکار هفت‌رنگ صفوی، کبالت و لا",
+      "clipboardEqualsDownload": true
+    },
+    {
+      "tab": "scss",
+      "filename": "persian-palettes.scss",
+      "bytes": 2723,
+      "cssVars": 0,
+      "mentionsUnverified": false,
+      "provenanceHits": 0,
+      "head": "$persian-isfahan-tiles-1: #120A8F;\n$persian-isfahan-tiles-2: #30D5C8;\n$persian-isfahan-tiles-3: #00A693;\n$persian-isfahan-tiles-4: #D4AF37;\n$persian-isfahan-tiles-5: #F4F1DE;\n$persian-isfahan-tiles-6:",
+      "clipboardEqualsDownload": true
+    },
+    {
+      "tab": "tokens",
+      "filename": "persian-palettes.json",
+      "bytes": 403693,
+      "jsonOk": true,
+      "topKeys": [
+        "$description",
+        "$extensions",
+        "persian"
+      ],
+      "cssVars": 0,
+      "mentionsUnverified": true,
+      "provenanceHits": 72,
+      "head": "{\n  \"$description\": \"Persian Palette Vault design tokens\",\n  \"$extensions\": {\n    \"org.persian-palette\": {\n      \"version\": \"3.0.0\",\n      \"dtcgVersion\": \"2025.10\"\n    }\n  },\n  \"persian\": {\n    \"$desc",
+      "clipboardEqualsDownload": true
+    },
+    {
+      "tab": "flutter",
+      "filename": "persian-palettes.dart",
+      "bytes": 4444,
+      "cssVars": 0,
+      "mentionsUnverified": false,
+      "provenanceHits": 0,
+      "head": "import 'package:flutter/material.dart';\n\nclass PersianColors {\n  static const Color isfahan_tiles_1 = Color(0xFF120A8F);\n  static const Color isfahan_tiles_2 = Color(0xFF30D5C8);\n  static const Color ",
+      "clipboardEqualsDownload": true
+    }
+  ],
+  "clipboard": [
+    {
+      "from": "swatch",
+      "text": "#120A8F"
+    },
+    {
+      "from": "ev-token-w3c",
+      "text": "{\n  \"$description\": \"Persian Palette Vault design tokens\",\n  \"$extensions\": {\n    \"org.persian-palette\": {\n      \"version\": \"3.0.0\",\n      \"dtcgVersion\": \"2025.10\"\n    }\n  },\n  \"persian\": {\n    \"$description\": \"Persian-inspired sRGB colors; heritage annotations are not laboratory authentication.\",\n    \"toranj-illumination\": {\n      \"$description\": \"ترنج و اسلیمی کتاب‌آرایی (Persian Toranj Illumination (Tazhib))\",\n      \"timurid-crimson-carmine\": {\n        \"$type\": \"color\",\n        \"$value\": {\n          \"colorSpace\": \"srgb\",\n          \"components\": [\n            0.47058823529411764,\n           "
+    },
+    {
+      "from": "ev-token-figma",
+      "text": "{\n  \"schema\": \"persian-palette/figma-interchange\",\n  \"schemaVersion\": 1,\n  \"collections\": [\n    {\n      \"name\": \"Persian Palette Vault\",\n      \"modes\": [\n        \"Default\"\n      ],\n      \"variables\": [\n        {\n          \"name\": \"Persian/toranj-illumination/Timurid Crimson Carmine\",\n          \"resolvedType\": \"COLOR\",\n          \"valuesByMode\": {\n            \"Default\": {\n              \"r\": 0.47058823529411764,\n              \"g\": 0,\n              \"b\": 0,\n              \"a\": 1\n            }\n          },\n          \"description\": \"زرشکی تذهیب تیموری — Heritage annotation not independently verified\","
+    },
+    {
+      "from": "ev-token-tailwind",
+      "text": "@theme {\n  --color-persian-toranj-illumination-100: #780000;\n}"
+    },
+    {
+      "from": "ev-token-css",
+      "text": ":root {\n  --persian-toranj-illumination-timurid-crimson-carmine: #780000;\n}"
+    }
+  ],
+  "leftovers": {
+    "main": {
+      "visibleTextNodes": 53,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 88,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    },
+    "evidence": {
+      "visibleTextNodes": 82,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 105,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    },
+    "drawer": {
+      "visibleTextNodes": 87,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 110,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    },
+    "export": {
+      "visibleTextNodes": 56,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 89,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    },
+    "mixer": {
+      "visibleTextNodes": 65,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 93,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    },
+    "npm": {
+      "visibleTextNodes": 66,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 90,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    },
+    "sci": {
+      "visibleTextNodes": 72,
+      "samples": [
+        "رفتن به پالت‌ها",
+        "فارسی",
+        "جستجوی پالت، نام رنگ یا کد هگز",
+        "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و ",
+        "کاشی‌کاری صفوی اصفهان",
+        "خاک سرخ پارس، طلای کهن هخامنشی، ستون‌های سنگی مرمر شوش و پارسه و درفش‌",
+        "شکوه هخامنشی تخت جمشید",
+        "مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای",
+        "نگارگری و مینیاتور بهزاد",
+        "تار و پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پو",
+        "دستبافته‌ها و قالی قشقایی و بختیاری",
+        "لعاب فیروزه و لاجورد بر مس کوره و درخشش زرین فلزکاری و قلم‌زنی مکتب اص",
+        "هنر میناکاری و قلم‌زنی",
+        "تذهیب، تشعیر و طلااندازی اوراق نفیس خطی، شمسه‌های ترنجی و نقوش اسلیمی ",
+        "ترنج و اسلیمی کتاب‌آرایی",
+        "امواج نیلگون خلیج پارس، خاک سرخ معدنی جزیره هرمز، درخشش مروارید غلطان ",
+        "راز خلیج فارس و مروارید قشم",
+        "پردیس‌های ایرانی باغ ارم و دلگشا، عطر گل سرخ محمدی، طراوت بهارنارنج و ",
+        "باغ‌های اردیبهشت شیراز",
+        "کهن‌ترین معدن فیروزه جهان در نیشابور، یاقوت‌های اناری، کهربای توس و زم",
+        "جواهرات و سنگ‌های خراسانی",
+        "کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت دوره ژوراسیک، صخره‌های مه‌آلود ",
+        "جنگل‌های هیرکانی و البرز",
+        "بادگیرهای افراشته خشتی، زعفران سرگل قائنات، ساباط‌های سایه‌انداز و تپه",
+        "طلای سرخ و کویر یزد"
+      ],
+      "attrCount": 103,
+      "attrSamples": [
+        "معماری پکیج NPM و راهنمای نصب",
+        "میکسر ادراکی رنگدانه‌های تاریخی",
+        "صادرات توکن‌های W3C و فیگما",
+        "نمایش نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)",
+        "نمایش تصاویر پیوندشده از منابع بیرونی",
+        "روشن یا خاموش کردن افکت صوتی",
+        "دیدبان علمی پالت‌های تنال M3 گوگل و رادار Oklab",
+        "تغییر به حالت فضایی و هولوگرافیک ترند ۲۰۲۶ (Apple VisionOS Mode)",
+        "تغییر تم روشن و تیره (Light / Dark Theme)",
+        "تغییر تم بین روشن و تاریک",
+        "تغییر زبان به انگلیسی یا فارسی (Switch Language: English / Persian)",
+        "تغییر زبان به انگلیسی"
+      ]
+    }
+  },
+  "controls": {
+    "initial": [
+      {
+        "tag": "a",
+        "id": null,
+        "onclick": "",
+        "name": "رفتن به پالت‌ها",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openNpmModal()",
+        "name": "معماری پکیج NPM",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openMixerModal()",
+        "name": "میکسر رنگدانه‌ها",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openExportAllModal()",
+        "name": "توکن‌های W3C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "artModeVectorBtn",
+        "onclick": "setArtDisplayMode('vector')",
+        "name": "هنر وکتور پارسی",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "artModePhotoBtn",
+        "onclick": "setArtDisplayMode('photo')",
+        "name": "عکس میراث فرهنگی",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openExportAllModal()",
+        "name": "دریافت کدها",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "soundToggleBtn",
+        "onclick": "toggleSoundFx()",
+        "name": "روشن یا خاموش کردن افکت صوتی",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openScientificModalForActive()",
+        "name": "دیدبان علمی M3",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "spatialModeToggle",
+        "onclick": "toggleSpatialMode()",
+        "name": "مود فضایی",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "togglePreviewDrawer()",
+        "name": "استودیو سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "themeToggleBtn",
+        "onclick": "toggleTheme()",
+        "name": "تغییر تم بین روشن و تاریک",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "langToggleBtn",
+        "onclick": "toggleLanguage()",
+        "name": "تغییر زبان به انگلیسی",
+        "inDialog": false
+      },
+      {
+        "tag": "input",
+        "id": "searchInput",
+        "onclick": "",
+        "name": "جست‌وجوی پالت، نام رنگ یا کد هگز",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCategory('all')",
+        "name": "همه پالت‌ها",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCategory('architecture')",
+        "name": "معماری و کاشی",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCategory('textiles')",
+        "name": "فرش و منسوجات",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCategory('history')",
+        "name": "تاریخ و تمدن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCategory('nature')",
+        "name": "طبیعت و اقلیم",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCategory('arts')",
+        "name": "نگارگری و هنرها",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('isfahan-tiles', 0)",
+        "name": "شناسنامهٔ رنگ، محاسبات و منابع V2.0 DTCG",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('isfahan-tiles')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('isfahan-tiles', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('isfahan-tiles')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('isfahan-tiles')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('isfahan-tiles')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+        "name": "#120A8F",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#30D5C8', 'فیروزه‌ای اصیل (Persian Turquoise)'",
+        "name": "#30D5C8",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#00A693', 'آبی زنگاری شاهی (Persian Green)')",
+        "name": "#00A693",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D4AF37', 'طلایی اسلیمی')",
+        "name": "#D4AF37",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F4F1DE', 'عاجی گچی محراب')",
+        "name": "#F4F1DE",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0B132B', 'سرمه‌ای مقرنس')",
+        "name": "#0B132B",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-isfahan-tiles",
+        "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+        "name": "کپی اکشن: #120A8F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-isfahan-tiles",
+        "onclick": "cycleCardShuffle('isfahan-tiles')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+        "name": "لاجوردی (Ultramarine) #120A8F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('isfahan-tile",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#30D5C8', 'فیروزه‌ای اصیل (Persian Turquoise)'",
+        "name": "فیروزه‌ای اصیل (Persian Turquoise) #30D5C8",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('isfahan-tile",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#00A693', 'آبی زنگاری شاهی (Persian Green)')",
+        "name": "آبی زنگاری شاهی (Persian Green) #00A693",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('isfahan-tile",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D4AF37', 'طلایی اسلیمی')",
+        "name": "طلایی اسلیمی #D4AF37",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('isfahan-tile",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F4F1DE', 'عاجی گچی محراب')",
+        "name": "عاجی گچی محراب #F4F1DE",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('isfahan-tile",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0B132B', 'سرمه‌ای مقرنس')",
+        "name": "سرمه‌ای مقرنس #0B132B",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('isfahan-tile",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('achaemenid-majesty')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('achaemenid-majesty', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('achaemenid-majesty')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('achaemenid-majesty')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('achaemenid-majesty')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#CC3333', 'سرخ پارسی اصیل (Persian Red)')",
+        "name": "#CC3333",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#CFB53B', 'طلای شاهنشاهی (Old Gold)')",
+        "name": "#CFB53B",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1D3557', 'سرمه‌ای پارسه')",
+        "name": "#1D3557",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#2D6A4F', 'یشم باستانی')",
+        "name": "#2D6A4F",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDFBF7', 'سنگ مرمر آپادانا')",
+        "name": "#FDFBF7",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B1F24', 'سنگ سیاه تچر')",
+        "name": "#1B1F24",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-achaemenid-majesty",
+        "onclick": "copyColorHex('#1D3557', 'سرمه‌ای پارسه')",
+        "name": "کپی اکشن: #1D3557",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-achaemenid-majesty",
+        "onclick": "cycleCardShuffle('achaemenid-majesty')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#CC3333', 'سرخ پارسی اصیل (Persian Red)')",
+        "name": "سرخ پارسی اصیل (Persian Red) #CC3333",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('achaemenid-m",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#CFB53B', 'طلای شاهنشاهی (Old Gold)')",
+        "name": "طلای شاهنشاهی (Old Gold) #CFB53B",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('achaemenid-m",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1D3557', 'سرمه‌ای پارسه')",
+        "name": "سرمه‌ای پارسه #1D3557",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('achaemenid-m",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#2D6A4F', 'یشم باستانی')",
+        "name": "یشم باستانی #2D6A4F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('achaemenid-m",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDFBF7', 'سنگ مرمر آپادانا')",
+        "name": "سنگ مرمر آپادانا #FDFBF7",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('achaemenid-m",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B1F24', 'سنگ سیاه تچر')",
+        "name": "سنگ سیاه تچر #1B1F24",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('achaemenid-m",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('behzad-miniature')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('behzad-miniature', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('behzad-miniature')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('behzad-miniature')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('behzad-miniature')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#E34234', 'شنگرف معدنی (Cinnabar/Vermilion)')",
+        "name": "#E34234",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0BDA51', 'سبز زنگار مالاکیت (Malachite Green)",
+        "name": "#0BDA51",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B263B', 'سرمه‌ای شبرنگ نگار')",
+        "name": "#1B263B",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#701C1C', 'شاه‌توت شاه‌عباسی (Persian Plum)')",
+        "name": "#701C1C",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F6BD60', 'طلای حل‌کاری')",
+        "name": "#F6BD60",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FAF3E0', 'کاغذ سمرقندی')",
+        "name": "#FAF3E0",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-behzad-miniature",
+        "onclick": "copyColorHex('#701C1C', 'شاه‌توت شاه‌عباسی (Persian Plum)')",
+        "name": "کپی اکشن: #701C1C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-behzad-miniature",
+        "onclick": "cycleCardShuffle('behzad-miniature')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#E34234', 'شنگرف معدنی (Cinnabar/Vermilion)')",
+        "name": "شنگرف معدنی (Cinnabar/Vermilion) #E34234",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('behzad-minia",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0BDA51', 'سبز زنگار مالاکیت (Malachite Green)",
+        "name": "سبز زنگار مالاکیت (Malachite Green) #0BDA51",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('behzad-minia",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B263B', 'سرمه‌ای شبرنگ نگار')",
+        "name": "سرمه‌ای شبرنگ نگار #1B263B",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('behzad-minia",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#701C1C', 'شاه‌توت شاه‌عباسی (Persian Plum)')",
+        "name": "شاه‌توت شاه‌عباسی (Persian Plum) #701C1C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('behzad-minia",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F6BD60', 'طلای حل‌کاری')",
+        "name": "طلای حل‌کاری #F6BD60",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('behzad-minia",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FAF3E0', 'کاغذ سمرقندی')",
+        "name": "کاغذ سمرقندی #FAF3E0",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('behzad-minia",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('nomadic-rugs')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('nomadic-rugs', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('nomadic-rugs')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('nomadic-rugs')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('nomadic-rugs')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#A81C07', 'قرمز روناسی ناب (Madder Root)')",
+        "name": "#A81C07",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#540B0E', 'لاکی شاه‌عباسی')",
+        "name": "#540B0E",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D99058', 'حنایی افشاری (Persian Orange)')",
+        "name": "#D99058",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#2B3A1C', 'سبز کله‌غازی عشایر')",
+        "name": "#2B3A1C",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#EADDCF', 'کرم خامه پشمی')",
+        "name": "#EADDCF",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#422006', 'قهوه‌ای پوست گردو')",
+        "name": "#422006",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-nomadic-rugs",
+        "onclick": "copyColorHex('#422006', 'قهوه‌ای پوست گردو')",
+        "name": "کپی اکشن: #422006",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-nomadic-rugs",
+        "onclick": "cycleCardShuffle('nomadic-rugs')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#A81C07', 'قرمز روناسی ناب (Madder Root)')",
+        "name": "قرمز روناسی ناب (Madder Root) #A81C07",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('nomadic-rugs",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#540B0E', 'لاکی شاه‌عباسی')",
+        "name": "لاکی شاه‌عباسی #540B0E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('nomadic-rugs",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D99058', 'حنایی افشاری (Persian Orange)')",
+        "name": "حنایی افشاری (Persian Orange) #D99058",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('nomadic-rugs",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#2B3A1C', 'سبز کله‌غازی عشایر')",
+        "name": "سبز کله‌غازی عشایر #2B3A1C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('nomadic-rugs",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#EADDCF', 'کرم خامه پشمی')",
+        "name": "کرم خامه پشمی #EADDCF",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('nomadic-rugs",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#422006', 'قهوه‌ای پوست گردو')",
+        "name": "قهوه‌ای پوست گردو #422006",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('nomadic-rugs",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('minakari-craft')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('minakari-craft', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('minakari-craft')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('minakari-craft')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('minakari-craft')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1C39BB', 'آبی مینایی ژرف (Persian Blue)')",
+        "name": "#1C39BB",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#008679', 'سبز فیروزه قلمی (Persian Green)')",
+        "name": "#008679",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#E09F3E', 'زرد طلااندود')",
+        "name": "#E09F3E",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#94D2BD', 'فیروزه‌ای مرواریدی')",
+        "name": "#94D2BD",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDFBF7', 'سفید لعاب چینی')",
+        "name": "#FDFBF7",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0A192F', 'سرمه‌ای کوره مینا')",
+        "name": "#0A192F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-minakari-craft",
+        "onclick": "copyColorHex('#1C39BB', 'آبی مینایی ژرف (Persian Blue)')",
+        "name": "کپی اکشن: #1C39BB",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-minakari-craft",
+        "onclick": "cycleCardShuffle('minakari-craft')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1C39BB', 'آبی مینایی ژرف (Persian Blue)')",
+        "name": "آبی مینایی ژرف (Persian Blue) #1C39BB",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('minakari-cra",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#008679', 'سبز فیروزه قلمی (Persian Green)')",
+        "name": "سبز فیروزه قلمی (Persian Green) #008679",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('minakari-cra",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#E09F3E', 'زرد طلااندود')",
+        "name": "زرد طلااندود #E09F3E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('minakari-cra",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#94D2BD', 'فیروزه‌ای مرواریدی')",
+        "name": "فیروزه‌ای مرواریدی #94D2BD",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('minakari-cra",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDFBF7', 'سفید لعاب چینی')",
+        "name": "سفید لعاب چینی #FDFBF7",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('minakari-cra",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0A192F', 'سرمه‌ای کوره مینا')",
+        "name": "سرمه‌ای کوره مینا #0A192F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('minakari-cra",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('toranj-illumination')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('toranj-illumination', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('toranj-illumination')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('toranj-illumination')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('toranj-illumination')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#780000', 'زرشکی تذهیب تیموری')",
+        "name": "#780000",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#283655', 'نیلی لاجوردی شمسه (Indigo)')",
+        "name": "#283655",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#DAA520', 'طلای ناب شمسه (Goldenrod)')",
+        "name": "#DAA520",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#386641', 'سبز صمغی کهن')",
+        "name": "#386641",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDFBF4', 'پوست آهوی خطاطی')",
+        "name": "#FDFBF4",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#000000', 'مرکب سیاه کتابت (India Ink)')",
+        "name": "#000000",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-toranj-illumination",
+        "onclick": "copyColorHex('#283655', 'نیلی لاجوردی شمسه (Indigo)')",
+        "name": "کپی اکشن: #283655",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-toranj-illumination",
+        "onclick": "cycleCardShuffle('toranj-illumination')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#780000', 'زرشکی تذهیب تیموری')",
+        "name": "زرشکی تذهیب تیموری #780000",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('toranj-illum",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#283655', 'نیلی لاجوردی شمسه (Indigo)')",
+        "name": "نیلی لاجوردی شمسه (Indigo) #283655",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('toranj-illum",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#DAA520', 'طلای ناب شمسه (Goldenrod)')",
+        "name": "طلای ناب شمسه (Goldenrod) #DAA520",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('toranj-illum",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#386641', 'سبز صمغی کهن')",
+        "name": "سبز صمغی کهن #386641",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('toranj-illum",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDFBF4', 'پوست آهوی خطاطی')",
+        "name": "پوست آهوی خطاطی #FDFBF4",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('toranj-illum",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#000000', 'مرکب سیاه کتابت (India Ink)')",
+        "name": "مرکب سیاه کتابت (India Ink) #000000",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('toranj-illum",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('persian-gulf-pearls')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('persian-gulf-pearls', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('persian-gulf-pearls')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('persian-gulf-pearls')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('persian-gulf-pearls')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0067A5', 'آبی پارسی اصیل (Medium Persian Blue",
+        "name": "#0067A5",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#00B4D8', 'آبی فیروزه‌ای قشم')",
+        "name": "#00B4D8",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#901C1C', 'خاک سرخ هرمز (Red Ochre)')",
+        "name": "#901C1C",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F2ECE4', 'مروارید صید لنگه')",
+        "name": "#F2ECE4",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#DDA15E', 'ماسه گرم ساحلی')",
+        "name": "#DDA15E",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#03071E', 'آبی ژرفای خلیج')",
+        "name": "#03071E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-persian-gulf-pearls",
+        "onclick": "copyColorHex('#901C1C', 'خاک سرخ هرمز (Red Ochre)')",
+        "name": "کپی اکشن: #901C1C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-persian-gulf-pearls",
+        "onclick": "cycleCardShuffle('persian-gulf-pearls')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0067A5', 'آبی پارسی اصیل (Medium Persian Blue",
+        "name": "آبی پارسی اصیل (Medium Persian Blue) #0067A5",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('persian-gulf",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#00B4D8', 'آبی فیروزه‌ای قشم')",
+        "name": "آبی فیروزه‌ای قشم #00B4D8",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('persian-gulf",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#901C1C', 'خاک سرخ هرمز (Red Ochre)')",
+        "name": "خاک سرخ هرمز (Red Ochre) #901C1C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('persian-gulf",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F2ECE4', 'مروارید صید لنگه')",
+        "name": "مروارید صید لنگه #F2ECE4",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('persian-gulf",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#DDA15E', 'ماسه گرم ساحلی')",
+        "name": "ماسه گرم ساحلی #DDA15E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('persian-gulf",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#03071E', 'آبی ژرفای خلیج')",
+        "name": "آبی ژرفای خلیج #03071E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('persian-gulf",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('gardens-of-shiraz')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('gardens-of-shiraz', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('gardens-of-shiraz')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('gardens-of-shiraz')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('gardens-of-shiraz')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FE28A2', 'گل سرخ محمدی (Persian Rose)')",
+        "name": "#FE28A2",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#8B1E3F', 'انار قصرالدشت')",
+        "name": "#8B1E3F",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#228B22', 'سبز سرو ناز (Cypress Green)')",
+        "name": "#228B22",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDE68A', 'شکوفه بهارنارنج')",
+        "name": "#FDE68A",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F9F6F0', 'سفید یاسمن شیرازی')",
+        "name": "#F9F6F0",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#182C18', 'سایه‌سار باغ ارم')",
+        "name": "#182C18",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-gardens-of-shiraz",
+        "onclick": "copyColorHex('#8B1E3F', 'انار قصرالدشت')",
+        "name": "کپی اکشن: #8B1E3F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-gardens-of-shiraz",
+        "onclick": "cycleCardShuffle('gardens-of-shiraz')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FE28A2', 'گل سرخ محمدی (Persian Rose)')",
+        "name": "گل سرخ محمدی (Persian Rose) #FE28A2",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('gardens-of-s",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#8B1E3F', 'انار قصرالدشت')",
+        "name": "انار قصرالدشت #8B1E3F",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('gardens-of-s",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#228B22', 'سبز سرو ناز (Cypress Green)')",
+        "name": "سبز سرو ناز (Cypress Green) #228B22",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('gardens-of-s",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FDE68A', 'شکوفه بهارنارنج')",
+        "name": "شکوفه بهارنارنج #FDE68A",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('gardens-of-s",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F9F6F0', 'سفید یاسمن شیرازی')",
+        "name": "سفید یاسمن شیرازی #F9F6F0",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('gardens-of-s",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#182C18', 'سایه‌سار باغ ارم')",
+        "name": "سایه‌سار باغ ارم #182C18",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('gardens-of-s",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('khorasan-gems')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('khorasan-gems', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('khorasan-gems')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('khorasan-gems')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('khorasan-gems')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#40E0D0', 'فیروزه شجری نیشابور (Turquoise)')",
+        "name": "#40E0D0",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#9B111E', 'یاقوت اناری پارسی (Ruby)')",
+        "name": "#9B111E",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#50C878', 'زمرد نادری (Emerald)')",
+        "name": "#50C878",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FFBF00', 'کهربای کهن توس (Amber)')",
+        "name": "#FFBF00",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F4F6F8', 'مروارید نقره‌فام')",
+        "name": "#F4F6F8",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B1E23', 'سنگ چخماق دودی')",
+        "name": "#1B1E23",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-khorasan-gems",
+        "onclick": "copyColorHex('#9B111E', 'یاقوت اناری پارسی (Ruby)')",
+        "name": "کپی اکشن: #9B111E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-khorasan-gems",
+        "onclick": "cycleCardShuffle('khorasan-gems')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#40E0D0', 'فیروزه شجری نیشابور (Turquoise)')",
+        "name": "فیروزه شجری نیشابور (Turquoise) #40E0D0",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('khorasan-gem",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#9B111E', 'یاقوت اناری پارسی (Ruby)')",
+        "name": "یاقوت اناری پارسی (Ruby) #9B111E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('khorasan-gem",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#50C878', 'زمرد نادری (Emerald)')",
+        "name": "زمرد نادری (Emerald) #50C878",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('khorasan-gem",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FFBF00', 'کهربای کهن توس (Amber)')",
+        "name": "کهربای کهن توس (Amber) #FFBF00",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('khorasan-gem",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F4F6F8', 'مروارید نقره‌فام')",
+        "name": "مروارید نقره‌فام #F4F6F8",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('khorasan-gem",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B1E23', 'سنگ چخماق دودی')",
+        "name": "سنگ چخماق دودی #1B1E23",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('khorasan-gem",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('hyrcanian-forests')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('hyrcanian-forests', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('hyrcanian-forests')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('hyrcanian-forests')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('hyrcanian-forests')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B4332', 'سرخس کهنسال هیرکانی')",
+        "name": "#1B4332",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#40916C', 'خزه مرطوب سنگ')",
+        "name": "#40916C",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#74C69D', 'جوانه راشستان')",
+        "name": "#74C69D",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#4A3525', 'بلوط کهنسال خزری')",
+        "name": "#4A3525",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F8F9FA', 'سپیدی برف دماوند')",
+        "name": "#F8F9FA",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0D1F18', 'ژرفای جنگل مه‌آلود')",
+        "name": "#0D1F18",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-hyrcanian-forests",
+        "onclick": "copyColorHex('#4A3525', 'بلوط کهنسال خزری')",
+        "name": "کپی اکشن: #4A3525",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-hyrcanian-forests",
+        "onclick": "cycleCardShuffle('hyrcanian-forests')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B4332', 'سرخس کهنسال هیرکانی')",
+        "name": "سرخس کهنسال هیرکانی #1B4332",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('hyrcanian-fo",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#40916C', 'خزه مرطوب سنگ')",
+        "name": "خزه مرطوب سنگ #40916C",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('hyrcanian-fo",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#74C69D', 'جوانه راشستان')",
+        "name": "جوانه راشستان #74C69D",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('hyrcanian-fo",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#4A3525', 'بلوط کهنسال خزری')",
+        "name": "بلوط کهنسال خزری #4A3525",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('hyrcanian-fo",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F8F9FA', 'سپیدی برف دماوند')",
+        "name": "سپیدی برف دماوند #F8F9FA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('hyrcanian-fo",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#0D1F18', 'ژرفای جنگل مه‌آلود')",
+        "name": "ژرفای جنگل مه‌آلود #0D1F18",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('hyrcanian-fo",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('yazd-saffron-desert')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('yazd-saffron-desert', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('yazd-saffron-desert')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('yazd-saffron-desert')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('yazd-saffron-desert')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F4C430', 'زعفرانی سرگل (Saffron)')",
+        "name": "#F4C430",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D27D46', 'کاهگل آفتاب‌خورده (Adobe)')",
+        "name": "#D27D46",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#E63946', 'عقیق سرخ ریگ‌جن')",
+        "name": "#E63946",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F8E7D1', 'ماسه طلایی لوت')",
+        "name": "#F8E7D1",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B1917', 'خشت سوخته کویر')",
+        "name": "#1B1917",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#6B4226', 'چوب سنجد بادگیر')",
+        "name": "#6B4226",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-yazd-saffron-desert",
+        "onclick": "copyColorHex('#6B4226', 'چوب سنجد بادگیر')",
+        "name": "کپی اکشن: #6B4226",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-yazd-saffron-desert",
+        "onclick": "cycleCardShuffle('yazd-saffron-desert')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F4C430', 'زعفرانی سرگل (Saffron)')",
+        "name": "زعفرانی سرگل (Saffron) #F4C430",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('yazd-saffron",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D27D46', 'کاهگل آفتاب‌خورده (Adobe)')",
+        "name": "کاهگل آفتاب‌خورده (Adobe) #D27D46",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('yazd-saffron",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#E63946', 'عقیق سرخ ریگ‌جن')",
+        "name": "عقیق سرخ ریگ‌جن #E63946",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('yazd-saffron",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#F8E7D1', 'ماسه طلایی لوت')",
+        "name": "ماسه طلایی لوت #F8E7D1",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('yazd-saffron",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1B1917', 'خشت سوخته کویر')",
+        "name": "خشت سوخته کویر #1B1917",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('yazd-saffron",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#6B4226', 'چوب سنجد بادگیر')",
+        "name": "چوب سنجد بادگیر #6B4226",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('yazd-saffron",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleCardShuffle('bazaar-spices')",
+        "name": "شافل",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openEvidenceDashboard('bazaar-spices', 0)",
+        "name": "شناسنامه عمیق علمی، شیمیایی، طیف نوری و APCA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrix('bazaar-spices')",
+        "name": "مشاهده ماتریس کنتراست ۶×۶",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openGradientModal('bazaar-spices')",
+        "name": "استودیوی گرادیان‌های مدرن",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "applyAndShowStudio('bazaar-spices')",
+        "name": "باز کردن در استودیوی فول‌اسکرین سه‌بعدی",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FFC000', 'زردچوبه ممتاز قلم (Turmeric)')",
+        "name": "#FFC000",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D2691E', 'دارچینی باستانی (Cinnamon)')",
+        "name": "#D2691E",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#C32F27', 'پاپریکا و فلفل بیجار')",
+        "name": "#C32F27",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#93C572', 'پسته خندان رفسنجان (Pistachio Green",
+        "name": "#93C572",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FAF0CA', 'خامه شیرینی کهن')",
+        "name": "#FAF0CA",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1E1E24', 'سیاه‌دانه و هل سیاه')",
+        "name": "#1E1E24",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-primary-bazaar-spices",
+        "onclick": "copyColorHex('#C32F27', 'پاپریکا و فلفل بیجار')",
+        "name": "کپی اکشن: #C32F27",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": "card-btn-secondary-bazaar-spices",
+        "onclick": "cycleCardShuffle('bazaar-spices')",
+        "name": "تغییر مود",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FFC000', 'زردچوبه ممتاز قلم (Turmeric)')",
+        "name": "زردچوبه ممتاز قلم (Turmeric) #FFC000",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('bazaar-spice",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#D2691E', 'دارچینی باستانی (Cinnamon)')",
+        "name": "دارچینی باستانی (Cinnamon) #D2691E",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('bazaar-spice",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#C32F27', 'پاپریکا و فلفل بیجار')",
+        "name": "پاپریکا و فلفل بیجار #C32F27",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('bazaar-spice",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#93C572', 'پسته خندان رفسنجان (Pistachio Green",
+        "name": "پسته خندان رفسنجان (Pistachio Green) #93C572",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('bazaar-spice",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#FAF0CA', 'خامه شیرینی کهن')",
+        "name": "خامه شیرینی کهن #FAF0CA",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('bazaar-spice",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "copyColorHex('#1E1E24', 'سیاه‌دانه و هل سیاه')",
+        "name": "سیاه‌دانه و هل سیاه #1E1E24",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "event.stopPropagation(); openEvidenceDashboard('bazaar-spice",
+        "name": "شناسنامه علمی و طیف نوری",
+        "inDialog": false
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "togglePreviewDrawer()",
+        "name": "انتخاب رنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "smartShuffleStudioRoles()",
+        "name": "شافل هوشمند",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "studioShuffleModeSelect",
+        "onclick": "",
+        "name": "تنظیم رنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "resetStudioRoles()",
+        "name": "بازنشانی",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openContrastMatrixForActive()",
+        "name": "ماتریس کنتراست ۶×۶",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyCurrentShuffleCSS()",
+        "name": "کپی CSS تم",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "studioTemplateSelect",
+        "onclick": "",
+        "name": "تنظیم رنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "visionModeSelect",
+        "onclick": "",
+        "name": "تنظیم رنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyColorHex('#120A8F', 'لاجوردی (Ultramarine)')",
+        "name": "کپی اکشن اصلی (#120A8F)",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "smartShuffleStudioRoles()",
+        "name": "شافل نقش‌ها",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "threeRotateBtn",
+        "onclick": "toggleThreeAutoRotate()",
+        "name": "توقف/شروع چرخش خودکار",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "threeWireBtn",
+        "onclick": "toggleThreeWireframe()",
+        "name": "حالت سیمی (Wireframe)",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "threeGeometrySelect",
+        "onclick": "",
+        "name": "انتخاب هندسه سه‌بعدی",
+        "inDialog": true
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "setStudioPrimaryColorIndex(0)",
+        "name": "لاجوردی (Ultramarine) #120A8F",
+        "inDialog": true
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "setStudioPrimaryColorIndex(1)",
+        "name": "فیروزه‌ای اصیل (Persian Turquoise) #30D5C8",
+        "inDialog": true
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "setStudioPrimaryColorIndex(2)",
+        "name": "آبی زنگاری شاهی (Persian Green) #00A693",
+        "inDialog": true
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "setStudioPrimaryColorIndex(3)",
+        "name": "طلایی اسلیمی #D4AF37",
+        "inDialog": true
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "setStudioPrimaryColorIndex(4)",
+        "name": "عاجی گچی محراب #F4F1DE",
+        "inDialog": true
+      },
+      {
+        "tag": "div",
+        "id": null,
+        "onclick": "setStudioPrimaryColorIndex(5)",
+        "name": "سرمه‌ای مقرنس #0B132B",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "togglePreviewDrawer()",
+        "name": "بستن پیش‌نمایش",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeMatrixModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeMatrixModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeGradientModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeGradientModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeExportModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "tab-css",
+        "onclick": "switchExportTab('css')",
+        "name": "CSS Variables",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "tab-tailwind",
+        "onclick": "switchExportTab('tailwind')",
+        "name": "Tailwind Config",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "tab-json",
+        "onclick": "switchExportTab('json')",
+        "name": "JSON Data",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "tab-scss",
+        "onclick": "switchExportTab('scss')",
+        "name": "SCSS / SASS",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "tab-tokens",
+        "onclick": "switchExportTab('tokens')",
+        "name": "Design Tokens",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "tab-flutter",
+        "onclick": "switchExportTab('flutter')",
+        "name": "Flutter / Dart",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "downloadExportFile()",
+        "name": "دانلود فایل",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyExportCode()",
+        "name": "کپی در کلیپ‌بورد",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeScientificModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "scitab-tonal",
+        "onclick": "switchScientificTab('tonal')",
+        "name": "پالت‌های تنال Google M3 (۰-۱۰۰)",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "scitab-radar",
+        "onclick": "switchScientificTab('radar')",
+        "name": "رادار کروما و گاموت Oklab",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "scitab-harmony",
+        "onclick": "switchScientificTab('harmony')",
+        "name": "گردونه هارمونی ۳۶۰ درجه",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "scitab-tokens",
+        "onclick": "switchScientificTab('tokens')",
+        "name": "توکن‌های سمانتیک دوگانه (اپل و گوگل)",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyAllTones('json')",
+        "name": "کپی JSON",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyAllTones('css')",
+        "name": "کپی CSS Variables",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeScientificModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "evPaletteSelect",
+        "onclick": "",
+        "name": "تنظیم رنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeEvidenceDashboard()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtab-spectral",
+        "onclick": "switchEvidenceTab('spectral')",
+        "name": "طیف نوری و APCA",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtab-chemical",
+        "onclick": "switchEvidenceTab('chemical')",
+        "name": "یادداشت ماده و منبع",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtab-geospatial",
+        "onclick": "switchEvidenceTab('geospatial')",
+        "name": "ژئوانفورماتیک و GPS",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtab-mixer",
+        "onclick": "switchEvidenceTab('mixer')",
+        "name": "میکسر رنگ‌های تاریخی",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtab-photogrammetry",
+        "onclick": "switchEvidenceTab('photogrammetry')",
+        "name": "شبیه‌سازی بافت و بافت سه‌بعدی",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtab-tokens",
+        "onclick": "switchEvidenceTab('tokens')",
+        "name": "توکن‌های W3C و فیگما",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCustomApcaBg('#FFFFFF')",
+        "name": "سفید",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCustomApcaBg('#F4F1DE')",
+        "name": "عاجی صفوی",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCustomApcaBg('#E9D8A6')",
+        "name": "ماسه‌سنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCustomApcaBg('#1E293B')",
+        "name": "اسلیت تیره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setCustomApcaBg('#0B132B')",
+        "name": "سرمه‌ای شب",
+        "inDialog": true
+      },
+      {
+        "tag": "input",
+        "id": "evCustomBgInput",
+        "onclick": "",
+        "name": "انتخاب رنگ دلخواه زمینه",
+        "inDialog": true
+      },
+      {
+        "tag": "a",
+        "id": "evGeoGoogleMapsLink",
+        "onclick": "",
+        "name": "مشاهدهٔ موقعیت ثبت‌شده",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyGeoCoords()",
+        "name": "کپی مختصات عددی",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "evMixerSelectB",
+        "onclick": "",
+        "name": "تنظیم رنگ",
+        "inDialog": true
+      },
+      {
+        "tag": "input",
+        "id": "evMixerRangeInput",
+        "onclick": "",
+        "name": "نسبت ترکیب رنگدانه‌ها",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyMixerResultHex()",
+        "name": "کپی کد هگز ترکیبی",
+        "inDialog": true
+      },
+      {
+        "tag": "input",
+        "id": "evPhotoLightSlider",
+        "onclick": "",
+        "name": "زاویه تابش نور",
+        "inDialog": true
+      },
+      {
+        "tag": "input",
+        "id": "evPhotoGlossSlider",
+        "onclick": "",
+        "name": "ضریب صیقل و بازتاب لعاب",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openARSimulator()",
+        "name": "شروع AR",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtok-w3c",
+        "onclick": "switchEvidenceTokenCode('w3c')",
+        "name": "W3C DTCG JSON",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtok-figma",
+        "onclick": "switchEvidenceTokenCode('figma')",
+        "name": "Figma Local Variables",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtok-tailwind",
+        "onclick": "switchEvidenceTokenCode('tailwind')",
+        "name": "Tailwind v4 @theme",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "evtok-css",
+        "onclick": "switchEvidenceTokenCode('css')",
+        "name": "CSS Custom Props",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyEvidenceTokenCode()",
+        "name": "کپی کد",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeEvidenceDashboard()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeARSimulator()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "arBtnModeRoom",
+        "onclick": "setARDisplayMode('room')",
+        "name": "اتاق معماری سه‌بعدی",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "arBtnModeCamera",
+        "onclick": "setARDisplayMode('camera')",
+        "name": "دوربین زنده (Live Camera)",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setARColorTemp(3000)",
+        "name": "3000K (گرم صفوی)",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "setARColorTemp(5500)",
+        "name": "5500K (نور روز)",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "cycleARColor()",
+        "name": "تغییر رنگ دیوار",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeARSimulator()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeNpmModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "btnCopyNpmCmd",
+        "onclick": "copyNpmInstallCmd()",
+        "name": "کپی دستور",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": "btnCopyNpmCode",
+        "onclick": "copyNpmCodeSnippet()",
+        "name": "کپی نمونه کد",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openExportAllModal(); closeNpmModal();",
+        "name": "دانلود بسته‌های توکن استاتیک (W3C, Figma, Tailwind",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeNpmModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeMixerModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "quickMixColor1",
+        "onclick": "",
+        "name": "",
+        "inDialog": true
+      },
+      {
+        "tag": "select",
+        "id": "quickMixColor2",
+        "onclick": "",
+        "name": "",
+        "inDialog": true
+      },
+      {
+        "tag": "input",
+        "id": "quickMixRatio",
+        "onclick": "",
+        "name": "سهم رنگ اول به رنگ دوم",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "copyQuickMixedHex()",
+        "name": "کپی هگز",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "openDeepEvidenceForQuickMix()",
+        "name": "مشاهده شناسنامه کامل رنگ ۱",
+        "inDialog": true
+      },
+      {
+        "tag": "button",
+        "id": null,
+        "onclick": "closeMixerModal()",
+        "name": "بستن پنجره",
+        "inDialog": true
+      }
+    ],
+    "afterRender": {
+      "buttons": 243,
+      "roleButtons": 150,
+      "selects": 8,
+      "inputs": 6,
+      "links": 2
+    }
+  },
+  "search": {
+    "fa-lajvard": {
+      "q": "لاجورد",
+      "cards": 3,
+      "empty": false
+    },
+    "arabic-yeh": {
+      "q": "لاجوردي",
+      "cards": 2,
+      "empty": false
+    },
+    "arabic-kaf": {
+      "q": "كاشی",
+      "cards": 1,
+      "empty": false
+    },
+    "zwnj-present": {
+      "q": "کاشی‌کاری",
+      "cards": 1,
+      "empty": false
+    },
+    "zwnj-absent": {
+      "q": "کاشیکاری",
+      "cards": 1,
+      "empty": false
+    },
+    "arabic-both+zwnj": {
+      "q": "كاشي‌كاري",
+      "cards": 1,
+      "empty": false
+    },
+    "space-instead-zwnj": {
+      "q": "کاشی کاری",
+      "cards": 1,
+      "empty": false
+    },
+    "hex-lower": {
+      "q": "#120a8f",
+      "cards": 1,
+      "empty": false
+    },
+    "hex-no-hash": {
+      "q": "120A8F",
+      "cards": 1,
+      "empty": false
+    },
+    "english": {
+      "q": "turquoise",
+      "cards": 4,
+      "empty": false
+    },
+    "none": {
+      "q": "zzzqqq",
+      "cards": 0,
+      "empty": true
+    },
+    "persian-digits": {
+      "q": "۱۲۰",
+      "cards": 0,
+      "empty": true
+    }
+  },
+  "categories": {
+    "همه پالت‌ها": 12,
+    "معماری و کاشی": 1,
+    "فرش و منسوجات": 1,
+    "تاریخ و تمدن": 2,
+    "طبیعت و اقلیم": 5,
+    "نگارگری و هنرها": 3
+  },
+  "photoModeExternalAfterScroll": [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg/960px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Persepolis_stairs_of_the_Apadana_relief.jpg/960px-Persepolis_stairs_of_the_Apadana_relief.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Behzad_1.jpg/960px-Behzad_1.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ghashghai_rug.jpg/960px-Ghashghai_rug.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Minakari_of_Isfahan.jpg/960px-Minakari_of_Isfahan.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg/960px-Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Hormuz_Island%2C_Iran_%2849544498308%29.jpg/960px-Hormuz_Island%2C_Iran_%2849544498308%29.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Eram_Garden_Panorama_2.jpg/960px-Eram_Garden_Panorama_2.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nishapur_Turquoise_Rough.jpg/960px-Nishapur_Turquoise_Rough.jpg"
+  ],
+  "storageDump": {
+    "manshour_theme": "light",
+    "manshour_lang": "en"
+  },
+  "log": {
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F43C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x1ddc044e5e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x1ddc044e5e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x1ddc044e5e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x1ddc044e5e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F43C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ],
+    "pageErrors": [],
+    "failed": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg/960px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Persepolis_stairs_of_the_Apadana_relief.jpg/960px-Persepolis_stairs_of_the_Apadana_relief.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Behzad_1.jpg/960px-Behzad_1.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ghashghai_rug.jpg/960px-Ghashghai_rug.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Minakari_of_Isfahan.jpg/960px-Minakari_of_Isfahan.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg/960px-Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Hormuz_Island%2C_Iran_%2849544498308%29.jpg/960px-Hormuz_Island%2C_Iran_%2849544498308%29.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Eram_Garden_Panorama_2.jpg/960px-Eram_Garden_Panorama_2.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nishapur_Turquoise_Rough.jpg/960px-Nishapur_Turquoise_Rough.jpg",
+        "err": "net::ERR_INTERNET_DISCONNECTED"
+      }
+    ],
+    "externalHosts": [
+      "upload.wikimedia.org"
+    ],
+    "nonLocal": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg/960px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Persepolis_stairs_of_the_Apadana_relief.jpg/960px-Persepolis_stairs_of_the_Apadana_relief.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Behzad_1.jpg/960px-Behzad_1.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ghashghai_rug.jpg/960px-Ghashghai_rug.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Minakari_of_Isfahan.jpg/960px-Minakari_of_Isfahan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg/960px-Shahnama_of_Shah_Tahmasp_-_Rostam_Pursues_the_Onager-Div_Akvan.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Hormuz_Island%2C_Iran_%2849544498308%29.jpg/960px-Hormuz_Island%2C_Iran_%2849544498308%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Eram_Garden_Panorama_2.jpg/960px-Eram_Garden_Panorama_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nishapur_Turquoise_Rough.jpg/960px-Nishapur_Turquoise_Rough.jpg"
+    ]
+  },
+  "deniedClipboard": {
+    "title": "کپی انجام نشد",
+    "desc": "متن خروجی را به‌صورت دستی کپی کنید."
+  },
+  "deniedCamera": {
+    "stream": false,
+    "errVisible": false,
+    "text": " دسترسی به دوربین برقرار نشد مرورگر شما مجوز دوربین را مسدود کرده است، یا دستگاه به وب‌کم متصل نیست. می‌توانید از شبیه‌ساز اتاق سه‌بعدی استفاده فرمایید. ",
+    "console": [
+      {
+        "type": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content."
+      }
+    ]
+  }
+}
