@@ -221,7 +221,7 @@
     "drawerMessage": "برای چرخش بکشید (Drag to Orbit) کریستال دوازده‌وجهی منشور هشت‌وجهی ستاره بیست‌وجهی گره اسلیمی (Torus)",
     "console": [
       "error: THREE.WebGLRenderer: Error creating WebGL context.",
-      "warning: 3D preview unavailable Error: Error creating WebGL context.\n    at new ws (file:///tmp/claude-0/-home-user-persian-palette/e26ee6ea-c16b-528c-85e8-4b3bf9007cb6/"
+      "warning: 3D preview unavailable Error: Error creating WebGL context.\n    at new ws (file://$SCRATCH/..."
     ],
     "pageErrors": []
   },
