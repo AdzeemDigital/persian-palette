@@ -8,3 +8,18 @@ results/*.json  raw outputs (axe summary trimmed to 3 example nodes per rule and
 results/*.PARTIAL.yml  Playwright ariaSnapshot: partial evidence only, NOT a screen-reader test
 downloads/  files produced by the export modal's "download" button (json/tokens truncated to 20 KB)
 screens/    16 JPEG screenshots
+
+serve.mjs route probe (MANSHOUR_PORT=4199, 2026-09-25):
+  GET / -> 200
+  GET /code_artifact.html -> 200
+  GET /code_artifact_en.html -> 404
+  GET /release/manshour-studio-en.html -> 404
+  Response headers for /:
+    HTTP/1.1 200 OK
+    Content-Type: text/html; charset=utf-8
+    X-Content-Type-Options: nosniff
+    Referrer-Policy: no-referrer
+    Cache-Control: no-cache
+    Connection: keep-alive
+    Keep-Alive: timeout=5
+    
