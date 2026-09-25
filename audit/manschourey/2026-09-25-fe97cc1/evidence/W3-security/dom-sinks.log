@@ -1,0 +1,41 @@
+# DOM sink inventory: grep -nE 'innerHTML|insertAdjacentHTML|outerHTML|document.write|eval(|new Function|setTimeout(string)' app/app.js app/enhancements.js at fe97cc1
+app.js:201:        sel.innerHTML = PERSIAN_PALETTES.map(p => `
+app.js:281:        pillsContainer.innerHTML = palette.colors.map((c, idx) => `
+app.js:368:        mixSelect.innerHTML = allColors.map(c => `
+app.js:432:        tbody.innerHTML = [12, 14, 16, 24, 32].map(size => 
+app.js:754:        stepsContainer.innerHTML = ratios.map((r, sIdx) => {
+app.js:1971:      container.innerHTML = CATEGORIES.map(cat => {
+app.js:2029:        grid.innerHTML = "";
+app.js:2036:      grid.innerHTML = filtered.map(palette => {
+app.js:2509:        mockupCard.innerHTML = `
+app.js:2553:        mockupCard.innerHTML = `
+app.js:2591:        mockupCard.innerHTML = `
+app.js:2613:        mockupCard.innerHTML = `
+app.js:2651:      swatchesBar.innerHTML = c.map((col, idx) => {
+app.js:2672:      roleTagsContainer.innerHTML = `
+app.js:2732:      pillsContainer.innerHTML = palette.colors.map((c, idx) => `
+app.js:2785:      pillsContainer.innerHTML = palette.colors.map((c, i) => `
+app.js:2832:      container.innerHTML = tones.map(t => {
+app.js:3049:      deltaTable.innerHTML = dHtml;
+app.js:3134:      container.innerHTML = `
+app.js:3163: document.getElementById('googleM3TokensList').innerHTML=rows(scheme.light);
+app.js:3164: document.getElementById('appleHIGTokensList').innerHTML=rows(scheme.dark);
+app.js:3240:      table.innerHTML = tableHtml;
+app.js:3293:      gradientsList.innerHTML = presets.map(preset => `
+app.js:3561:      btn.innerHTML = threeAutoRotate ? '<i class="fa-solid fa-pause"></i>' : '<i class="fa-solid fa-play"></i>';
+app.js:3657:    sel1.innerHTML = optionsHtml;
+app.js:3658:    sel2.innerHTML = optionsHtml;
+# input sources
+app.js:12:  const savedLang = localStorage.getItem('manshour_lang');
+app.js:14:  const urlParams = new URLSearchParams(window.location.search);
+app.js:17:  const savedTheme = localStorage.getItem('manshour_theme');
+app.js:105:  try { localStorage.setItem('manshour_lang', lang); } catch(e){}
+app.js:144:  try { localStorage.setItem('manshour_theme', theme); } catch(e){}
+app.js:973:        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+app.js:974:          arVideoStream = await navigator.mediaDevices.getUserMedia({
+# inline handler attributes in built code_artifact.html
+      8 onchange="
+    101 onclick="
+      1 onerror="
+      4 oninput="
+# CSP meta in template/HTML: template.html:0 ../code_artifact.html:0 

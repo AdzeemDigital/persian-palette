@@ -1,0 +1,29 @@
+# Kotlin compile check (kotlin-compiler-embeddable 2.1.21 via K2JVMCompiler, OpenJDK 21, Compose Multiplatform desktop 1.7.3 jars: material3, ui-graphics, ui-unit, ui-geometry, ui-util, runtime; NOT an Android/AGP build)
+## shipped packages/core/tokens/ColorSchemes.kt: rc=0, no diagnostics -> ColorSchemesKt.class
+## Style Dictionary 5.5.5 compose/object output from shipped w3c-tokens.json: rc=0, no diagnostics
+## crafted palette ids 1st-palette, fun, a-b, aB via exportMaterialKotlin (Probe.kt): rc=1
+Probe.kt:5:1: error: property must be initialized.
+Probe.kt:5:1: error: conflicting declarations:
+Probe.kt:5:5: error: syntax error: Expecting property name or receiver type.
+Probe.kt:5:6: error: syntax error: Property getter or setter expected.
+Probe.kt:32:1: error: property must be initialized.
+Probe.kt:32:1: error: conflicting declarations:
+Probe.kt:32:5: error: syntax error: Expecting property name or receiver type.
+Probe.kt:32:6: error: syntax error: Property getter or setter expected.
+Probe.kt:113:5: error: conflicting declarations:
+Probe.kt:140:5: error: conflicting declarations:
+Probe.kt:167:5: error: conflicting declarations:
+Probe.kt:194:5: error: conflicting declarations:
+Probe.kt head:
+val 1stPaletteLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+val 1stPaletteDarkColorScheme = darkColorScheme(
+val funLightColorScheme = lightColorScheme(
+val funDarkColorScheme = darkColorScheme(
+
+## Role coverage (static, javap on material3-desktop-1.7.3 ColorSchemeKt)
+lightColorScheme-C-Xl9yA takes 36 Color (long) parameters in Compose Material3 1.7.3.
+packages/core/src/math/hct.ts M3_ROLES exports 24 roles (primary..outlineVariant).
+Not exported although MCU 0.3.0 DynamicScheme provides getters: inversePrimary, inverseSurface, (inverseOnSurface), scrim, surfaceTint,
+surfaceBright, surfaceDim, surfaceContainer, surfaceContainerLow, surfaceContainerLowest, surfaceContainerHigh, surfaceContainerHighest.
+In Compose these parameters fall back to the Material baseline defaults, not to the seed-derived tonal-spot values.

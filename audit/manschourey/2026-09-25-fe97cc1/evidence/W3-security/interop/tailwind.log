@@ -1,0 +1,36 @@
+# Tailwind v3.4.19 (repo devDependency), config = exportTailwindTheme() from dist/index.cjs
+const { exportTailwindTheme } = require('$SCRATCH/work/packages/core/dist/index.cjs');
+const t = exportTailwindTheme();
+module.exports = { content: ['./index.html'], ...t };
+<div class="bg-persian-isfahan-tiles-100 text-persian-bazaar-spices-600 border-persian-khorasan-gems-300 bg-persian-isfahan-tiles-700"></div>
+## out.css
+.border-persian-khorasan-gems-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(80 200 120 / var(--tw-border-opacity, 1))
+}
+
+.bg-persian-isfahan-tiles-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 10 143 / var(--tw-bg-opacity, 1))
+}
+
+.text-persian-bazaar-spices-600 {
+  --tw-text-opacity: 1;
+  color: rgb(30 30 36 / var(--tw-text-opacity, 1))
+}
+
+# Tailwind v4 (tailwindcss 4.3.3 + @tailwindcss/cli 4.3.3 from npm), input: @import tailwindcss + shipped tailwind-theme.css
+@import "tailwindcss";
+@import "./tailwind-theme.css";
+<div class="bg-persian-isfahan-tiles-100 text-persian-bazaar-spices-600 border-persian-khorasan-gems-300 bg-persian-isfahan-tiles-700 bg-red-500"></div>
+## utilities generated
+  .border-persian-khorasan-gems-300 {
+    border-color: var(--color-persian-khorasan-gems-300);
+  }
+  .bg-persian-isfahan-tiles-100 {
+    background-color: var(--color-persian-isfahan-tiles-100);
+  }
+--
+  .text-persian-bazaar-spices-600 {
+    color: var(--color-persian-bazaar-spices-600);
+  }

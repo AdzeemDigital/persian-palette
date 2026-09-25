@@ -1,0 +1,21 @@
+# scripts/serve.mjs live probe (private copy $SCRATCH/W3/build at fe97cc1, MANSHOUR_PORT=47391, bind printed: http://127.0.0.1:47391)
+# All requests: curl --path-as-is, GET unless noted. Format: path -> status bytes
+/                                          -> 200 3143964 (code_artifact.html)
+/code_artifact.html                        -> 200 3143964
+/code_artifact_en.html                     -> 404   (EN edition is not routable)
+/docs/build-manifest.json                  -> 200 431
+/docs/licenses/apca-w3.md                  -> 404   (subdirectories not routable)
+/packages/core/tokens/w3c-tokens.json      -> 200
+/release/persian-palette-core-3.0.0.tgz    -> 200 235127
+/release/manshour-studio-3.0.0.zip         -> 404   (only *.tgz routable under release/)
+/package.json, /../package.json, /docs/../package.json            -> 404
+/docs/..%2fpackage.json, /docs/%2e%2e/package.json, /docs/%2e%2e%2fpackage.json -> 404
+/docs/%252e%252e%252fpackage.json (double-encoded)                -> 404
+/docs/..\package.json, /docs/..%5cpackage.json (backslash)         -> 404
+/docs/.. , /docs/%2e%2e                    -> 200 (WHATWG URL normalises to "/", serves code_artifact.html)
+/packages/core/tokens/.. , /%2e%2e/%2e%2e/etc/passwd, /packages/core/tokens/..%2f..%2fpackage.json -> 404
+/docs/%00 -> 404 ; /docs/%ff -> 400 ; /docs/<5000 x 'a'> -> 404 ; /release/..tgz -> 404
+POST / -> 405 (Allow: GET, HEAD)
+Host: attacker.example (GET /docs/build-manifest.json) -> 200   (no Host allow-list)
+Symlink test: a symlink docs/w3symlinktest.txt -> /etc/hostname created ONLY in the private copy -> 200 (readFile follows symlinks; containment check is lexical). Symlink removed afterwards. No symlinks exist in the committed docs/, packages/core/tokens/ or release/.
+Response headers on HTML: Content-Type text/html; charset=utf-8, X-Content-Type-Options: nosniff, Referrer-Policy: no-referrer, Cache-Control: no-cache. Absent: Content-Security-Policy, frame-ancestors/X-Frame-Options, Cross-Origin-Opener-Policy.

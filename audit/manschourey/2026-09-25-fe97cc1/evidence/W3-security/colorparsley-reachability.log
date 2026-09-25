@@ -1,0 +1,46 @@
+# Which third-party modules load at runtime (Node 22, $SCRATCH/work/packages/core/dist)
+APCA 106.04067321268862
+LOADED node_modules/@material/material-color-utilities/blend/blend.js
+LOADED node_modules/@material/material-color-utilities/contrast/contrast.js
+LOADED node_modules/@material/material-color-utilities/dislike/dislike_analyzer.js
+LOADED node_modules/@material/material-color-utilities/dynamiccolor/contrast_curve.js
+LOADED node_modules/@material/material-color-utilities/dynamiccolor/dynamic_color.js
+LOADED node_modules/@material/material-color-utilities/dynamiccolor/dynamic_scheme.js
+LOADED node_modules/@material/material-color-utilities/dynamiccolor/material_dynamic_colors.js
+LOADED node_modules/@material/material-color-utilities/dynamiccolor/tone_delta_pair.js
+LOADED node_modules/@material/material-color-utilities/dynamiccolor/variant.js
+LOADED node_modules/@material/material-color-utilities/hct/cam16.js
+LOADED node_modules/@material/material-color-utilities/hct/hct.js
+LOADED node_modules/@material/material-color-utilities/hct/hct_solver.js
+LOADED node_modules/@material/material-color-utilities/hct/viewing_conditions.js
+LOADED node_modules/@material/material-color-utilities/index.js
+LOADED node_modules/@material/material-color-utilities/palettes/core_palette.js
+LOADED node_modules/@material/material-color-utilities/palettes/tonal_palette.js
+LOADED node_modules/@material/material-color-utilities/quantize/lab_point_provider.js
+LOADED node_modules/@material/material-color-utilities/quantize/quantizer_celebi.js
+LOADED node_modules/@material/material-color-utilities/quantize/quantizer_map.js
+LOADED node_modules/@material/material-color-utilities/quantize/quantizer_wsmeans.js
+LOADED node_modules/@material/material-color-utilities/quantize/quantizer_wu.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_android.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_content.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_expressive.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_fidelity.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_fruit_salad.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_monochrome.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_neutral.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_rainbow.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_tonal_spot.js
+LOADED node_modules/@material/material-color-utilities/scheme/scheme_vibrant.js
+LOADED node_modules/@material/material-color-utilities/score/score.js
+LOADED node_modules/@material/material-color-utilities/temperature/temperature_cache.js
+LOADED node_modules/@material/material-color-utilities/utils/color_utils.js
+LOADED node_modules/@material/material-color-utilities/utils/image_utils.js
+LOADED node_modules/@material/material-color-utilities/utils/math_utils.js
+LOADED node_modules/@material/material-color-utilities/utils/string_utils.js
+LOADED node_modules/@material/material-color-utilities/utils/theme_utils.js
+LOADED node_modules/apca-w3/src/apca-w3.js
+LOADED node_modules/colorparsley/src/colorparsley.js
+CJS APCA 106.04067321268862
+# grep dist/index.cjs: no '// node_modules/colorparsley' code section; colorparsley appears only in the EOF '/*! Bundled license information' block (dist/index.cjs ~L9780-9830).
+# grep code_artifact.html core IIFE: parseString=0 colorToHex=0 reverseAPCA=0; 'colorParsley' occurs 3x, all inside the retained license comment.

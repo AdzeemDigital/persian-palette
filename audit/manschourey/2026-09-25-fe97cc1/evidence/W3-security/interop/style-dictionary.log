@@ -1,0 +1,94 @@
+# Style Dictionary 5.5.5, source = shipped packages/core/tokens/w3c-tokens.json (copied as tokens.json), log verbosity=verbose
+usesDtcg option: undefined
+
+json
+✔︎ out/json/flat.json
+
+css
+✔︎ out/css/variables.css
+
+ios
+✔︎ out/ios/StyleDictionary.swift
+
+compose
+✔︎ out/compose/PersianColors.kt
+
+js
+✔︎ out/js/tokens.js
+allTokens count: 72
+first token keys: [
+  'key',         '$type',
+  '$value',      '$description',
+  '$extensions', 'filePath',
+  'isSource',    'original',
+  'name',        'attributes',
+  'path'
+]
+
+# grep for evidence/extension leakage (Lazurite|mineral|casNumber|UNESCO|evidence) in outputs: none
+# output heads
+== PersianColors.kt (4860 bytes)
+
+
+// Do not edit directly, this file was auto-generated.
+
+
+
+package org.example.persian
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.*
+
+object PersianColors {
+== variables.css (10511 bytes)
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --persian-isfahan-tiles-ultramarine-lapis: #120a8f; /** لاجوردی (Ultramarine) — رنگ پایه و زمینه */
+  --persian-isfahan-tiles-persian-turquoise: #30d5c8; /** فیروزه‌ای اصیل (Persian Turquoise) — نقوش اسلیمی میانی */
+  --persian-isfahan-tiles-persian-green: #00a693; /** آبی زنگاری شاهی (Persian Green) — سایه‌روشن کاشی‌کاری */
+  --persian-isfahan-tiles-arabesque-gold: #d4af37; /** طلایی اسلیمی — کتیبه‌ها و حاشیه‌ها */
+  --persian-isfahan-tiles-alabaster-glaze: #f4f1de; /** عاجی گچی محراب — متن و روشنایی با کنتراست بالا */
+  --persian-isfahan-tiles-midnight-muqarnas: #0b132b; /** سرمه‌ای مقرنس — کنتراست عمیق سازه‌ای */
+  --persian-achaemenid-majesty-persian-red: #cc3333; /** سرخ پارسی اصیل (Persian Red) — درفش شهباز و نماد قدرت */
+== StyleDictionary.swift (15032 bytes)
+
+//
+// StyleDictionary.swift
+//
+
+// Do not edit directly, this file was auto-generated.
+
+
+import UIKit
+
+public class PersianColors {
+    public static let persianAchaemenidMajestyAncientRoyalJade = UIColor(red: 0.176, green: 0.416, blue: 0.310, alpha: 1) /** یشم باستانی — سنگ�
+== tokens.js (10714 bytes)
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const PersianIsfahanTilesUltramarineLapis = "#120a8f"; // لاجوردی (Ultramarine) — رنگ پایه و زمینه
+export const PersianIsfahanTilesPersianTurquoise = "#30d5c8"; // فیروزه‌ای اصیل (Persian Turquoise) — نقوش اسلیمی میانی
+export const PersianIsfahanTilesPersianGreen = "#00a693"; // آبی زنگاری شاهی (Persian Green) — سایه‌روشن کاشی‌کاری
+export const PersianIsfahanTilesArabesqueGold = "#d4af37"; // طلایی اسلیمی — کتیبه‌ها و حاشیه‌ها
+export const PersianIsfahanTilesAlabasterGlaze = "#f4f1de"; // عاجی گچی محراب — متن و روشنایی با کنتراست بالا
+export const PersianIsfahanTilesMidnightMuqarnas = "#0b132b"; // سرمه‌ای مقرنس — کنتراست عمیق سازه‌ای
+export const PersianAchaemenidMajestyPersianRed = "#cc3333"; // سرخ پارسی اصیل (Persian Red) — درفش شهباز و نماد قدرت
+export const PersianAchaemenidMajestyOldGold = "#cfb53b"; // طلای شاهنشاهی (Old Gold) — درخشش کتیبه‌ها و تاج
+== flat.json (3952 bytes)
+{
+  "PersianIsfahanTilesUltramarineLapis": "#120a8f",
+  "PersianIsfahanTilesPersianTurquoise": "#30d5c8",
+  "PersianIsfahanTilesPersianGreen": "#00a693",
+  "PersianIsfahanTilesArabesqueGold": "#d4af37",
+  "PersianIsfahanTilesAlabasterGlaze": "#f4f1de",
+  "PersianIsfahanTilesMidnightMuqarnas": "#0b132b",
+  "PersianAchaemenidMajestyPersianRed": "#cc3333",
+  "PersianAchaemenidMajestyOldGold": "#cfb53b",
+  "PersianAchaemenidMajestyPersepolisDeepNavy": "#1d3557",
+  "PersianAchaemenidMajestyAncientRoyalJade": "#2d6a4f",
+  "PersianAchaemenidMajestyApadanaAlabaster": "#fdfbf7",
