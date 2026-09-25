@@ -1,0 +1,83 @@
+{
+ "source": "tetherless-world/dtdi-mineral-observation-map master ingest/resources/RRUFF_Export.csv (third-party copy of an RRUFF IMA list export; export date not stated) sha256 95ffb993eb036d10b3052e5bd6752dc1e3fbbc8c5d24bb8566925ca9539f7441",
+ "minerals": {
+  "Azurite": {
+   "ima_formula": "Cu_3_(CO_3_)_2_(OH)_2_",
+   "rruff_formula": "Cu_3_(CO_3_)_2_(OH)_2_",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "France"
+  },
+  "Calcite": {
+   "ima_formula": "CaCO_3_",
+   "rruff_formula": "CaCO_3_",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "unknown"
+  },
+  "Cinnabar": {
+   "ima_formula": "HgS",
+   "rruff_formula": "HgS",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "unknown"
+  },
+  "Gold": {
+   "ima_formula": "Au",
+   "rruff_formula": "Au",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "unknown"
+  },
+  "Gypsum": {
+   "ima_formula": "CaSO_4_·2H_2_O",
+   "rruff_formula": "CaS^6+^O_4_·2H_2_O",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "unknown"
+  },
+  "Haüyne": {
+   "ima_formula": "Na_3_Ca(Si_3_Al_3_)O_12_(SO_4_)",
+   "rruff_formula": "Na_3_Ca(Si_3_Al_3_)O_12_(SO_4_)",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "Italy"
+  },
+  "Hematite": {
+   "ima_formula": "Fe_2_O_3_",
+   "rruff_formula": "Fe^3+^_2_O_3_",
+   "ima_status": "Approved",
+   "type_locality_country": "unknown"
+  },
+  "Lazurite": {
+   "ima_formula": "Na_3_Ca(Si_3_Al_3_)O_12_S",
+   "rruff_formula": "Na_3_Ca(Si_3_Al_3_)O_12_S",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "Afghanistan"
+  },
+  "Malachite": {
+   "ima_formula": "Cu_2_CO_3_(OH)_2_",
+   "rruff_formula": "Cu_2_CO_3_(OH)_2_",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "unknown"
+  },
+  "Orpiment": {
+   "ima_formula": "As_2_S_3_",
+   "rruff_formula": "As_2_S_3_",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "unknown"
+  },
+  "Quartz": {
+   "ima_formula": "SiO_2_",
+   "rruff_formula": "SiO_2_",
+   "ima_status": "Approved",
+   "type_locality_country": "unknown"
+  },
+  "Sodalite": {
+   "ima_formula": "Na_4_Si_3_Al_3_O_12_Cl",
+   "rruff_formula": "Na_4_Si_3_Al_3_O_12_Cl",
+   "ima_status": "Grandfathered|Approved",
+   "type_locality_country": "Denmark (Greenland)"
+  },
+  "Turquoise": {
+   "ima_formula": "CuAl_6_(PO_4_)_4_(OH)_8_·4H_2_O",
+   "rruff_formula": "CuAl_6_(PO_4_)_4_(OH)_8_·4H_2_O",
+   "ima_status": "Approved",
+   "type_locality_country": "unknown"
+  }
+ }
+}

@@ -1,0 +1,14 @@
+isfahan-tiles-c2	turquoise	CuAl6(PO4)4(OH)8(H2O)4	computed=813.44	stated=813.5	diff=+0.06
+isfahan-tiles-c3	basic copper acetate as written Cu(CH3COO)2·[Cu(OH)2]2	Cu(CH3COO)2(Cu(OH)2)2	computed=376.76	stated=370.2	diff=-6.56
+isfahan-tiles-c3	neutral copper(II) acetate (CAS 142-71-2)	Cu(CH3COO)2	computed=181.63
+isfahan-tiles-c4	gold	Au	computed=196.97	stated=196.97	diff=+0.00
+isfahan-tiles-c5	gypsum	CaSO4(H2O)2	computed=172.17	stated=172.17	diff=-0.00
+isfahan-tiles-c6	Co3O4 (stated formula Co3O4 + C)	Co3O4	computed=240.80	stated=240.8	diff=+0.00
+isfahan-tiles-c6	CoO (what CAS 1307-96-6 identifies)	CoO	computed=74.93
+isfahan-tiles-c1	lazurite, IMA formula x2 Na6Ca2(Si6Al6)O24S2	Na6Ca2Si6Al6O24S2	computed=996.61	stated=985.4	diff=-11.21
+behzad-miniature-c1	cinnabar	HgS	computed=232.66	stated=232.66	diff=+0.00
+behzad-miniature-c2	malachite	Cu2CO3(OH)2	computed=221.12	stated=221.12	diff=+0.00
+behzad-miniature-c3	indigotin only (stated formula also includes lazurite)	C16H10N2O2	computed=262.26	stated=262.26	diff=-0.00
+behzad-miniature-c4	carminic acid	C22H20O13	computed=492.39	stated=492.39	diff=+0.00
+behzad-miniature-c5	gold only (stated formula also includes polysaccharides)	Au	computed=196.97	stated=196.97	diff=+0.00
+behzad-miniature-c6	anhydroglucose repeat unit (stated formula is a polymer)	C6H10O5	computed=162.14	stated=162.14	diff=-0.00

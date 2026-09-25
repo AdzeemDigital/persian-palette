@@ -1,0 +1,723 @@
+{
+ "source_css": "w3c/csswg-drafts main css-color-4/Overview.bs sha256 00201c213bf7265ca2321b69c05b8217151418b56614e9167a93424f2cf531ed",
+ "source_wikilist": "codebrainz/color-names master output/colors.csv sha256 0f965aa0a9a3c43445c3e49d2ab972360ce226d9dc6d5754c82870f34ad7fdb6",
+ "css_named_colors": {
+  "aliceblue": "#F0F8FF",
+  "antiquewhite": "#FAEBD7",
+  "aqua": "#00FFFF",
+  "aquamarine": "#7FFFD4",
+  "azure": "#F0FFFF",
+  "beige": "#F5F5DC",
+  "bisque": "#FFE4C4",
+  "black": "#000000",
+  "blanchedalmond": "#FFEBCD",
+  "blue": "#0000FF",
+  "blueviolet": "#8A2BE2",
+  "brown": "#A52A2A",
+  "burlywood": "#DEB887",
+  "cadetblue": "#5F9EA0",
+  "chartreuse": "#7FFF00",
+  "chocolate": "#D2691E",
+  "coral": "#FF7F50",
+  "cornflowerblue": "#6495ED",
+  "cornsilk": "#FFF8DC",
+  "crimson": "#DC143C",
+  "cyan": "#00FFFF",
+  "darkblue": "#00008B",
+  "darkcyan": "#008B8B",
+  "darkgoldenrod": "#B8860B",
+  "darkgray": "#A9A9A9",
+  "darkgreen": "#006400",
+  "darkgrey": "#A9A9A9",
+  "darkkhaki": "#BDB76B",
+  "darkmagenta": "#8B008B",
+  "darkolivegreen": "#556B2F",
+  "darkorange": "#FF8C00",
+  "darkorchid": "#9932CC",
+  "darkred": "#8B0000",
+  "darksalmon": "#E9967A",
+  "darkseagreen": "#8FBC8F",
+  "darkslateblue": "#483D8B",
+  "darkslategray": "#2F4F4F",
+  "darkslategrey": "#2F4F4F",
+  "darkturquoise": "#00CED1",
+  "darkviolet": "#9400D3",
+  "deeppink": "#FF1493",
+  "deepskyblue": "#00BFFF",
+  "dimgray": "#696969",
+  "dimgrey": "#696969",
+  "dodgerblue": "#1E90FF",
+  "firebrick": "#B22222",
+  "floralwhite": "#FFFAF0",
+  "forestgreen": "#228B22",
+  "fuchsia": "#FF00FF",
+  "gainsboro": "#DCDCDC",
+  "ghostwhite": "#F8F8FF",
+  "gold": "#FFD700",
+  "goldenrod": "#DAA520",
+  "gray": "#808080",
+  "green": "#008000",
+  "greenyellow": "#ADFF2F",
+  "grey": "#808080",
+  "honeydew": "#F0FFF0",
+  "hotpink": "#FF69B4",
+  "indianred": "#CD5C5C",
+  "indigo": "#4B0082",
+  "ivory": "#FFFFF0",
+  "khaki": "#F0E68C",
+  "lavender": "#E6E6FA",
+  "lavenderblush": "#FFF0F5",
+  "lawngreen": "#7CFC00",
+  "lemonchiffon": "#FFFACD",
+  "lightblue": "#ADD8E6",
+  "lightcoral": "#F08080",
+  "lightcyan": "#E0FFFF",
+  "lightgoldenrodyellow": "#FAFAD2",
+  "lightgray": "#D3D3D3",
+  "lightgreen": "#90EE90",
+  "lightgrey": "#D3D3D3",
+  "lightpink": "#FFB6C1",
+  "lightsalmon": "#FFA07A",
+  "lightseagreen": "#20B2AA",
+  "lightskyblue": "#87CEFA",
+  "lightslategray": "#778899",
+  "lightslategrey": "#778899",
+  "lightsteelblue": "#B0C4DE",
+  "lightyellow": "#FFFFE0",
+  "lime": "#00FF00",
+  "limegreen": "#32CD32",
+  "linen": "#FAF0E6",
+  "magenta": "#FF00FF",
+  "maroon": "#800000",
+  "mediumaquamarine": "#66CDAA",
+  "mediumblue": "#0000CD",
+  "mediumorchid": "#BA55D3",
+  "mediumpurple": "#9370DB",
+  "mediumseagreen": "#3CB371",
+  "mediumslateblue": "#7B68EE",
+  "mediumspringgreen": "#00FA9A",
+  "mediumturquoise": "#48D1CC",
+  "mediumvioletred": "#C71585",
+  "midnightblue": "#191970",
+  "mintcream": "#F5FFFA",
+  "mistyrose": "#FFE4E1",
+  "moccasin": "#FFE4B5",
+  "navajowhite": "#FFDEAD",
+  "navy": "#000080",
+  "oldlace": "#FDF5E6",
+  "olive": "#808000",
+  "olivedrab": "#6B8E23",
+  "orange": "#FFA500",
+  "orangered": "#FF4500",
+  "orchid": "#DA70D6",
+  "palegoldenrod": "#EEE8AA",
+  "palegreen": "#98FB98",
+  "paleturquoise": "#AFEEEE",
+  "palevioletred": "#DB7093",
+  "papayawhip": "#FFEFD5",
+  "peachpuff": "#FFDAB9",
+  "peru": "#CD853F",
+  "pink": "#FFC0CB",
+  "plum": "#DDA0DD",
+  "powderblue": "#B0E0E6",
+  "purple": "#800080",
+  "rebeccapurple": "#663399",
+  "red": "#FF0000",
+  "rosybrown": "#BC8F8F",
+  "royalblue": "#4169E1",
+  "saddlebrown": "#8B4513",
+  "salmon": "#FA8072",
+  "sandybrown": "#F4A460",
+  "seagreen": "#2E8B57",
+  "seashell": "#FFF5EE",
+  "sienna": "#A0522D",
+  "silver": "#C0C0C0",
+  "skyblue": "#87CEEB",
+  "slateblue": "#6A5ACD",
+  "slategray": "#708090",
+  "slategrey": "#708090",
+  "snow": "#FFFAFA",
+  "springgreen": "#00FF7F",
+  "steelblue": "#4682B4",
+  "tan": "#D2B48C",
+  "teal": "#008080",
+  "thistle": "#D8BFD8",
+  "tomato": "#FF6347",
+  "turquoise": "#40E0D0",
+  "violet": "#EE82EE",
+  "wheat": "#F5DEB3",
+  "white": "#FFFFFF",
+  "whitesmoke": "#F5F5F5",
+  "yellow": "#FFFF00",
+  "yellowgreen": "#9ACD32"
+ },
+ "matches": [
+  {
+   "id": "isfahan-tiles-c1",
+   "hex": "#120A8F",
+   "nameEn": "Ultramarine Lapis",
+   "css": [],
+   "wikiList": [
+    "Ultramarine"
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c2",
+   "hex": "#30D5C8",
+   "nameEn": "Persian Turquoise",
+   "css": [],
+   "wikiList": [
+    "Turquoise"
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c3",
+   "hex": "#00A693",
+   "nameEn": "Persian Green",
+   "css": [],
+   "wikiList": [
+    "Persian Green"
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c4",
+   "hex": "#D4AF37",
+   "nameEn": "Arabesque Gold",
+   "css": [],
+   "wikiList": [
+    "Gold (Metallic)"
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c5",
+   "hex": "#F4F1DE",
+   "nameEn": "Alabaster Glaze",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "isfahan-tiles-c6",
+   "hex": "#0B132B",
+   "nameEn": "Midnight Muqarnas",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "achaemenid-majesty-c1",
+   "hex": "#CC3333",
+   "nameEn": "Persian Red",
+   "css": [],
+   "wikiList": [
+    "Persian Red"
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c2",
+   "hex": "#CFB53B",
+   "nameEn": "Old Gold",
+   "css": [],
+   "wikiList": [
+    "Old Gold"
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c3",
+   "hex": "#1D3557",
+   "nameEn": "Persepolis Deep Navy",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "achaemenid-majesty-c4",
+   "hex": "#2D6A4F",
+   "nameEn": "Ancient Royal Jade",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "achaemenid-majesty-c5",
+   "hex": "#FDFBF7",
+   "nameEn": "Apadana Alabaster",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "achaemenid-majesty-c6",
+   "hex": "#1B1F24",
+   "nameEn": "Tacara Basalt Black",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "behzad-miniature-c1",
+   "hex": "#E34234",
+   "nameEn": "Cinnabar Vermilion",
+   "css": [],
+   "wikiList": [
+    "Cinnabar",
+    "Vermilion (Cinnabar)"
+   ]
+  },
+  {
+   "id": "behzad-miniature-c2",
+   "hex": "#0BDA51",
+   "nameEn": "Malachite Green",
+   "css": [],
+   "wikiList": [
+    "Malachite"
+   ]
+  },
+  {
+   "id": "behzad-miniature-c3",
+   "hex": "#1B263B",
+   "nameEn": "Night Sky Miniature Navy",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "behzad-miniature-c4",
+   "hex": "#701C1C",
+   "nameEn": "Persian Plum",
+   "css": [],
+   "wikiList": [
+    "Persian Plum",
+    "Prune"
+   ]
+  },
+  {
+   "id": "behzad-miniature-c5",
+   "hex": "#F6BD60",
+   "nameEn": "Illuminated Leaf Gold",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "behzad-miniature-c6",
+   "hex": "#FAF3E0",
+   "nameEn": "Samarkand Silk Paper",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "nomadic-rugs-c1",
+   "hex": "#A81C07",
+   "nameEn": "Madder Root Red",
+   "css": [],
+   "wikiList": [
+    "Rufous"
+   ]
+  },
+  {
+   "id": "nomadic-rugs-c2",
+   "hex": "#540B0E",
+   "nameEn": "Persian Crimson Lacquer",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "nomadic-rugs-c3",
+   "hex": "#D99058",
+   "nameEn": "Persian Orange",
+   "css": [],
+   "wikiList": [
+    "Persian Orange"
+   ]
+  },
+  {
+   "id": "nomadic-rugs-c4",
+   "hex": "#2B3A1C",
+   "nameEn": "Peacock Forest Green",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "nomadic-rugs-c5",
+   "hex": "#EADDCF",
+   "nameEn": "Raw Wool Cream",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "nomadic-rugs-c6",
+   "hex": "#422006",
+   "nameEn": "Walnut Husk Brown",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "minakari-craft-c1",
+   "hex": "#1C39BB",
+   "nameEn": "Persian Blue",
+   "css": [],
+   "wikiList": [
+    "Persian Blue"
+   ]
+  },
+  {
+   "id": "minakari-craft-c2",
+   "hex": "#008679",
+   "nameEn": "Deep Persian Green",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "minakari-craft-c3",
+   "hex": "#E09F3E",
+   "nameEn": "Gilded Brass Yellow",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "minakari-craft-c4",
+   "hex": "#94D2BD",
+   "nameEn": "Pearl Turquoise Glaze",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "minakari-craft-c5",
+   "hex": "#FDFBF7",
+   "nameEn": "Porcelain Enamel White",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "minakari-craft-c6",
+   "hex": "#0A192F",
+   "nameEn": "Kiln Shadow Navy",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "toranj-illumination-c1",
+   "hex": "#780000",
+   "nameEn": "Timurid Crimson Carmine",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "toranj-illumination-c2",
+   "hex": "#283655",
+   "nameEn": "Indigo Shamseh Navy",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "toranj-illumination-c3",
+   "hex": "#DAA520",
+   "nameEn": "Goldenrod Gold",
+   "css": [
+    "goldenrod"
+   ],
+   "wikiList": [
+    "Goldenrod"
+   ]
+  },
+  {
+   "id": "toranj-illumination-c4",
+   "hex": "#386641",
+   "nameEn": "Malachite Resin Green",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "toranj-illumination-c5",
+   "hex": "#FDFBF4",
+   "nameEn": "Parchment Vellum White",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "toranj-illumination-c6",
+   "hex": "#000000",
+   "nameEn": "India Ink Black",
+   "css": [
+    "black"
+   ],
+   "wikiList": [
+    "Black"
+   ]
+  },
+  {
+   "id": "persian-gulf-pearls-c1",
+   "hex": "#0067A5",
+   "nameEn": "Medium Persian Blue",
+   "css": [],
+   "wikiList": [
+    "Medium Persian Blue",
+    "Sapphire Blue"
+   ]
+  },
+  {
+   "id": "persian-gulf-pearls-c2",
+   "hex": "#00B4D8",
+   "nameEn": "Qeshm Turquoise Shore",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "persian-gulf-pearls-c3",
+   "hex": "#901C1C",
+   "nameEn": "Hormuz Red Ochre",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "persian-gulf-pearls-c4",
+   "hex": "#F2ECE4",
+   "nameEn": "Persian Gulf Pearl",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "persian-gulf-pearls-c5",
+   "hex": "#DDA15E",
+   "nameEn": "Sun-warmed Coastal Sand",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "persian-gulf-pearls-c6",
+   "hex": "#03071E",
+   "nameEn": "Abyssal Persian Deep Blue",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "gardens-of-shiraz-c1",
+   "hex": "#FE28A2",
+   "nameEn": "Persian Rose",
+   "css": [],
+   "wikiList": [
+    "Persian Rose"
+   ]
+  },
+  {
+   "id": "gardens-of-shiraz-c2",
+   "hex": "#8B1E3F",
+   "nameEn": "Ghasrodasht Ruby Pomegranate",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "gardens-of-shiraz-c3",
+   "hex": "#228B22",
+   "nameEn": "Cypress Green",
+   "css": [
+    "forestgreen"
+   ],
+   "wikiList": [
+    "Forest Green (Web)"
+   ]
+  },
+  {
+   "id": "gardens-of-shiraz-c4",
+   "hex": "#FDE68A",
+   "nameEn": "Orange Blossom Yellow",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "gardens-of-shiraz-c5",
+   "hex": "#F9F6F0",
+   "nameEn": "Shirazi Jasmine White",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "gardens-of-shiraz-c6",
+   "hex": "#182C18",
+   "nameEn": "Deep Eram Garden Shade",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "khorasan-gems-c1",
+   "hex": "#40E0D0",
+   "nameEn": "Turquoise",
+   "css": [
+    "turquoise"
+   ],
+   "wikiList": []
+  },
+  {
+   "id": "khorasan-gems-c2",
+   "hex": "#9B111E",
+   "nameEn": "Persian Ruby",
+   "css": [],
+   "wikiList": [
+    "Ruby Red"
+   ]
+  },
+  {
+   "id": "khorasan-gems-c3",
+   "hex": "#50C878",
+   "nameEn": "Emerald Green",
+   "css": [],
+   "wikiList": [
+    "Emerald",
+    "Paris Green"
+   ]
+  },
+  {
+   "id": "khorasan-gems-c4",
+   "hex": "#FFBF00",
+   "nameEn": "Amber Gold",
+   "css": [],
+   "wikiList": [
+    "Amber",
+    "Fluorescent Orange"
+   ]
+  },
+  {
+   "id": "khorasan-gems-c5",
+   "hex": "#F4F6F8",
+   "nameEn": "Silver Pearl Luster",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "khorasan-gems-c6",
+   "hex": "#1B1E23",
+   "nameEn": "Flint Basalt Dark",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "hyrcanian-forests-c1",
+   "hex": "#1B4332",
+   "nameEn": "Ancient Hyrcanian Fern",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "hyrcanian-forests-c2",
+   "hex": "#40916C",
+   "nameEn": "Moist Rock Moss",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "hyrcanian-forests-c3",
+   "hex": "#74C69D",
+   "nameEn": "Beech Leaf Fresh Sprout",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "hyrcanian-forests-c4",
+   "hex": "#4A3525",
+   "nameEn": "Caspian Oak Wood",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "hyrcanian-forests-c5",
+   "hex": "#F8F9FA",
+   "nameEn": "Damavand Glacier White",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "hyrcanian-forests-c6",
+   "hex": "#0D1F18",
+   "nameEn": "Deep Forest Shadow",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "yazd-saffron-desert-c1",
+   "hex": "#F4C430",
+   "nameEn": "Saffron Yellow",
+   "css": [],
+   "wikiList": [
+    "Saffron"
+   ]
+  },
+  {
+   "id": "yazd-saffron-desert-c2",
+   "hex": "#D27D46",
+   "nameEn": "Adobe Terracotta",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "yazd-saffron-desert-c3",
+   "hex": "#E63946",
+   "nameEn": "Rig-e Jenn Red Agate",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "yazd-saffron-desert-c4",
+   "hex": "#F8E7D1",
+   "nameEn": "Lut Golden Sand Dune",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "yazd-saffron-desert-c5",
+   "hex": "#1B1917",
+   "nameEn": "Sun-baked Adobe Shadow",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "yazd-saffron-desert-c6",
+   "hex": "#6B4226",
+   "nameEn": "Senjed Windcatcher Timber",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "bazaar-spices-c1",
+   "hex": "#FFC000",
+   "nameEn": "Turmeric Gold",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "bazaar-spices-c2",
+   "hex": "#D2691E",
+   "nameEn": "Ancient Cinnamon Brown",
+   "css": [
+    "chocolate"
+   ],
+   "wikiList": [
+    "Chocolate (Web)",
+    "Cinnamon",
+    "Cocoa Brown"
+   ]
+  },
+  {
+   "id": "bazaar-spices-c3",
+   "hex": "#C32F27",
+   "nameEn": "Paprika & Pepper Crimson",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "bazaar-spices-c4",
+   "hex": "#93C572",
+   "nameEn": "Pistachio Green",
+   "css": [],
+   "wikiList": [
+    "Pistachio"
+   ]
+  },
+  {
+   "id": "bazaar-spices-c5",
+   "hex": "#FAF0CA",
+   "nameEn": "Ancient Saffron Pastry Cream",
+   "css": [],
+   "wikiList": []
+  },
+  {
+   "id": "bazaar-spices-c6",
+   "hex": "#1E1E24",
+   "nameEn": "Nigella Seed & Black Cardamom",
+   "css": [],
+   "wikiList": []
+  }
+ ]
+}

@@ -1,0 +1,1689 @@
+{
+ "counts": {
+  "palettes": 12,
+  "colors": 72,
+  "uniqueColorIds": 72,
+  "uniquePaletteIds": 12,
+  "uniqueHex": 71
+ },
+ "duplicateHex": {
+  "#FDFBF7": [
+   "achaemenid-majesty-c5",
+   "minakari-craft-c5"
+  ]
+ },
+ "duplicateNameEn": {},
+ "dataQualityReport": {
+  "palettes": 12,
+  "colors": 72,
+  "unverifiedHeritageColors": 72,
+  "measuredSpectra": 0,
+  "coordinateConflicts": 11,
+  "colorsWithAnyConflict": 11,
+  "conflictFieldCounts": {
+   "geo.latitude": 10,
+   "geo.longitude": 11,
+   "geo.elevationMeters": 8
+  },
+  "note": "unverifiedHeritageColors and measuredSpectra are hard-coded in palettes.ts (colors.length and 0), not derived from per-record status"
+ },
+ "coordinateConflicts": [
+  {
+   "id": "isfahan-tiles-c2",
+   "selected": {
+    "site": "Neyshabur Turquoise Mines",
+    "lat": 36.4633,
+    "lng": 58.8025,
+    "alt": 1650
+   },
+   "alternative": {
+    "site": "معدن فیروزه نیشابور، خراسان رضوی",
+    "lat": 36.2133,
+    "lng": 58.7958,
+    "alt": 1650,
+    "unesco": "WCC Craft City"
+   },
+   "distanceKm": 27.81
+  },
+  {
+   "id": "isfahan-tiles-c3",
+   "selected": {
+    "site": "Isfahan Royal Workshops",
+    "lat": 32.6575,
+    "lng": 51.6778,
+    "alt": 1570
+   },
+   "alternative": {
+    "site": "بازار مسگرها، میدان نقش جهان اصفهان",
+    "lat": 32.6575,
+    "lng": 51.6775,
+    "alt": 1574,
+    "unesco": "UNESCO Ref: 115"
+   },
+   "distanceKm": 0.03
+  },
+  {
+   "id": "isfahan-tiles-c4",
+   "selected": {
+    "site": "Naqsh-e Jahan Mihrabs",
+    "lat": 32.6514,
+    "lng": 51.6776,
+    "alt": 1574
+   },
+   "alternative": {
+    "site": "کاخ عالی‌قاپو و تالار موسیقی، اصفهان",
+    "lat": 32.6571,
+    "lng": 51.6769,
+    "alt": 1574,
+    "unesco": "UNESCO Ref: 115"
+   },
+   "distanceKm": 0.64
+  },
+  {
+   "id": "isfahan-tiles-c5",
+   "selected": {
+    "site": "Sheikh Lotfollah Sanctuary Dome",
+    "lat": 32.6575,
+    "lng": 51.6778,
+    "alt": 1574
+   },
+   "alternative": {
+    "site": "محراب اولجایتو، مسجد جامع عتیق اصفهان",
+    "lat": 32.6686,
+    "lng": 51.6853,
+    "alt": 1578,
+    "unesco": "UNESCO Ref: 1397 (Masjed-e Jāmé)"
+   },
+   "distanceKm": 1.42
+  },
+  {
+   "id": "isfahan-tiles-c6",
+   "selected": {
+    "site": "Muqarnas Vaults of Isfahan",
+    "lat": 32.6514,
+    "lng": 51.6776,
+    "alt": 1574
+   },
+   "alternative": {
+    "site": "سردر ورودی و ایوان شمالی مسجد شاه اصفهان",
+    "lat": 32.6521,
+    "lng": 51.6773,
+    "alt": 1574,
+    "unesco": "UNESCO Ref: 115"
+   },
+   "distanceKm": 0.08
+  },
+  {
+   "id": "behzad-miniature-c1",
+   "selected": {
+    "site": "Iranian Plateau Heritage Sites",
+    "lat": 32.4279,
+    "lng": 53.688,
+    "alt": 1400
+   },
+   "alternative": {
+    "site": "کارگاه‌های نگارگری هرات و کتابخانه بایسنقری",
+    "lat": 34.3283,
+    "lng": 62.1926,
+    "alt": 920,
+    "unesco": "Intangible Cultural Heritage"
+   },
+   "distanceKm": 817.18
+  },
+  {
+   "id": "behzad-miniature-c2",
+   "selected": {
+    "site": "Iranian Plateau Heritage Sites",
+    "lat": 32.9279,
+    "lng": 53.988,
+    "alt": 1400
+   },
+   "alternative": {
+    "site": "معادن مس آذربایجان و کارگاه‌های تبریز دوم",
+    "lat": 38.08,
+    "lng": 46.2919,
+    "alt": 1360,
+    "unesco": "Tabriz Historic Bazaar Complex"
+   },
+   "distanceKm": 901.37
+  },
+  {
+   "id": "behzad-miniature-c3",
+   "selected": {
+    "site": "Iranian Plateau Heritage Sites",
+    "lat": 33.4279,
+    "lng": 54.288000000000004,
+    "alt": 1400
+   },
+   "alternative": {
+    "site": "کتابخانه سلطنتی هرات و دارالسلطنه هرات",
+    "lat": 34.329,
+    "lng": 62.193,
+    "alt": 920,
+    "unesco": "Herat Citadel Matrix"
+   },
+   "distanceKm": 736.41
+  },
+  {
+   "id": "behzad-miniature-c4",
+   "selected": {
+    "site": "Iranian Plateau Heritage Sites",
+    "lat": 33.9279,
+    "lng": 54.588,
+    "alt": 1400
+   },
+   "alternative": {
+    "site": "کارگاه‌های صباغی و نگارگری اصفهان صفوی",
+    "lat": 32.657,
+    "lng": 51.677,
+    "alt": 1574,
+    "unesco": "UNESCO Ref: 115"
+   },
+   "distanceKm": 305.23
+  },
+  {
+   "id": "behzad-miniature-c5",
+   "selected": {
+    "site": "Iranian Plateau Heritage Sites",
+    "lat": 34.4279,
+    "lng": 54.888000000000005,
+    "alt": 1400
+   },
+   "alternative": {
+    "site": "کتابخانه آستان قدس رضوی، مشهد",
+    "lat": 36.2878,
+    "lng": 59.6155,
+    "alt": 985,
+    "unesco": "Imam Reza Holy Shrine"
+   },
+   "distanceKm": 475.91
+  },
+  {
+   "id": "behzad-miniature-c6",
+   "selected": {
+    "site": "Iranian Plateau Heritage Sites",
+    "lat": 34.9279,
+    "lng": 55.188,
+    "alt": 1400
+   },
+   "alternative": {
+    "site": "کارگاه‌های کاغذسازی سمرقند و هرات",
+    "lat": 39.6542,
+    "lng": 66.9597,
+    "alt": 710,
+    "unesco": "Samarkand - Crossroad of Cultures"
+   },
+   "distanceKm": 1165.14
+  }
+ ],
+ "unescoCoordinateChecks": [
+  {
+   "id": "isfahan-tiles-c1",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 115 (Meidan Emam)",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6514,
+     "lng": 51.6776,
+     "distanceKm": 0.67
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO Ref: 115 (Meidan Emam)",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6514,
+     "lng": 51.6776,
+     "distanceKm": 0.67
+    }
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c3",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6575,
+     "lng": 51.6778,
+     "distanceKm": 0.01
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6575,
+     "lng": 51.6775,
+     "distanceKm": 0.03
+    }
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c4",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6514,
+     "lng": 51.6776,
+     "distanceKm": 0.67
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6571,
+     "lng": 51.6769,
+     "distanceKm": 0.09
+    }
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c5",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6575,
+     "lng": 51.6778,
+     "distanceKm": 0.01
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO Ref: 1397 (Masjed-e Jāmé)",
+     "whcId": "1397",
+     "whcName": "Masjed-e Jame of Isfahan",
+     "refLat": 32.66972222,
+     "refLng": 51.68527778,
+     "lat": 32.6686,
+     "lng": 51.6853,
+     "distanceKm": 0.12
+    }
+   ]
+  },
+  {
+   "id": "isfahan-tiles-c6",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6514,
+     "lng": 51.6776,
+     "distanceKm": 0.67
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.6521,
+     "lng": 51.6773,
+     "distanceKm": 0.6
+    }
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c1",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 114 (Persepolis)",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 27.0628,
+     "lng": 56.4589,
+     "distanceKm": 472.78
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO World Heritage Ref: 114 (Persepolis)",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 27.0628,
+     "lng": 56.4589,
+     "distanceKm": 472.78
+    }
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c2",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    }
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c3",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 1106 (Pasargadae)",
+     "whcId": "1106",
+     "whcName": "Pasargadae",
+     "refLat": 30.19383,
+     "refLng": 53.16729,
+     "lat": 30.2003,
+     "lng": 53.1772,
+     "distanceKm": 1.19
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO World Heritage Ref: 1106 (Pasargadae)",
+     "whcId": "1106",
+     "whcName": "Pasargadae",
+     "refLat": 30.19383,
+     "refLng": 53.16729,
+     "lat": 30.2003,
+     "lng": 53.1772,
+     "distanceKm": 1.19
+    }
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c4",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    }
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c5",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    }
+   ]
+  },
+  {
+   "id": "achaemenid-majesty-c6",
+   "rows": [
+    {
+     "field": "geoSpatial",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    },
+    {
+     "field": "geo",
+     "cited": "UNESCO World Heritage Ref: 114",
+     "whcId": "114",
+     "whcName": "Persepolis",
+     "refLat": 29.93444,
+     "refLng": 52.89028,
+     "lat": 29.9351,
+     "lng": 52.8916,
+     "distanceKm": 0.15
+    }
+   ]
+  },
+  {
+   "id": "behzad-miniature-c4",
+   "rows": [
+    {
+     "field": "geo",
+     "cited": "UNESCO Ref: 115",
+     "whcId": "115",
+     "whcName": "Meidan Emam, Esfahan",
+     "refLat": 32.65745,
+     "refLng": 51.67777778,
+     "lat": 32.657,
+     "lng": 51.677,
+     "distanceKm": 0.09
+    }
+   ]
+  }
+ ],
+ "namedSiteChecks": [
+  {
+   "id": "behzad-miniature-c2",
+   "cited": "Tabriz Historic Bazaar Complex",
+   "whcId": "1346",
+   "whcName": "Tabriz Historic Bazaar Complex",
+   "distanceKm": 0.18
+  },
+  {
+   "id": "behzad-miniature-c6",
+   "cited": "Samarkand - Crossroad of Cultures",
+   "whcId": "603",
+   "whcName": "Samarkand - Crossroad of Cultures",
+   "distanceKm": 3.8
+  }
+ ],
+ "hormuzVsPersepolisKm": 472.78,
+ "repeatedCoordinates": {
+  "32.6514,51.6776,1574": {
+   "n": 3,
+   "ids": [
+    "isfahan-tiles-c1",
+    "isfahan-tiles-c4",
+    "isfahan-tiles-c6"
+   ]
+  },
+  "29.9351,52.8916,1620": {
+   "n": 4,
+   "ids": [
+    "achaemenid-majesty-c2",
+    "achaemenid-majesty-c4",
+    "achaemenid-majesty-c5",
+    "achaemenid-majesty-c6"
+   ]
+  },
+  "32.4279,53.688,1400": {
+   "n": 10,
+   "ids": [
+    "behzad-miniature-c1",
+    "nomadic-rugs-c1",
+    "minakari-craft-c1",
+    "toranj-illumination-c1",
+    "persian-gulf-pearls-c1",
+    "gardens-of-shiraz-c1",
+    "khorasan-gems-c1",
+    "hyrcanian-forests-c1",
+    "yazd-saffron-desert-c1",
+    "bazaar-spices-c1"
+   ]
+  },
+  "32.9279,53.988,1400": {
+   "n": 10,
+   "ids": [
+    "behzad-miniature-c2",
+    "nomadic-rugs-c2",
+    "minakari-craft-c2",
+    "toranj-illumination-c2",
+    "persian-gulf-pearls-c2",
+    "gardens-of-shiraz-c2",
+    "khorasan-gems-c2",
+    "hyrcanian-forests-c2",
+    "yazd-saffron-desert-c2",
+    "bazaar-spices-c2"
+   ]
+  },
+  "33.4279,54.288000000000004,1400": {
+   "n": 10,
+   "ids": [
+    "behzad-miniature-c3",
+    "nomadic-rugs-c3",
+    "minakari-craft-c3",
+    "toranj-illumination-c3",
+    "persian-gulf-pearls-c3",
+    "gardens-of-shiraz-c3",
+    "khorasan-gems-c3",
+    "hyrcanian-forests-c3",
+    "yazd-saffron-desert-c3",
+    "bazaar-spices-c3"
+   ]
+  },
+  "33.9279,54.588,1400": {
+   "n": 10,
+   "ids": [
+    "behzad-miniature-c4",
+    "nomadic-rugs-c4",
+    "minakari-craft-c4",
+    "toranj-illumination-c4",
+    "persian-gulf-pearls-c4",
+    "gardens-of-shiraz-c4",
+    "khorasan-gems-c4",
+    "hyrcanian-forests-c4",
+    "yazd-saffron-desert-c4",
+    "bazaar-spices-c4"
+   ]
+  },
+  "34.4279,54.888000000000005,1400": {
+   "n": 10,
+   "ids": [
+    "behzad-miniature-c5",
+    "nomadic-rugs-c5",
+    "minakari-craft-c5",
+    "toranj-illumination-c5",
+    "persian-gulf-pearls-c5",
+    "gardens-of-shiraz-c5",
+    "khorasan-gems-c5",
+    "hyrcanian-forests-c5",
+    "yazd-saffron-desert-c5",
+    "bazaar-spices-c5"
+   ]
+  },
+  "34.9279,55.188,1400": {
+   "n": 10,
+   "ids": [
+    "behzad-miniature-c6",
+    "nomadic-rugs-c6",
+    "minakari-craft-c6",
+    "toranj-illumination-c6",
+    "persian-gulf-pearls-c6",
+    "gardens-of-shiraz-c6",
+    "khorasan-gems-c6",
+    "hyrcanian-forests-c6",
+    "yazd-saffron-desert-c6",
+    "bazaar-spices-c6"
+   ]
+  }
+ },
+ "syntheticPlateauPattern": {
+  "description": "originSite \"Iranian Plateau Heritage Sites\"; lat = 32.4279 + 0.5*i, lng = 53.688 + 0.3*i, alt 1400 for color index i",
+  "colors": 60,
+  "matchesFormula": true
+ },
+ "templates": {
+  "genericMineralName": 54,
+  "formulaIsMatrixHex": 54,
+  "casWater7732_18_5": 60,
+  "casLabelAuthenticSpecimen": 60,
+  "genericManuscriptRef": 60,
+  "genericExtraction": 60,
+  "genericCrystalSystem": 60,
+  "genericUnescoRef": 60,
+  "historicalContextEqualsMeaning": 60,
+  "artMovementEqualsPaletteName": 60,
+  "molarMassCalculatedComplex": 60,
+  "spectralPeakEqualsDominant": 60,
+  "roleEnPrimaryAccent": 72
+ },
+ "englishNamedFieldsWithPersian": {
+  "palette": {
+   "description": 12,
+   "culturalContext": 12,
+   "unescoRef": 12
+  },
+  "paletteFieldEqualsFaTwin": {
+   "description": 12,
+   "culturalContext": 12,
+   "unescoRef": 12
+  },
+  "color": {
+   "role": 72,
+   "meaning": 72,
+   "artMovement": 72
+  },
+  "colorFieldEqualsFaTwin": {
+   "role": 72,
+   "meaning": 72
+  }
+ },
+ "legacyColorScience": {
+  "oklabDeltaOver0_01": 0,
+  "maxOklabDelta": 0.0001,
+  "apcaBlackLegacyZero": 26,
+  "apcaWhiteAbsDiffOver5": 0,
+  "cieLabDeltaOver5": 5,
+  "maxCieLabDelta": 14.64,
+  "normalizedOverwritesColorScience": true,
+  "sample": [
+   {
+    "id": "isfahan-tiles-c1",
+    "oklabDelta": 0,
+    "legacyApcaWhite": 98.9,
+    "computedApcaWhite": 99.4,
+    "legacyApcaBlack": 0,
+    "computedApcaBlack": 0,
+    "legacyWeight": "Fluent Body (Normal 400)",
+    "computedWeight": "Lc 90 (Fluent Body Text)",
+    "labDelta": 14.64,
+    "legacyChroma": 0.28,
+    "computedChroma": 0.1944
+   },
+   {
+    "id": "isfahan-tiles-c2",
+    "oklabDelta": 0,
+    "legacyApcaWhite": 33.2,
+    "computedApcaWhite": 33.8,
+    "legacyApcaBlack": -60.2,
+    "computedApcaBlack": -68.8,
+    "legacyWeight": "Headings / Large",
+    "computedWeight": "Fail",
+    "labDelta": 3.44,
+    "legacyChroma": 0.18,
+    "computedChroma": 0.1294
+   },
+   {
+    "id": "isfahan-tiles-c3",
+    "oklabDelta": 0,
+    "legacyApcaWhite": 56,
+    "computedApcaWhite": 56.7,
+    "legacyApcaBlack": -36.4,
+    "computedApcaBlack": -45,
+    "legacyWeight": "UI Controls",
+    "computedWeight": "Lc 45 (Large/Bold)",
+    "labDelta": 5.46,
+    "legacyChroma": 0.16,
+    "computedChroma": 0.1173
+   }
+  ]
+ },
+ "legacyRows": [
+  {
+   "id": "isfahan-tiles-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 98.9,
+   "computedApcaWhite": 99.4,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 14.64,
+   "legacyChroma": 0.28,
+   "computedChroma": 0.1944
+  },
+  {
+   "id": "isfahan-tiles-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 33.2,
+   "computedApcaWhite": 33.8,
+   "legacyApcaBlack": -60.2,
+   "computedApcaBlack": -68.8,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 3.44,
+   "legacyChroma": 0.18,
+   "computedChroma": 0.1294
+  },
+  {
+   "id": "isfahan-tiles-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 56,
+   "computedApcaWhite": 56.7,
+   "legacyApcaBlack": -36.4,
+   "computedApcaBlack": -45,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Lc 45 (Large/Bold)",
+   "labDelta": 5.46,
+   "legacyChroma": 0.16,
+   "computedChroma": 0.1173
+  },
+  {
+   "id": "isfahan-tiles-c4",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 40.4,
+   "computedApcaWhite": 41,
+   "legacyApcaBlack": -52.7,
+   "computedApcaBlack": -61.3,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 3.93,
+   "legacyChroma": 0.22,
+   "computedChroma": 0.1387
+  },
+  {
+   "id": "isfahan-tiles-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -89.7,
+   "computedApcaBlack": -98.3,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 1.54,
+   "legacyChroma": 0.04,
+   "computedChroma": 0.0253
+  },
+  {
+   "id": "isfahan-tiles-c6",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 104.6,
+   "computedApcaWhite": 104.9,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 8.77,
+   "legacyChroma": 0.12,
+   "computedChroma": 0.0498
+  },
+  {
+   "id": "achaemenid-majesty-c1",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 73.2,
+   "computedApcaWhite": 74,
+   "legacyApcaBlack": -19.1,
+   "computedApcaBlack": -27.7,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.04,
+   "legacyChroma": 0.19,
+   "computedChroma": 0.19
+  },
+  {
+   "id": "achaemenid-majesty-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 38.8,
+   "computedApcaWhite": 39.4,
+   "legacyApcaBlack": -54.3,
+   "computedApcaBlack": -62.9,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.139,
+   "computedChroma": 0.1393
+  },
+  {
+   "id": "achaemenid-majesty-c3",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 97.5,
+   "computedApcaWhite": 98,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.068,
+   "computedChroma": 0.0678
+  },
+  {
+   "id": "achaemenid-majesty-c4",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 80.9,
+   "computedApcaWhite": 81.6,
+   "legacyApcaBlack": -11.7,
+   "computedApcaBlack": -20.3,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.01,
+   "legacyChroma": 0.078,
+   "computedChroma": 0.0777
+  },
+  {
+   "id": "achaemenid-majesty-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -96.7,
+   "computedApcaBlack": -105.3,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.006,
+   "computedChroma": 0.0057
+  },
+  {
+   "id": "achaemenid-majesty-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 103.1,
+   "computedApcaWhite": 103.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.011,
+   "computedChroma": 0.0113
+  },
+  {
+   "id": "behzad-miniature-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 66.3,
+   "computedApcaWhite": 67,
+   "legacyApcaBlack": -26,
+   "computedApcaBlack": -34.6,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 4.91,
+   "legacyChroma": 0.25,
+   "computedChroma": 0.2
+  },
+  {
+   "id": "behzad-miniature-c2",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 34.4,
+   "computedApcaWhite": 34.9,
+   "legacyApcaBlack": -59.1,
+   "computedApcaBlack": -67.7,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 6.86,
+   "legacyChroma": 0.22,
+   "computedChroma": 0.2293
+  },
+  {
+   "id": "behzad-miniature-c3",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 101.6,
+   "computedApcaWhite": 102,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 6.59,
+   "legacyChroma": 0.1,
+   "computedChroma": 0.0424
+  },
+  {
+   "id": "behzad-miniature-c4",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 94.3,
+   "computedApcaWhite": 94.9,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -7.8,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 4.14,
+   "legacyChroma": 0.18,
+   "computedChroma": 0.1177
+  },
+  {
+   "id": "behzad-miniature-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 29.7,
+   "computedApcaWhite": 30.2,
+   "legacyApcaBlack": -64,
+   "computedApcaBlack": -72.6,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 2.36,
+   "legacyChroma": 0.2,
+   "computedChroma": 0.1281
+  },
+  {
+   "id": "behzad-miniature-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -91.5,
+   "computedApcaBlack": -100.1,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.86,
+   "legacyChroma": 0.03,
+   "computedChroma": 0.0261
+  },
+  {
+   "id": "nomadic-rugs-c1",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 83.3,
+   "computedApcaWhite": 84,
+   "legacyApcaBlack": -9.4,
+   "computedApcaBlack": -18,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.01,
+   "legacyChroma": 0.177,
+   "computedChroma": 0.1769
+  },
+  {
+   "id": "nomadic-rugs-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 100,
+   "computedApcaWhite": 100.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.03,
+   "legacyChroma": 0.104,
+   "computedChroma": 0.1041
+  },
+  {
+   "id": "nomadic-rugs-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 49.9,
+   "computedApcaWhite": 50.5,
+   "legacyApcaBlack": -42.8,
+   "computedApcaBlack": -51.4,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Lc 45 (Large/Bold)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.114,
+   "computedChroma": 0.1143
+  },
+  {
+   "id": "nomadic-rugs-c4",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 97.3,
+   "computedApcaWhite": 97.8,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.053,
+   "computedChroma": 0.0532
+  },
+  {
+   "id": "nomadic-rugs-c5",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 16.2,
+   "computedApcaWhite": 16.5,
+   "legacyApcaBlack": -78.6,
+   "computedApcaBlack": -87.2,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.05,
+   "legacyChroma": 0.024,
+   "computedChroma": 0.0237
+  },
+  {
+   "id": "nomadic-rugs-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 100.7,
+   "computedApcaWhite": 101.1,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.07,
+   "legacyChroma": 0.064,
+   "computedChroma": 0.0639
+  },
+  {
+   "id": "minakari-craft-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 88.8,
+   "computedApcaWhite": 89.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -12.8,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.205,
+   "computedChroma": 0.2047
+  },
+  {
+   "id": "minakari-craft-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 69.8,
+   "computedApcaWhite": 70.5,
+   "legacyApcaBlack": -22.6,
+   "computedApcaBlack": -31.2,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.099,
+   "computedChroma": 0.0991
+  },
+  {
+   "id": "minakari-craft-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 44.2,
+   "computedApcaWhite": 44.8,
+   "legacyApcaBlack": -48.7,
+   "computedApcaBlack": -57.3,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.04,
+   "legacyChroma": 0.134,
+   "computedChroma": 0.1343
+  },
+  {
+   "id": "minakari-craft-c4",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 30.4,
+   "computedApcaWhite": 30.9,
+   "legacyApcaBlack": -63.2,
+   "computedApcaBlack": -71.8,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.05,
+   "legacyChroma": 0.07,
+   "computedChroma": 0.0701
+  },
+  {
+   "id": "minakari-craft-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -96.7,
+   "computedApcaBlack": -105.3,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.006,
+   "computedChroma": 0.0057
+  },
+  {
+   "id": "minakari-craft-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 104,
+   "computedApcaWhite": 104.3,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.02,
+   "legacyChroma": 0.048,
+   "computedChroma": 0.0483
+  },
+  {
+   "id": "toranj-illumination-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 93.9,
+   "computedApcaWhite": 94.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -8.1,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.148,
+   "computedChroma": 0.1476
+  },
+  {
+   "id": "toranj-illumination-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 96.9,
+   "computedApcaWhite": 97.4,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.03,
+   "legacyChroma": 0.058,
+   "computedChroma": 0.0581
+  },
+  {
+   "id": "toranj-illumination-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 43.2,
+   "computedApcaWhite": 43.9,
+   "legacyApcaBlack": -49.7,
+   "computedApcaBlack": -58.3,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.04,
+   "legacyChroma": 0.147,
+   "computedChroma": 0.1469
+  },
+  {
+   "id": "toranj-illumination-c4",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 82.1,
+   "computedApcaWhite": 82.8,
+   "legacyApcaBlack": -10.5,
+   "computedApcaBlack": -19.1,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.04,
+   "legacyChroma": 0.078,
+   "computedChroma": 0.0784
+  },
+  {
+   "id": "toranj-illumination-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -96.6,
+   "computedApcaBlack": -105.2,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.05,
+   "legacyChroma": 0.009,
+   "computedChroma": 0.0095
+  },
+  {
+   "id": "toranj-illumination-c6",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 105.7,
+   "computedApcaWhite": 106,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0,
+   "legacyChroma": 0,
+   "computedChroma": 0
+  },
+  {
+   "id": "persian-gulf-pearls-c1",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 78.8,
+   "computedApcaWhite": 79.5,
+   "legacyApcaBlack": -13.7,
+   "computedApcaBlack": -22.3,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.126,
+   "computedChroma": 0.1264
+  },
+  {
+   "id": "persian-gulf-pearls-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 47.1,
+   "computedApcaWhite": 47.8,
+   "legacyApcaBlack": -45.6,
+   "computedApcaBlack": -54.2,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Lc 45 (Large/Bold)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.129,
+   "computedChroma": 0.1286
+  },
+  {
+   "id": "persian-gulf-pearls-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 88.2,
+   "computedApcaWhite": 88.8,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -13.4,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.07,
+   "legacyChroma": 0.152,
+   "computedChroma": 0.1516
+  },
+  {
+   "id": "persian-gulf-pearls-c4",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 8.1,
+   "computedApcaWhite": 8.3,
+   "legacyApcaBlack": -87.4,
+   "computedApcaBlack": -95.9,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.013,
+   "computedChroma": 0.0125
+  },
+  {
+   "id": "persian-gulf-pearls-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 43.6,
+   "computedApcaWhite": 44.2,
+   "legacyApcaBlack": -49.3,
+   "computedApcaBlack": -57.9,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.11,
+   "computedChroma": 0.1103
+  },
+  {
+   "id": "persian-gulf-pearls-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 105.5,
+   "computedApcaWhite": 105.8,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.051,
+   "computedChroma": 0.0507
+  },
+  {
+   "id": "gardens-of-shiraz-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 59.6,
+   "computedApcaWhite": 60.4,
+   "legacyApcaBlack": -32.8,
+   "computedApcaBlack": -41.4,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.04,
+   "legacyChroma": 0.257,
+   "computedChroma": 0.2569
+  },
+  {
+   "id": "gardens-of-shiraz-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 88.5,
+   "computedApcaWhite": 89.2,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -13,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.145,
+   "computedChroma": 0.1447
+  },
+  {
+   "id": "gardens-of-shiraz-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 69.2,
+   "computedApcaWhite": 69.9,
+   "legacyApcaBlack": -23.1,
+   "computedApcaBlack": -31.7,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.03,
+   "legacyChroma": 0.169,
+   "computedChroma": 0.1688
+  },
+  {
+   "id": "gardens-of-shiraz-c4",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 11.9,
+   "computedApcaWhite": 12.1,
+   "legacyApcaBlack": -83.3,
+   "computedApcaBlack": -91.9,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.03,
+   "legacyChroma": 0.115,
+   "computedChroma": 0.1151
+  },
+  {
+   "id": "gardens-of-shiraz-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -93.5,
+   "computedApcaBlack": -102.1,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.009,
+   "computedChroma": 0.0086
+  },
+  {
+   "id": "gardens-of-shiraz-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 101.2,
+   "computedApcaWhite": 101.7,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.02,
+   "legacyChroma": 0.045,
+   "computedChroma": 0.0447
+  },
+  {
+   "id": "khorasan-gems-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 27.6,
+   "computedApcaWhite": 28.1,
+   "legacyApcaBlack": -66.3,
+   "computedApcaBlack": -74.9,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.05,
+   "legacyChroma": 0.131,
+   "computedChroma": 0.1307
+  },
+  {
+   "id": "khorasan-gems-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 86.4,
+   "computedApcaWhite": 87.1,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -15,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.169,
+   "computedChroma": 0.1688
+  },
+  {
+   "id": "khorasan-gems-c3",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 40.8,
+   "computedApcaWhite": 41.4,
+   "legacyApcaBlack": -52.3,
+   "computedApcaBlack": -60.9,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.07,
+   "legacyChroma": 0.158,
+   "computedChroma": 0.1577
+  },
+  {
+   "id": "khorasan-gems-c4",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 28.1,
+   "computedApcaWhite": 28.5,
+   "legacyApcaBlack": -65.7,
+   "computedApcaBlack": -74.3,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.05,
+   "legacyChroma": 0.172,
+   "computedChroma": 0.1724
+  },
+  {
+   "id": "khorasan-gems-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -93.2,
+   "computedApcaBlack": -101.8,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.02,
+   "legacyChroma": 0.003,
+   "computedChroma": 0.0034
+  },
+  {
+   "id": "khorasan-gems-c6",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 103.3,
+   "computedApcaWhite": 103.7,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.011,
+   "computedChroma": 0.0106
+  },
+  {
+   "id": "hyrcanian-forests-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 94.9,
+   "computedApcaWhite": 95.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.03,
+   "legacyChroma": 0.055,
+   "computedChroma": 0.0547
+  },
+  {
+   "id": "hyrcanian-forests-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 64.8,
+   "computedApcaWhite": 65.6,
+   "legacyApcaBlack": -27.5,
+   "computedApcaBlack": -36.1,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.03,
+   "legacyChroma": 0.098,
+   "computedChroma": 0.0985
+  },
+  {
+   "id": "hyrcanian-forests-c3",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 38.9,
+   "computedApcaWhite": 39.5,
+   "legacyApcaBlack": -54.2,
+   "computedApcaBlack": -62.8,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.04,
+   "legacyChroma": 0.101,
+   "computedChroma": 0.1008
+  },
+  {
+   "id": "hyrcanian-forests-c4",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 95.9,
+   "computedApcaWhite": 96.4,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.04,
+   "computedChroma": 0.04
+  },
+  {
+   "id": "hyrcanian-forests-c5",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -95.2,
+   "computedApcaBlack": -103.8,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Fail",
+   "labDelta": 0.06,
+   "legacyChroma": 0.002,
+   "computedChroma": 0.0017
+  },
+  {
+   "id": "hyrcanian-forests-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 103.6,
+   "computedApcaWhite": 104,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.028,
+   "computedChroma": 0.0279
+  },
+  {
+   "id": "yazd-saffron-desert-c1",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 27.8,
+   "computedApcaWhite": 28.3,
+   "legacyApcaBlack": -66,
+   "computedApcaBlack": -74.6,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.07,
+   "legacyChroma": 0.16,
+   "computedChroma": 0.1598
+  },
+  {
+   "id": "yazd-saffron-desert-c2",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 57,
+   "computedApcaWhite": 57.7,
+   "legacyApcaBlack": -35.4,
+   "computedApcaBlack": -44,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Lc 45 (Large/Bold)",
+   "labDelta": 0.04,
+   "legacyChroma": 0.127,
+   "computedChroma": 0.1268
+  },
+  {
+   "id": "yazd-saffron-desert-c3",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 66.5,
+   "computedApcaWhite": 67.2,
+   "legacyApcaBlack": -25.9,
+   "computedApcaBlack": -34.4,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.06,
+   "legacyChroma": 0.208,
+   "computedChroma": 0.2082
+  },
+  {
+   "id": "yazd-saffron-desert-c4",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 10.1,
+   "computedApcaWhite": 10.4,
+   "legacyApcaBlack": -85.2,
+   "computedApcaBlack": -93.8,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.07,
+   "legacyChroma": 0.035,
+   "computedChroma": 0.0345
+  },
+  {
+   "id": "yazd-saffron-desert-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 104,
+   "computedApcaWhite": 104.4,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.005,
+   "computedChroma": 0.005
+  },
+  {
+   "id": "yazd-saffron-desert-c6",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 88.8,
+   "computedApcaWhite": 89.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": -12.8,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.04,
+   "legacyChroma": 0.07,
+   "computedChroma": 0.0704
+  },
+  {
+   "id": "bazaar-spices-c1",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 27.7,
+   "computedApcaWhite": 28.2,
+   "legacyApcaBlack": -66.1,
+   "computedApcaBlack": -74.7,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.05,
+   "legacyChroma": 0.173,
+   "computedChroma": 0.1727
+  },
+  {
+   "id": "bazaar-spices-c2",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 62.6,
+   "computedApcaWhite": 63.3,
+   "legacyApcaBlack": -29.7,
+   "computedApcaBlack": -38.3,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 60 (Sub-head)",
+   "labDelta": 0.07,
+   "legacyChroma": 0.155,
+   "computedChroma": 0.155
+  },
+  {
+   "id": "bazaar-spices-c3",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 75.7,
+   "computedApcaWhite": 76.5,
+   "legacyApcaBlack": -16.7,
+   "computedApcaBlack": -25.3,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Lc 75 (Content Text)",
+   "labDelta": 0.05,
+   "legacyChroma": 0.186,
+   "computedChroma": 0.1859
+  },
+  {
+   "id": "bazaar-spices-c4",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 38.2,
+   "computedApcaWhite": 38.8,
+   "legacyApcaBlack": -55,
+   "computedApcaBlack": -63.6,
+   "legacyWeight": "UI Controls",
+   "computedWeight": "Fail",
+   "labDelta": 0.02,
+   "legacyChroma": 0.124,
+   "computedChroma": 0.1236
+  },
+  {
+   "id": "bazaar-spices-c5",
+   "oklabDelta": 0,
+   "legacyApcaWhite": 0,
+   "computedApcaWhite": 0,
+   "legacyApcaBlack": -89.3,
+   "computedApcaBlack": -97.9,
+   "legacyWeight": "Headings / Large",
+   "computedWeight": "Fail",
+   "labDelta": 0.04,
+   "legacyChroma": 0.051,
+   "computedChroma": 0.0506
+  },
+  {
+   "id": "bazaar-spices-c6",
+   "oklabDelta": 0.0001,
+   "legacyApcaWhite": 103.2,
+   "computedApcaWhite": 103.5,
+   "legacyApcaBlack": 0,
+   "computedApcaBlack": 0,
+   "legacyWeight": "Fluent Body (Normal 400)",
+   "computedWeight": "Lc 90 (Fluent Body Text)",
+   "labDelta": 0.03,
+   "legacyChroma": 0.011,
+   "computedChroma": 0.0114
+  }
+ ]
+}

@@ -1,0 +1,2682 @@
+{
+ "files": {
+  "packages/core/src/tokens/heritage-data.ts": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 4485,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 905,
+   "U+0629 TEH MARBUTA ة": 1,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 0,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 2,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 141,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 8,
+   "U+064B-0652 harakat": 0,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 619,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 92,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 230,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 0
+  },
+  "app/app.js": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 360,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 133,
+   "U+0629 TEH MARBUTA ة": 0,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 5,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 0,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 3,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 0,
+   "U+064B-0652 harakat": 0,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 56,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 22,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 10,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 1
+  },
+  "app/template.html": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 681,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 175,
+   "U+0629 TEH MARBUTA ة": 0,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 22,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 3,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 14,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 4,
+   "U+064B-0652 harakat": 1,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 126,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 96,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 22,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 7
+  },
+  "app/enhancements.js": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 20,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 1,
+   "U+0629 TEH MARBUTA ة": 0,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 3,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 0,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 0,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 0,
+   "U+064B-0652 harakat": 0,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 3,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 0,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 1,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 2
+  },
+  "README.fa.md": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 148,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 18,
+   "U+0629 TEH MARBUTA ة": 0,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 10,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 3,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 7,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 0,
+   "U+064B-0652 harakat": 0,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 38,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 12,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 12,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 11
+  },
+  "implementation_plan.md": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 76,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 16,
+   "U+0629 TEH MARBUTA ة": 0,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 6,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 2,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 1,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 1,
+   "U+064B-0652 harakat": 0,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 13,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 8,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 7,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 1
+  },
+  "walkthrough.md": {
+   "U+064A ARABIC YEH ي": 0,
+   "U+06CC FARSI YEH ی": 175,
+   "U+0649 ALEF MAKSURA ى": 0,
+   "U+0643 ARABIC KAF ك": 0,
+   "U+06A9 KEHEH ک": 31,
+   "U+0629 TEH MARBUTA ة": 0,
+   "U+06C0 HEH WITH YEH ۀ": 0,
+   "U+0654 HAMZA ABOVE ٔ": 11,
+   "U+0621 HAMZA ء": 0,
+   "U+0623 ALEF HAMZA ABOVE أ": 0,
+   "U+0625 ALEF HAMZA BELOW إ": 0,
+   "U+0622 ALEF MADDA آ": 7,
+   "U+0624 WAW HAMZA ؤ": 0,
+   "U+0626 YEH HAMZA ئ": 2,
+   "U+064B-0652 harakat": 0,
+   "U+0640 TATWEEL": 0,
+   "U+200C ZWNJ": 44,
+   "U+200D ZWJ": 0,
+   "U+200F RLM": 0,
+   "U+00A0 NBSP": 0,
+   "Persian digits ۰-۹": 22,
+   "Arabic-Indic digits ٠-٩": 0,
+   "Arabic comma ،": 8,
+   "Arabic question ؟": 0,
+   "Arabic semicolon ؛": 0
+  }
+ },
+ "patterns": [],
+ "superlatives": [
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 13,
+   "term": "اصیل",
+   "excerpt": "هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و محراب‌"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 13,
+   "term": "استاندارد جهانی",
+   "excerpt": "بالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و محراب‌های لاجوردی مسجد"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 14,
+   "term": "اصیل",
+   "excerpt": "هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و محراب‌"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 14,
+   "term": "استاندارد جهانی",
+   "excerpt": "بالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و محراب‌های لاجوردی مسجد"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 29,
+   "term": "دقیق",
+   "excerpt": "ning\": \"اصلاح شده برای بازتاب دقیق کبالت و لاجورد کاشی‌های مسجد شاه\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 30,
+   "term": "دقیق",
+   "excerpt": "ngFa\": \"اصلاح شده برای بازتاب دقیق کبالت و لاجورد کاشی‌های مسجد شاه\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 108,
+   "term": "اصیل",
+   "excerpt": "\"nameFa\": \"فیروزه‌ای اصیل (Persian Turquoise)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 113,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"meaning\": \"استاندارد جهانی فیروزه‌ای ایرانی و نگین"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 114,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"meaningFa\": \"استاندارد جهانی فیروزه‌ای ایرانی و نگین"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 286,
+   "term": "ناب",
+   "excerpt": "\"mineralNameFa\": \"ورق طلای ناب ۲۴ عیار (حلکاری زرین)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 289,
+   "term": "ناب",
+   "excerpt": "alExtraction\": \"کوبش ورق طلای ناب در پوست آهو تا ضخامت زیر ۰.۱ میکرون"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 330,
+   "term": "ناب",
+   "excerpt": "storicalPigmentFa\": \"ورق طلای ناب ۲۴ عیار (حلکاری زرین)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 543,
+   "term": "اصیل",
+   "excerpt": "\"nameFa\": \"سرخ پارسی اصیل (Persian Red)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 548,
+   "term": "ثبت‌شده جهانی",
+   "excerpt": "\"meaning\": \"رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 548,
+   "term": "ثبت‌شده",
+   "excerpt": "\"meaning\": \"رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 549,
+   "term": "ثبت‌شده جهانی",
+   "excerpt": "\"meaningFa\": \"رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 549,
+   "term": "ثبت‌شده",
+   "excerpt": "\"meaningFa\": \"رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 558,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 600,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 621,
+   "term": "ثبت‌شده جهانی",
+   "excerpt": "calContextFa\": \"رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 621,
+   "term": "ثبت‌شده",
+   "excerpt": "calContextFa\": \"رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 642,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 684,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 716,
+   "term": "فاخر",
+   "excerpt": "\"meaning\": \"پارچه‌های فاخر رنگرزی شده با صدف‌های شاهی باستان\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 717,
+   "term": "فاخر",
+   "excerpt": "\"meaningFa\": \"پارچه‌های فاخر رنگرزی شده با صدف‌های شاهی باستان\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 726,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 768,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 789,
+   "term": "فاخر",
+   "excerpt": "toricalContextFa\": \"پارچه‌های فاخر رنگرزی شده با صدف‌های شاهی باستان\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 810,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 852,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 894,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 936,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 978,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1020,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1051,
+   "term": "اصیل",
+   "excerpt": "n\": \"مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1051,
+   "term": "ناب",
+   "excerpt": "معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای حل‌کاری بر بستر کاغذ سمرقندی"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1051,
+   "term": "جاودان",
+   "excerpt": "بستر کاغذ سمرقندی با هارمونی جاودان نگارگری تیموری و صفوی.\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1052,
+   "term": "اصیل",
+   "excerpt": "a\": \"مکتب هرات و تبریز، شنگرف اصیل معدنی، سبز مالاکیت، شاه‌توت عنابی و"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1052,
+   "term": "ناب",
+   "excerpt": "معدنی، سبز مالاکیت، شاه‌توت عنابی و طلای حل‌کاری بر بستر کاغذ سمرقندی"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1052,
+   "term": "جاودان",
+   "excerpt": "بستر کاغذ سمرقندی با هارمونی جاودان نگارگری تیموری و صفوی.\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1067,
+   "term": "اصیل",
+   "excerpt": "\"meaning\": \"رنگدانه اصیل شنگرف در مکتب هرات و تبریز\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1068,
+   "term": "اصیل",
+   "excerpt": "\"meaningFa\": \"رنگدانه اصیل شنگرف در مکتب هرات و تبریز\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1075,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1159,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1243,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1319,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"meaning\": \"استاندارد جهانی عنابی ایرانی مکتب صفوی\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1319,
+   "term": "ناب",
+   "excerpt": "\"meaning\": \"استاندارد جهانی عنابی ایرانی مکتب صفوی\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1320,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"meaningFa\": \"استاندارد جهانی عنابی ایرانی مکتب صفوی\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1320,
+   "term": "ناب",
+   "excerpt": "meaningFa\": \"استاندارد جهانی عنابی ایرانی مکتب صفوی\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1327,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1392,
+   "term": "فاخر",
+   "excerpt": "toricalContextFa\": \"لباده‌های فاخر شاهان و درباریان در مجالس بزم و بار"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1411,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1495,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1570,
+   "term": "۱۰۰٪",
+   "excerpt": "پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پوست گرد"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1571,
+   "term": "۱۰۰٪",
+   "excerpt": "پود پشم دست‌ریس و رنگرزی سنتی ۱۰۰٪ طبیعی با روناس، لاکی دانه، پوست گرد"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1581,
+   "term": "ناب",
+   "excerpt": "\"nameFa\": \"قرمز روناسی ناب (Madder Root)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1591,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (قرمز روناسی ناب (Madder Roo"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1591,
+   "term": "ناب",
+   "excerpt": "دانه اصیل ایرانی (قرمز روناسی ناب (Madder Root))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1594,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1596,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1635,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (قرمز روناسی ناب (Madder Roo"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1635,
+   "term": "ناب",
+   "excerpt": "دانه اصیل ایرانی (قرمز روناسی ناب (Madder Root))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1638,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1675,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (لاکی شاه‌عباسی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1678,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1680,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1719,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (لاکی شاه‌عباسی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1722,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1759,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (حنایی افشاری (Persian Orang"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1762,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1764,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1803,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (حنایی افشاری (Persian Orang"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1806,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1843,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سبز کله‌غازی عشایر)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1846,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1848,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1887,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سبز کله‌غازی عشایر)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1890,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1927,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (کرم خامه پشمی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1930,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1932,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1971,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (کرم خامه پشمی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 1974,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2011,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (قهوه‌ای پوست گردو)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2014,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2016,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2055,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (قهوه‌ای پوست گردو)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2058,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2105,
+   "term": "ثبت‌شده",
+   "excerpt": "\"meaning\": \"رنگ جهانی ثبت‌شده لاجوردی ایرانی در موزه‌های بین‌ا"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2106,
+   "term": "ثبت‌شده",
+   "excerpt": "\"meaningFa\": \"رنگ جهانی ثبت‌شده لاجوردی ایرانی در موزه‌های بین‌ا"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2110,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (آبی مینایی ژرف (Persian Blu"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2113,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2115,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2154,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (آبی مینایی ژرف (Persian Blu"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2157,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2178,
+   "term": "ثبت‌شده",
+   "excerpt": "toricalContextFa\": \"رنگ جهانی ثبت‌شده لاجوردی ایرانی در موزه‌های بین‌ا"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2194,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سبز فیروزه قلمی (Persian Gr"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2197,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2199,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2238,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سبز فیروزه قلمی (Persian Gr"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2241,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2278,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (زرد طلااندود)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2281,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2283,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2322,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (زرد طلااندود)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2325,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2362,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (فیروزه‌ای مرواریدی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2365,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2367,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2406,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (فیروزه‌ای مرواریدی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2409,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2446,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سفید لعاب چینی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2449,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2451,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2490,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سفید لعاب چینی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2493,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2530,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سرمه‌ای کوره مینا)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2533,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2535,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2574,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سرمه‌ای کوره مینا)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2577,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2629,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (زرشکی تذهیب تیموری)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2632,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2634,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2673,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (زرشکی تذهیب تیموری)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2676,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2713,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (نیلی لاجوردی شمسه (Indigo))"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2716,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2718,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2757,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (نیلی لاجوردی شمسه (Indigo))"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2760,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2787,
+   "term": "ناب",
+   "excerpt": "\"nameFa\": \"طلای ناب شمسه (Goldenrod)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2797,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (طلای ناب شمسه (Goldenrod))\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2797,
+   "term": "ناب",
+   "excerpt": "\": \"رنگدانه اصیل ایرانی (طلای ناب شمسه (Goldenrod))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2800,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2802,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2841,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (طلای ناب شمسه (Goldenrod))\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2841,
+   "term": "ناب",
+   "excerpt": "\": \"رنگدانه اصیل ایرانی (طلای ناب شمسه (Goldenrod))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2844,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2881,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سبز صمغی کهن)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2884,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2886,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2925,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سبز صمغی کهن)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2928,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2965,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (پوست آهوی خطاطی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2968,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 2970,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3009,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (پوست آهوی خطاطی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3012,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3044,
+   "term": "کامل",
+   "excerpt": "\"meaning\": \"خلوص کامل دوده سنتی و مرکب ضدآب خوشنویسی میرع"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3045,
+   "term": "کامل",
+   "excerpt": "\"meaningFa\": \"خلوص کامل دوده سنتی و مرکب ضدآب خوشنویسی میرع"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3049,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (مرکب سیاه کتابت (India Ink)"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3052,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3054,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3093,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (مرکب سیاه کتابت (India Ink)"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3096,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3117,
+   "term": "کامل",
+   "excerpt": "\"historicalContextFa\": \"خلوص کامل دوده سنتی و مرکب ضدآب خوشنویسی میرع"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3138,
+   "term": "اصیل",
+   "excerpt": "\"nameFa\": \"آبی پارسی اصیل (Medium Persian Blue)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3143,
+   "term": "ثبت‌شده جهانی",
+   "excerpt": "meaning\": \"آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3143,
+   "term": "ثبت‌شده",
+   "excerpt": "meaning\": \"آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3144,
+   "term": "ثبت‌شده جهانی",
+   "excerpt": "aningFa\": \"آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3144,
+   "term": "ثبت‌شده",
+   "excerpt": "aningFa\": \"آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3148,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (آبی پارسی اصیل (Medium Pers"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3148,
+   "term": "اصیل",
+   "excerpt": "نگدانه اصیل ایرانی (آبی پارسی اصیل (Medium Persian Blue))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3151,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3153,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3192,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (آبی پارسی اصیل (Medium Pers"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3192,
+   "term": "اصیل",
+   "excerpt": "نگدانه اصیل ایرانی (آبی پارسی اصیل (Medium Persian Blue))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3195,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3216,
+   "term": "ثبت‌شده جهانی",
+   "excerpt": "ntextFa\": \"آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3216,
+   "term": "ثبت‌شده",
+   "excerpt": "ntextFa\": \"آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3232,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (آبی فیروزه‌ای قشم)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3235,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3237,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3276,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (آبی فیروزه‌ای قشم)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3279,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3316,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (خاک سرخ هرمز (Red Ochre))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3319,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3321,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3360,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (خاک سرخ هرمز (Red Ochre))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3363,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3400,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (مروارید صید لنگه)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3403,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3405,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3444,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (مروارید صید لنگه)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3447,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3484,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (ماسه گرم ساحلی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3487,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3489,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3528,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (ماسه گرم ساحلی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3531,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3568,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (آبی ژرفای خلیج)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3571,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3573,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3612,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (آبی ژرفای خلیج)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3615,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3662,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"meaning\": \"استاندارد جهانی صورتی پررنگ و درخشان گل"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3663,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"meaningFa\": \"استاندارد جهانی صورتی پررنگ و درخشان گل"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3667,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (گل سرخ محمدی (Persian Rose)"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3670,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3672,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3711,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (گل سرخ محمدی (Persian Rose)"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3714,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3735,
+   "term": "استاندارد جهانی",
+   "excerpt": "\"historicalContextFa\": \"استاندارد جهانی صورتی پررنگ و درخشان گل"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3751,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (انار قصرالدشت)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3754,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3756,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3795,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (انار قصرالدشت)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3798,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3835,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سبز سرو ناز (Cypress Green)"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3838,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3840,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3879,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سبز سرو ناز (Cypress Green)"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3882,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3919,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (شکوفه بهارنارنج)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3922,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3924,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3963,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (شکوفه بهارنارنج)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 3966,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4003,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سفید یاسمن شیرازی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4006,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4008,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4047,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سفید یاسمن شیرازی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4050,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4087,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سایه‌سار باغ ارم)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4090,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4092,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4131,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سایه‌سار باغ ارم)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4134,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4165,
+   "term": "کهن‌ترین",
+   "excerpt": "\"description\": \"کهن‌ترین معدن فیروزه جهان در نیشابور، یا"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4166,
+   "term": "کهن‌ترین",
+   "excerpt": "\"descriptionFa\": \"کهن‌ترین معدن فیروزه جهان در نیشابور، یا"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4181,
+   "term": "کهن‌ترین",
+   "excerpt": "\": \"کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جهان\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4181,
+   "term": "رسمی",
+   "excerpt": "\"meaning\": \"کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جها"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4182,
+   "term": "کهن‌ترین",
+   "excerpt": "\": \"کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جهان\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4182,
+   "term": "رسمی",
+   "excerpt": "\"meaningFa\": \"کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جها"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4186,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (فیروزه شجری نیشابور (Turquo"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4189,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4191,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4230,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (فیروزه شجری نیشابور (Turquo"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4233,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4254,
+   "term": "کهن‌ترین",
+   "excerpt": "\": \"کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جهان\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4254,
+   "term": "رسمی",
+   "excerpt": "\"historicalContextFa\": \"کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جها"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4270,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (یاقوت اناری پارسی (Ruby))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4273,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4275,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4314,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (یاقوت اناری پارسی (Ruby))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4317,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4354,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (زمرد نادری (Emerald))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4357,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4359,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4398,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (زمرد نادری (Emerald))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4401,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4438,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (کهربای کهن توس (Amber))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4441,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4443,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4482,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (کهربای کهن توس (Amber))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4485,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4522,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (مروارید نقره‌فام)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4525,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4527,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4566,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (مروارید نقره‌فام)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4569,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4606,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سنگ چخماق دودی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4609,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4611,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4650,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سنگ چخماق دودی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4653,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4684,
+   "term": "کهن‌ترین",
+   "excerpt": "\"description\": \"کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت د"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4685,
+   "term": "کهن‌ترین",
+   "excerpt": "\"descriptionFa\": \"کهن‌ترین جنگل‌های پهن‌برگ جهان با قدمت د"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4705,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سرخس کهنسال هیرکانی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4708,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4710,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4749,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سرخس کهنسال هیرکانی)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4752,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4789,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (خزه مرطوب سنگ)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4792,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4794,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4833,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (خزه مرطوب سنگ)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4836,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4873,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (جوانه راشستان)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4876,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4878,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4917,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (جوانه راشستان)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4920,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4957,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (بلوط کهنسال خزری)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4960,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 4962,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5001,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (بلوط کهنسال خزری)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5004,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5036,
+   "term": "جاودان",
+   "excerpt": "\"meaning\": \"برف‌های جاودان بلندترین آتشفشان قاره کهن\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5037,
+   "term": "جاودان",
+   "excerpt": "\"meaningFa\": \"برف‌های جاودان بلندترین آتشفشان قاره کهن\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5041,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سپیدی برف دماوند)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5044,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5046,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5085,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سپیدی برف دماوند)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5088,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5109,
+   "term": "جاودان",
+   "excerpt": "istoricalContextFa\": \"برف‌های جاودان بلندترین آتشفشان قاره کهن\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5125,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (ژرفای جنگل مه‌آلود)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5128,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5130,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5169,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (ژرفای جنگل مه‌آلود)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5172,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5203,
+   "term": "کهن‌ترین",
+   "excerpt": "تپه‌های ماسه طلایی دشت لوت در کهن‌ترین شهر خشتی جهان.\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5204,
+   "term": "کهن‌ترین",
+   "excerpt": "تپه‌های ماسه طلایی دشت لوت در کهن‌ترین شهر خشتی جهان.\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5219,
+   "term": "ناب",
+   "excerpt": "رانی جهانی نگین سرخ قائنات و گناباد\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5220,
+   "term": "ناب",
+   "excerpt": "رانی جهانی نگین سرخ قائنات و گناباد\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5224,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (زعفرانی سرگل (Saffron))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5227,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5229,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5268,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (زعفرانی سرگل (Saffron))\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5271,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5292,
+   "term": "ناب",
+   "excerpt": "رانی جهانی نگین سرخ قائنات و گناباد\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5303,
+   "term": "دقیق",
+   "excerpt": "eaning\": \"اصلاح شده برای تناژ دقیق‌تر خشت و کاهگل معماری کویری یزد\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5304,
+   "term": "دقیق",
+   "excerpt": "ningFa\": \"اصلاح شده برای تناژ دقیق‌تر خشت و کاهگل معماری کویری یزد\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5308,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (کاهگل آفتاب‌خورده (Adobe))\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5311,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5313,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5352,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (کاهگل آفتاب‌خورده (Adobe))\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5355,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5376,
+   "term": "دقیق",
+   "excerpt": "textFa\": \"اصلاح شده برای تناژ دقیق‌تر خشت و کاهگل معماری کویری یزد\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5392,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (عقیق سرخ ریگ‌جن)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5395,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5397,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5436,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (عقیق سرخ ریگ‌جن)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5439,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5476,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (ماسه طلایی لوت)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5479,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5481,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5520,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (ماسه طلایی لوت)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5523,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5560,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (خشت سوخته کویر)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5563,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5565,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5604,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (خشت سوخته کویر)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5607,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5644,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (چوب سنجد بادگیر)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5647,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5649,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5688,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (چوب سنجد بادگیر)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5691,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5743,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (زردچوبه ممتاز قلم (Turmeric"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5746,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5748,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5787,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (زردچوبه ممتاز قلم (Turmeric"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5790,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5822,
+   "term": "اصیل",
+   "excerpt": "\"meaning\": \"رنگ گرم و اصیل پوسته‌های دارچین بازار تبریز و اصفه"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5823,
+   "term": "اصیل",
+   "excerpt": "\"meaningFa\": \"رنگ گرم و اصیل پوسته‌های دارچین بازار تبریز و اصفه"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5827,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (دارچینی باستانی (Cinnamon))"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5830,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5832,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5871,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (دارچینی باستانی (Cinnamon))"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5874,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5895,
+   "term": "اصیل",
+   "excerpt": "toricalContextFa\": \"رنگ گرم و اصیل پوسته‌های دارچین بازار تبریز و اصفه"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5911,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (پاپریکا و فلفل بیجار)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5914,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5916,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5955,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (پاپریکا و فلفل بیجار)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5958,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5995,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (پسته خندان رفسنجان (Pistach"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 5998,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6000,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6039,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (پسته خندان رفسنجان (Pistach"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6042,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6079,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (خامه شیرینی کهن)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6082,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6084,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6123,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (خامه شیرینی کهن)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6126,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6163,
+   "term": "اصیل",
+   "excerpt": "\"mineralNameFa\": \"رنگدانه اصیل ایرانی (سیاه‌دانه و هل سیاه)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6166,
+   "term": "ناب",
+   "excerpt": "xtraction\": \"استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات"
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6168,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\""
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6207,
+   "term": "اصیل",
+   "excerpt": "istoricalPigmentFa\": \"رنگدانه اصیل ایرانی (سیاه‌دانه و هل سیاه)\","
+  },
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 6210,
+   "term": "Authentic",
+   "excerpt": "\"casNumber\": \"7732-18-5 (Authentic Historical Specimen)\","
+  },
+  {
+   "file": "app/app.js",
+   "line": 40,
+   "term": "ناب",
+   "excerpt": "PCA، خروجی DTCG و وضعیت روشن منابع تاریخی. از انتخاب رنگ تا ساخت تم و"
+  },
+  {
+   "file": "app/app.js",
+   "line": 46,
+   "term": "ناب",
+   "excerpt": "udPreviewTitle: \"پیش‌نمایش و منابع\","
+  },
+  {
+   "file": "app/app.js",
+   "line": 50,
+   "term": "ناب",
+   "excerpt": "a: \"شناسنامهٔ رنگ، محاسبات و منابع\","
+  },
+  {
+   "file": "app/app.js",
+   "line": 77,
+   "term": "Authentic",
+   "excerpt": "heroBadge: \"Authentic Iranian Heritage Colors • Prod"
+  },
+  {
+   "file": "app/app.js",
+   "line": 1719,
+   "term": "ناب",
+   "excerpt": "عال شد\", \"تصاویر پیوندشده از منابع بیرونی نمایش داده می‌شوند؛ اعتبار ه"
+  },
+  {
+   "file": "app/app.js",
+   "line": 2527,
+   "term": "کامل",
+   "excerpt": "scription} این ترکیب با رعایت کامل استانداردهای WCAG 2.2 و کنتراست سطو"
+  },
+  {
+   "file": "app/app.js",
+   "line": 2586,
+   "term": "کامل",
+   "excerpt": "ماتریس کامل"
+  },
+  {
+   "file": "app/app.js",
+   "line": 3332,
+   "term": "کامل",
+   "excerpt": "lTitle').textContent = `خروجی کامل مخزن (۱۲ پالت • ۷۲ رنگ)`;"
+  },
+  {
+   "file": "app/template.html",
+   "line": 241,
+   "term": "کامل",
+   "excerpt": "نگارگری و هندسه برداری پارسی (کاملاً بومی و برداری)\""
+  },
+  {
+   "file": "app/template.html",
+   "line": 250,
+   "term": "ناب",
+   "excerpt": "le=\"نمایش تصاویر پیوندشده از منابع بیرونی\""
+  },
+  {
+   "file": "app/template.html",
+   "line": 336,
+   "term": "ناب",
+   "excerpt": "PCA، خروجی DTCG و وضعیت روشن منابع تاریخی. از انتخاب رنگ تا ساخت تم و"
+  },
+  {
+   "file": "app/template.html",
+   "line": 366,
+   "term": "ناب",
+   "excerpt": "text-slate-400\">پیش‌نمایش و منابع</div>"
+  },
+  {
+   "file": "app/template.html",
+   "line": 383,
+   "term": "ناب",
+   "excerpt": "ta\">شناسنامهٔ رنگ، محاسبات و منابع</span>"
+  },
+  {
+   "file": "app/template.html",
+   "line": 614,
+   "term": "دقیق",
+   "excerpt": "جدول زیر نسبت کنتراست دقیق تمام ۳۶ جفت رنگ ممکن در این پالت را"
+  },
+  {
+   "file": "app/template.html",
+   "line": 649,
+   "term": "اصیل",
+   "excerpt": "وسیله مش و تداخل نوری رنگ‌های اصیل این پالت:</p>"
+  },
+  {
+   "file": "app/template.html",
+   "line": 718,
+   "term": "دقیق",
+   "excerpt": "00 font-light mt-0.5\">محاسبات دقیق فضای ادراکی، بسط ۱۳ تنال، رادار کرو"
+  },
+  {
+   "file": "app/template.html",
+   "line": 810,
+   "term": "کامل",
+   "excerpt": "ر بالای ۰.۱۵ نشان‌دهنده تمایز کامل و وضوح فوق‌العاده برای عناصر رابط ک"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1049,
+   "term": "آزمایشگاه",
+   "excerpt": "ss=\"font-bold text-slate-200\">آزمایشگاه زنده خوانایی روی پس‌زمینه‌های"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1067,
+   "term": "کامل",
+   "excerpt": "خوانایی فونت فارسی یا انطباق کامل دسترسی‌پذیری را تأیید نمی‌کند."
+  },
+  {
+   "file": "app/template.html",
+   "line": 1113,
+   "term": "اصیل",
+   "excerpt": "[10px] mb-0.5\">نام کانی‌شناسی اصیل (فارسی):</span>"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1233,
+   "term": "ثبت‌شده",
+   "excerpt": "<span>مشاهدهٔ موقعیت ثبت‌شده</span>"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1497,
+   "term": "رسمی",
+   "excerpt": "ستاندارد داده‌ها بر پایه پکیج رسمی <code class=\"text-emerald-300 font-"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1523,
+   "term": "اصیل",
+   "excerpt": "400 mt-0.5\">تجسم زنده رنگ‌های اصیل ایرانی در فضای معماری و اتاق واقعی<"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1693,
+   "term": "کامل",
+   "excerpt": "نمونه کد کامل جاوااسکریپت و تایپ‌اسکریپت جهت استف"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1716,
+   "term": "رسمی",
+   "excerpt": "// ۴. صادرات به استاندارد رسمی توکن‌های W3C DTCG"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1727,
+   "term": "رسمی",
+   "excerpt": "e-400\">توکن‌های آماده با تایپ رسمی $type: \"color\" و متادیتاهای شواهد.<"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1763,
+   "term": "آزمایشگاه",
+   "excerpt": "nt-bold text-white text-base\">آزمایشگاه ترکیب رنگدانه‌های تاریخی (Okla"
+  },
+  {
+   "file": "app/template.html",
+   "line": 1827,
+   "term": "کامل",
+   "excerpt": "ition\" title=\"مشاهده شناسنامه کامل رنگ ۱\">"
+  },
+  {
+   "file": "README.fa.md",
+   "line": 17,
+   "term": "آزمایشگاه",
+   "excerpt": "ی پذیرش گسترده یا اندازه‌گیری آزمایشگاهی ندارد."
+  },
+  {
+   "file": "README.fa.md",
+   "line": 23,
+   "term": "کامل",
+   "excerpt": "خوانایی فونت فارسی یا انطباق کامل WCAG را تأیید نمی‌کند. واردکردن در"
+  },
+  {
+   "file": "implementation_plan.md",
+   "line": 13,
+   "term": "ناب",
+   "excerpt": "ست کارت، عملیات کپی و مدیریت منابع و تمرکز."
+  },
+  {
+   "file": "implementation_plan.md",
+   "line": 23,
+   "term": "ناب",
+   "excerpt": "- تأیید مستقل منابع تاریخی، مختصات و اندازه‌گیری‌های ما"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 3,
+   "term": "فاخر",
+   "excerpt": "طاهای کارکردی، افزودن تم روشن فاخر و تولید نسخهٔ استاندارد انگلیسی باز"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 3,
+   "term": "کامل",
+   "excerpt": "ٔ استودیو در این پروژه با رفع کامل خطاهای کارکردی، افزودن تم روشن فاخر"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 12,
+   "term": "کامل",
+   "excerpt": "۴. **آرشیو کامل توزیع:** فایل `release/manshour-stu"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 23,
+   "term": "فاخر",
+   "excerpt": "۲. **تم روشن استاندارد و فاخر (Luxury Light Theme):**"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 25,
+   "term": "فاخر",
+   "excerpt": "است عمیق متون با رنگ‌های تیره فاخر و گرادیان تیتر Hero به رنگ‌های عمیق"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 25,
+   "term": "ناب",
+   "excerpt": "ro به رنگ‌های عمیق سرمه‌ای و عنابی."
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 36,
+   "term": "کامل",
+   "excerpt": "ode_artifact.html` | استودیوی کامل آمادهٔ اجرا (فارسی و سوئیچ زنده دوز"
+  },
+  {
+   "file": "walkthrough.md",
+   "line": 38,
+   "term": "کامل",
+   "excerpt": "dio-3.0.0.zip` | بستهٔ فشردهٔ کامل سورس، مستندات و خروجی‌ها (۱۳۴ فایل)"
+  }
+ ],
+ "arabicLetterContexts": [
+  {
+   "file": "packages/core/src/tokens/heritage-data.ts",
+   "line": 122,
+   "char": "U+0629",
+   "excerpt": "هیم لأوائل صناعة التنجیم - ابو"
+  }
+ ]
+}

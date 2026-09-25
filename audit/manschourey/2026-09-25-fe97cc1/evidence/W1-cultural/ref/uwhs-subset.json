@@ -1,0 +1,82 @@
+{
+ "source": "rich-iannone/UWHS master data/uwhs.rda (R dataset, README: current as of 2014 audit; derived from whc.unesco.org list) sha256 71cf06d89001efa5c4a860d291ed75cee5dd131055bcc27f6d857b81f9a38a16",
+ "sites": {
+  "113": {
+   "name": "Tchogha Zanbil",
+   "date_inscribed": "1979",
+   "lat": 32.0833,
+   "lon": 48.53333333,
+   "country": "ir"
+  },
+  "114": {
+   "name": "Persepolis",
+   "date_inscribed": "1979",
+   "lat": 29.93444,
+   "lon": 52.89028,
+   "country": "ir"
+  },
+  "115": {
+   "name": "Meidan Emam, Esfahan",
+   "date_inscribed": "1979",
+   "lat": 32.65745,
+   "lon": 51.67777778,
+   "country": "ir"
+  },
+  "602": {
+   "name": "Historic Centre of Bukhara",
+   "date_inscribed": "1993",
+   "lat": 39.77472,
+   "lon": 64.42861,
+   "country": "uz"
+  },
+  "603": {
+   "name": "Samarkand - Crossroad of Cultures",
+   "date_inscribed": "2001",
+   "lat": 39.66861,
+   "lon": 67.0,
+   "country": "uz"
+  },
+  "1106": {
+   "name": "Pasargadae",
+   "date_inscribed": "2004",
+   "lat": 30.19383,
+   "lon": 53.16729,
+   "country": "ir"
+  },
+  "1345": {
+   "name": "Sheikh Safi al-din Khanegah and Shrine Ensemble in Ardabil",
+   "date_inscribed": "2010",
+   "lat": 38.24861111,
+   "lon": 48.29138889,
+   "country": "ir"
+  },
+  "1346": {
+   "name": "Tabriz Historic Bazaar Complex",
+   "date_inscribed": "2010",
+   "lat": 38.08138889,
+   "lon": 46.29305556,
+   "country": "ir"
+  },
+  "1372": {
+   "name": "The Persian Garden",
+   "date_inscribed": "2011",
+   "lat": 30.16666667,
+   "lon": 53.16666667,
+   "country": "ir"
+  },
+  "1397": {
+   "name": "Masjed-e Jame of Isfahan",
+   "date_inscribed": "2012",
+   "lat": 32.66972222,
+   "lon": 51.68527778,
+   "country": "ir"
+  },
+  "1422": {
+   "name": "Golestan Palace",
+   "date_inscribed": "2013",
+   "lat": 35.68036667,
+   "lon": 51.42051111,
+   "country": "ir"
+  }
+ }
+}

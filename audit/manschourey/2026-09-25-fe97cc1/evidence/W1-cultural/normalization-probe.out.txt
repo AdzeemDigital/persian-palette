@@ -1,0 +1,47 @@
+# normalizeColorName probe — core 3.0.0 — node v22.22.2
+label | a | b | n(a) | n(b) | equal? | expectation | verdict
+ZWNJ vs none | فیروزه‌ای [U+0641 U+06CC U+0631 U+0648 U+0632 U+0647 U+200C U+0627 U+06CC] | فیروزهای | فیروزهای [U+0641 U+06CC U+0631 U+0648 U+0632 U+0647 U+0627 U+06CC] | فیروزهای [U+0641 U+06CC U+0631 U+0648 U+0632 U+0647 U+0627 U+06CC] | true | equal | ok
+ZWNJ vs space | فیروزه‌ای [U+0641 U+06CC U+0631 U+0648 U+0632 U+0647 U+200C U+0627 U+06CC] | فیروزه ای | فیروزهای [U+0641 U+06CC U+0631 U+0648 U+0632 U+0647 U+0627 U+06CC] | فیروزهای [U+0641 U+06CC U+0631 U+0648 U+0632 U+0647 U+0627 U+06CC] | true | equal | ok
+Arabic yeh U+064A vs Farsi yeh | لاجوردي [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+064A] | لاجوردی | لاجوردی [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+06CC] | لاجوردی [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+06CC] | true | equal | ok
+Alef maksura U+0649 vs Farsi yeh | لاجوردى [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+0649] | لاجوردی | لاجوردى [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+0649] | لاجوردی [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+06CC] | false | equal | GAP
+Arabic kaf U+0643 vs keheh | كاشی [U+0643 U+0627 U+0634 U+06CC] | کاشی | کاشی [U+06A9 U+0627 U+0634 U+06CC] | کاشی [U+06A9 U+0627 U+0634 U+06CC] | true | equal | ok
+Swash kaf U+06AA vs keheh | ڪاشی [U+06AA U+0627 U+0634 U+06CC] | کاشی | ڪاشی [U+06AA U+0627 U+0634 U+06CC] | کاشی [U+06A9 U+0627 U+0634 U+06CC] | false | equal | GAP
+Heh+hamza above (U+0647 U+0654) vs heh | خامهٔ [U+062E U+0627 U+0645 U+0647 U+0654] | خامه | خامه [U+062E U+0627 U+0645 U+0647] | خامه [U+062E U+0627 U+0645 U+0647] | true | equal | ok
+Heh with yeh U+06C0 vs heh | خامۀ [U+062E U+0627 U+0645 U+06C0] | خامه | خامۀ [U+062E U+0627 U+0645 U+06C0] | خامه [U+062E U+0627 U+0645 U+0647] | false | equal | GAP
+Heh with yeh U+06C0 vs heh+hamza | خامۀ [U+062E U+0627 U+0645 U+06C0] | خامهٔ | خامۀ [U+062E U+0627 U+0645 U+06C0] | خامه [U+062E U+0627 U+0645 U+0647] | false | equal | GAP
+Teh marbuta U+0629 vs heh | صناعة [U+0635 U+0646 U+0627 U+0639 U+0629] | صناعه | صناعة [U+0635 U+0646 U+0627 U+0639 U+0629] | صناعه [U+0635 U+0646 U+0627 U+0639 U+0647] | false | equal | GAP
+Alef hamza above U+0623 vs alef | الأطایب [U+0627 U+0644 U+0623 U+0637 U+0627 U+06CC U+0628] | الاطایب | الأطایب [U+0627 U+0644 U+0623 U+0637 U+0627 U+06CC U+0628] | الاطایب [U+0627 U+0644 U+0627 U+0637 U+0627 U+06CC U+0628] | false | equal | GAP
+Alef hamza below U+0625 vs alef | إصفهان [U+0625 U+0635 U+0641 U+0647 U+0627 U+0646] | اصفهان | إصفهان [U+0625 U+0635 U+0641 U+0647 U+0627 U+0646] | اصفهان [U+0627 U+0635 U+0641 U+0647 U+0627 U+0646] | false | equal | GAP
+Alef madda U+0622 vs alef | آبی [U+0622 U+0628 U+06CC] | ابی | آبی [U+0622 U+0628 U+06CC] | ابی [U+0627 U+0628 U+06CC] | false | distinct (آ is a separate Persian letter; folding optional) | info
+Yeh hamza U+0626 vs yeh | عرائس [U+0639 U+0631 U+0627 U+0626 U+0633] | عرایس | عرائس [U+0639 U+0631 U+0627 U+0626 U+0633] | عرایس [U+0639 U+0631 U+0627 U+06CC U+0633] | false | equal (common spelling variant) | GAP
+Decomposed alef+hamza (U+0627 U+0654) vs U+0623 | أ [U+0627 U+0654] | أ | أ [U+0623] | أ [U+0623] | true | equal | ok
+Harakat (fatha/kasra) stripped | مَنشورِی [U+0645 U+064E U+0646 U+0634 U+0648 U+0631 U+0650 U+06CC] | منشوری | منشوری [U+0645 U+0646 U+0634 U+0648 U+0631 U+06CC] | منشوری [U+0645 U+0646 U+0634 U+0648 U+0631 U+06CC] | true | equal | ok
+Tatweel stripped | لاجـــوردی [U+0644 U+0627 U+062C U+0640 U+0640 U+0640 U+0648 U+0631 U+062F U+06CC] | لاجوردی | لاجوردی [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+06CC] | لاجوردی [U+0644 U+0627 U+062C U+0648 U+0631 U+062F U+06CC] | true | equal | ok
+Persian digits vs ASCII | ۷۲ [U+06F7 U+06F2] | 72 | ۷۲ [U+06F7 U+06F2] | 72 [U+0037 U+0032] | false | equal | GAP
+Arabic-Indic digits vs ASCII | ٧٢ [U+0667 U+0662] | 72 | ٧٢ [U+0667 U+0662] | 72 [U+0037 U+0032] | false | equal | GAP
+Arabic-Indic vs Persian digits | ٧٢ [U+0667 U+0662] | ۷۲ | ٧٢ [U+0667 U+0662] | ۷۲ [U+06F7 U+06F2] | false | equal | GAP
+Hex with Persian digits | #۱۲۰A8F [U+0023 U+06F1 U+06F2 U+06F0 U+0041 U+0038 U+0046] | #120A8F | ۱۲۰a8f [U+06F1 U+06F2 U+06F0 U+0061 U+0038 U+0066] | 120a8f [U+0031 U+0032 U+0030 U+0061 U+0038 U+0066] | false | equal | GAP
+Arabic presentation form (NFKC) vs base | ﻻ [U+FEFB] | لا | لا [U+0644 U+0627] | لا [U+0644 U+0627] | true | equal | ok
+English case | Persian Blue [U+0050 U+0065 U+0072 U+0073 U+0069 U+0061 U+006E U+0020 U+0042 U+006C U+0075 U+0065] | persian blue | persianblue [U+0070 U+0065 U+0072 U+0073 U+0069 U+0061 U+006E U+0062 U+006C U+0075 U+0065] | persianblue [U+0070 U+0065 U+0072 U+0073 U+0069 U+0061 U+006E U+0062 U+006C U+0075 U+0065] | true | equal | ok
+Punctuation stripped | Rig-e Jenn [U+0052 U+0069 U+0067 U+002D U+0065 U+0020 U+004A U+0065 U+006E U+006E] | Rig e Jenn | rigejenn [U+0072 U+0069 U+0067 U+0065 U+006A U+0065 U+006E U+006E] | rigejenn [U+0072 U+0069 U+0067 U+0065 U+006A U+0065 U+006E U+006E] | true | equal | ok
+GAP count: 12 of 24
+
+# PersianEngine.getColor end-to-end lookups
+isfahan-tiles "لاجوردی" -> isfahan-tiles-c1 #120A8F (لاجوردی (Ultramarine))
+isfahan-tiles "لاجوردي" -> isfahan-tiles-c1 #120A8F (لاجوردی (Ultramarine))
+isfahan-tiles "لاجوردى" -> RangeError: Unknown color: لاجوردى in isfahan-tiles
+isfahan-tiles "فیروزه‌ای اصیل" -> isfahan-tiles-c2 #30D5C8 (فیروزه‌ای اصیل (Persian Turquoise))
+isfahan-tiles "فيروزه اي اصيل" -> isfahan-tiles-c2 #30D5C8 (فیروزه‌ای اصیل (Persian Turquoise))
+isfahan-tiles "فیروزهای اصیل" -> isfahan-tiles-c2 #30D5C8 (فیروزه‌ای اصیل (Persian Turquoise))
+isfahan-tiles "سرمه‌ای مقرنس" -> isfahan-tiles-c6 #0B132B (سرمه‌ای مقرنس)
+isfahan-tiles "سرمه ای مقرنس" -> isfahan-tiles-c6 #0B132B (سرمه‌ای مقرنس)
+nomadic-rugs "کرم خامه پشمی" -> nomadic-rugs-c5 #EADDCF (کرم خامه پشمی)
+nomadic-rugs "کرم خامۀ پشمی" -> RangeError: Unknown color: کرم خامۀ پشمی in nomadic-rugs
+nomadic-rugs "كرم خامه پشمي" -> nomadic-rugs-c5 #EADDCF (کرم خامه پشمی)
+yazd-saffron-desert "Rig-e Jenn Red Agate" -> yazd-saffron-desert-c3 #E63946 (عقیق سرخ ریگ‌جن)
+yazd-saffron-desert "rig e jenn red agate" -> yazd-saffron-desert-c3 #E63946 (عقیق سرخ ریگ‌جن)
+achaemenid-majesty "Tacara Basalt Black" -> achaemenid-majesty-c6 #1B1F24 (سنگ سیاه تچر)
+achaemenid-majesty "Tachara Basalt Black" -> RangeError: Unknown color: Tachara Basalt Black in achaemenid-majesty
+isfahan-tiles "#120A8F" -> RangeError: Unknown color: #120A8F in isfahan-tiles
+isfahan-tiles "isfahan-tiles-c1" -> isfahan-tiles-c1 #120A8F (لاجوردی (Ultramarine))
+isfahan-tiles "ای" -> RangeError: Ambiguous color: ای; use a color ID
