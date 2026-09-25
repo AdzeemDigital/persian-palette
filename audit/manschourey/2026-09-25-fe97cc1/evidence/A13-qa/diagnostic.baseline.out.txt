@@ -1,0 +1,196 @@
+✔ GUARD: Oklab round trip is exact for every palette color (8.598588ms)
+✔ GUARD: APCA polarity and reference values (confirmed against colorjs.io 0.5.2 in A02) (0.526107ms)
+✖ DEFECT: normalizeColorName should fold alef maksura (ى U+0649) to Persian ye (ی U+06CC) (2.749752ms)
+✖ DEFECT: evaluateAPCA.minFontSizePx must not report apca-w3 special codes (>=400) as pixel sizes (0.278788ms)
+✖ DEFECT: dominantWavelengthNm must be absent for black and for purple-sector (non-spectral) colors (2.105754ms)
+✖ DEFECT: data-quality counts must be computed from record status, not hard-coded (0.393856ms)
+✖ DEFECT: Tailwind v4 CSS export must not allow comment break-out from data (0.761873ms)
+✖ DEFECT: token paths should be stable across an English display-name correction (1.816547ms)
+✖ DEFECT: committed build manifest must describe the committed HTML (11.610325ms)
+✖ DEFECT: English edition should have an English <title> (18.794241ms)
+✔ GUARD: every palette has 6 colors with unique ids; flag duplicate HEX across palettes (0.824912ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 3
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 349.929971
+
+✖ failing tests:
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:27:1
+✖ DEFECT: normalizeColorName should fold alef maksura (ى U+0649) to Persian ye (ی U+06CC) (2.749752ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'لاجوردى'
+  - 'لاجوردی'
+           ^
+  
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:28:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'لاجوردى',
+    expected: 'لاجوردی',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:31:1
+✖ DEFECT: evaluateAPCA.minFontSizePx must not report apca-w3 special codes (>=400) as pixel sizes (0.278788ms)
+  AssertionError [ERR_ASSERTION]: got 999 "px"
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:33:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:36:1
+✖ DEFECT: dominantWavelengthNm must be absent for black and for purple-sector (non-spectral) colors (2.105754ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + [
+  +   'toranj-illumination-c6',
+  +   'gardens-of-shiraz-c1',
+  +   'gardens-of-shiraz-c2'
+  + ]
+  - []
+  
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:39:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'toranj-illumination-c6', 'gardens-of-shiraz-c1', 'gardens-of-shiraz-c2' ],
+    expected: [],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:42:1
+✖ DEFECT: data-quality counts must be computed from record status, not hard-coded (0.393856ms)
+  AssertionError [ERR_ASSERTION]: measuredSpectra is a literal 0
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:44:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:48:1
+✖ DEFECT: Tailwind v4 CSS export must not allow comment break-out from data (0.761873ms)
+  AssertionError [ERR_ASSERTION]: palette name escaped the CSS comment
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:52:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:55:1
+✖ DEFECT: token paths should be stable across an English display-name correction (1.816547ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'lapis-lazuli-blue',
+  -   'ultramarine-lapis',
+      'persian-turquoise',
+      'persian-green',
+      'arabesque-gold',
+      'alabaster-glaze',
+      'midnight-muqarnas'
+  
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:60:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'lapis-lazuli-blue', 'persian-turquoise', 'persian-green', 'arabesque-gold', 'alabaster-glaze', 'midnight-muqarnas' ],
+    expected: [ 'ultramarine-lapis', 'persian-turquoise', 'persian-green', 'arabesque-gold', 'alabaster-glaze', 'midnight-muqarnas' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:63:1
+✖ DEFECT: committed build manifest must describe the committed HTML (11.610325ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '97fda1e88324c2f45bedae4b9b3c2bfb3cbba37048fe569c8b348fd228a83224'
+  - '1585ddeab92d43a493bcd22062316c538e5f643127ba10bff5713100183e24ef'
+  
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:66:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '97fda1e88324c2f45bedae4b9b3c2bfb3cbba37048fe569c8b348fd228a83224',
+    expected: '1585ddeab92d43a493bcd22062316c538e5f643127ba10bff5713100183e24ef',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at ../../../../../../home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:69:1
+✖ DEFECT: English edition should have an English <title> (18.794241ms)
+  AssertionError [ERR_ASSERTION]: title: گنجینه رنگ‌های پارسی | Persian Palette Vault
+      at TestContext.<anonymous> (file:///home/user/persian-palette/audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs:72:10)
+      at Test.runInAsyncScope (node:async_hooks:214:14)
+      at Test.run (node:internal/test_runner/test:1047:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+      at Test.postRun (node:internal/test_runner/test:1173:19)
+      at Test.run (node:internal/test_runner/test:1101:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:744:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

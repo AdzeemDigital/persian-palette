@@ -1,0 +1,7 @@
+
+> manshour-studio@3.0.0 pack:studio
+> python scripts/package-release.py
+
+Packaged 152 files; 8,926,164 bytes.
+SHA-256: 16486bb638b527de788cbbbb6a1bbaf1e93971cd56b840d3c4b09f9906863161
+exit=0

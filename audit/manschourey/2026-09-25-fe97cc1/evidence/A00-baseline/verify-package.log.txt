@@ -1,0 +1,12 @@
+
+> manshour-studio@3.0.0 verify:package
+> node scripts/verify-package.mjs
+
+
+added 4 packages in 774ms
+Installed tarball: ESM, CommonJS, Persian lookup, 72 tokens and package subpaths passed.
+Installed tarball: strict TypeScript ESM/CommonJS consumers passed.
+
+added 106 packages in 6s
+Installed tarball: 4 documentation examples executed successfully.
+exit=0
