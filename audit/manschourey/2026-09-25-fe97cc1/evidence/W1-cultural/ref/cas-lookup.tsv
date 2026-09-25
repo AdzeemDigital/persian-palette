@@ -1,0 +1,26 @@
+chemicals 1.5.2
+7732-18-5	checksum_ok=True	name=water	formula=H2O	MW=18.015	pubchemCID=962	iupac=oxidane
+1302-85-8	checksum_ok=True	NOT_FOUND (ValueError)
+1319-32-0	checksum_ok=True	NOT_FOUND (ValueError)
+142-71-2	checksum_ok=True	name=cupric acetate	formula=C4H6CuO4	MW=181.634	pubchemCID=8895	iupac=copper;diethanoate
+7440-57-5	checksum_ok=True	name=gold	formula=Au	MW=196.967	pubchemCID=23985	iupac=gold
+10101-41-4	checksum_ok=True	name=calcium sulfate dihydrate	formula=CaH4O6S	MW=172.171	pubchemCID=24928	iupac=calcium;sulfate;dihydrate
+1307-96-6	checksum_ok=True	name=cobalt(ii) oxide	formula=CoO	MW=74.933	pubchemCID=14786	iupac=oxidanylidenecobalt
+1308-06-1	checksum_ok=True	name=cobalt oxide	formula=Co3O4	MW=240.797	pubchemCID=11651651	iupac=oxidanylidenecobalt;oxidanylidene(oxidanylidenecobaltiooxy)cobalt
+1344-48-5	checksum_ok=True	name=mercuric sulfide	formula=HgS	MW=232.655	pubchemCID=62402	iupac=sulfanylidenemercury
+12069-69-1	checksum_ok=True	name=basic copper carbonate	formula=CH2Cu2O5	MW=221.116	pubchemCID=25503	iupac=dicopper;carbonate;dihydroxide
+482-89-3	checksum_ok=True	name=indigo	formula=C16H10N2O2	MW=262.263	pubchemCID=5318432	iupac=(2e)-2-(3-oxidanylidene-1h-indol-2-ylidene)-1h-indol-3-one
+1260-15-5	checksum_ok=False	NOT_FOUND (ValueError)
+1260-17-9	checksum_ok=True	name=carminic acid	formula=C22H20O13	MW=492.386	pubchemCID=14749	iupac=7-[(2r,3r,4r,5s,6r)-6-(hydroxymethyl)-3,4,5-tris(oxidanyl)oxan-2-yl]-1-methyl-3,5,6,8-tetrakis(oxidanyl)-9,10-bis(oxidanylidene)anthracene-2-carboxylic acid
+9000-01-5	checksum_ok=True	NOT_FOUND (ValueError)
+9004-34-6	checksum_ok=True	NOT_FOUND (ValueError)
+1309-37-1	checksum_ok=True	name=iron oxide (Fe2O3)	formula=Fe2O3	MW=159.688	pubchemCID=14833	iupac=iron(3+);oxygen(2-)
+1303-33-9	checksum_ok=True	name=1303-33-9	formula=As4S6	MW=492.076	pubchemCID=24884190	iupac=
+57455-37-5	checksum_ok=True	name=azure blue	formula=Al6Na8O24S3Si6	MW=994.501	pubchemCID=71587188	iupac=
+7778-18-9	checksum_ok=True	name=calcium sulfate	formula=CaO4S	MW=136.141	pubchemCID=24497	iupac=calcium;sulfate
+52503-64-7	checksum_ok=True	name=cupric acetate	formula=C4H6CuO4	MW=181.634	pubchemCID=8895	iupac=copper;diethanoate
+6046-93-1	checksum_ok=True	name=copper(ii) acetate monohydrate	formula=C4H8CuO5	MW=199.649	pubchemCID=165397	iupac=copper;diethanoate;hydrate
+1317-39-1	checksum_ok=True	name=copper oxide (Cu2O)	formula=Cu2O	MW=143.091	pubchemCID=18346908	iupac=copper;oxocopper
+12069-69-1	checksum_ok=True	name=basic copper carbonate	formula=CH2Cu2O5	MW=221.116	pubchemCID=25503	iupac=dicopper;carbonate;dihydroxide
+chemicals==1.5.2
+rdata==1.1.0

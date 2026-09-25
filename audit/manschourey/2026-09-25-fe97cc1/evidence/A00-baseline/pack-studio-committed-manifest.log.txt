@@ -1,0 +1,2 @@
+Artifact hash differs from build manifest. Run npm run build first.
+exit=1

@@ -1,0 +1,241 @@
+
+> manshour-studio@3.0.0 pack:core
+> node scripts/pack-core.mjs
+
+
+> @persian-palette/core@3.0.0 prepack
+> npm run build && npm test
+
+
+> @persian-palette/core@3.0.0 build
+> tsc && node scripts/build.js
+
+Built core 3.0.0: ESM, CommonJS, types, DTCG, Tokens Studio, Figma interchange and platform exports.
+
+> @persian-palette/core@3.0.0 test
+> node --test scripts/*.test.js
+
+TAP version 13
+# Subtest: Persian names and Arabic variants resolve correctly
+ok 1 - Persian names and Arabic variants resolve correctly
+  ---
+  duration_ms: 4.535071
+  type: 'test'
+  ...
+# Subtest: all 72 IDs, full English and Persian names resolve uniquely
+ok 2 - all 72 IDs, full English and Persian names resolve uniquely
+  ---
+  duration_ms: 15.71744
+  type: 'test'
+  ...
+# Subtest: empty, unknown, prototype and ambiguous queries never silently substitute a color
+ok 3 - empty, unknown, prototype and ambiguous queries never silently substitute a color
+  ---
+  duration_ms: 1.894785
+  type: 'test'
+  ...
+# Subtest: hex accepts normalized \#RGB and rejects malformed or transparent inputs
+ok 4 - hex accepts normalized \#RGB and rejects malformed or transparent inputs
+  ---
+  duration_ms: 1.951512
+  type: 'test'
+  ...
+# Subtest: APCA independently pinned golden cases and polarity
+ok 5 - APCA independently pinned golden cases and polarity
+  ---
+  duration_ms: 0.397822
+  type: 'test'
+  ...
+# Subtest: APCA font lookup uses actual reference table
+ok 6 - APCA font lookup uses actual reference table
+  ---
+  duration_ms: 0.342564
+  type: 'test'
+  ...
+# Subtest: HCT red golden coordinates use CAM16
+ok 7 - HCT red golden coordinates use CAM16
+  ---
+  duration_ms: 1.095524
+  type: 'test'
+  ...
+# Subtest: HCT tonal golden colors and L* target accuracy across all seed colors
+ok 8 - HCT tonal golden colors and L* target accuracy across all seed colors
+  ---
+  duration_ms: 30.595052
+  type: 'test'
+  ...
+# Subtest: Material role pairs retain normal-text contrast for all 72 seeds in both themes
+ok 9 - Material role pairs retain normal-text contrast for all 72 seeds in both themes
+  ---
+  duration_ms: 164.224126
+  type: 'test'
+  ...
+# Subtest: Oklab forward conversion has known red coordinates and reversible sRGB round trips
+ok 10 - Oklab forward conversion has known red coordinates and reversible sRGB round trips
+  ---
+  duration_ms: 1.905816
+  type: 'test'
+  ...
+# Subtest: mixing ratio means second color weight; endpoints, symmetry, invalid inputs
+ok 11 - mixing ratio means second color weight; endpoints, symmetry, invalid inputs
+  ---
+  duration_ms: 0.727148
+  type: 'test'
+  ...
+# Subtest: all generated evidence aliases agree, computed fields match and unresolved evidence is explicit
+ok 12 - all generated evidence aliases agree, computed fields match and unresolved evidence is explicit
+  ---
+  duration_ms: 1.431937
+  type: 'test'
+  ...
+# Subtest: canonical data cannot be mutated by a consumer
+ok 13 - canonical data cannot be mutated by a consumer
+  ---
+  duration_ms: 0.361018
+  type: 'test'
+  ...
+# Subtest: DTCG shape, metadata placement, values, subset and 72 distinct tokens
+ok 14 - DTCG shape, metadata placement, values, subset and 72 distinct tokens
+  ---
+  duration_ms: 1.489007
+  type: 'test'
+  ...
+# Subtest: Figma interchange and legacy Tokens Studio have explicitly different contracts
+ok 15 - Figma interchange and legacy Tokens Studio have explicitly different contracts
+  ---
+  duration_ms: 1.034465
+  type: 'test'
+  ...
+# Subtest: spectral model is bounded and validates parameters
+ok 16 - spectral model is bounded and validates parameters
+  ---
+  duration_ms: 0.499808
+  type: 'test'
+  ...
+# Subtest: SwiftUI export needs no undeclared hex initializer and Material export includes both themes
+ok 17 - SwiftUI export needs no undeclared hex initializer and Material export includes both themes
+  ---
+  duration_ms: 4.35159
+  type: 'test'
+  ...
+# Subtest: CommonJS and ESM package entry points expose matching data and results
+ok 18 - CommonJS and ESM package entry points expose matching data and results
+  ---
+  duration_ms: 23.614121
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 444.265246
+npm notice
+npm notice package: @persian-palette/core@3.0.0
+npm notice Tarball Contents
+npm notice 1.1kB LICENSE
+npm notice 3.7kB README.md
+npm notice 738B THIRD_PARTY_NOTICES.md
+npm notice 654B dist/engine.d.ts
+npm notice 589B dist/engine.d.ts.map
+npm notice 2.5kB dist/engine.js
+npm notice 727B dist/exporters/figma.d.ts
+npm notice 530B dist/exporters/figma.d.ts.map
+npm notice 869B dist/exporters/figma.js
+npm notice 287B dist/exporters/platforms.d.ts
+npm notice 298B dist/exporters/platforms.d.ts.map
+npm notice 1.5kB dist/exporters/platforms.js
+npm notice 439B dist/exporters/tailwind.d.ts
+npm notice 333B dist/exporters/tailwind.d.ts.map
+npm notice 1.2kB dist/exporters/tailwind.js
+npm notice 882B dist/exporters/w3c.d.ts
+npm notice 540B dist/exporters/w3c.d.ts.map
+npm notice 1.9kB dist/exporters/w3c.js
+npm notice 565.8kB dist/index.cjs
+npm notice 89B dist/index.d.cts
+npm notice 815B dist/index.d.ts
+npm notice 532B dist/index.d.ts.map
+npm notice 921B dist/index.js
+npm notice 690B dist/math/apca.d.ts
+npm notice 604B dist/math/apca.d.ts.map
+npm notice 1.3kB dist/math/apca.js
+npm notice 1.0kB dist/math/color-mixing.d.ts
+npm notice 679B dist/math/color-mixing.d.ts.map
+npm notice 2.0kB dist/math/color-mixing.js
+npm notice 1.3kB dist/math/hct.d.ts
+npm notice 1.2kB dist/math/hct.d.ts.map
+npm notice 2.3kB dist/math/hct.js
+npm notice 570B dist/math/oklab.d.ts
+npm notice 538B dist/math/oklab.d.ts.map
+npm notice 2.9kB dist/math/oklab.js
+npm notice 536B dist/math/spectral.d.ts
+npm notice 350B dist/math/spectral.d.ts.map
+npm notice 1.7kB dist/math/spectral.js
+npm notice 345B dist/tokens/heritage-data.d.ts
+npm notice 256B dist/tokens/heritage-data.d.ts.map
+npm notice 346.2kB dist/tokens/heritage-data.js
+npm notice 678B dist/tokens/palettes.d.ts
+npm notice 432B dist/tokens/palettes.d.ts.map
+npm notice 4.9kB dist/tokens/palettes.js
+npm notice 2.7kB dist/types/evidence.d.ts
+npm notice 2.5kB dist/types/evidence.d.ts.map
+npm notice 11B dist/types/evidence.js
+npm notice 124B dist/types/index.d.ts
+npm notice 174B dist/types/index.d.ts.map
+npm notice 89B dist/types/index.js
+npm notice 1.0kB dist/types/palette.d.ts
+npm notice 1.1kB dist/types/palette.d.ts.map
+npm notice 11B dist/types/palette.js
+npm notice 1.3kB dist/types/token.d.ts
+npm notice 1.3kB dist/types/token.d.ts.map
+npm notice 11B dist/types/token.js
+npm notice 122B dist/version.d.ts
+npm notice 180B dist/version.d.ts.map
+npm notice 71B dist/version.js
+npm notice 9.8kB licenses/apca-w3.md
+npm notice 34.5kB licenses/colorparsley.md
+npm notice 10.8kB licenses/material-color-utilities.txt
+npm notice 1.6kB package.json
+npm notice 2.7kB src/engine.ts
+npm notice 1.2kB src/exporters/figma.ts
+npm notice 1.6kB src/exporters/platforms.ts
+npm notice 1.3kB src/exporters/tailwind.ts
+npm notice 2.3kB src/exporters/w3c.ts
+npm notice 927B src/index.ts
+npm notice 1.7kB src/math/apca.ts
+npm notice 2.2kB src/math/color-mixing.ts
+npm notice 2.9kB src/math/hct.ts
+npm notice 3.1kB src/math/oklab.ts
+npm notice 1.8kB src/math/spectral.ts
+npm notice 277.1kB src/tokens/heritage-data.ts
+npm notice 4.8kB src/tokens/palettes.ts
+npm notice 256B src/types/apca-w3.d.ts
+npm notice 2.3kB src/types/evidence.ts
+npm notice 89B src/types/index.ts
+npm notice 886B src/types/palette.ts
+npm notice 1.1kB src/types/token.ts
+npm notice 89B src/version.ts
+npm notice 8.9kB tokens/Colors.swift
+npm notice 23.5kB tokens/ColorSchemes.kt
+npm notice 5.6kB tokens/data-quality.json
+npm notice 36.8kB tokens/figma-variables.json
+npm notice 403.7kB tokens/style-dictionary.json
+npm notice 7.5kB tokens/tailwind-theme.css
+npm notice 10.5kB tokens/tokens-studio.json
+npm notice 403.7kB tokens/w3c-tokens.json
+npm notice 105B types/index.d.ts
+npm notice Tarball Details
+npm notice name: @persian-palette/core
+npm notice version: 3.0.0
+npm notice filename: persian-palette-core-3.0.0.tgz
+npm notice package size: 234.6 kB
+npm notice unpacked size: 2.2 MB
+npm notice shasum: f71307a129d76f5ea07cc22beba926a218a207bd
+npm notice integrity: sha512-xYePifm9w7fBa[...]owjp4RQmBzwFA==
+npm notice total files: 91
+npm notice
+persian-palette-core-3.0.0.tgz
+exit=0

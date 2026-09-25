@@ -1,0 +1,5 @@
+# npm audit (npm 10.9.7, registry.npmjs.org, run 2026-09-25T13:43:45Z) in $SCRATCH/work at fe97cc1
+audit-root--omit=dev.json {"info":0,"low":0,"moderate":0,"high":0,"critical":0,"total":0} {"prod":1,"dev":211,"optional":27,"peer":0,"peerOptional":0,"total":211}
+audit-root.json {"info":0,"low":0,"moderate":0,"high":0,"critical":0,"total":0} {"prod":1,"dev":211,"optional":27,"peer":0,"peerOptional":0,"total":211}
+audit-core--omit=dev.json {"info":0,"low":0,"moderate":0,"high":0,"critical":0,"total":0} {"prod":4,"dev":21,"optional":20,"peer":0,"peerOptional":0,"total":24}
+audit-core.json {"info":0,"low":0,"moderate":0,"high":0,"critical":0,"total":0} {"prod":4,"dev":21,"optional":20,"peer":0,"peerOptional":0,"total":24}

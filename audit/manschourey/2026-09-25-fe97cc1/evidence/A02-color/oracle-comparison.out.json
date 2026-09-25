@@ -1,0 +1,140 @@
+{
+  "oracleVersions": {
+    "colorjs": "0.5.2",
+    "culori": "4.0.2"
+  },
+  "sampleSize": 5082,
+  "oklab": {
+    "maxAbsDiffVsCulori": 3.727390762708893e-8,
+    "worstColor": "#FFFFFF",
+    "maxAbsDiffVsColorjs": 3.727390762708893e-8
+  },
+  "oklabRoundTrip": {
+    "tested": 200000,
+    "failures": 0,
+    "examples": []
+  },
+  "mixing": {
+    "palettePairsTimesRatios": 7665,
+    "interpolantsOutsideSrgb": 103,
+    "maxDeltaEOKIntroducedByClipping": 0.013842327237763444,
+    "worst": {
+      "a": "#FDFBF7",
+      "b": "#FE28A2",
+      "t": 0.5,
+      "core": "#FFA2CC",
+      "deltaEOK": 0.013842327237763444
+    },
+    "differsFromCssGamutMapping": 1
+  },
+  "hct": {
+    "maxHueDiffDeg_chromaOver2": 0.054869179623040054,
+    "worstHueColor": "#FDFBF7",
+    "maxChromaDiff": 0.011082555669773342,
+    "maxToneDiff": 0.004233809586907
+  },
+  "hctInverse": {
+    "requested": {
+      "hue": 250,
+      "chroma": 150,
+      "tone": 50
+    },
+    "returned": "#007CC4",
+    "achieved": {
+      "hue": 249.79861322678624,
+      "chroma": 52.343948110407695,
+      "tone": 49.97870070330714
+    },
+    "hueWrap": {
+      "minus30": "#9B649C",
+      "plus330": "#9B649C",
+      "plus690": "#9B649C"
+    },
+    "grayHue": {
+      "hue": 209.4938255695562,
+      "chroma": 1.8960216149953222,
+      "tone": 53.58501345216902
+    }
+  },
+  "apca": {
+    "pairs": 3000,
+    "maxAbsDiffLc": 0,
+    "worst": null,
+    "polarity": {
+      "blackOnWhite": 106.04067321268862,
+      "whiteOnBlack": -107.88473318309848
+    }
+  },
+  "evaluateAPCA": {
+    "lowContrast": {
+      "lcScore": 0,
+      "rating": "Fail",
+      "minFontSizePx": {
+        "fontNormal400": 999,
+        "fontBold700": 999
+      },
+      "passedFluentBody": false,
+      "method": "apca-w3@0.1.9"
+    },
+    "fontLookupAtLc30": {
+      "100": 777,
+      "200": 777,
+      "300": 120,
+      "400": 108,
+      "500": 108,
+      "600": 96,
+      "700": 72,
+      "800": 72,
+      "900": 72
+    },
+    "negativeLc": {
+      "100": 60,
+      "200": 42,
+      "300": 24,
+      "400": 18,
+      "500": 16,
+      "600": 15,
+      "700": 14,
+      "800": 16,
+      "900": 18
+    }
+  },
+  "wcag21": {
+    "pairs": 3000,
+    "maxAbsDiffRatio": 0.0008314691863606782
+  },
+  "cielabD65": {
+    "maxAbsDiff": 0.007446806324388433
+  },
+  "dominantWavelength": {
+    "method": "purple-sector test from D65",
+    "colorsWithoutDominantWavelengthButClaimed": [
+      {
+        "id": "toranj-illumination-c6",
+        "hex": "#000000",
+        "reason": "black: chromaticity undefined",
+        "claimedDominantNm": 610
+      },
+      {
+        "id": "gardens-of-shiraz-c1",
+        "hex": "#FE28A2",
+        "nameEn": "Persian Rose",
+        "xy": [
+          0.4383,
+          0.2294
+        ],
+        "claimedDominantNm": 652
+      },
+      {
+        "id": "gardens-of-shiraz-c2",
+        "hex": "#8B1E3F",
+        "nameEn": "Ghasrodasht Ruby Pomegranate",
+        "xy": [
+          0.497,
+          0.2805
+        ],
+        "claimedDominantNm": 631
+      }
+    ]
+  }
+}

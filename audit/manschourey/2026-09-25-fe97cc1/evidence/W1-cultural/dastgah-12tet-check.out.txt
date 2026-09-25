@@ -1,0 +1,13 @@
+# app/app.js:1675 dastgahFreqs vs 12-tone equal temperament (A4=440)
+261.63 Hz -> MIDI 60 C4 cents_off_12TET=0.03
+293.66 Hz -> MIDI 62 D4 cents_off_12TET=-0.03
+311.13 Hz -> MIDI 63 Eb4 cents_off_12TET=0.02
+349.23 Hz -> MIDI 65 F4 cents_off_12TET=0.01
+392 Hz -> MIDI 67 G4 cents_off_12TET=0.02
+415.3 Hz -> MIDI 68 Ab4 cents_off_12TET=-0.02
+466.16 Hz -> MIDI 70 Bb4 cents_off_12TET=-0.01
+523.25 Hz -> MIDI 72 C5 cents_off_12TET=-0.00
+587.33 Hz -> MIDI 74 D5 cents_off_12TET=0.00
+622.25 Hz -> MIDI 75 Eb5 cents_off_12TET=-0.01
+698.46 Hz -> MIDI 77 F5 cents_off_12TET=0.01
+783.99 Hz -> MIDI 79 G5 cents_off_12TET=-0.00

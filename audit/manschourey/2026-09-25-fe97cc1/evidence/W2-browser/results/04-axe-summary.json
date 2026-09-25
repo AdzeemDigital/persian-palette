@@ -1,0 +1,1825 @@
+{
+  "axeVersion": "4.13.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa"
+  ],
+  "runs": [
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "page",
+      "scope": "document",
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 204
+        }
+      ],
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "help": "Interactive controls must not be nested",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "evidence",
+      "scope": "#evidenceDashboardModal",
+      "passes": 20,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 35
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "evidenceGeo",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 23
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#evGeoGoogleMapsLink > span",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.76 (foreground color: #ffffff, background color: #059669, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "evidenceMixer",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "drawer",
+      "scope": "#previewDrawer",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 7,
+          "examples": [
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(1) > .text-slate-500",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(2) > .text-slate-500",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(3) > .text-slate-500",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "export",
+      "scope": "#exportModal",
+      "passes": 15,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag211",
+            "wcag213"
+          ],
+          "help": "Scrollable region must have keyboard access",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#exportCodeBlock",
+              "summary": "Fix any of the following: Element should have focusable content Element should be focusable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "sci",
+      "scope": "#scientificModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 12
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .font-bold.justify-between.text-\\[10px\\] > span:nth-child(1)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .tracking-tight.text-center.font-bold",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .font-sans.text-center.opacity-80",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.47 (foreground color: #e1e1f8, background color: #676ade, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "matrix",
+      "scope": "#matrixModal",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 38,
+          "examples": [
+            {
+              "target": "tr:nth-child(1) > .text-slate-600",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 2.66 (foreground color: #475569, background color: #020617, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(0, 5)\"] > .text-\\[11px\\].font-bold.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #0b132b, background color: #120a8f, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(1, 0)\"] > .border-emerald-500\\/40.bg-emerald-500\\/20.inline-block",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #6ee7b7, background color: #2acfba, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "gradient",
+      "scope": "#gradientModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "mixer",
+      "scope": "#mixerModal",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 2,
+          "examples": [
+            {
+              "target": ".text-slate-500.justify-between.font-mono > span:nth-child(1)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".text-slate-500.justify-between.font-mono > span:nth-child(3)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "npm",
+      "scope": "#npmModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "fa",
+      "theme": "dark",
+      "state": "ar",
+      "scope": "#arSimulatorModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "page",
+      "scope": "document",
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 203
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 9,
+          "examples": [
+            {
+              "target": "#card-body-isfahan-tiles",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.65 (foreground color: #2f3c51, background color: #0b132b, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#card-body-nomadic-rugs",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.33 (foreground color: #363c4e, background color: #540b0e, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#card-body-minakari-craft",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #2f3d51, background color: #0a192f, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "help": "Interactive controls must not be nested",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "evidence",
+      "scope": "#evidenceDashboardModal",
+      "passes": 20,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 35
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 2,
+          "examples": [
+            {
+              "target": ".bg-\\[\\#1E293B\\]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.22 (foreground color: #0f172a, background color: #1e293b, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-\\[\\#0B132B\\]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.02 (foreground color: #0f172a, background color: #0b132b, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "evidenceGeo",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 23
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#evGeoGoogleMapsLink > span",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.76 (foreground color: #ffffff, background color: #059669, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "evidenceMixer",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": "#evMixerTitleA",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.04 (foreground color: #ffffff, background color: #f8fafc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#evMixerHexA",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #34d399, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#evMixerHexB",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #fbbf24, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "drawer",
+      "scope": "#previewDrawer",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 6,
+          "examples": [
+            {
+              "target": ".sm\\:text-2xl",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.02 (foreground color: #0f172a, background color: #0b132b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".mb-1\\.5.text-\\[11px\\].text-slate-400 > .text-amber-400.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #fbbf24, background color: #f8fafc, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(2) > .text-cyan-300",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.38 (foreground color: #67e8f9, background color: #f8fafc, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "export",
+      "scope": "#exportModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 7,
+          "examples": [
+            {
+              "target": "#tab-css",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.35 (foreground color: #fcd34d, background color: #6c727e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#tab-tailwind",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.56 (foreground color: #475569, background color: #6c727e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#tab-json",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.56 (foreground color: #475569, background color: #6c727e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag211",
+            "wcag213"
+          ],
+          "help": "Scrollable region must have keyboard access",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#exportCodeBlock",
+              "summary": "Fix any of the following: Element should have focusable content Element should be focusable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "sci",
+      "scope": "#scientificModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 12
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 5,
+          "examples": [
+            {
+              "target": "button[onclick=\"copyAllTones('css')\"] > span",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.22 (foreground color: #0f172a, background color: #1e293b, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .font-bold.justify-between.text-\\[10px\\] > span:nth-child(1)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .tracking-tight.text-center.font-bold",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "matrix",
+      "scope": "#matrixModal",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 36,
+          "examples": [
+            {
+              "target": "td[onclick=\"applyMatrixPair(0, 5)\"] > .text-\\[11px\\].font-bold.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #0b132b, background color: #120a8f, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(1, 0)\"] > .border-emerald-500\\/40.bg-emerald-500\\/20.inline-block",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #6ee7b7, background color: #2acfba, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(1, 2)\"] > .text-\\[11px\\].font-bold.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.66 (foreground color: #00a693, background color: #30d5c8, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "gradient",
+      "scope": "#gradientModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": ".bg-slate-900.p-3.border-slate-800:nth-child(1) > .rounded.bg-black\\/50[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #475569, background color: #7c7d7e, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.p-3.border-slate-800:nth-child(2) > .rounded.bg-black\\/50[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #475569, background color: #7c7d7e, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.p-3.border-slate-800:nth-child(3) > .rounded.bg-black\\/50[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #475569, background color: #7c7d7e, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "mixer",
+      "scope": "#mixerModal",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 6,
+          "examples": [
+            {
+              "target": ".leading-relaxed > .text-purple-300.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.68 (foreground color: #d8b4fe, background color: #f8fafc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#quickMixHex1",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #fbbf24, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#quickMixHex2",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.72 (foreground color: #22d3ee, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "npm",
+      "scope": "#npmModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 11,
+          "examples": [
+            {
+              "target": ".p-3\\.5.bg-slate-900.text-slate-300 > .select-all.text-amber-300[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.37 (foreground color: #fcd34d, background color: #f8fafc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#btnCopyNpmCmd",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.19 (foreground color: #fcd34d, background color: #f7e8cc, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#btnCopyNpmCode",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.19 (foreground color: #0f172a, background color: #1d2739, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "fa",
+      "theme": "light",
+      "state": "ar",
+      "scope": "#arSimulatorModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 2,
+          "examples": [
+            {
+              "target": "#arBtnModeRoom",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.15 (foreground color: #67e8f9, background color: #c8ecf4, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".px-5[onclick=\"closeARSimulator()\"][aria-label=\"بستن پنجره\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.22 (foreground color: #0f172a, background color: #1e293b, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "page",
+      "scope": "document",
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 252
+        }
+      ],
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "help": "Interactive controls must not be nested",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "evidence",
+      "scope": "#evidenceDashboardModal",
+      "passes": 20,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 35
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "evidenceGeo",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 22
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#evGeoGoogleMapsLink > span",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.76 (foreground color: #ffffff, background color: #059669, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "evidenceMixer",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "drawer",
+      "scope": "#previewDrawer",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 9,
+          "examples": [
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(1) > .text-slate-500",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(2) > .text-slate-500",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.rounded.border-slate-800:nth-child(3) > .text-slate-500",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "export",
+      "scope": "#exportModal",
+      "passes": 15,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "violations": [
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag211",
+            "wcag213"
+          ],
+          "help": "Scrollable region must have keyboard access",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#exportCodeBlock",
+              "summary": "Fix any of the following: Element should have focusable content Element should be focusable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "sci",
+      "scope": "#scientificModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 11
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .font-bold.justify-between.text-\\[10px\\] > span:nth-child(1)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .tracking-tight.text-center.font-bold",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .font-sans.text-center.opacity-80",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.47 (foreground color: #e1e1f8, background color: #676ade, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "matrix",
+      "scope": "#matrixModal",
+      "passes": 17,
+      "incomplete": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 40,
+          "examples": [
+            {
+              "target": "tr:nth-child(1) > .text-slate-600",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 2.66 (foreground color: #475569, background color: #020617, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(0, 5)\"] > .text-\\[11px\\].font-bold.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #0b132b, background color: #120a8f, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(1, 0)\"] > .border-emerald-500\\/40.bg-emerald-500\\/20.inline-block",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #6ee7b7, background color: #2acfba, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "gradient",
+      "scope": "#gradientModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "mixer",
+      "scope": "#mixerModal",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": ".text-slate-500.justify-between.font-mono > span:nth-child(3)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.75 (foreground color: #64748b, background color: #0f172a, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "npm",
+      "scope": "#npmModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "en",
+      "theme": "dark",
+      "state": "ar",
+      "scope": "#arSimulatorModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": []
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "page",
+      "scope": "document",
+      "passes": 25,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 251
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 12,
+          "examples": [
+            {
+              "target": "#card-body-isfahan-tiles",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.65 (foreground color: #2f3c51, background color: #0b132b, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#card-body-achaemenid-majesty",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.52 (foreground color: #313e50, background color: #1b1f24, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#card-body-behzad-miniature",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.39 (foreground color: #313e52, background color: #1b263b, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag412"
+          ],
+          "help": "Interactive controls must not be nested",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "tags": [
+            "wcag22aa",
+            "wcag258"
+          ],
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "nodes": 72,
+          "examples": [
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(1",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(2",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            },
+            {
+              "target": "div[data-palette-id=\"isfahan-tiles\"] > .sm\\:grid-cols-3.grid-cols-2.grid > .bg-slate-950\\/60.hover\\:bg-slate-800\\/90.group\\/item:nth-child(3",
+              "summary": "Fix any of the following: Target has insufficient size (14px by 36px, should be at least 24px by 24px) Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 14px instead of at lea"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "evidence",
+      "scope": "#evidenceDashboardModal",
+      "passes": 20,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 35
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 2,
+          "examples": [
+            {
+              "target": ".bg-\\[\\#1E293B\\]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.22 (foreground color: #0f172a, background color: #1e293b, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-\\[\\#0B132B\\]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.02 (foreground color: #0f172a, background color: #0b132b, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "evidenceGeo",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 22
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#evGeoGoogleMapsLink > span",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.76 (foreground color: #ffffff, background color: #059669, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "evidenceMixer",
+      "scope": "#evidenceDashboardModal",
+      "passes": 18,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": "#evMixerTitleA",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.04 (foreground color: #ffffff, background color: #f8fafc, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#evMixerHexA",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #34d399, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#evMixerHexB",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #fbbf24, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "drawer",
+      "scope": "#previewDrawer",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": ".sm\\:text-2xl",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.02 (foreground color: #0f172a, background color: #0b132b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            {
+              "target": ".mb-1\\.5.text-\\[11px\\].text-slate-400 > .text-amber-400.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #fbbf24, background color: #f8fafc, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-amber-400\\/10 > .text-slate-500.text-\\[9px\\].font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.32 (foreground color: #64748b, background color: #f8f4e6, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "export",
+      "scope": "#exportModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 7,
+          "examples": [
+            {
+              "target": "#tab-css",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 3.35 (foreground color: #fcd34d, background color: #6c727e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#tab-tailwind",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.56 (foreground color: #475569, background color: #6c727e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#tab-json",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.56 (foreground color: #475569, background color: #6c727e, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "tags": [
+            "wcag2a",
+            "wcag211",
+            "wcag213"
+          ],
+          "help": "Scrollable region must have keyboard access",
+          "nodes": 1,
+          "examples": [
+            {
+              "target": "#exportCodeBlock",
+              "summary": "Fix any of the following: Element should have focusable content Element should be focusable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "sci",
+      "scope": "#scientificModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 11
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 5,
+          "examples": [
+            {
+              "target": "button[onclick=\"copyAllTones('css')\"] > span",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.22 (foreground color: #0f172a, background color: #1e293b, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .font-bold.justify-between.text-\\[10px\\] > span:nth-child(1)",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".h-24.p-2\\.5.group:nth-child(6) > .tracking-tight.text-center.font-bold",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #676ade, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "matrix",
+      "scope": "#matrixModal",
+      "passes": 17,
+      "incomplete": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 38,
+          "examples": [
+            {
+              "target": "td[onclick=\"applyMatrixPair(0, 5)\"] > .text-\\[11px\\].font-bold.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #0b132b, background color: #120a8f, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(1, 0)\"] > .border-emerald-500\\/40.bg-emerald-500\\/20.inline-block",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.28 (foreground color: #6ee7b7, background color: #2acfba, font size: 6.0pt (8px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "td[onclick=\"applyMatrixPair(1, 2)\"] > .text-\\[11px\\].font-bold.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.66 (foreground color: #00a693, background color: #30d5c8, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "gradient",
+      "scope": "#gradientModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "examples": [
+            {
+              "target": ".bg-slate-900.p-3.border-slate-800:nth-child(1) > .rounded.bg-black\\/50[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #475569, background color: #7c7d7e, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.p-3.border-slate-800:nth-child(2) > .rounded.bg-black\\/50[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #475569, background color: #7c7d7e, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".bg-slate-900.p-3.border-slate-800:nth-child(3) > .rounded.bg-black\\/50[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.83 (foreground color: #475569, background color: #7c7d7e, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "mixer",
+      "scope": "#mixerModal",
+      "passes": 17,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 4
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 6,
+          "examples": [
+            {
+              "target": ".leading-relaxed > .text-purple-300.font-mono",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.68 (foreground color: #d8b4fe, background color: #f8fafc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#quickMixHex1",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.59 (foreground color: #fbbf24, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#quickMixHex2",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.72 (foreground color: #22d3ee, background color: #f8fafc, font size: 8.3pt (11px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "npm",
+      "scope": "#npmModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 10,
+          "examples": [
+            {
+              "target": ".p-3\\.5.bg-slate-900.text-slate-300 > .select-all.text-amber-300[dir=\"ltr\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.37 (foreground color: #fcd34d, background color: #f8fafc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#btnCopyNpmCmd",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.19 (foreground color: #fcd34d, background color: #f7e8cc, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": "#btnCopyNpmCode",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.19 (foreground color: #0f172a, background color: #1d2739, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "edition": "en",
+      "theme": "light",
+      "state": "ar",
+      "scope": "#arSimulatorModal",
+      "passes": 14,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "tags": [
+            "wcag2aa",
+            "wcag143"
+          ],
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 2,
+          "examples": [
+            {
+              "target": "#arBtnModeRoom",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.15 (foreground color: #67e8f9, background color: #c8ecf4, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": ".px-5[onclick=\"closeARSimulator()\"][aria-label=\"بستن پنجره\"]",
+              "summary": "Fix any of the following: Element has insufficient color contrast of 1.22 (foreground color: #0f172a, background color: #1e293b, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "byRule": [
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "wcag2aa",
+        "wcag143"
+      ],
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "totalNodes": 295,
+      "states": [
+        "fa/dark/evidenceGeo:1",
+        "fa/dark/drawer:7",
+        "fa/dark/sci:4",
+        "fa/dark/matrix:38",
+        "fa/dark/mixer:2",
+        "fa/light/page:9",
+        "fa/light/evidence:2",
+        "fa/light/evidenceGeo:1",
+        "fa/light/evidenceMixer:4",
+        "fa/light/drawer:6",
+        "fa/light/export:7",
+        "fa/light/sci:5",
+        "fa/light/matrix:36",
+        "fa/light/gradient:4",
+        "fa/light/mixer:6",
+        "fa/light/npm:11",
+        "fa/light/ar:2",
+        "en/dark/evidenceGeo:1",
+        "en/dark/drawer:9",
+        "en/dark/sci:4",
+        "en/dark/matrix:40",
+        "en/dark/mixer:1",
+        "en/light/page:12",
+        "en/light/evidence:2",
+        "en/light/evidenceGeo:1",
+        "en/light/evidenceMixer:4",
+        "en/light/drawer:4",
+        "en/light/export:7",
+        "en/light/sci:5",
+        "en/light/matrix:38",
+        "en/light/gradient:4",
+        "en/light/mixer:6",
+        "en/light/npm:10",
+        "en/light/ar:2"
+      ]
+    },
+    {
+      "id": "nested-interactive",
+      "impact": "serious",
+      "tags": [
+        "wcag2a",
+        "wcag412"
+      ],
+      "help": "Interactive controls must not be nested",
+      "totalNodes": 288,
+      "states": [
+        "fa/dark/page:72",
+        "fa/light/page:72",
+        "en/dark/page:72",
+        "en/light/page:72"
+      ]
+    },
+    {
+      "id": "target-size",
+      "impact": "serious",
+      "tags": [
+        "wcag22aa",
+        "wcag258"
+      ],
+      "help": "All touch targets must be 24px large, or leave sufficient space",
+      "totalNodes": 288,
+      "states": [
+        "fa/dark/page:72",
+        "fa/light/page:72",
+        "en/dark/page:72",
+        "en/light/page:72"
+      ]
+    },
+    {
+      "id": "scrollable-region-focusable",
+      "impact": "serious",
+      "tags": [
+        "wcag2a",
+        "wcag211",
+        "wcag213"
+      ],
+      "help": "Scrollable region must have keyboard access",
+      "totalNodes": 4,
+      "states": [
+        "fa/dark/export:1",
+        "fa/light/export:1",
+        "en/dark/export:1",
+        "en/light/export:1"
+      ]
+    }
+  ]
+}

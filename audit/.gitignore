@@ -1,0 +1,2 @@
+# Audit evidence logs are deliberate, sanitized records referenced by the reports.
+!*.log

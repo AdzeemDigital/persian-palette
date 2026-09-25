@@ -1,0 +1,82 @@
+{
+  "fa-320x256": {
+    "top": {
+      "headerH": 277,
+      "headerTop": 0,
+      "vh": 256,
+      "sticky": "sticky",
+      "visibleContentPx": 0
+    },
+    "scrolled": {
+      "headerH": 277,
+      "headerTop": 0,
+      "vh": 256,
+      "sticky": "sticky",
+      "visibleContentPx": 0
+    },
+    "dialog": {
+      "dialogH": 243,
+      "scrollable": true
+    }
+  },
+  "fa-640x512": {
+    "top": {
+      "headerH": 232,
+      "headerTop": 0,
+      "vh": 512,
+      "sticky": "sticky",
+      "visibleContentPx": 280
+    },
+    "scrolled": {
+      "headerH": 232,
+      "headerTop": 0,
+      "vh": 512,
+      "sticky": "sticky",
+      "visibleContentPx": 280
+    },
+    "dialog": {
+      "dialogH": 486,
+      "scrollable": true
+    }
+  },
+  "en-320x256": {
+    "top": {
+      "headerH": 233,
+      "headerTop": 0,
+      "vh": 256,
+      "sticky": "sticky",
+      "visibleContentPx": 23
+    },
+    "scrolled": {
+      "headerH": 233,
+      "headerTop": 0,
+      "vh": 256,
+      "sticky": "sticky",
+      "visibleContentPx": 23
+    },
+    "dialog": {
+      "dialogH": 243,
+      "scrollable": true
+    }
+  },
+  "en-640x512": {
+    "top": {
+      "headerH": 232,
+      "headerTop": 0,
+      "vh": 512,
+      "sticky": "sticky",
+      "visibleContentPx": 280
+    },
+    "scrolled": {
+      "headerH": 232,
+      "headerTop": 0,
+      "vh": 512,
+      "sticky": "sticky",
+      "visibleContentPx": 280
+    },
+    "dialog": {
+      "dialogH": 486,
+      "scrollable": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# Figma static type-check: @figma/plugin-typings 1.139.0 + TypeScript 5.9.3, checkJs on docs/figma-import.js and a shape check of tokens/figma-variables.json against RGBA and VariableScope[]
+tsc rc=0, diagnostics: 0 bytes
+## tsconfig.json
+{ "compilerOptions": { "allowJs": true, "checkJs": true, "noEmit": true, "strict": false, "target": "es2020", "lib": ["es2020"], "typeRoots": ["./node_modules/@figma"] }, "files": ["import.js", "check.ts"] }
+## check.ts
+// Type-check the shipped interchange JSON against the shape the importer passes to Figma.
+import doc from './figma-variables.json';
+const v = doc.collections[0].variables[0];
+const rgba: RGBA = v.valuesByMode.Default;
+const scopes: VariableScope[] = v.scopes as VariableScope[];
+export { rgba, scopes };
+## Typings: createVariable(name, collectionId: string, ...) is @deprecated; createVariable(name, collection: VariableCollection, ...) is current. Importer uses the collection-object form.

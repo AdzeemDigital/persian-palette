@@ -1,0 +1,24 @@
+# Release / CI facts collected 2026-09-25 (GitHub MCP read-only calls + local git + sha256sum)
+GitHub releases (AdzeemDigital/persian-palette): 1 release, tag v3.0.0, name "Persian Palette Design System Studio v3.0.0",
+  created 2026-09-22T01:47:32Z, published 01:48:37Z, updated 13:09:08Z (body edited: "This corrected description supersedes the original wording. It does not change the tag or replace its assets."), immutable=false, target_commitish=main.
+Tags: v3.0.0 -> 2e0689213efef17629b28a8dd10fe78d0214ab65 ("feat: release Persian Palette Design System Studio v3.0.0"); HEAD fe97cc1 is 7 commits later.
+At 2e06892 only .github/workflows-templates/{ci,release}.yml existed; .github/workflows/ci.yml was first added in fff32d1 (after the tag). No CI run exists for 2e06892 (earliest run #1 is fff32d1).
+
+Release asset digests (GitHub API) vs local files:
+  build-manifest.json          sha256 4ccd43a6...  == committed docs/build-manifest.json (HEAD and tag)
+  code_artifact.html           sha256 1585ddea... 3149695 B  != committed code_artifact.html 97fda1e8... 3143964 B
+                               == code_artifact.html inside release/manshour-studio-3.0.0.zip; 5731 CR bytes; identical to committed file after `tr -d '\r'`
+  code_artifact_en.html        sha256 92a489c4... 3149695 B  != committed 6062013a... ; identical after CR removal
+  manshour-studio-3.0.0.zip    sha256 03ae0c33... == committed release/manshour-studio-3.0.0.zip
+  persian-palette-core-3.0.0.tgz sha256 da0169c3... == committed release/persian-palette-core-3.0.0.tgz
+  (committed release/manshour-studio-en.html is 6062013a... LF; the copy inside the ZIP is the CRLF 92a489c4... variant)
+Committed docs/build-manifest.json records the CRLF hashes (1585dd..., 92a489...; 3149695 B), so it does not describe the committed LF HTML. A clean rebuild rewrites it to 97fda1e8.../6062013a... (see rebuild-diff-stat.txt).
+
+CI run #9 (id 35732995118), push to main, head_sha fe97cc1: conclusion success; 4/4 jobs success (Node 22/24 x ubuntu-24.04/windows-2025); artifact studio-fe97cc1... uploaded (expires 2026-10-06).
+Workflow ci.yml: permissions contents: read; triggers push(main, fix/**), pull_request(main), workflow_dispatch; no pull_request_target; persist-credentials: false;
+  steps: npm ci, core npm ci, npm run check, npm run pack:core, npm run verify:package, upload-artifact. No `git diff --exit-code` / generated-file freshness check; pack:studio not run.
+Action pins verified with `git ls-remote --tags`:
+  actions/checkout 3d3c42e5aac5ba805825da76410c181273ba90b1 = refs/tags/v7.0.1 (and v7)
+  actions/setup-node 820762786026740c76f36085b0efc47a31fe5020 = refs/tags/v7.0.0 (and v7)
+  actions/upload-artifact 043fb46d1a93c77aae656e7c1c64a875d1fc6a0a = refs/tags/v7.0.1 (and v7)
+Inactive template .github/workflows-templates/release.yml: tag trigger v*, contents: write, unpinned actions/checkout@v4, setup-node@v4, setup-python@v5, softprops/action-gh-release@v2; hard-coded 3.0.0 filenames; runs pack:studio.

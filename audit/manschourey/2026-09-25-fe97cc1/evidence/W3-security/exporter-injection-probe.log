@@ -1,0 +1,384 @@
+
+===== cssCommentBreakout =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* x */ body{background:red} /* (Palette) */
+  --color-persian-evil-100: #112233; /* y */ :root{--pwn:1} /* */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_evil_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val evilLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","evil"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/evil/Color"]
+--- exportTailwindTheme keys ---
+["evil"]
+
+===== newlineAndBrace =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* a
+}
+@import url(https://example.invalid/x.css);
+/* (Palette) */
+  --color-persian-nl-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_nl_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val nlLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","nl"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/nl/Color"]
+--- exportTailwindTheme keys ---
+["nl"]
+
+===== idWithSpaceAndSemicolon =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-a; --x: 1-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_a; __x: 1_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val a; -X: 1LightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","a; --x: 1"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/a; --x: 1/Color"]
+--- exportTailwindTheme keys ---
+["a; --x: 1"]
+
+===== idWithDot =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-a.b-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_a.b_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val a.bLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","a.b"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/a.b/Color"]
+--- exportTailwindTheme keys ---
+["a.b"]
+
+===== idLeadingDigit =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-1st-palette-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_1st_palette_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val 1stPaletteLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","1st-palette"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/1st-palette/Color"]
+--- exportTailwindTheme keys ---
+["1st-palette"]
+
+===== idSwiftKeyword =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-class-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_class_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val classLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","class"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/class/Color"]
+--- exportTailwindTheme keys ---
+["class"]
+
+===== idKotlinKeyword =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-fun-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_fun_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val funLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","fun"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/fun/Color"]
+--- exportTailwindTheme keys ---
+["fun"]
+
+===== idPersian =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-باغ-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_باغ_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val باغLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","باغ"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/باغ/Color"]
+--- exportTailwindTheme keys ---
+["باغ"]
+
+===== idEmoji =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-rose-🌹-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_rose_🌹_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val rose-🌹LightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","rose-🌹"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/rose-🌹/Color"]
+--- exportTailwindTheme keys ---
+["rose-🌹"]
+
+===== idQuote =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-q"x-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_q"x_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val q"xLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","q\"x"] tokens: [["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/q\"x/Color"]
+--- exportTailwindTheme keys ---
+["q\"x"]
+
+===== nameEnEmptyAfterSanitize =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-e-100: #112233; /* رنگ */
+  --color-persian-e-200: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_e_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+    static let persian_e_2 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val eLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+THROWS: Duplicate token key:  tokens: THROWS: Duplicate token key: 
+--- exportFigmaVariables names ---
+["Persian/e/","Persian/e/"]
+--- exportTailwindTheme keys ---
+["e"]
+
+===== nameEnCollisionAcrossPunct =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-col-100: #112233; /* رنگ */
+  --color-persian-col-200: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_col_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+    static let persian_col_2 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val colLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+THROWS: Duplicate token key: rose-red tokens: THROWS: Duplicate token key: rose-red
+--- exportFigmaVariables names ---
+["Persian/col/Rose Red","Persian/col/Rose Red"]
+--- exportTailwindTheme keys ---
+["col"]
+
+===== underscoreVsHyphen =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-a-b-100: #112233; /* رنگ */
+  /* پالت (Palette) */
+  --color-persian-a_b-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_a_b_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+    static let persian_a_b_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val aBLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","a-b","a_b"] tokens: [["$description","color"],["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/a-b/Color","Persian/a_b/Color"]
+--- exportTailwindTheme keys ---
+["a-b","a_b"]
+
+===== kotlinCaseCollision =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+  --color-persian-a-b-100: #112233; /* رنگ */
+  /* پالت (Palette) */
+  --color-persian-aB-100: #112233; /* رنگ */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+    static let persian_a_b_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+    static let persian_aB_1 = Color(.sRGB, red: 0.06666667, green: 0.13333333, blue: 0.20000000, opacity: 1)
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+val aBLightColorScheme = lightColorScheme(
+    primary = Color(0xFF33618D),
+    onPrimary = Color(0xFFFFFFFF),
+--- exportW3CTokens group keys ---
+["$description","a-b","aB"] tokens: [["$description","color"],["$description","color"]]
+--- exportFigmaVariables names ---
+["Persian/a-b/Color","Persian/aB/Color"]
+--- exportTailwindTheme keys ---
+["a-b","aB"]
+
+===== emptyColors =====
+--- exportTailwindV4CSS ---
+@theme {
+  /* پالت (Palette) */
+}
+
+--- exportSwiftUI ---
+import SwiftUI
+
+extension Color {
+}
+
+--- exportMaterialKotlin (first 3 lines after imports) ---
+
+--- exportW3CTokens group keys ---
+["$description","empty"] tokens: [["$description"]]
+--- exportFigmaVariables names ---
+[]
+--- exportTailwindTheme keys ---
+["empty"]

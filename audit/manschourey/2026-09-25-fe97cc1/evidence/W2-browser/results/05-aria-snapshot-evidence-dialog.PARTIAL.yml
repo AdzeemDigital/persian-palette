@@ -1,0 +1,83 @@
+# PARTIAL evidence (ariaSnapshot), not a screen-reader test.
+- dialog "لاجوردی (Ultramarine)":
+  - text: 
+  - heading "لاجوردی (Ultramarine)" [level=3]
+  - text: "#120A8F کاشی‌کاری صفوی اصفهان"
+  - paragraph: Ultramarine Lapis • Safavid Tilework of Isfahan • ثبت میراث جهانی یونسکو (UNESCO World Heritage Site)
+  - combobox "تنظیم رنگ":
+    - option "کاشی‌کاری صفوی اصفهان (Safavid Tilework of Isfahan)" [selected]
+    - option "شکوه هخامنشی تخت جمشید (Achaemenid Majesty & Persepolis)"
+    - option "نگارگری و مینیاتور بهزاد (Master Behzad Persian Miniature)"
+    - option "دستبافته‌ها و قالی قشقایی و بختیاری (Qashqai & Bakhtiari Nomadic Rugs)"
+    - option "هنر میناکاری و قلم‌زنی (Isfahan Minakari & Repousse Metalwork)"
+    - option "ترنج و اسلیمی کتاب‌آرایی (Persian Toranj Illumination (Tazhib))"
+    - option "راز خلیج فارس و مروارید قشم (Persian Gulf & Hormuz Crimson Coast)"
+    - option "باغ‌های اردیبهشت شیراز (Gardens of Shiraz & Eram Paradise)"
+    - option "جواهرات و سنگ‌های خراسانی (Khorasan Gems & Turquoise Mines)"
+    - option "جنگل‌های هیرکانی و البرز (Ancient Hyrcanian Forests & Alborz)"
+    - option "طلای سرخ و کویر یزد (Yazd Saffron Desert & Adobe Architecture)"
+    - option "راسته ادویه‌فروشان بازار کهن (Grand Bazaar Spices & Silk Road)"
+  - button "لاجوردی (Ultramarine) (#120A8F)"
+  - button "فیروزه‌ای اصیل (Persian Turquoise) (#30D5C8)"
+  - button "آبی زنگاری شاهی (Persian Green) (#00A693)"
+  - button "طلایی اسلیمی (#D4AF37)"
+  - button "عاجی گچی محراب (#F4F1DE)"
+  - button "سرمه‌ای مقرنس (#0B132B)"
+  - button "بستن پنجره": 
+  - button " طیف نوری و APCA"
+  - button " یادداشت ماده و منبع"
+  - button " ژئوانفورماتیک و GPS"
+  - button " میکسر رنگ‌های تاریخی"
+  - button " شبیه‌سازی بافت و بافت سه‌بعدی"
+  - button " توکن‌های W3C و فیگما"
+  - status: "محاسبات رنگ: از sRGB • طیف و بافت: شبیه‌سازی • اطلاعات تاریخی و ماده: نیازمند بررسی منبع."
+  - paragraph: منحنی زیر یک مدل نمایشی از پارامترهای اولیه است و دادهٔ اندازه‌گیری‌شدهٔ طیف‌سنج نیست.
+  - text: 
+  - heading "منحنی توزیع بازتاب طیف نوری (۳۸۰ تا ۷۰۰ نانومتر)" [level=4]
+  - text: "λ_max: 455 nm ۷۰۰ nm (قرمز) ۶۰۰ nm (زرد) ۵۰۰ nm (سبز/سیان) ۴۰۰ nm (آبی) ۳۸۰ nm (بنفش) طول موج قله نوری 455 nm پهنای نیمه (FWHM) 45 nm انرژی فوتون قله 2.72 eV بازه بازتاب سطحی 3% - 45% "
+  - heading "ارزیابی کنتراست ادراکی APCA-W3" [level=4]
+  - text: "SAPC-0.0.98G در برابر سفید خالص Lc 99.4 راهنمای متن روان (Lc 90+) در برابر مشکی خالص Lc 0.0 کنتراست پایین آزمایشگاه زنده خوانایی روی پس‌زمینه‌های مختلف: Lc 99.4 (روان)"
+  - button "سفید"
+  - button "عاجی صفوی"
+  - button "ماسه‌سنگ"
+  - button "اسلیت تیره"
+  - button "سرمه‌ای شب"
+  - textbox "انتخاب رنگ دلخواه زمینه": "#ffffff"
+  - text: "عنوان نمونه: هنر کاشی‌کاری صفوی این متن نمونه برای مقایسهٔ رنگ متن و پس‌زمینه است. مقدار APCA به‌تنهایی خوانایی فونت فارسی یا انطباق کامل دسترسی‌پذیری را تأیید نمی‌کند."
+  - table:
+    - rowgroup:
+      - row "اندازه قلم سبک (300) معمولی (400) ضخیم (700)":
+        - cell "اندازه قلم"
+        - cell "سبک (300)"
+        - cell "معمولی (400)"
+        - cell "ضخیم (700)"
+    - rowgroup:
+      - row "12 px — خارج از راهنما — خارج از راهنما — خارج از راهنما":
+        - cell "12 px"
+        - cell "— خارج از راهنما"
+        - cell "— خارج از راهنما"
+        - cell "— خارج از راهنما"
+      - row "14 px — خارج از راهنما — خارج از راهنما ✓ راهنمای مرجع":
+        - cell "14 px"
+        - cell "— خارج از راهنما"
+        - cell "— خارج از راهنما"
+        - cell "✓ راهنمای مرجع"
+      - row "16 px — خارج از راهنما ✓ راهنمای مرجع ✓ راهنمای مرجع":
+        - cell "16 px"
+        - cell "— خارج از راهنما"
+        - cell "✓ راهنمای مرجع"
+        - cell "✓ راهنمای مرجع"
+      - row "24 px ✓ راهنمای مرجع ✓ راهنمای مرجع ✓ راهنمای مرجع":
+        - cell "24 px"
+        - cell "✓ راهنمای مرجع"
+        - cell "✓ راهنمای مرجع"
+        - cell "✓ راهنمای مرجع"
+      - row "32 px ✓ راهنمای مرجع ✓ راهنمای مرجع ✓ راهنمای مرجع":
+        - cell "32 px"
+        - cell "✓ راهنمای مرجع"
+        - cell "✓ راهنمای مرجع"
+        - cell "✓ راهنمای مرجع"
+  - paragraph: راهنمای اندازه و وزن از جدول مرجع APCA با فونت Barlow است؛ خوانایی فونت فارسی نیاز به ارزیابی جداگانه دارد.
+  - text:  منبع استاندارد داده‌ها بر پایه پکیج رسمی
+  - code: "@persian-palette/core"
+  - button "بستن پنجره": بستن شناسنامهٔ رنگ

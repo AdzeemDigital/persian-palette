@@ -1,0 +1,59 @@
+domain,feature_or_check,owner,performed_checks,evidence,status,gaps_or_findings
+A,Source-of-truth map and generated artifacts,A00/A01,"Traced data/src/app to dist, tokens, HTML, release; rebuilt and diffed",SCOPE_AND_BASELINE.md; evidence/A00-baseline/,pass,-
+A,Browser/core duplication,A01,Checked app.js delegation to PersianCore; found dead duplicate helpers,agents/A00-lead-sequential-passes.md A01,pass,Dead code remains (MSR-API-004)
+A,Persian vs English edition divergence,A01/W2,Diffed build step; exercised both editions,scripts/build-app.mjs; W2 report,fail,MSR-I18N-002
+A,Lookup semantics and invalid input,A01,"Probed getColor/getPalette with IDs, names, hex, case, prototype keys",A00 A01; core.test.js,pass,Palette IDs are case-sensitive (documented as informational)
+A,ESM/CJS/.mts/.cts consumption,A01/W3,verify:package; separate type-import probe,verify-package.log.txt; evidence/W3-security/cts-type-import.log,fail,CJS type imports fail (MSR-REL-003)
+A,Stable IDs / versioned contracts,A01,Mutated English name and palette order in the diagnostic test,evidence/A13-qa/diagnostic.test.mjs,fail,MSR-API-001
+B,Oklab/sRGB transfer and round trip,A02,Compared against culori 4.0.2 and colorjs 0.5.2; 200k round trips,evidence/A02-color/,pass,-
+B,HCT/CAM16 and tonal palettes,A02,Compared against colorjs HCT; tested hue wrap and unreachable chroma,evidence/A02-color/,pass,hctToHex silently reduces chroma (MSR-API-003)
+B,APCA polarity and values,A02,"3,000 pairs against colorjs contrastAPCA",evidence/A02-color/,pass,-
+B,WCAG 2.x ratio,A02,"3,000 pairs against colorjs WCAG21",evidence/A02-color/,pass,Badge labels overclaim (MSR-UX-001)
+B,Gamut behavior in mixing,A02,"7,665 interpolants checked for gamut and clipping error",evidence/A02-color/,pass-with-limitation,MSR-SCI-003
+B,Measurement/spectral/physical wording,A02/W2,Grepped wording; tested dominant-wavelength plausibility,evidence/A02-color/; MSR-SCI-002,fail,"MSR-SCI-001, MSR-SCI-002"
+B,Physical measurement provenance,A02,Checked for instrument/illuminant/specimen metadata,DATA_QUALITY.md,not-applicable,No measurement is claimed in the data model (measuredSpectra 0); it must stay that way
+C,"Field-level cultural claims (72 colors, 12 palettes)",W1,"Generated 1,271-row ledger; reviewed statuses",CULTURAL_CLAIMS.csv; evidence/W1-cultural/build-claims.mjs,fail,MSR-CULT-001..005
+C,Primary/scholarly source verification,W1,"Attempted UNESCO, PubChem, CAS, Wikipedia, mindat and museum sites",SOURCES.md; evidence/W1-cultural/source-notes.md,blocked,Egress policy blocked primary sites; mirrors used; no manuscript read
+C,Coordinates vs claimed site,W1,Haversine distances to WHC reference points (2014 mirror),agents/W1-data-quality-draft.md §2,fail,MSR-CULT-001 (grid coordinates); Hormuz/Persepolis mismatch
+C,Regional/chronological representation,W1,Qualitative review from background knowledge,agents/W1-cultural-review.md,fail,MSR-CULT-004; needs expert human review
+D,"Schema, counts, duplicates, drift",W1/A13,Recomputed counts; checked hard-coded report values,DATA_QUALITY.md,fail,MSR-DATA-002; 1 duplicate HEX
+D,Exporters preserve provenance,W1/W2,Inspected every output format,DATA_QUALITY.md §5,fail,MSR-DATA-003
+D,Citability,W1,"Checked CITATION.cff, data license, version, correction history",DATA_QUALITY.md §6,fail,MSR-DATA-004
+E,"Persian orthography, ZWNJ, ye/kaf, digits",W1,Scripted scan of data and UI,evidence/W1-cultural/persian-orthography-scan.out.json,pass,-
+E,Normalization / search keys,W1,24-case probe,evidence/W1-cultural/normalization-probe.out.txt,fail,MSR-I18N-003
+E,Bilingual semantic parity,A06/W1/W2,Verbatim fa vs en comparison; language-toggle leftover count,agents/W1-persian-language.md; W2,fail,"MSR-I18N-001 (High), MSR-I18N-002"
+E,Mixed RTL/LTR rendering,W2,Screenshots of hex/Latin in RTL,evidence/W2-browser/screens/,fail,MSR-I18N-006
+E,Unsupported superlatives,W1/W2/A06,Grepped Persian and English copy,agents/W1-persian-language.md §4,fail,"MSR-CULT-002 (merged with former I18N-004)"
+F,Automated accessibility (axe),W2,"axe-core 4.13.0 with WCAG 2.2 AA tags, 2 editions x 2 themes x dialogs",evidence/W2-browser/results/04-axe-summary.json,fail,"4 rules, 875 nodes"
+F,"Keyboard, focus, dialogs, skip link",W2,"80 tab stops; trap, Escape and restore",results/05-keyboard-a11y.json,pass,-
+F,Contrast of rendered text,W2,getComputedStyle sampling in both themes,results/06-perf-graphics.json,fail,"MSR-A11Y-001 (merged with former A11Y-003)"
+F,Reflow and zoom,W2,320x640; 400% emulated at 320x256,results/08-zoom400.json,fail,MSR-A11Y-002
+F,Screen reader,W2,None available,-,not-tested,No NVDA/JAWS/VoiceOver/TalkBack in environment
+F,Persian font readability,A02/W2,-,-,not-tested,Requires user testing; APCA is calibrated for Barlow
+G,All workflows and exports,W2,Exercised about 409 controls across 9 dialogs,results/02-workflows.json,pass,Content issues in MSR-DATA-003
+G,Console/runtime errors,W2,8 cold-load configurations,results/01-smoke.json,pass,-
+G,"WebGL lifecycle, fallback, performance",W2,"Frame counts, no-WebGL, context loss, resize, heap over 10 cycles",results/06-perf-graphics.json,fail,MSR-GFX-001/002/003
+G,Offline and external requests,W2,Network blocked; request log,results/01-smoke.json; 02-workflows.json,pass,Photo mode fails silently offline
+G,Camera/clipboard permission states,W2,Fake device; grant and deny,"results/02, 03",pass,Camera error not announced (MSR-A11Y-006)
+G,Privacy data flows,W2/W3,Storage dump; request hosts,ACCESSIBILITY_AND_UX.md §3,pass-with-limitation,Wikimedia IP exposure only partly disclosed (MSR-LIC-003)
+G,Safari/Firefox/real devices,W2,-,-,not-tested,Not available
+H,DTCG 2025.10 conformance,W3,Compared against spec source from GitHub (site blocked),W3 §6,pass,-
+H,Style Dictionary 5.5.5,W3,Built 5 platforms from the shipped JSON,evidence/W3-security/interop/style-dictionary.log,pass,-
+H,Tailwind v3 and v4,W3,Compiled real utilities with 3.4.19 and 4.3.3,interop/tailwind.log,pass,Step semantics issue (MSR-INT-002)
+H,Kotlin/Compose compile,W3,kotlinc 2.1.21 with Compose desktop jars,kotlin-compile.log,pass,Android/AGP not tested; 24 of 36 roles (MSR-INT-003)
+H,Swift/SwiftUI compile,W3,Static identifier check only,W3 §6,not-tested,swiftc unavailable; exact commands provided
+H,Figma / Tokens Studio import,W3,Type-checked against the plugin typings; structure check,figma-typecheck.log,not-tested,No Figma runtime; MSR-INT-004
+H,Exporter injection/robustness,W3/A13,Crafted names and IDs,exporter-injection-probe.log,fail,MSR-INT-001
+I,Threat model and DOM sinks,W3,16 sinks traced to their sources,W3 §3; dom-sinks.log,pass,Latent pattern risk (MSR-SEC-001)
+I,Local server exposure,W3,Live traversal probes,serve-probe.log; W3-SENSITIVE.md,pass,No Host check; follows symlinks (Low)
+I,Dependency advisories,W3,npm audit x4,npm-audit.log,pass,-
+I,CI permissions and pinning,W3,Checked workflow; ls-remote SHA pins,release-ci-facts.log,pass,Template release.yml unpinned (MSR-REL-005)
+I,License inventory and notices,W3,"Traced what ships in npm, HTML and ZIP",SECURITY_AND_LICENSES.md,fail,MSR-LIC-001/002/003; counsel questions
+J,Test suite quality,A13,Read all 26 tests; ran diagnostic tests,evidence/A13-qa/,fail,MSR-QA-001
+J,Clean build/pack/install outside repo,A00,"npm ci, check, pack, verify on an isolated clone",evidence/A00-baseline/,pass,-
+J,Source ZIP extracted and rebuilt elsewhere,A00,pack:studio on clean checkout,pack-studio-committed-manifest.log.txt,fail,MSR-REL-002
+J,Release vs declared commit,W3,GitHub release/tag metadata; asset comparison,release-ci-facts.log,fail,MSR-REL-001
+J,Documentation examples,A00/A06,Ran all 4 examples against the tarball and compared commented values,A00 A06,pass,The harness checks only the exit code
+J,Governance/attribution/AI disclosure,A06,"Read package.json, LICENSE, SECURITY, ROADMAP and review file",A00 A06,fail,"MSR-GOV-001, MSR-DOC-001"
+K,Brand identity inventory and migration plan,A00/W2,git grep counts; UI string inventory,BRAND_MIGRATION.md,pass,"Owner decisions pending (pronunciation, extension key, npm scope)"
+K,"External moves (repo rename, npm publish)",A00,Deliberately not performed,BRAND_MIGRATION.md,not-applicable,Out of scope for the audit by instruction

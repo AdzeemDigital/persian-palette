@@ -1,0 +1,542 @@
+[
+  {
+    "id": "isfahan-tiles",
+    "category": "architecture",
+    "nameFa": "کاشی‌کاری صفوی اصفهان",
+    "nameEn": "Safavid Tilework of Isfahan",
+    "description": "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و محراب‌های لاجوردی مسجد شاه و شیخ لطف‌الله در میدان نقش جهان اصفهان.",
+    "descriptionFa": "شاهکار هفت‌رنگ صفوی، کبالت و لاجورد اصیل، فیروزه‌ای استاندارد جهانی و محراب‌های لاجوردی مسجد شاه و شیخ لطف‌الله در میدان نقش جهان اصفهان.",
+    "culturalContext": "میدان نقش جهان، مسجد شاه (جامع عباسی) و مسجد شیخ لطف‌الله اصفهان",
+    "culturalContextFa": "میدان نقش جهان، مسجد شاه (جامع عباسی) و مسجد شیخ لطف‌الله اصفهان",
+    "unescoRef": "ثبت میراث جهانی یونسکو (UNESCO World Heritage Site)",
+    "unescoRefFa": "ثبت میراث جهانی یونسکو (UNESCO World Heritage Site)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg/960px-Mezquita_Shah%2C_Isfah%C3%A1n%2C_Ir%C3%A1n%2C_2016-09-20%2C_DD_71-73_HDR.jpg",
+    "colors": [
+      {
+        "id": "isfahan-tiles-c1",
+        "hex": "#120A8F",
+        "nameFa": "لاجوردی (Ultramarine)",
+        "nameEn": "Ultramarine Lapis",
+        "role": "رنگ پایه و زمینه",
+        "roleFa": "رنگ پایه و زمینه",
+        "roleEn": "Primary Accent",
+        "meaning": "اصلاح شده برای بازتاب دقیق کبالت و لاجورد کاشی‌های مسجد شاه",
+        "meaningFa": "اصلاح شده برای بازتاب دقیق کبالت و لاجورد کاشی‌های مسجد شاه",
+        "evidence": {
+          "mineralogical": {
+            "mineralName": "Lazurite Silicate & Cobalt(II) Oxide Glaze",
+            "mineralNameFa": "سنگ لاجورد طبیعی و کبالت کاشی هفت‌رنگ",
+            "chemicalFormula": "Na₆Ca₂[S|AlSiO₄]₆ + CoO",
+            "crystalSystem": "مکعبی ایزومتریک (Isometric)",
+            "traditionalExtraction": "تکلیس کانی لاجورد با صمغ عربی و کداخت کبالت در کوره کاشی هفت‌رنگ",
+            "historicalManuscriptRef": "عرائس الجواهر و نفائس الأطایب - ابوالقاسم کاشانی (قرن هشتم هجری)",
+            "casNumber": "1302-85-8"
+          },
+          "geoSpatial": {
+            "originSite": "Shah Mosque & Sheikh Lotfollah, Isfahan",
+            "originSiteFa": "مسجد شاه و شیخ لطف‌الله، میدان نقش جهان اصفهان",
+            "unescoHeritageRef": "UNESCO World Heritage Ref: 115 (Meidan Emam)",
+            "coordinates": {
+              "lat": 32.6514,
+              "lng": 51.6776,
+              "altitudeMeters": 1574
+            }
+          },
+          "spectral": {
+            "peakWavelengthNm": 455,
+            "dominantWavelengthNm": 452,
+            "reflectanceRange": [
+              0.03,
+              0.45
+            ],
+            "fwhmNm": 45
+          },
+          "colorScience": {
+            "srgb": {
+              "r": 18,
+              "g": 10,
+              "b": 143
+            },
+            "oklab": {
+              "L": 0.30729864071128765,
+              "a": -0.005219207488523336,
+              "b": -0.1943273088295207
+            },
+            "apca": {
+              "contrastOnWhite": 99.39669944754849,
+              "contrastOnBlack": 0,
+              "recommendedWeight": "Lc 90 (Fluent Body Text)"
+            }
+          },
+          "chemical": {
+            "historicalPigmentFa": "سنگ لاجورد طبیعی و کبالت کاشی هفت‌رنگ",
+            "chemicalName": "Lazurite Silicate & Cobalt(II) Oxide Glaze",
+            "formula": "Na₆Ca₂[S|AlSiO₄]₆ + CoO",
+            "casNumber": "1302-85-8"
+          },
+          "geo": {
+            "locationFa": "مسجد شاه و شیخ لطف‌الله، میدان نقش جهان اصفهان",
+            "latitude": 32.6514,
+            "longitude": 51.6776,
+            "elevationMeters": 1574,
+            "unescoSiteId": "UNESCO World Heritage Ref: 115 (Meidan Emam)"
+          },
+          "physics": {
+            "dominantWavelengthNm": 452,
+            "chromaOklab": 0.19439738445702445,
+            "spectralReflectancePeak": "455 nm",
+            "cieLab": {
+              "L": 17.12622008851139,
+              "a": 48.430315484030125,
+              "b": -67.20643414411582
+            }
+          },
+          "artMovement": "مکتب اصفهان / معماری صفوی و کاشی هفت‌رنگ",
+          "historicalContextFa": "کاشی‌کاری‌های معرق گنبد و محراب مسجد شاه اصفهان در دوره شاه عباس اول",
+          "provenance": {
+            "source": "legacy-v2.1.0",
+            "heritageStatus": "unverified",
+            "geographyStatus": "unverified",
+            "spectralStatus": "illustrative",
+            "colorMetricsStatus": "computed",
+            "methods": [
+              "sRGB D65",
+              "Oklab",
+              "CIELAB D65",
+              "apca-w3@0.1.9",
+              "material-color-utilities@0.3.0"
+            ],
+            "references": [
+              {
+                "label": "Oklab method",
+                "url": "https://bottosson.github.io/posts/oklab/",
+                "scope": "method"
+              },
+              {
+                "label": "APCA reference",
+                "url": "https://github.com/Myndex/apca-w3",
+                "scope": "method"
+              },
+              {
+                "label": "Material color utilities",
+                "url": "https://github.com/material-foundation/material-color-utilities",
+                "scope": "method"
+              }
+            ],
+            "historicalReference": {
+              "citation": "عرائس الجواهر و نفائس الأطایب - ابوالقاسم کاشانی (قرن هشتم هجری)",
+              "verification": "not-verified"
+            },
+            "conflicts": []
+          }
+        }
+      },
+      {
+        "id": "isfahan-tiles-c2",
+        "hex": "#30D5C8",
+        "nameFa": "فیروزه‌ای اصیل (Persian Turquoise)",
+        "nameEn": "Persian Turquoise",
+        "role": "نقوش اسلیمی میانی",
+        "roleFa": "نقوش اسلیمی میانی",
+        "roleEn": "Primary Accent",
+        "meaning": "استاندارد جهانی فیروزه‌ای ایرانی و نگین نیشابور",
+        "meaningFa": "استاندارد جهانی فیروزه‌ای ایرانی و نگین نیشابور",
+        "evidence": {
+          "mineralogical": {
+            "mineralName": "Hydrated Copper Aluminum Phosphate",
+            "mineralNameFa": "سنگ فیروزه نیشابور / لعاب مس قلیایی",
+            "chemicalFormula": "CuAl₆(PO₄)₄(OH)₈·4H₂O",
+            "crystalSystem": "تری‌کلینیک (Triclinic)",
+            "traditionalExtraction": "استخراج رگه‌ای دستی از کوه بینالود و پرداخت با خاکه ساینده",
+            "historicalManuscriptRef": "التفهیم لأوائل صناعة التنجیم - ابوریحان بیرونی",
+            "casNumber": "1319-32-0"
+          },
+          "geoSpatial": {
+            "originSite": "Neyshabur Turquoise Mines",
+            "originSiteFa": "معدن فیروزه نیشابور، خراسان رضوی",
+            "unescoHeritageRef": "ثبت میراث ملموس صنعتی-معدنی یونسکو",
+            "coordinates": {
+              "lat": 36.4633,
+              "lng": 58.8025,
+              "altitudeMeters": 1650
+            }
+          },
+          "spectral": {
+            "peakWavelengthNm": 498,
+            "dominantWavelengthNm": 496,
+            "reflectanceRange": [
+              0.12,
+              0.78
+            ],
+            "fwhmNm": 52
+          },
+          "colorScience": {
+            "srgb": {
+              "r": 48,
+              "g": 213,
+              "b": 200
+            },
+            "oklab": {
+              "L": 0.7902438791196864,
+              "a": -0.12850977857809898,
+              "b": -0.0151161996039193
+            },
+            "apca": {
+              "contrastOnWhite": 33.76924621328601,
+              "contrastOnBlack": -68.83739973098598,
+              "recommendedWeight": "Fail"
+            }
+          },
+          "chemical": {
+            "historicalPigmentFa": "سنگ فیروزه نیشابور / لعاب مس قلیایی",
+            "chemicalName": "Hydrated Copper Aluminum Phosphate",
+            "formula": "CuAl₆(PO₄)₄(OH)₈·4H₂O",
+            "casNumber": "1319-32-0"
+          },
+          "geo": {
+            "locationFa": "معدن فیروزه نیشابور، خراسان رضوی",
+            "latitude": 36.4633,
+            "longitude": 58.8025,
+            "elevationMeters": 1650,
+            "unescoSiteId": "ثبت میراث ملموس صنعتی-معدنی یونسکو"
+          },
+          "physics": {
+            "dominantWavelengthNm": 496,
+            "chromaOklab": 0.12939575990216046,
+            "spectralReflectancePeak": "498 nm",
+            "cieLab": {
+              "L": 77.51167927113046,
+              "a": -43.188744179357194,
+              "b": -5.320678198208051
+            }
+          },
+          "artMovement": "معماری صفوی و کتیبه‌نگاری ثلث",
+          "historicalContextFa": "نگین‌های کاشی‌کاری کتیبه‌های ثلث علیرضا عباسی در مسجد شیخ لطف‌الله",
+          "provenance": {
+            "source": "legacy-v2.1.0",
+            "heritageStatus": "unverified",
+            "geographyStatus": "conflicting",
+            "spectralStatus": "illustrative",
+            "colorMetricsStatus": "computed",
+            "methods": [
+              "sRGB D65",
+              "Oklab",
+              "CIELAB D65",
+              "apca-w3@0.1.9",
+              "material-color-utilities@0.3.0"
+            ],
+            "references": [
+              {
+                "label": "Oklab method",
+                "url": "https://bottosson.github.io/posts/oklab/",
+                "scope": "method"
+              },
+              {
+                "label": "APCA reference",
+                "url": "https://github.com/Myndex/apca-w3",
+                "scope": "method"
+              },
+              {
+                "label": "Material color utilities",
+                "url": "https://github.com/material-foundation/material-color-utilities",
+                "scope": "method"
+              }
+            ],
+            "historicalReference": {
+              "citation": "التفهیم لأوائل صناعة التنجیم - ابوریحان بیرونی",
+              "verification": "not-verified"
+            },
+            "conflicts": [
+              {
+                "field": "geo.latitude",
+                "selected": 36.4633,
+                "alternative": 36.2133,
+                "resolution": "unresolved"
+              },
+              {
+                "field": "geo.longitude",
+                "selected": 58.8025,
+                "alternative": 58.7958,
+                "resolution": "unresolved"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "isfahan-tiles-c3",
+        "hex": "#00A693",
+        "nameFa": "آبی زنگاری شاهی (Persian Green)",
+        "nameEn": "Persian Green",
+        "role": "سایه‌روشن کاشی‌کاری",
+        "roleFa": "سایه‌روشن کاشی‌کاری",
+        "roleEn": "Primary Accent",
+        "meaning": "معروف به Persian Green در کاتالوگ‌های جهانی",
+        "meaningFa": "معروف به Persian Green در کاتالوگ‌های جهانی",
+        "evidence": {
+          "mineralogical": {
+            "mineralName": "Basic Copper(II) Acetate",
+            "mineralNameFa": "زنگار مس سنتی (Verdigris)",
+            "chemicalFormula": "Cu(CH₃COO)₂·[Cu(OH)₂]₂",
+            "crystalSystem": "مونوکلینیک (Monoclinic)",
+            "traditionalExtraction": "اکسیداسیون صفحات مس خالص در بخارات سرکه انگور کهنه در مجاورت نمک آمونیاک",
+            "historicalManuscriptRef": "بیان الصناعات - حبیش تفلیسی (قرن ششم)",
+            "casNumber": "142-71-2"
+          },
+          "geoSpatial": {
+            "originSite": "Isfahan Royal Workshops",
+            "originSiteFa": "کارگاه‌های لعاب‌سازی صفوی، اصفهان",
+            "unescoHeritageRef": "UNESCO World Heritage Ref: 115",
+            "coordinates": {
+              "lat": 32.6575,
+              "lng": 51.6778,
+              "altitudeMeters": 1570
+            }
+          },
+          "spectral": {
+            "peakWavelengthNm": 515,
+            "dominantWavelengthNm": 510,
+            "reflectanceRange": [
+              0.08,
+              0.62
+            ],
+            "fwhmNm": 58
+          },
+          "colorScience": {
+            "srgb": {
+              "r": 0,
+              "g": 166,
+              "b": 147
+            },
+            "oklab": {
+              "L": 0.650106288399695,
+              "a": -0.11727746462581456,
+              "b": -0.0017412826327760644
+            },
+            "apca": {
+              "contrastOnWhite": 56.74123650928096,
+              "contrastOnBlack": -45.028275021931094,
+              "recommendedWeight": "Lc 45 (Large/Bold)"
+            }
+          },
+          "chemical": {
+            "historicalPigmentFa": "زنگار مس سنتی (Verdigris)",
+            "chemicalName": "Basic Copper(II) Acetate",
+            "formula": "Cu(CH₃COO)₂·[Cu(OH)₂]₂",
+            "casNumber": "142-71-2"
+          },
+          "geo": {
+            "locationFa": "کارگاه‌های لعاب‌سازی صفوی، اصفهان",
+            "latitude": 32.6575,
+            "longitude": 51.6778,
+            "elevationMeters": 1570,
+            "unescoSiteId": "UNESCO World Heritage Ref: 115"
+          },
+          "physics": {
+            "dominantWavelengthNm": 510,
+            "chromaOklab": 0.11729039080106432,
+            "spectralReflectancePeak": "515 nm",
+            "cieLab": {
+              "L": 61.11468572058895,
+              "a": -40.5317205685859,
+              "b": -0.39167379421085613
+            }
+          },
+          "artMovement": "هنرهای صناعی اصفهان و لعاب‌گری کوره",
+          "historicalContextFa": "ترکیب کهن زنگار مس و اسپرک در لعاب‌های پخته کوره مسجد جامع عباسی",
+          "provenance": {
+            "source": "legacy-v2.1.0",
+            "heritageStatus": "unverified",
+            "geographyStatus": "conflicting",
+            "spectralStatus": "illustrative",
+            "colorMetricsStatus": "computed",
+            "methods": [
+              "sRGB D65",
+              "Oklab",
+              "CIELAB D65",
+              "apca-w3@0.1.9",
+              "material-color-utilities@0.3.0"
+            ],
+            "references": [
+              {
+                "label": "Oklab method",
+                "url": "https://bottosson.github.io/posts/oklab/",
+                "scope": "method"
+              },
+              {
+                "label": "APCA reference",
+                "url": "https://github.com/Myndex/apca-w3",
+                "scope": "method"
+              },
+              {
+                "label": "Material color utilities",
+                "url": "https://github.com/material-foundation/material-color-utilities",
+                "scope": "method"
+              }
+            ],
+            "historicalReference": {
+              "citation": "بیان الصناعات - حبیش تفلیسی (قرن ششم)",
+              "verification": "not-verified"
+            },
+            "conflicts": [
+              {
+                "field": "geo.longitude",
+                "selected": 51.6778,
+                "alternative": 51.6775,
+                "resolution": "unresolved"
+              },
+              {
+                "field": "geo.elevationMeters",
+                "selected": 1570,
+                "alternative": 1574,
+                "resolution": "unresolved"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "isfahan-tiles-c4",
+        "hex": "#D4AF37",
+        "nameFa": "طلایی اسلیمی",
+        "nameEn": "Arabesque Gold",
+        "role": "کتیبه‌ها و حاشیه‌ها",
+        "roleFa": "کتیبه‌ها و حاشیه‌ها",
+        "roleEn": "Primary Accent",
+        "meaning": "تابش زرین خورشید بر طلاکاری‌های محراب معرق",
+        "meaningFa": "تابش زرین خورشید بر طلاکاری‌های محراب معرق",
+        "evidence": {
+          "mineralogical": {
+            "mineralName": "Elemental Gold",
+            "mineralNameFa": "ورق طلای ناب ۲۴ عیار (حلکاری زرین)",
+            "chemicalFormula": "Au",
+            "crystalSystem": "مکعبی وجه‌مرکز (FCC Metallic)",
+            "traditionalExtraction": "کوبش ورق طلای ناب در پوست آهو تا ضخامت زیر ۰.۱ میکرون و تثبیت با سریشم ماهی",
+            "historicalManuscriptRef": "گلستان هنر - قاضی احمد قمی (۱۰۱۵ هجری)",
+            "casNumber": "7440-57-5"
+          },
+          "geoSpatial": {
+            "originSite": "Naqsh-e Jahan Mihrabs",
+            "originSiteFa": "محراب‌های معرق نقش جهان، اصفهان",
+            "unescoHeritageRef": "UNESCO World Heritage Ref: 115",
+            "coordinates": {
+              "lat": 32.6514,
+              "lng": 51.6776,
+              "altitudeMeters": 1574
+            }
+          },
+          "spectral": {
+            "peakWavelengthNm": 575,
+            "dominantWavelengthNm": 580,
+            "reflectanceRange": [
+              0.15,
+              0.85
+            ],
+            "fwhmNm": 65
+          },
+          "colorScience": {
+            "srgb": {
+              "r": 212,
+              "g": 175,
+              "b": 55
+            },
+            "oklab": {
+              "L": 0.7665277608767385,
+              "a": -0.0025638865196112026,
+              "b": 0.1386535224462575
+            },
+            "apca": {
+              "contrastOnWhite": 41.013550767356314,
+              "contrastOnBlack": -61.25179903550806,
+              "recommendedWeight": "Fail"
+            }
+          },
+          "chemical": {
+            "historicalPigmentFa": "ورق طلای ناب ۲۴ عیار (حلکاری زرین)",
+            "chemicalName": "Elemental Gold",
+            "formula": "Au",
+            "casNumber": "7440-57-5"
+          },
+          "geo": {
+            "locationFa": "محراب‌های معرق نقش جهان، اصفهان",
+            "latitude": 32.6514,
+            "longitude": 51.6776,
+            "elevationMeters": 1574,
+            "unescoSiteId": "UNESCO World Heritage Ref: 115"
+          },
+          "physics": {
+            "dominantWavelengthNm": 580,
+            "chromaOklab": 0.13867722524207166,
+            "spectralReflectancePeak": "575 nm",
+            "cieLab": {
+              "L": 72.84764248615137,
+              "a": 1.371657401659343,
+              "b": 62.916444070759916
+            }
+          },
+          "artMovement": "تذهیب و تشعیر صفوی",
+          "historicalContextFa": "طلاکاری‌های محراب معرق و کتیبه‌های زرین علیرضا عباسی در عالی‌قاپو",
+          "provenance": {
+            "source": "legacy-v2.1.0",
+            "heritageStatus": "unverified",
+            "geographyStatus": "conflicting",
+            "spectralStatus": "illustrative",
+            "colorMetricsStatus": "computed",
+            "methods": [
+              "sRGB D65",
+              "Oklab",
+              "CIELAB D65",
+              "apca-w3@0.1.9",
+              "material-color-utilities@0.3.0"
+            ],
+            "references": [
+              {
+                "label": "Oklab method",
+                "url": "https://bottosson.github.io/posts/oklab/",
+                "scope": "method"
+              },
+              {
+                "label": "APCA reference",
+                "url": "https://github.com/Myndex/apca-w3",
+                "scope": "method"
+              },
+              {
+                "label": "Material color utilities",
+                "url": "https://github.com/material-foundation/material-color-utilities",
+                "scope": "method"
+              }
+            ],
+            "historicalReference": {
+              "citation": "گلستان هنر - قاضی احمد قمی (۱۰۱۵ هجری)",
+              "verification": "not-verified"
+            },
+            "conflicts": [
+              {
+                "field": "geo.latitude",
+                "selected": 32.6514,
+                "alternative": 32.6571,
+                "resolution": "unresolved"
+              },
+              {
+                "field": "geo.longitude",
+                "selected": 51.6776,
+                "alternative": 51.6769,
+                "resolution": "unresolved"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "isfahan-tiles-c5",
+        "hex": "#F4F1DE",
+        "nameFa": "عاجی گچی محراب",
+        "nameEn": "Alabaster Glaze",
+        "role": "متن و روشنایی با کنتراست بالا",
+        "roleFa": "متن و روشنایی با کنتراست بالا",
+        "roleEn": "Primary Accent",
+        "meaning": "سپیدی نقوش گچ‌بری و کتیبه‌های ثلث مسجد شیخ لطف‌الله",
+        "meaningFa": "سپیدی نقوش گچ‌بری و کتیبه‌های ثلث مسجد شیخ لطف‌الله",
+        "evidence": {
+          "mineralogical": 
+/* …truncated by W2 for evidence size… */

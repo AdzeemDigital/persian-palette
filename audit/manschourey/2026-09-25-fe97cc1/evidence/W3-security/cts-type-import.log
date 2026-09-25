@@ -1,0 +1,15 @@
+# CJS/ESM TypeScript consumer type-import check. Committed release/persian-palette-core-3.0.0.tgz installed into a fresh project; tsc = packages/core devDependency typescript 7.0.2; module/moduleResolution NodeNext, strict
+## a.cts
+import type { PersianPaletteDefinition } from '@persian-palette/core';
+import core = require('@persian-palette/core');
+type P2 = core.PersianPaletteDefinition;
+const p: PersianPaletteDefinition | undefined = undefined;
+export { p };
+## b.mts
+import type { PersianPaletteDefinition } from '@persian-palette/core';
+const p: PersianPaletteDefinition | undefined = undefined;
+export { p };
+## tsc output
+a.cts(1,15): error TS2305: Module '"@persian-palette/core"' has no exported member 'PersianPaletteDefinition'.
+a.cts(3,11): error TS2503: Cannot find namespace 'core'.
+## installed node_modules: @material @persian-palette apca-w3 colorparsley 

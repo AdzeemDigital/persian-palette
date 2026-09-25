@@ -1,0 +1,200 @@
+
+> manshour-studio@3.0.0 check
+> npm run build && npm test
+
+
+> manshour-studio@3.0.0 build
+> npm --prefix packages/core run build && node scripts/build-app.mjs
+
+
+> @persian-palette/core@3.0.0 build
+> tsc && node scripts/build.js
+
+Built core 3.0.0: ESM, CommonJS, types, DTCG, Tokens Studio, Figma interchange and platform exports.
+Built standalone studio (FA/bilingual): 3143964 bytes; SHA-256 97fda1e88324c2f45bedae4b9b3c2bfb3cbba37048fe569c8b348fd228a83224
+Built standalone studio (EN standalone): 3143964 bytes; SHA-256 6062013a2a05fe1082437f7e4769406e866443570fe39df65be18f3938af09ab
+
+> manshour-studio@3.0.0 test
+> npm --prefix packages/core test && node --test tests/*.test.mjs
+
+
+> @persian-palette/core@3.0.0 test
+> node --test scripts/*.test.js
+
+TAP version 13
+# Subtest: Persian names and Arabic variants resolve correctly
+ok 1 - Persian names and Arabic variants resolve correctly
+  ---
+  duration_ms: 3.752393
+  type: 'test'
+  ...
+# Subtest: all 72 IDs, full English and Persian names resolve uniquely
+ok 2 - all 72 IDs, full English and Persian names resolve uniquely
+  ---
+  duration_ms: 15.923796
+  type: 'test'
+  ...
+# Subtest: empty, unknown, prototype and ambiguous queries never silently substitute a color
+ok 3 - empty, unknown, prototype and ambiguous queries never silently substitute a color
+  ---
+  duration_ms: 1.106337
+  type: 'test'
+  ...
+# Subtest: hex accepts normalized \#RGB and rejects malformed or transparent inputs
+ok 4 - hex accepts normalized \#RGB and rejects malformed or transparent inputs
+  ---
+  duration_ms: 2.169773
+  type: 'test'
+  ...
+# Subtest: APCA independently pinned golden cases and polarity
+ok 5 - APCA independently pinned golden cases and polarity
+  ---
+  duration_ms: 0.428207
+  type: 'test'
+  ...
+# Subtest: APCA font lookup uses actual reference table
+ok 6 - APCA font lookup uses actual reference table
+  ---
+  duration_ms: 0.295451
+  type: 'test'
+  ...
+# Subtest: HCT red golden coordinates use CAM16
+ok 7 - HCT red golden coordinates use CAM16
+  ---
+  duration_ms: 1.099461
+  type: 'test'
+  ...
+# Subtest: HCT tonal golden colors and L* target accuracy across all seed colors
+ok 8 - HCT tonal golden colors and L* target accuracy across all seed colors
+  ---
+  duration_ms: 31.267577
+  type: 'test'
+  ...
+# Subtest: Material role pairs retain normal-text contrast for all 72 seeds in both themes
+ok 9 - Material role pairs retain normal-text contrast for all 72 seeds in both themes
+  ---
+  duration_ms: 177.25884
+  type: 'test'
+  ...
+# Subtest: Oklab forward conversion has known red coordinates and reversible sRGB round trips
+ok 10 - Oklab forward conversion has known red coordinates and reversible sRGB round trips
+  ---
+  duration_ms: 1.213352
+  type: 'test'
+  ...
+# Subtest: mixing ratio means second color weight; endpoints, symmetry, invalid inputs
+ok 11 - mixing ratio means second color weight; endpoints, symmetry, invalid inputs
+  ---
+  duration_ms: 0.615596
+  type: 'test'
+  ...
+# Subtest: all generated evidence aliases agree, computed fields match and unresolved evidence is explicit
+ok 12 - all generated evidence aliases agree, computed fields match and unresolved evidence is explicit
+  ---
+  duration_ms: 1.217717
+  type: 'test'
+  ...
+# Subtest: canonical data cannot be mutated by a consumer
+ok 13 - canonical data cannot be mutated by a consumer
+  ---
+  duration_ms: 0.520983
+  type: 'test'
+  ...
+# Subtest: DTCG shape, metadata placement, values, subset and 72 distinct tokens
+ok 14 - DTCG shape, metadata placement, values, subset and 72 distinct tokens
+  ---
+  duration_ms: 1.357329
+  type: 'test'
+  ...
+# Subtest: Figma interchange and legacy Tokens Studio have explicitly different contracts
+ok 15 - Figma interchange and legacy Tokens Studio have explicitly different contracts
+  ---
+  duration_ms: 1.660811
+  type: 'test'
+  ...
+# Subtest: spectral model is bounded and validates parameters
+ok 16 - spectral model is bounded and validates parameters
+  ---
+  duration_ms: 0.44737
+  type: 'test'
+  ...
+# Subtest: SwiftUI export needs no undeclared hex initializer and Material export includes both themes
+ok 17 - SwiftUI export needs no undeclared hex initializer and Material export includes both themes
+  ---
+  duration_ms: 4.284842
+  type: 'test'
+  ...
+# Subtest: CommonJS and ESM package entry points expose matching data and results
+ok 18 - CommonJS and ESM package entry points expose matching data and results
+  ---
+  duration_ms: 23.276745
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 480.837138
+TAP version 13
+# Subtest: Style Dictionary 5 actually consumes all DTCG colors and formats CSS
+ok 1 - Style Dictionary 5 actually consumes all DTCG colors and formats CSS
+  ---
+  duration_ms: 140.292474
+  type: 'test'
+  ...
+# Subtest: standalone HTML has no external runtime script, style or font requests
+ok 2 - standalone HTML has no external runtime script, style or font requests
+  ---
+  duration_ms: 3.145178
+  type: 'test'
+  ...
+# Subtest: all generated scripts parse and canonical browser bundle matches package output
+ok 3 - all generated scripts parse and canonical browser bundle matches package output
+  ---
+  duration_ms: 148.775138
+  type: 'test'
+  ...
+# Subtest: static HTML IDs are unique and all literal UI targets exist
+ok 4 - static HTML IDs are unique and all literal UI targets exist
+  ---
+  duration_ms: 2.555058
+  type: 'test'
+  ...
+# Subtest: contrast optimization preserves or improves contrast and reports the measured grade
+ok 5 - contrast optimization preserves or improves contrast and reports the measured grade
+  ---
+  duration_ms: 48.597683
+  type: 'test'
+  ...
+# Subtest: literal event handlers reference defined functions
+ok 6 - literal event handlers reference defined functions
+  ---
+  duration_ms: 23.811343
+  type: 'test'
+  ...
+# Subtest: accessibility and provenance affordances are present in shipped source
+ok 7 - accessibility and provenance affordances are present in shipped source
+  ---
+  duration_ms: 3.203726
+  type: 'test'
+  ...
+# Subtest: local HTTP server serves artifact, rejects arbitrary files and unsupported methods
+ok 8 - local HTTP server serves artifact, rejects arbitrary files and unsupported methods
+  ---
+  duration_ms: 210.640096
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2010.536194
+exit=0

@@ -1,0 +1,13 @@
+"$description" W3C own keys: ["$description"] $description now: object JSON: {"$description":{"$description":"پ (P)","color":{"$type":"color","$value":{"colorSpace":"srgb","components":[0.066666666
+"$description" Tailwind own keys: ["$description"]
+"$description" TokensStudio own keys: ["$description"]
+"__proto__" W3C own keys: ["$description"] $description now: string JSON: {"$description":"Persian-inspired sRGB colors; heritage annotations are not laboratory authentication."}
+"__proto__" Tailwind own keys: []
+"__proto__" TokensStudio own keys: ["__proto__"]
+"constructor" W3C own keys: ["$description","constructor"] $description now: string JSON: {"$description":"Persian-inspired sRGB colors; heritage annotations are not laboratory authentication.","constructor":{"
+"constructor" Tailwind own keys: ["constructor"]
+"constructor" TokensStudio own keys: ["constructor"]
+Kotlin empty palette THROWS: Cannot read properties of undefined (reading 'hex')
+W3C invalid hex THROWS: Expected an opaque sRGB color in #RGB or #RRGGBB format
+Tailwind v3 invalid hex passthrough: {"x":{"100":"red;}"}}
+Tailwind v4 invalid hex passthrough: "@theme {\n  /* پ (P) */\n  --color-persian-x-100: red; } body { x: y; /* رنگ */\n}\n"
