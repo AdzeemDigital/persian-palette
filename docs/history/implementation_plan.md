@@ -1,3 +1,7 @@
+> [!NOTE]
+> **Historical Archive Document (Superseded)**
+> This document records development history prior to the 2026-09-25 audit and is preserved for historical reference only.
+
 # وضعیت اجرای نسخهٔ ۳.۰.۰
 
 ## کارهای انجام‌شده
@@ -24,3 +28,4 @@
 - انتشار عمومی npm یا استقرار سایت.
 
 این موارد به‌عنوان انجام‌شده گزارش نشده‌اند. جزئیات در docs/verification.md ثبت شده است.
+

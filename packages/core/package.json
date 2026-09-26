@@ -2,7 +2,7 @@
   "name": "@persian-palette/core",
   "version": "3.0.0",
   "description": "Persian-inspired design colors, reference HCT and APCA, and DTCG 2025.10 tokens with explicit evidence provenance.",
-  "author": "Persian Palette Vault Working Group",
+  "author": "Majid ZeidAbadiNejad (Adzeem Digital)",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",

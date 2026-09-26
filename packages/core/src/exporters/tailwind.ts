@@ -28,14 +28,26 @@ export function exportTailwindTheme(palettes: PersianPaletteDefinition[] = ALL_P
   };
 }
 
+function sanitizeComment(text: string): string {
+  let s = String(text ?? '');
+  s = s.replace(/[{}\r\n]/g, '');
+  while (s.includes('*/') || s.includes('/*')) {
+    s = s.replace(/\/\*|\*\//g, '');
+  }
+  return s.trim();
+}
+
 export function exportTailwindV4CSS(palettes: PersianPaletteDefinition[] = ALL_PALETTES_LIST): string {
   let css = '@theme {\n';
   for (const palette of palettes) {
-    css += `  /* ${palette.nameFa} (${palette.nameEn}) */\n`;
+    const pNameFa = sanitizeComment(palette.nameFa);
+    const pNameEn = sanitizeComment(palette.nameEn);
+    css += `  /* ${pNameFa} (${pNameEn}) */\n`;
     for (let i = 0; i < palette.colors.length; i++) {
       const color = palette.colors[i];
       const step = (i + 1) * 100;
-      css += `  --color-persian-${palette.id}-${step}: ${color.hex}; /* ${color.nameFa} */\n`;
+      const cNameFa = sanitizeComment(color.nameFa);
+      css += `  --color-persian-${palette.id}-${step}: ${color.hex}; /* ${cNameFa} */\n`;
     }
   }
   css += '}\n';

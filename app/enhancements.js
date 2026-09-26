@@ -1,17 +1,26 @@
 function renderEvidenceProvenance(color) {
   const node=document.getElementById('evidenceProvenance');
   if(!node) return;
-  const provenance=color.evidence.provenance;
-  const conflicts=provenance.conflicts.filter(c=>c.field.startsWith('geo.'));
+  const provenance=color.evidence?.provenance || {};
+  const conflicts=(provenance.conflicts || []).filter(c=>c.field.startsWith('geo.'));
   const isEn = typeof currentLang !== 'undefined' && currentLang === 'en';
+  const status = provenance.heritageStatus || 'unverified';
+  const isUnverified = status === 'unverified';
+
   if (isEn) {
-    node.textContent='Color metrics: computed from sRGB • Spectral & 3D Texture: Simulation • Historical & Mineral: Primary source documented.';
+    const materialStatus = isUnverified
+      ? 'Source verification needed (unverified).'
+      : `Primary source documented (${status}).`;
+    node.textContent = `Color metrics: computed from sRGB • Spectral & 3D Texture: Simulation • Historical & Material: ${materialStatus}`;
     if(conflicts.length) node.textContent+=' Geographic data divergence: '+conflicts.map(c=>c.field.split('.').at(-1)+' '+c.selected+' / '+c.alternative).join(', ')+'; Displayed coordinates follow initial site registry.';
   } else {
-    node.textContent='محاسبات رنگ: از sRGB • طیف و بافت: شبیه‌سازی • اطلاعات تاریخی و ماده: نیازمند بررسی منبع.';
+    const materialStatus = isUnverified
+      ? 'نیازمند بررسی منبع (تأییدنشده).'
+      : `مستند به منبع (${status}).`;
+    node.textContent = `محاسبات رنگ: از sRGB • طیف و بافت: شبیه‌سازی • اطلاعات تاریخی و ماده: ${materialStatus}`;
     if(conflicts.length) node.textContent+=' اختلاف در دادهٔ جغرافیایی: '+conflicts.map(c=>c.field.split('.').at(-1)+' '+c.selected+' / '+c.alternative).join('،')+'؛ مختصات نمایش‌داده‌شده از رکورد اولیهٔ نقشه است.';
   }
-  node.dataset.state=conflicts.length?'conflicting':'unverified';
+  node.dataset.state=conflicts.length?'conflicting':status;
 }
 
 window.addEventListener('DOMContentLoaded',()=>{
@@ -55,7 +64,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     d.setAttribute('role','dialog');d.tabIndex=-1;
     const heading=d.querySelector('h2,h3,h4');
     if(heading){if(!heading.id)heading.id=d.id+'Heading';d.setAttribute('aria-labelledby',heading.id);}
-    else d.setAttribute('aria-label','پنجرهٔ ابزار رنگ');
+    else d.setAttribute('aria-label', (typeof currentLang !== 'undefined' && currentLang === 'en') ? 'Color Tool Dialog' : 'پنجرهٔ ابزار رنگ');
     new MutationObserver(sync).observe(d,{attributes:true,attributeFilter:['class']});
     d.addEventListener('click',e=>{if(e.target===d)close(d);});
   });
@@ -83,7 +92,8 @@ window.addEventListener('DOMContentLoaded',()=>{
   function labelControls(root) {
     root.querySelectorAll('button').forEach(b=>{
       if(!b.textContent.trim()&&!b.hasAttribute('aria-label')){
-        const label=b.title||(b.getAttribute('onclick')?.startsWith('close')?'بستن پنجره':'انتخاب رنگ');
+        const isEnE = (typeof currentLang !== 'undefined' && currentLang === 'en');
+        const label=b.title||(b.getAttribute('onclick')?.startsWith('close')?(isEnE ? 'Close dialog' : 'بستن پنجره'):(isEnE ? 'Select color' : 'انتخاب رنگ'));
         b.setAttribute('aria-label',label);
       }
     });
@@ -93,7 +103,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     root.querySelectorAll('input,select').forEach(n=>{
       if(n.hasAttribute('aria-label')||n.labels?.length) return;
       const text=n.closest('div')?.querySelector('label')?.textContent.trim();
-      n.setAttribute('aria-label',text||n.title||'تنظیم رنگ');
+      n.setAttribute('aria-label',text||n.title||((typeof currentLang !== 'undefined' && currentLang === 'en') ? 'Adjust color' : 'تنظیم رنگ'));
     });
   }
 
@@ -102,13 +112,14 @@ window.addEventListener('DOMContentLoaded',()=>{
     for(const r of records) for(const node of r.addedNodes) if(node.nodeType===1) {
       labelControls(node);
       if(node.matches('button')&&!node.textContent.trim()&&!node.hasAttribute('aria-label'))
-        node.setAttribute('aria-label',node.title||'انتخاب رنگ');
+        node.setAttribute('aria-label',node.title||((typeof currentLang !== 'undefined' && currentLang === 'en') ? 'Select color' : 'انتخاب رنگ'));
     }
   }).observe(document.body,{childList:true,subtree:true});
 
   sync();
   const note=document.createElement('p');note.className='apca-note';
-  note.textContent='راهنمای اندازه و وزن از جدول مرجع APCA با فونت Barlow است؛ خوانایی فونت فارسی نیاز به ارزیابی جداگانه دارد.';
+  const isEn = typeof currentLang !== 'undefined' && currentLang === 'en';
+  note.textContent=isEn ? 'Size and weight guide is from reference APCA table with Barlow font; Persian font legibility requires separate evaluation.' : 'راهنمای اندازه و وزن از جدول مرجع APCA با فونت Barlow است؛ خوانایی فونت فارسی نیاز به ارزیابی جداگانه دارد.';
   document.getElementById('evApcaMatrixTbody')?.closest('table')?.after(note);
   document.querySelectorAll('[class*="ev-color-pill"]').forEach(n=>n.setAttribute('aria-label',n.title));
 });

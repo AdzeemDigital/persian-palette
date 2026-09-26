@@ -2,7 +2,7 @@
 export interface ChemicalEvidence {
     historicalPigmentFa: string;
     chemicalName: string;
-    formula: string;
+    formula?: string;
     casNumber?: string;
     molarMass?: string;
 }
@@ -14,7 +14,7 @@ export interface GeoSpatialEvidence {
     unescoSiteId?: string;
 }
 export interface PhysicsEvidence {
-    dominantWavelengthNm: number;
+    dominantWavelengthNm?: number;
     chromaOklab: number;
     spectralReflectancePeak: string;
     cieLab: {
@@ -26,15 +26,15 @@ export interface PhysicsEvidence {
 export interface MineralogicalEvidence {
     mineralName: string;
     mineralNameFa: string;
-    chemicalFormula: string;
+    chemicalFormula?: string;
     crystalSystem: string;
     traditionalExtraction: string;
-    historicalManuscriptRef: string;
+    historicalManuscriptRef?: string;
     casNumber?: string;
 }
 export interface SpectralEvidence {
     peakWavelengthNm: number;
-    dominantWavelengthNm: number;
+    dominantWavelengthNm?: number;
     reflectanceRange: [number, number];
     fwhmNm: number;
 }
@@ -73,9 +73,9 @@ export interface EvidenceConflict {
 }
 export interface EvidenceProvenance {
     source: 'legacy-v2.1.0';
-    heritageStatus: 'unverified';
+    heritageStatus: 'unverified' | 'verified';
     geographyStatus: 'unverified' | 'conflicting';
-    spectralStatus: 'illustrative';
+    spectralStatus: 'illustrative' | 'measured';
     colorMetricsStatus: 'computed';
     methods: string[];
     references: {
@@ -84,7 +84,7 @@ export interface EvidenceProvenance {
         scope: 'method';
     }[];
     historicalReference: {
-        citation: string;
+        citation?: string;
         verification: 'not-verified';
     };
     conflicts: EvidenceConflict[];

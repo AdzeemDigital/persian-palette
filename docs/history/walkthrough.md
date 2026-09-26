@@ -1,3 +1,7 @@
+> [!NOTE]
+> **Historical Archive Document (Superseded)**
+> This document records development history prior to the 2026-09-25 audit and is preserved for historical reference only.
+
 # تحویل استودیوی رنگ پارسی ۳.۰.۰ (به‌روزرسانی تم روشن و نسخه انگلیسی)
 
 نسخهٔ اصلاح‌شدهٔ استودیو در این پروژه با رفع کامل خطاهای کارکردی، افزودن تم روشن فاخر و تولید نسخهٔ استاندارد انگلیسی بازتولید شده است. این سیستم ۱۲ پالت و ۷۲ رنگ تاریخی را پوشش می‌دهد.
@@ -6,8 +10,8 @@
 
 ۱. **اجرای سرور محلی:** در ریشهٔ پروژه، دستور `npm start` را اجرا کرده و به نشانی `http://127.0.0.1:4173/` مراجعه کنید.
 ۲. **خروجی‌های مستقل HTML:**
-   - خروجی فارسی و دوزبانه: [`code_artifact.html`](file:///c:/Users/black/Desktop/AI%20PROJECT%202026/Manshour/code_artifact.html) (همراه با دکمه‌های سوئیچ تم و زبان در هدر)
-   - خروجی استاندارد انگلیسی: [`code_artifact_en.html`](file:///c:/Users/black/Desktop/AI%20PROJECT%202026/Manshour/code_artifact_en.html) (چیدمان چپ‌به‌راست و اصطلاحات مهندسی بین‌المللی)
+   - خروجی فارسی و دوزبانه: [`code_artifact.html`](../../code_artifact.html) (همراه با دکمه‌های سوئیچ تم و زبان در هدر)
+   - خروجی استاندارد انگلیسی: [`code_artifact_en.html`](../../code_artifact_en.html) (چیدمان چپ‌به‌راست و اصطلاحات مهندسی بین‌المللی)
 ۳. **بستهٔ npm هسته:** فایل `release/persian-palette-core-3.0.0.tgz` با پشتیبانی از ESM و CommonJS.
 ۴. **آرشیو کامل توزیع:** فایل `release/manshour-studio-3.0.0.zip` شامل تمام سورس‌ها، خروجی‌ها و مستندات.
 
@@ -43,3 +47,4 @@
 | `docs/build-manifest.json` | اندازه و هش‌های رمزنگاری خروجی‌ها |
 
 تمام ۲۶ آزمون واحد و یکپارچگی پاس شده و تست زنده رابط کاربری با DevTools مرورگر به تایید نهایی رسیده است.
+

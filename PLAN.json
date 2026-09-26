@@ -1,0 +1,46 @@
+{
+  "objective": "Remediate audit findings (MSR-CULT-001, MSR-I18N-001, MSR-A11Y-001, MSR-A11Y-002, MSR-LIC-001, MSR-SCI-001, and associated Medium/Low defects) across packages/core, app, docs, scripts, and exports, turning failing diagnostic tests into green regression guards while preserving 100% existing test pass rate.",
+  "steps": [
+    {
+      "step": 1,
+      "description": "Cleanse cultural and chemical data: remove water CAS 7732-18-5 placeholders, Matrix-#HEX formulas, generic manuscripts/crystals/UNESCO tags, arithmetic grid coordinates, and impossible dominant wavelengths in packages/core/src/tokens/.",
+      "verification": "node --test audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs passes dominantWavelengthNm and grep for 7732-18-5 returns 0 matches in src/."
+    },
+    {
+      "step": 2,
+      "description": "Fix Persian name normalization (Alef Maksura, Teh Marbuta, Yeh with Hamza, Arabic variants, numerals) in packages/core/src/color/names.ts and compute data quality counts dynamically in packages/core/src/tokens/palettes.ts.",
+      "verification": "node --test audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs passes normalizeColorName and data-quality counts tests."
+    },
+    {
+      "step": 3,
+      "description": "Fix Core API & Exporters: sanitize CSS comments in exportTailwindV4CSS to prevent breakout, ensure stable token paths in exportW3CTokens, and fix evaluateAPCA.minFontSizePx so apca-w3 special codes (>=400) are not returned as pixel numbers.",
+      "verification": "node --test audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs passes Tailwind v4, token paths, and evaluateAPCA tests."
+    },
+    {
+      "step": 4,
+      "description": "Rebuild packages/core and verify all 18 core tests pass with npm --prefix packages/core test.",
+      "verification": "npm --prefix packages/core test passes completely with 0 failures."
+    },
+    {
+      "step": 5,
+      "description": "Fix UI, Accessibility, and i18n in app/template.html, app/polish.css, and app/enhancements.js: resolve light-theme contrast (!important removal, proper tokens, calculated badge), unstick header at 400% zoom / short viewports, invert English false provenance claims to honest hedged labels, tone down marketing exaggerations ('استاندارد جهانی', 'اصیل'), and set English <title>.",
+      "verification": "Rebuilt studio matches diagnostic expectations: English title test passes, manual contrast ratio verification >= 4.5:1, sticky header CSS media query verified."
+    },
+    {
+      "step": 6,
+      "description": "Address governance, security, and release hygiene: update package.json author and AI disclosure, add .gitattributes with eol=lf, update serve.mjs with English route and path resolution, and move root scratch/review docs to docs/history/ with stripped local paths.",
+      "verification": "git diff and grep for Working Group / file:///c: return 0 matches; serve.mjs serves /code_artifact_en.html."
+    },
+    {
+      "step": 7,
+      "description": "Rebuild studio artifacts (code_artifact.html, code_artifact_en.html, docs/build-manifest.json), update tokens, and run complete test suite and diagnostic tests.",
+      "verification": "node --test audit/manschourey/2026-09-25-fe97cc1/evidence/A13-qa/diagnostic.test.mjs passes 11/11 tests (all 8 DEFECT tests now passing, all 3 GUARD tests passing), npm test passes 100%."
+    }
+  ],
+  "rollback_strategy": "git checkout -f fix/audit-remediation or reset to commit 62cd8a7 if any unrecoverable regression occurs.",
+  "risks": [
+    "Rebuilding tokens or modifying palettes.ts might affect existing core unit tests if assertions expect exact legacy placeholder values.",
+    "Modifying HTML templates might invalidate hash checks if build-manifest.json is not regenerated synchronously.",
+    "BiDi rendering in Persian text could scramble if strong RTL anchors and inline code isolation are not strictly maintained."
+  ]
+}

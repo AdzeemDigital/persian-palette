@@ -88,14 +88,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 115 (Meidan Emam)"
               },
               "physics": {
-                "dominantWavelengthNm": 452,
                 "chromaOklab": 0.19439738445702445,
                 "spectralReflectancePeak": "455 nm",
                 "cieLab": {
                   "L": 17.12622008851139,
                   "a": 48.430315484030125,
                   "b": -67.20643414411582
-                }
+                },
+                "dominantWavelengthNm": 452
               },
               "artMovement": "مکتب اصفهان / معماری صفوی و کاشی هفت‌رنگ",
               "historicalContextFa": "کاشی‌کاری‌های معرق گنبد و محراب مسجد شاه اصفهان در دوره شاه عباس اول",
@@ -217,14 +217,14 @@
                 "unescoSiteId": "ثبت میراث ملموس صنعتی-معدنی یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 496,
                 "chromaOklab": 0.12939575990216046,
                 "spectralReflectancePeak": "498 nm",
                 "cieLab": {
                   "L": 77.51167927113046,
                   "a": -43.188744179357194,
                   "b": -5.320678198208051
-                }
+                },
+                "dominantWavelengthNm": 496
               },
               "artMovement": "معماری صفوی و کتیبه‌نگاری ثلث",
               "historicalContextFa": "نگین‌های کاشی‌کاری کتیبه‌های ثلث علیرضا عباسی در مسجد شیخ لطف‌الله",
@@ -359,14 +359,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 115"
               },
               "physics": {
-                "dominantWavelengthNm": 510,
                 "chromaOklab": 0.11729039080106432,
                 "spectralReflectancePeak": "515 nm",
                 "cieLab": {
                   "L": 61.11468572058895,
                   "a": -40.5317205685859,
                   "b": -0.39167379421085613
-                }
+                },
+                "dominantWavelengthNm": 510
               },
               "artMovement": "هنرهای صناعی اصفهان و لعاب‌گری کوره",
               "historicalContextFa": "ترکیب کهن زنگار مس و اسپرک در لعاب‌های پخته کوره مسجد جامع عباسی",
@@ -501,14 +501,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 115"
               },
               "physics": {
-                "dominantWavelengthNm": 580,
                 "chromaOklab": 0.13867722524207166,
                 "spectralReflectancePeak": "575 nm",
                 "cieLab": {
                   "L": 72.84764248615137,
                   "a": 1.371657401659343,
                   "b": 62.916444070759916
-                }
+                },
+                "dominantWavelengthNm": 580
               },
               "artMovement": "تذهیب و تشعیر صفوی",
               "historicalContextFa": "طلاکاری‌های محراب معرق و کتیبه‌های زرین علیرضا عباسی در عالی‌قاپو",
@@ -643,14 +643,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 115"
               },
               "physics": {
-                "dominantWavelengthNm": 585,
                 "chromaOklab": 0.025253269778979175,
                 "spectralReflectancePeak": "590 nm",
                 "cieLab": {
                   "L": 94.91517708941042,
                   "a": -2.2012765079151286,
                   "b": 9.530977977153544
-                }
+                },
+                "dominantWavelengthNm": 585
               },
               "artMovement": "گچ‌بری ایلخانی و سلجوقی اصفهان",
               "historicalContextFa": "گچ‌بری‌های زمینه ثلث و اسلیمی محراب سلطان محمد اولجایتو",
@@ -791,14 +791,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 115"
               },
               "physics": {
-                "dominantWavelengthNm": 445,
                 "chromaOklab": 0.049832591117976964,
                 "spectralReflectancePeak": "440 nm",
                 "cieLab": {
                   "L": 6.425238602397126,
                   "a": 5.360893038893089,
                   "b": -17.255043625428502
-                }
+                },
+                "dominantWavelengthNm": 445
               },
               "artMovement": "معماری صفوی و مقرنس‌کاری کاسه‌ای",
               "historicalContextFa": "سایه‌های ژرف کاسبرگ‌های مقرنس کتیبه‌ها و ازاره‌های سنگی",
@@ -883,8 +883,7 @@
                 "chemicalFormula": "alpha-Fe2O3 (Hematite 92%)",
                 "crystalSystem": "تری‌گونال (Trigonal Rhombohedral)",
                 "traditionalExtraction": "استخراج دستی خاک سرخ ساحل هرمز، شستشو در حوضچه‌های ته‌نشینی و خشک‌کردن با نور خورشید",
-                "historicalManuscriptRef": "آثار البلاد و اخبار العباد - زکریا قزوینی",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "historicalManuscriptRef": "آثار البلاد و اخبار العباد - زکریا قزوینی"
               },
               "geoSpatial": {
                 "originSite": "Rainbow Island Hormuz / Persepolis",
@@ -925,8 +924,7 @@
               "chemical": {
                 "historicalPigmentFa": "گل اخرا قرمز جزیره هرمز",
                 "chemicalName": "Hormuz Hematite Persian Red",
-                "formula": "alpha-Fe2O3 (Hematite 92%)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "formula": "alpha-Fe2O3 (Hematite 92%)"
               },
               "geo": {
                 "locationFa": "جزیره هرمز و بارگاه آپادانا، تخت جمشید",
@@ -936,14 +934,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 114 (Persepolis)"
               },
               "physics": {
-                "dominantWavelengthNm": 635,
                 "chromaOklab": 0.1899610398482841,
                 "spectralReflectancePeak": "640 nm",
                 "cieLab": {
                   "L": 46.23646947050827,
                   "a": 59.118064498708875,
                   "b": 37.1103449370922
-                }
+                },
+                "dominantWavelengthNm": 635
               },
               "artMovement": "شکوه هخامنشی تخت جمشید",
               "historicalContextFa": "رنگ استاندارد ثبت‌شده جهانی با الهام از خاک سرخ پارس",
@@ -1012,8 +1010,7 @@
                 "chemicalFormula": "Au75-Ag20-Cu5 Alloy",
                 "crystalSystem": "متالورژی باستانی (Archaeometallurgical)",
                 "traditionalExtraction": "ریخته‌گری موم گمشده و چکش‌کاری کتیبه‌های طلایی کاخ آپادانا",
-                "historicalManuscriptRef": "کتیبه پی‌بنای داریوش بزرگ در شوش (DSf)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "historicalManuscriptRef": "کتیبه پی‌بنای داریوش بزرگ در شوش (DSf)"
               },
               "geoSpatial": {
                 "originSite": "Persepolis Treasury & Apadana",
@@ -1054,8 +1051,7 @@
               "chemical": {
                 "historicalPigmentFa": "الکتروم زر هخامنشی",
                 "chemicalName": "Native Electrum & Imperial Gold",
-                "formula": "Au75-Ag20-Cu5 Alloy",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "formula": "Au75-Ag20-Cu5 Alloy"
               },
               "geo": {
                 "locationFa": "خزانه و تالار صدستون تخت جمشید، فارس",
@@ -1065,14 +1061,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 114"
               },
               "physics": {
-                "dominantWavelengthNm": 578,
                 "chromaOklab": 0.13931330238278364,
                 "spectralReflectancePeak": "580 nm",
                 "cieLab": {
                   "L": 73.9517774574382,
                   "a": -3.7595769291284276,
                   "b": 62.31464970672458
-                }
+                },
+                "dominantWavelengthNm": 578
               },
               "artMovement": "شکوه هخامنشی تخت جمشید",
               "historicalContextFa": "رنگ استاندارد طلای کهن هخامنشی کاخ آپادانا",
@@ -1141,8 +1137,7 @@
                 "chemicalFormula": "C16H10N2O2 (Indigotin)",
                 "crystalSystem": "مونوکلینیک آلی (Organic Molecular)",
                 "traditionalExtraction": "تخمیر بی هوازی برگ‌های وسمه و نیل در خمره‌های سفالی با شیره قلیاب",
-                "historicalManuscriptRef": "تاریخ طبیعی پلینی (Naturalis Historia) - کتاب ۳۳",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "historicalManuscriptRef": "تاریخ طبیعی پلینی (Naturalis Historia) - کتاب ۳۳"
               },
               "geoSpatial": {
                 "originSite": "Pasargadae Imperial Enclosure",
@@ -1183,8 +1178,7 @@
               "chemical": {
                 "historicalPigmentFa": "نیل شاهی پاسارگاد",
                 "chemicalName": "Pasargadae Indigofera Tinctoria",
-                "formula": "C16H10N2O2 (Indigotin)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "formula": "C16H10N2O2 (Indigotin)"
               },
               "geo": {
                 "locationFa": "دشت مرغاب، آرامگاه کوروش بزرگ، پاسارگاد",
@@ -1194,14 +1188,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 1106 (Pasargadae)"
               },
               "physics": {
-                "dominantWavelengthNm": 465,
                 "chromaOklab": 0.06779635119130253,
                 "spectralReflectancePeak": "460 nm",
                 "cieLab": {
                   "L": 21.928233058171728,
                   "a": 2.8656581656394673,
                   "b": -23.329154686887897
-                }
+                },
+                "dominantWavelengthNm": 465
               },
               "artMovement": "شکوه هخامنشی تخت جمشید",
               "historicalContextFa": "پارچه‌های فاخر رنگرزی شده با صدف‌های شاهی باستان",
@@ -1270,8 +1264,7 @@
                 "chemicalFormula": "CaCO3 + Bituminous Hydrocarbons",
                 "crystalSystem": "میکروکریستالین رسوبی",
                 "traditionalExtraction": "استخراج سنگ از کوه رحمت با قلم و چکش مفرغی و پولیش با چرم و خاکستر",
-                "historicalManuscriptRef": "کتیبه‌های بارعام خشایارشا در درگاه شرقی آپادانا",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "historicalManuscriptRef": "کتیبه‌های بارعام خشایارشا در درگاه شرقی آپادانا"
               },
               "geoSpatial": {
                 "originSite": "Apadana Palace Reliefs, Persepolis",
@@ -1312,8 +1305,7 @@
               "chemical": {
                 "historicalPigmentFa": "سنگ خاکستری قیردار آپادانا",
                 "chemicalName": "Apadana Bituminous Grey Basalt",
-                "formula": "CaCO3 + Bituminous Hydrocarbons",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "formula": "CaCO3 + Bituminous Hydrocarbons"
               },
               "geo": {
                 "locationFa": "نقوش برجسته کاخ آپادانا، مرودشت",
@@ -1323,14 +1315,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 114"
               },
               "physics": {
-                "dominantWavelengthNm": 555,
                 "chromaOklab": 0.07767577260116704,
                 "spectralReflectancePeak": "550 nm",
                 "cieLab": {
                   "L": 40.296234802615665,
                   "a": -26.798292359627553,
                   "b": 9.30475283471316
-                }
+                },
+                "dominantWavelengthNm": 555
               },
               "artMovement": "شکوه هخامنشی تخت جمشید",
               "historicalContextFa": "ظروف سنگی یشم و لاجورد پیشکشی ملل به تخت جمشید",
@@ -1399,8 +1391,7 @@
                 "chemicalFormula": "SiO2 + CaCO3 Matrix",
                 "crystalSystem": "کوارتز هگزاگونال",
                 "traditionalExtraction": "برش بلوک‌های عظیم سنگی کوه مهر و مهار با بست‌های دم چلچله‌ای سربی",
-                "historicalManuscriptRef": "الواح باروی تخت جمشید (Fortification Tablets)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "historicalManuscriptRef": "الواح باروی تخت جمشید (Fortification Tablets)"
               },
               "geoSpatial": {
                 "originSite": "Tachara & Palace of Xerxes",
@@ -1441,8 +1432,7 @@
               "chemical": {
                 "historicalPigmentFa": "ماسه‌سنگ کوارتزی صفه تخت جمشید",
                 "chemicalName": "Persepolis Quartz Sandstone",
-                "formula": "SiO2 + CaCO3 Matrix",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "formula": "SiO2 + CaCO3 Matrix"
               },
               "geo": {
                 "locationFa": "کاخ تچر و هدیش، تخت جمشید",
@@ -1452,14 +1442,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 114"
               },
               "physics": {
-                "dominantWavelengthNm": 582,
                 "chromaOklab": 0.005701360314198716,
                 "spectralReflectancePeak": "585 nm",
                 "cieLab": {
                   "L": 98.6671414840617,
                   "a": -0.031456420856113,
                   "b": 2.1452791653189918
-                }
+                },
+                "dominantWavelengthNm": 582
               },
               "artMovement": "شکوه هخامنشی تخت جمشید",
               "historicalContextFa": "سنگ‌های صیقلی آهکی و مرمرین تالار ستون‌دار",
@@ -1528,8 +1518,7 @@
                 "chemicalFormula": "Cu88-Sn12 Alloy",
                 "crystalSystem": "آلیاژ دوفازی الفا-دلتا مس-قلع",
                 "traditionalExtraction": "ذوب همزمان کالکوپیریت و کاسیتریت در کوره‌های دمش بادی باستانی",
-                "historicalManuscriptRef": "باستان‌شناسی فلزکاری کهن ایران - رومن گیرشمن",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "historicalManuscriptRef": "باستان‌شناسی فلزکاری کهن ایران - رومن گیرشمن"
               },
               "geoSpatial": {
                 "originSite": "Persepolis Armory & Lorestan Sites",
@@ -1570,8 +1559,7 @@
               "chemical": {
                 "historicalPigmentFa": "مفرغ باستانی لرستان و هخامنشی",
                 "chemicalName": "Persian Archaeometallurgical Bronze",
-                "formula": "Cu88-Sn12 Alloy",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "formula": "Cu88-Sn12 Alloy"
               },
               "geo": {
                 "locationFa": "اسلحه‌خانه آپادانا و محوطه‌های مفرغ باستانی",
@@ -1581,14 +1569,14 @@
                 "unescoSiteId": "UNESCO World Heritage Ref: 114"
               },
               "physics": {
-                "dominantWavelengthNm": 535,
                 "chromaOklab": 0.011317916849569797,
                 "spectralReflectancePeak": "530 nm",
                 "cieLab": {
                   "L": 11.554873422490584,
                   "a": -0.4233271522806892,
                   "b": -4.010027814367994
-                }
+                },
+                "dominantWavelengthNm": 535
               },
               "artMovement": "شکوه هخامنشی تخت جمشید",
               "historicalContextFa": "سنگ‌های بازالت سیاه صیقلی کاخ داریوش (تالار آینه)",
@@ -1660,7 +1648,6 @@
                 "chemicalFormula": "HgS",
                 "crystalSystem": "کریستالین بومی فلات ایران",
                 "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                 "casNumber": "1344-48-5"
               },
               "geoSpatial": {
@@ -1713,14 +1700,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 642,
                 "chromaOklab": 0.1999790766146578,
                 "spectralReflectancePeak": "642 nm",
                 "cieLab": {
                   "L": 52.370344868584624,
                   "a": 61.07665856303046,
                   "b": 44.41328182416687
-                }
+                },
+                "dominantWavelengthNm": 642
               },
               "artMovement": "مکتب هرات (دوره تیموری) و نگارگری کمال‌الدین بهزاد",
               "historicalContextFa": "ردای قهرمانان در نگاره‌های خمسه‌ی نظامی و ظفرنامه تیموری بهزاد",
@@ -1755,7 +1742,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": [
@@ -1808,7 +1794,6 @@
                 "chemicalFormula": "Cu₂CO₃(OH)₂",
                 "crystalSystem": "کریستالین بومی فلات ایران",
                 "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                 "casNumber": "12069-69-1"
               },
               "geoSpatial": {
@@ -1861,14 +1846,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 551,
                 "chromaOklab": 0.2292778932256548,
                 "spectralReflectancePeak": "551 nm",
                 "cieLab": {
                   "L": 76.56258140862863,
                   "a": -71.53043294644124,
                   "b": 53.65481522126729
-                }
+                },
+                "dominantWavelengthNm": 551
               },
               "artMovement": "مکتب تبریز دوم (صفوی)",
               "historicalContextFa": "تپه‌ها، صخره‌های مینیاتورهای شاهنامه طهماسبی و شاخساران نگاره‌ها",
@@ -1903,7 +1888,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": [
@@ -1956,7 +1940,6 @@
                 "chemicalFormula": "C₁₆H₁₀N₂O₂ + Na₆Ca₂[S|AlSiO₄]₆",
                 "crystalSystem": "کریستالین بومی فلات ایران",
                 "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                 "casNumber": "482-89-3"
               },
               "geoSpatial": {
@@ -2009,14 +1992,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 449,
                 "chromaOklab": 0.04236183899323097,
                 "spectralReflectancePeak": "449 nm",
                 "cieLab": {
                   "L": 15.142395595990934,
                   "a": 2.2814758039813587,
                   "b": -14.982413847826292
-                }
+                },
+                "dominantWavelengthNm": 449
               },
               "artMovement": "خمسه‌نگاری تیموری و مکتب بهزاد",
               "historicalContextFa": "آسمان پرستاره و شب‌های عشاق در نگاره‌های خسرو و شیرین نظامی",
@@ -2051,7 +2034,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": [
@@ -2104,7 +2086,6 @@
                 "chemicalFormula": "C₂₂H₂₀O₁₃",
                 "crystalSystem": "کریستالین بومی فلات ایران",
                 "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                 "casNumber": "1260-15-5"
               },
               "geoSpatial": {
@@ -2157,14 +2138,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 626,
                 "chromaOklab": 0.11768673734569436,
                 "spectralReflectancePeak": "626 nm",
                 "cieLab": {
                   "L": 24.82473345151257,
                   "a": 36.624971411734094,
                   "b": 21.863791166127296
-                }
+                },
+                "dominantWavelengthNm": 626
               },
               "artMovement": "مکتب اصفهان صفوی و نگاره‌های رضا عباسی",
               "historicalContextFa": "لباده‌های فاخر شاهان و درباریان در مجالس بزم و بارعام صفوی",
@@ -2199,7 +2180,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": [
@@ -2252,7 +2232,6 @@
                 "chemicalFormula": "Au + Complex Polysaccharides",
                 "crystalSystem": "کریستالین بومی فلات ایران",
                 "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                 "casNumber": "9000-01-5"
               },
               "geoSpatial": {
@@ -2305,14 +2284,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 591,
                 "chromaOklab": 0.12807814592862468,
                 "spectralReflectancePeak": "591 nm",
                 "cieLab": {
                   "L": 80.08531941529606,
                   "a": 10.692885331682945,
                   "b": 53.97898085781825
-                }
+                },
+                "dominantWavelengthNm": 591
               },
               "artMovement": "تذهیب، تشعیر و کتاب‌آرایی کهن",
               "historicalContextFa": "ابرهای سیمرغ چینی‌مآب و تشعیر حواشی قرآن‌ها و مرقعات نفیس",
@@ -2347,7 +2326,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": [
@@ -2400,7 +2378,6 @@
                 "chemicalFormula": "(C₆H₁₀O₅)ₙ",
                 "crystalSystem": "کریستالین بومی فلات ایران",
                 "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                 "casNumber": "9004-34-6"
               },
               "geoSpatial": {
@@ -2453,14 +2430,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 607,
                 "chromaOklab": 0.02610953422009677,
                 "spectralReflectancePeak": "607 nm",
                 "cieLab": {
                   "L": 95.91665272415518,
                   "a": -0.8162899094371068,
                   "b": 9.99232698962549
-                }
+                },
+                "dominantWavelengthNm": 607
               },
               "artMovement": "نسخه‌نویسی و کتاب‌آرایی کلاسیک",
               "historicalContextFa": "بستر صیقل‌خورده با عقیق کاغذ سمرقندی برای نگارگری ظریف",
@@ -2495,7 +2472,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": [
@@ -2548,11 +2524,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Madder Root Red)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (قرمز روناسی ناب (Madder Root))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #A81C07)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -2592,9 +2565,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (قرمز روناسی ناب (Madder Root))",
-                "chemicalName": "Persian Historical Pigment (Madder Root Red)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #A81C07)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Madder Root Red)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -2604,14 +2575,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 638,
                 "chromaOklab": 0.1768552345891371,
                 "spectralReflectancePeak": "638 nm",
                 "cieLab": {
                   "L": 36.3108550009992,
                   "a": 54.006327639274986,
                   "b": 46.996666538257294
-                }
+                },
+                "dominantWavelengthNm": 638
               },
               "artMovement": "دستبافته‌ها و قالی قشقایی و بختیاری",
               "historicalContextFa": "رنگ قرمز عمیق حاصل از گیاه روناس با دندانه‌دادن سنتی",
@@ -2646,7 +2617,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -2677,11 +2647,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Persian Crimson Lacquer)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (لاکی شاه‌عباسی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #540B0E)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -2721,9 +2688,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (لاکی شاه‌عباسی)",
-                "chemicalName": "Persian Historical Pigment (Persian Crimson Lacquer)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #540B0E)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Persian Crimson Lacquer)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -2733,14 +2698,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 624,
                 "chromaOklab": 0.10408697469912175,
                 "spectralReflectancePeak": "624 nm",
                 "cieLab": {
                   "L": 16.284846484545824,
                   "a": 32.62501507331622,
                   "b": 19.087402163331152
-                }
+                },
+                "dominantWavelengthNm": 624
               },
               "artMovement": "دستبافته‌ها و قالی قشقایی و بختیاری",
               "historicalContextFa": "قرمزدانه و حشره لاکی با دوام سده‌ها در تار و پود",
@@ -2775,7 +2740,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -2806,11 +2770,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Persian Orange)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (حنایی افشاری (Persian Orange))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #D99058)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -2850,9 +2811,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (حنایی افشاری (Persian Orange))",
-                "chemicalName": "Persian Historical Pigment (Persian Orange)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #D99058)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Persian Orange)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -2862,14 +2821,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 624,
                 "chromaOklab": 0.11432451265600559,
                 "spectralReflectancePeak": "624 nm",
                 "cieLab": {
                   "L": 66.06108261744677,
                   "a": 22.061414615551833,
                   "b": 40.68803097310785
-                }
+                },
+                "dominantWavelengthNm": 624
               },
               "artMovement": "دستبافته‌ها و قالی قشقایی و بختیاری",
               "historicalContextFa": "نارنجی متمایل به سفالی استاندارد با برگ‌های حنا",
@@ -2904,7 +2863,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -2935,11 +2893,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Peacock Forest Green)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سبز کله‌غازی عشایر)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #2B3A1C)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -2979,9 +2934,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سبز کله‌غازی عشایر)",
-                "chemicalName": "Persian Historical Pigment (Peacock Forest Green)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #2B3A1C)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Peacock Forest Green)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -2991,14 +2944,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 513,
                 "chromaOklab": 0.05317550276529761,
                 "spectralReflectancePeak": "513 nm",
                 "cieLab": {
                   "L": 22.385673019257332,
                   "a": -12.539344025235433,
                   "b": 16.645520227114336
-                }
+                },
+                "dominantWavelengthNm": 513
               },
               "artMovement": "دستبافته‌ها و قالی قشقایی و بختیاری",
               "historicalContextFa": "ترکیب نیل با زردچوبه و اسپرک در چادرهای ایلاتی",
@@ -3033,7 +2986,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3064,11 +3016,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Raw Wool Cream)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (کرم خامه پشمی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #EADDCF)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3108,9 +3057,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (کرم خامه پشمی)",
-                "chemicalName": "Persian Historical Pigment (Raw Wool Cream)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #EADDCF)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Raw Wool Cream)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3120,14 +3067,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 601,
                 "chromaOklab": 0.023652416959798694,
                 "spectralReflectancePeak": "601 nm",
                 "cieLab": {
                   "L": 88.785395920381,
                   "a": 2.1138710892511514,
                   "b": 8.459410245878862
-                }
+                },
+                "dominantWavelengthNm": 601
               },
               "artMovement": "دستبافته‌ها و قالی قشقایی و بختیاری",
               "historicalContextFa": "خامه‌های پشم دست‌ریس شسته شده در چشمه‌سارهای زاگرس",
@@ -3162,7 +3109,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3193,11 +3139,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Walnut Husk Brown)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (قهوه‌ای پوست گردو)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #422006)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3237,9 +3180,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (قهوه‌ای پوست گردو)",
-                "chemicalName": "Persian Historical Pigment (Walnut Husk Brown)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #422006)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Walnut Husk Brown)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3249,14 +3190,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 616,
                 "chromaOklab": 0.0639309449521708,
                 "spectralReflectancePeak": "616 nm",
                 "cieLab": {
                   "L": 16.52542481620489,
                   "a": 14.150115327175971,
                   "b": 22.049029580181756
-                }
+                },
+                "dominantWavelengthNm": 616
               },
               "artMovement": "دستبافته‌ها و قالی قشقایی و بختیاری",
               "historicalContextFa": "پوست سبز و خشکیده گردوهای کهنسال بختیاری",
@@ -3291,7 +3232,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3325,11 +3265,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Persian Blue)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (آبی مینایی ژرف (Persian Blue))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1C39BB)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3369,9 +3306,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (آبی مینایی ژرف (Persian Blue))",
-                "chemicalName": "Persian Historical Pigment (Persian Blue)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #1C39BB)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Persian Blue)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3381,14 +3316,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 468,
                 "chromaOklab": 0.20465781955624837,
                 "spectralReflectancePeak": "468 nm",
                 "cieLab": {
                   "L": 31.25647961391529,
                   "a": 39.3203323474578,
                   "b": -70.45834699967449
-                }
+                },
+                "dominantWavelengthNm": 468
               },
               "artMovement": "هنر میناکاری و قلم‌زنی",
               "historicalContextFa": "رنگ جهانی ثبت‌شده لاجوردی ایرانی در موزه‌های بین‌المللی",
@@ -3423,7 +3358,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3454,11 +3388,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Deep Persian Green)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سبز فیروزه قلمی (Persian Green))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #008679)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3498,9 +3429,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سبز فیروزه قلمی (Persian Green))",
-                "chemicalName": "Persian Historical Pigment (Deep Persian Green)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #008679)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Deep Persian Green)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3510,14 +3439,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 536,
                 "chromaOklab": 0.09911643726040416,
                 "spectralReflectancePeak": "536 nm",
                 "cieLab": {
                   "L": 50.01435260346807,
                   "a": -33.87235287590873,
                   "b": -1.7568927861919548
-                }
+                },
+                "dominantWavelengthNm": 536
               },
               "artMovement": "هنر میناکاری و قلم‌زنی",
               "historicalContextFa": "Persian Green تیره‌تر در لعاب‌های پخته کوره",
@@ -3552,7 +3481,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3583,11 +3511,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Gilded Brass Yellow)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (زرد طلااندود)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #E09F3E)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3627,9 +3552,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (زرد طلااندود)",
-                "chemicalName": "Persian Historical Pigment (Gilded Brass Yellow)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #E09F3E)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Gilded Brass Yellow)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3639,14 +3562,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 582,
                 "chromaOklab": 0.1343368393221975,
                 "spectralReflectancePeak": "582 nm",
                 "cieLab": {
                   "L": 70.169874531656,
                   "a": 15.380368104546015,
                   "b": 57.88546274103227
-                }
+                },
+                "dominantWavelengthNm": 582
               },
               "artMovement": "هنر میناکاری و قلم‌زنی",
               "historicalContextFa": "درخشش مس و برنج جلاخورده با قلم فولادی",
@@ -3681,7 +3604,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3712,11 +3634,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Pearl Turquoise Glaze)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (فیروزه‌ای مرواریدی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #94D2BD)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3756,9 +3675,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (فیروزه‌ای مرواریدی)",
-                "chemicalName": "Persian Historical Pigment (Pearl Turquoise Glaze)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #94D2BD)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Pearl Turquoise Glaze)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3768,14 +3685,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 522,
                 "chromaOklab": 0.07011388691813732,
                 "spectralReflectancePeak": "522 nm",
                 "cieLab": {
                   "L": 79.64977991654403,
                   "a": -24.195266741382838,
                   "b": 4.0899152902469815
-                }
+                },
+                "dominantWavelengthNm": 522
               },
               "artMovement": "هنر میناکاری و قلم‌زنی",
               "historicalContextFa": "لعاب فیروزه‌ای مات و پرطراوت در میان نقوش لاجوردی",
@@ -3810,7 +3727,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3841,11 +3757,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Porcelain Enamel White)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سفید لعاب چینی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FDFBF7)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -3885,9 +3798,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سفید لعاب چینی)",
-                "chemicalName": "Persian Historical Pigment (Porcelain Enamel White)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FDFBF7)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Porcelain Enamel White)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -3897,14 +3808,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 610,
                 "chromaOklab": 0.005701360314198716,
                 "spectralReflectancePeak": "610 nm",
                 "cieLab": {
                   "L": 98.6671414840617,
                   "a": -0.031456420856113,
                   "b": 2.1452791653189918
-                }
+                },
+                "dominantWavelengthNm": 610
               },
               "artMovement": "هنر میناکاری و قلم‌زنی",
               "historicalContextFa": "لعاب سفید پایه با اکسید قلع و سیلیکات خالص",
@@ -3939,7 +3850,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -3970,11 +3880,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Kiln Shadow Navy)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سرمه‌ای کوره مینا)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #0A192F)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4014,9 +3921,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سرمه‌ای کوره مینا)",
-                "chemicalName": "Persian Historical Pigment (Kiln Shadow Navy)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #0A192F)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Kiln Shadow Navy)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4026,14 +3931,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 450,
                 "chromaOklab": 0.0483174867710591,
                 "spectralReflectancePeak": "450 nm",
                 "cieLab": {
                   "L": 8.69663916281716,
                   "a": 2.593871740941972,
                   "b": -16.615057746297047
-                }
+                },
+                "dominantWavelengthNm": 450
               },
               "artMovement": "هنر میناکاری و قلم‌زنی",
               "historicalContextFa": "تیرگی اکسید کبالت پس از حرارت ۸۰۰ درجه کوره",
@@ -4068,7 +3973,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4102,11 +4006,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Timurid Crimson Carmine)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (زرشکی تذهیب تیموری)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #780000)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4146,9 +4047,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (زرشکی تذهیب تیموری)",
-                "chemicalName": "Persian Historical Pigment (Timurid Crimson Carmine)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #780000)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Timurid Crimson Carmine)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4158,14 +4057,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 634,
                 "chromaOklab": 0.14757093444144204,
                 "spectralReflectancePeak": "634 nm",
                 "cieLab": {
                   "L": 23.64851720108954,
                   "a": 45.86656864052435,
                   "b": 35.5826214539203
-                }
+                },
+                "dominantWavelengthNm": 634
               },
               "artMovement": "ترنج و اسلیمی کتاب‌آرایی",
               "historicalContextFa": "رنگدانه‌های سلطنتی کارگاه‌های بایسنقری هرات",
@@ -4200,7 +4099,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4231,11 +4129,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Indigo Shamseh Navy)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (نیلی لاجوردی شمسه (Indigo))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #283655)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4275,9 +4170,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (نیلی لاجوردی شمسه (Indigo))",
-                "chemicalName": "Persian Historical Pigment (Indigo Shamseh Navy)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #283655)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Indigo Shamseh Navy)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4287,14 +4180,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 451,
                 "chromaOklab": 0.0580981466979609,
                 "spectralReflectancePeak": "451 nm",
                 "cieLab": {
                   "L": 22.810975818701642,
                   "a": 4.188706591432362,
                   "b": -20.57106667103562
-                }
+                },
+                "dominantWavelengthNm": 451
               },
               "artMovement": "ترنج و اسلیمی کتاب‌آرایی",
               "historicalContextFa": "سرمه‌ای نیلی پرمایه کتیبه‌های قرآن‌های نفیس صفوی",
@@ -4329,7 +4222,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4360,11 +4252,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Goldenrod Gold)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (طلای ناب شمسه (Goldenrod))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #DAA520)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4404,9 +4293,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (طلای ناب شمسه (Goldenrod))",
-                "chemicalName": "Persian Historical Pigment (Goldenrod Gold)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #DAA520)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Goldenrod Gold)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4416,14 +4303,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 584,
                 "chromaOklab": 0.1469336987368223,
                 "spectralReflectancePeak": "584 nm",
                 "cieLab": {
                   "L": 70.81571317667877,
                   "a": 8.514531137692572,
                   "b": 68.76498326255393
-                }
+                },
+                "dominantWavelengthNm": 584
               },
               "artMovement": "ترنج و اسلیمی کتاب‌آرایی",
               "historicalContextFa": "درخشش زرین طلای عیار بالا در طلااندازی اوراق کهن",
@@ -4458,7 +4345,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4489,11 +4375,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Malachite Resin Green)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سبز صمغی کهن)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #386641)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4533,9 +4416,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سبز صمغی کهن)",
-                "chemicalName": "Persian Historical Pigment (Malachite Resin Green)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #386641)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Malachite Resin Green)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4545,14 +4426,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 519,
                 "chromaOklab": 0.07844599635836469,
                 "spectralReflectancePeak": "519 nm",
                 "cieLab": {
                   "L": 39.11364103493901,
                   "a": -24.669846500988523,
                   "b": 16.130178756540182
-                }
+                },
+                "dominantWavelengthNm": 519
               },
               "artMovement": "ترنج و اسلیمی کتاب‌آرایی",
               "historicalContextFa": "اکسید مس آمیخته با صمغ عربی و آب لیمو",
@@ -4587,7 +4468,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4618,11 +4498,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Parchment Vellum White)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (پوست آهوی خطاطی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FDFBF4)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4662,9 +4539,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (پوست آهوی خطاطی)",
-                "chemicalName": "Persian Historical Pigment (Parchment Vellum White)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FDFBF4)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Parchment Vellum White)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4674,14 +4549,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 610,
                 "chromaOklab": 0.009466618161134947,
                 "spectralReflectancePeak": "610 nm",
                 "cieLab": {
                   "L": 98.59438529871674,
                   "a": -0.5437269978019188,
                   "b": 3.5811827581959443
-                }
+                },
+                "dominantWavelengthNm": 610
               },
               "artMovement": "ترنج و اسلیمی کتاب‌آرایی",
               "historicalContextFa": "کاغذ آهاری دست‌ساز مهره‌خورده برای کتابت نستعلیق",
@@ -4716,7 +4591,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4747,11 +4621,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (India Ink Black)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (مرکب سیاه کتابت (India Ink))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #000000)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4765,7 +4636,6 @@
               },
               "spectral": {
                 "peakWavelengthNm": 610,
-                "dominantWavelengthNm": 610,
                 "reflectanceRange": [
                   0.05,
                   0.75
@@ -4791,9 +4661,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (مرکب سیاه کتابت (India Ink))",
-                "chemicalName": "Persian Historical Pigment (India Ink Black)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #000000)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (India Ink Black)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4803,7 +4671,6 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 610,
                 "chromaOklab": 0,
                 "spectralReflectancePeak": "610 nm",
                 "cieLab": {
@@ -4845,7 +4712,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -4879,11 +4745,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Medium Persian Blue)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (آبی پارسی اصیل (Medium Persian Blue))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #0067A5)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -4923,9 +4786,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (آبی پارسی اصیل (Medium Persian Blue))",
-                "chemicalName": "Persian Historical Pigment (Medium Persian Blue)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #0067A5)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Medium Persian Blue)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -4935,14 +4796,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 490,
                 "chromaOklab": 0.12644007914806007,
                 "spectralReflectancePeak": "490 nm",
                 "cieLab": {
                   "L": 41.87150967553842,
                   "a": -1.129797559668494,
                   "b": -40.25559442597676
-                }
+                },
+                "dominantWavelengthNm": 490
               },
               "artMovement": "راز خلیج فارس و مروارید قشم",
               "historicalContextFa": "آبی روشن‌تر دریایی ثبت‌شده جهانی خلیج فارس",
@@ -4977,7 +4838,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5008,11 +4868,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Qeshm Turquoise Shore)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (آبی فیروزه‌ای قشم)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #00B4D8)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5052,9 +4909,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (آبی فیروزه‌ای قشم)",
-                "chemicalName": "Persian Historical Pigment (Qeshm Turquoise Shore)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #00B4D8)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Qeshm Turquoise Shore)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5064,14 +4919,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 502,
                 "chromaOklab": 0.1286281483109996,
                 "spectralReflectancePeak": "502 nm",
                 "cieLab": {
                   "L": 67.72505032636786,
                   "a": -25.37303489810422,
                   "b": -28.83192225452089
-                }
+                },
+                "dominantWavelengthNm": 502
               },
               "artMovement": "راز خلیج فارس و مروارید قشم",
               "historicalContextFa": "شفافیت خلیج فارس در ساحل ناز و جزیره هنگام",
@@ -5106,7 +4961,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5137,11 +4991,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Hormuz Red Ochre)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (خاک سرخ هرمز (Red Ochre))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #901C1C)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5181,9 +5032,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (خاک سرخ هرمز (Red Ochre))",
-                "chemicalName": "Persian Historical Pigment (Hormuz Red Ochre)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #901C1C)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Hormuz Red Ochre)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5193,14 +5042,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 633,
                 "chromaOklab": 0.15161410506233766,
                 "spectralReflectancePeak": "633 nm",
                 "cieLab": {
                   "L": 31.44826967487589,
                   "a": 47.180842375193656,
                   "b": 31.040314697166426
-                }
+                },
+                "dominantWavelengthNm": 633
               },
               "artMovement": "راز خلیج فارس و مروارید قشم",
               "historicalContextFa": "اصلاح شده بر اساس اکسید آهن خوراکی معدن خاک هرمز",
@@ -5235,7 +5084,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5266,11 +5114,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Persian Gulf Pearl)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (مروارید صید لنگه)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F2ECE4)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5310,9 +5155,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (مروارید صید لنگه)",
-                "chemicalName": "Persian Historical Pigment (Persian Gulf Pearl)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #F2ECE4)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Persian Gulf Pearl)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5322,14 +5165,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 605,
                 "chromaOklab": 0.012501238366884715,
                 "spectralReflectancePeak": "605 nm",
                 "cieLab": {
                   "L": 93.65407605085612,
                   "a": 0.6433705048466409,
                   "b": 4.586134125615793
-                }
+                },
+                "dominantWavelengthNm": 605
               },
               "artMovement": "راز خلیج فارس و مروارید قشم",
               "historicalContextFa": "درخشش مرواریدهای طبیعی غواصان بندر لنگه و خارک",
@@ -5364,7 +5207,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5395,11 +5237,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Sun-warmed Coastal Sand)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (ماسه گرم ساحلی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #DDA15E)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5439,9 +5278,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (ماسه گرم ساحلی)",
-                "chemicalName": "Persian Historical Pigment (Sun-warmed Coastal Sand)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #DDA15E)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Sun-warmed Coastal Sand)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5451,14 +5288,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 583,
                 "chromaOklab": 0.1102664259643326,
                 "spectralReflectancePeak": "583 nm",
                 "cieLab": {
                   "L": 70.64283156003448,
                   "a": 15.022606406431048,
                   "b": 43.22898483876243
-                }
+                },
+                "dominantWavelengthNm": 583
               },
               "artMovement": "راز خلیج فارس و مروارید قشم",
               "historicalContextFa": "ماسه طلایی تفتیده زیر تابش آفتاب جنوب",
@@ -5493,7 +5330,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5524,11 +5360,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Abyssal Persian Deep Blue)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (آبی ژرفای خلیج)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #03071E)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5568,9 +5401,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (آبی ژرفای خلیج)",
-                "chemicalName": "Persian Historical Pigment (Abyssal Persian Deep Blue)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #03071E)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Abyssal Persian Deep Blue)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5580,14 +5411,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 449,
                 "chromaOklab": 0.05067715224293772,
                 "spectralReflectancePeak": "449 nm",
                 "cieLab": {
                   "L": 2.3942247136517807,
                   "a": 3.930970471121356,
                   "b": -13.534413357849607
-                }
+                },
+                "dominantWavelengthNm": 449
               },
               "artMovement": "راز خلیج فارس و مروارید قشم",
               "historicalContextFa": "آبی بی‌کران تنگه هرمز در ژرف‌ترین نقاط دریایی",
@@ -5622,7 +5453,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5656,11 +5486,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Persian Rose)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (گل سرخ محمدی (Persian Rose))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FE28A2)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5674,7 +5501,6 @@
               },
               "spectral": {
                 "peakWavelengthNm": 652,
-                "dominantWavelengthNm": 652,
                 "reflectanceRange": [
                   0.05,
                   0.75
@@ -5700,9 +5526,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (گل سرخ محمدی (Persian Rose))",
-                "chemicalName": "Persian Historical Pigment (Persian Rose)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FE28A2)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Persian Rose)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5712,7 +5536,6 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 652,
                 "chromaOklab": 0.2568579196693868,
                 "spectralReflectancePeak": "652 nm",
                 "cieLab": {
@@ -5754,7 +5577,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5785,11 +5607,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Ghasrodasht Ruby Pomegranate)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (انار قصرالدشت)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #8B1E3F)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5803,7 +5622,6 @@
               },
               "spectral": {
                 "peakWavelengthNm": 631,
-                "dominantWavelengthNm": 631,
                 "reflectanceRange": [
                   0.05,
                   0.75
@@ -5829,9 +5647,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (انار قصرالدشت)",
-                "chemicalName": "Persian Historical Pigment (Ghasrodasht Ruby Pomegranate)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #8B1E3F)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Ghasrodasht Ruby Pomegranate)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5841,7 +5657,6 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 631,
                 "chromaOklab": 0.14468086147533116,
                 "spectralReflectancePeak": "631 nm",
                 "cieLab": {
@@ -5883,7 +5698,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -5914,11 +5728,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Cypress Green)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سبز سرو ناز (Cypress Green))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #228B22)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -5958,9 +5769,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سبز سرو ناز (Cypress Green))",
-                "chemicalName": "Persian Historical Pigment (Cypress Green)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #228B22)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Cypress Green)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -5970,14 +5779,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 531,
                 "chromaOklab": 0.16878139267059003,
                 "spectralReflectancePeak": "531 nm",
                 "cieLab": {
                   "L": 50.59443111773345,
                   "a": -49.582849576202904,
                   "b": 45.0217367199238
-                }
+                },
+                "dominantWavelengthNm": 531
               },
               "artMovement": "باغ‌های اردیبهشت شیراز",
               "historicalContextFa": "سبز جنگلی قامت استوار سروهای ناز باغ دلگشا و ارم",
@@ -6012,7 +5821,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6043,11 +5851,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Orange Blossom Yellow)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (شکوفه بهارنارنج)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FDE68A)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6087,9 +5892,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (شکوفه بهارنارنج)",
-                "chemicalName": "Persian Historical Pigment (Orange Blossom Yellow)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FDE68A)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Orange Blossom Yellow)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6099,14 +5902,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 604,
                 "chromaOklab": 0.11512684007617822,
                 "spectralReflectancePeak": "604 nm",
                 "cieLab": {
                   "L": 91.37493828194283,
                   "a": -4.118975291312887,
                   "b": 47.50132686153346
-                }
+                },
+                "dominantWavelengthNm": 604
               },
               "artMovement": "باغ‌های اردیبهشت شیراز",
               "historicalContextFa": "زرد لیمویی ملایم گلبرگ‌های بهارنارنج نارنجستان قوام",
@@ -6141,7 +5944,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6172,11 +5974,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Shirazi Jasmine White)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سفید یاسمن شیرازی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F9F6F0)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6216,9 +6015,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سفید یاسمن شیرازی)",
-                "chemicalName": "Persian Historical Pigment (Shirazi Jasmine White)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #F9F6F0)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Shirazi Jasmine White)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6228,14 +6025,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 608,
                 "chromaOklab": 0.008575632207803217,
                 "spectralReflectancePeak": "608 nm",
                 "cieLab": {
                   "L": 96.96015101872054,
                   "a": -0.03869459013433607,
                   "b": 3.2321033221862416
-                }
+                },
+                "dominantWavelengthNm": 608
               },
               "artMovement": "باغ‌های اردیبهشت شیراز",
               "historicalContextFa": "سپیدی گل‌های یاس و ستون‌های گچ‌بری هفت‌تنان",
@@ -6270,7 +6067,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6301,11 +6097,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Deep Eram Garden Shade)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سایه‌سار باغ ارم)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #182C18)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6345,9 +6138,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سایه‌سار باغ ارم)",
-                "chemicalName": "Persian Historical Pigment (Deep Eram Garden Shade)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #182C18)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Deep Eram Garden Shade)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6357,14 +6148,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 514,
                 "chromaOklab": 0.044724283705351364,
                 "spectralReflectancePeak": "514 nm",
                 "cieLab": {
                   "L": 15.806747134745034,
                   "a": -13.312389212720404,
                   "b": 10.507143974649397
-                }
+                },
+                "dominantWavelengthNm": 514
               },
               "artMovement": "باغ‌های اردیبهشت شیراز",
               "historicalContextFa": "تیرگی خنک سایه‌انداز جویبارهای حوض مرمر",
@@ -6399,7 +6190,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6433,11 +6223,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Turquoise)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (فیروزه شجری نیشابور (Turquoise))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #40E0D0)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6477,9 +6264,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (فیروزه شجری نیشابور (Turquoise))",
-                "chemicalName": "Persian Historical Pigment (Turquoise)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #40E0D0)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Turquoise)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6489,14 +6274,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 542,
                 "chromaOklab": 0.130743921525569,
                 "spectralReflectancePeak": "542 nm",
                 "cieLab": {
                   "L": 81.26705459794431,
                   "a": -44.07039061068097,
                   "b": -4.024199711666188
-                }
+                },
+                "dominantWavelengthNm": 542
               },
               "artMovement": "جواهرات و سنگ‌های خراسانی",
               "historicalContextFa": "کد رسمی فیروزه با رگه‌های کهن‌ترین معدن جهان",
@@ -6531,7 +6316,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6562,11 +6346,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Persian Ruby)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (یاقوت اناری پارسی (Ruby))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #9B111E)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6606,9 +6387,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (یاقوت اناری پارسی (Ruby))",
-                "chemicalName": "Persian Historical Pigment (Persian Ruby)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #9B111E)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Persian Ruby)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6618,14 +6397,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 637,
                 "chromaOklab": 0.16883092903853147,
                 "spectralReflectancePeak": "637 nm",
                 "cieLab": {
                   "L": 32.838947947104316,
                   "a": 53.23332513741408,
                   "b": 32.02260568550168
-                }
+                },
+                "dominantWavelengthNm": 637
               },
               "artMovement": "جواهرات و سنگ‌های خراسانی",
               "historicalContextFa": "یاقوت سرخ شفاف و درخشان معادن تاریخی مشرق ایران",
@@ -6660,7 +6439,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6691,11 +6469,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Emerald Green)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (زمرد نادری (Emerald))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #50C878)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6735,9 +6510,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (زمرد نادری (Emerald))",
-                "chemicalName": "Persian Historical Pigment (Emerald Green)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #50C878)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Emerald Green)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6747,14 +6520,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 534,
                 "chromaOklab": 0.15771056884974793,
                 "spectralReflectancePeak": "534 nm",
                 "cieLab": {
                   "L": 72.47517570451704,
                   "a": -51.2459497404531,
                   "b": 30.25982492895327
-                }
+                },
+                "dominantWavelengthNm": 534
               },
               "artMovement": "جواهرات و سنگ‌های خراسانی",
               "historicalContextFa": "سبز زلال و درخشان زمردهای خزانه ملی ایران",
@@ -6789,7 +6562,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6820,11 +6592,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Amber Gold)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (کهربای کهن توس (Amber))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FFBF00)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6864,9 +6633,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (کهربای کهن توس (Amber))",
-                "chemicalName": "Persian Historical Pigment (Amber Gold)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FFBF00)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Amber Gold)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -6876,14 +6643,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 592,
                 "chromaOklab": 0.17244992979665755,
                 "spectralReflectancePeak": "592 nm",
                 "cieLab": {
                   "L": 81.02792148118404,
                   "a": 10.374123715929551,
                   "b": 83.03483136223939
-                }
+                },
+                "dominantWavelengthNm": 592
               },
               "artMovement": "جواهرات و سنگ‌های خراسانی",
               "historicalContextFa": "استاندارد کهربای شفاف با حبس نور خورشید باستان",
@@ -6918,7 +6685,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -6949,11 +6715,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Silver Pearl Luster)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (مروارید نقره‌فام)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F4F6F8)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -6993,9 +6756,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (مروارید نقره‌فام)",
-                "chemicalName": "Persian Historical Pigment (Silver Pearl Luster)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #F4F6F8)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Silver Pearl Luster)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7005,14 +6766,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 511,
                 "chromaOklab": 0.003423117572149302,
                 "spectralReflectancePeak": "511 nm",
                 "cieLab": {
                   "L": 96.78838705968538,
                   "a": -0.3051569202934812,
                   "b": -1.1908294397547259
-                }
+                },
+                "dominantWavelengthNm": 511
               },
               "artMovement": "جواهرات و سنگ‌های خراسانی",
               "historicalContextFa": "درخشش فلزی نقره عیار بالا و مروارید غلطان",
@@ -7047,7 +6808,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7078,11 +6838,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Flint Basalt Dark)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سنگ چخماق دودی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1B1E23)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7122,9 +6879,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سنگ چخماق دودی)",
-                "chemicalName": "Persian Historical Pigment (Flint Basalt Dark)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #1B1E23)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Flint Basalt Dark)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7134,14 +6889,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 446,
                 "chromaOklab": 0.010641418933900703,
                 "spectralReflectancePeak": "446 nm",
                 "cieLab": {
                   "L": 11.155413325382309,
                   "a": 0.008098591798927357,
                   "b": -3.8747096080972323
-                }
+                },
+                "dominantWavelengthNm": 446
               },
               "artMovement": "جواهرات و سنگ‌های خراسانی",
               "historicalContextFa": "سنگ‌های صیقلی آبنوس و عقیق سیاه جواهردوزی",
@@ -7176,7 +6931,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7210,11 +6964,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Ancient Hyrcanian Fern)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سرخس کهنسال هیرکانی)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1B4332)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7254,9 +7005,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سرخس کهنسال هیرکانی)",
-                "chemicalName": "Persian Historical Pigment (Ancient Hyrcanian Fern)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #1B4332)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Ancient Hyrcanian Fern)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7266,14 +7015,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 518,
                 "chromaOklab": 0.05469228331612129,
                 "spectralReflectancePeak": "518 nm",
                 "cieLab": {
                   "L": 25.191419847359235,
                   "a": -18.923139876909858,
                   "b": 6.115484445616359
-                }
+                },
+                "dominantWavelengthNm": 518
               },
               "artMovement": "جنگل‌های هیرکانی و البرز",
               "historicalContextFa": "سرخس‌های بازمانده از عصر یخبندان با قدمت ۵۰ میلیون سال",
@@ -7308,7 +7057,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7339,11 +7087,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Moist Rock Moss)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (خزه مرطوب سنگ)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #40916C)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7383,9 +7128,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (خزه مرطوب سنگ)",
-                "chemicalName": "Persian Historical Pigment (Moist Rock Moss)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #40916C)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Moist Rock Moss)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7395,14 +7138,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 526,
                 "chromaOklab": 0.09847585200561375,
                 "spectralReflectancePeak": "526 nm",
                 "cieLab": {
                   "L": 54.47348777878432,
                   "a": -33.88251206467169,
                   "b": 12.302958752635917
-                }
+                },
+                "dominantWavelengthNm": 526
               },
               "artMovement": "جنگل‌های هیرکانی و البرز",
               "historicalContextFa": "طراوت خزه‌های مخملی حاشیه رودخانه‌های دوهزار",
@@ -7437,7 +7180,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7468,11 +7210,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Beech Leaf Fresh Sprout)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (جوانه راشستان)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #74C69D)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7512,9 +7251,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (جوانه راشستان)",
-                "chemicalName": "Persian Historical Pigment (Beech Leaf Fresh Sprout)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #74C69D)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Beech Leaf Fresh Sprout)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7524,14 +7261,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 526,
                 "chromaOklab": 0.10079529065514489,
                 "spectralReflectancePeak": "526 nm",
                 "cieLab": {
                   "L": 73.89166524677407,
                   "a": -34.336926535561474,
                   "b": 12.817599554562564
-                }
+                },
+                "dominantWavelengthNm": 526
               },
               "artMovement": "جنگل‌های هیرکانی و البرز",
               "historicalContextFa": "سبز روشن و درخشان درختان راش در مه صبحگاهی اسالم",
@@ -7566,7 +7303,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7597,11 +7333,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Caspian Oak Wood)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (بلوط کهنسال خزری)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #4A3525)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7641,9 +7374,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (بلوط کهنسال خزری)",
-                "chemicalName": "Persian Historical Pigment (Caspian Oak Wood)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #4A3525)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Caspian Oak Wood)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7653,14 +7384,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 614,
                 "chromaOklab": 0.039953258007999204,
                 "spectralReflectancePeak": "614 nm",
                 "cieLab": {
                   "L": 24.11483295682887,
                   "a": 7.040262337763615,
                   "b": 13.759394849617312
-                }
+                },
+                "dominantWavelengthNm": 614
               },
               "artMovement": "جنگل‌های هیرکانی و البرز",
               "historicalContextFa": "قهوه‌ای عمیق تنه بلوط‌های بلند جنگل‌های گلستان",
@@ -7695,7 +7426,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7726,11 +7456,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Damavand Glacier White)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سپیدی برف دماوند)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F8F9FA)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7770,9 +7497,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سپیدی برف دماوند)",
-                "chemicalName": "Persian Historical Pigment (Damavand Glacier White)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #F8F9FA)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Damavand Glacier White)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7782,14 +7507,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 512,
                 "chromaOklab": 0.0017073380860911974,
                 "spectralReflectancePeak": "512 nm",
                 "cieLab": {
                   "L": 97.87723833759337,
                   "a": -0.15342828024900168,
                   "b": -0.5943913341039941
-                }
+                },
+                "dominantWavelengthNm": 512
               },
               "artMovement": "جنگل‌های هیرکانی و البرز",
               "historicalContextFa": "برف‌های جاودان بلندترین آتشفشان قاره کهن",
@@ -7824,7 +7549,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7855,11 +7579,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Deep Forest Shadow)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (ژرفای جنگل مه‌آلود)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #0D1F18)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -7899,9 +7620,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (ژرفای جنگل مه‌آلود)",
-                "chemicalName": "Persian Historical Pigment (Deep Forest Shadow)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #0D1F18)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Deep Forest Shadow)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -7911,14 +7630,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 513,
                 "chromaOklab": 0.02789292816986401,
                 "spectralReflectancePeak": "513 nm",
                 "cieLab": {
                   "L": 10.042005789884623,
                   "a": -9.659143092566547,
                   "b": 2.4774768175955364
-                }
+                },
+                "dominantWavelengthNm": 513
               },
               "artMovement": "جنگل‌های هیرکانی و البرز",
               "historicalContextFa": "سایه درختان متراکم در دره‌های مه‌گرفته تالش",
@@ -7953,7 +7672,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -7987,11 +7705,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Saffron Yellow)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (زعفرانی سرگل (Saffron))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F4C430)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8031,9 +7746,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (زعفرانی سرگل (Saffron))",
-                "chemicalName": "Persian Historical Pigment (Saffron Yellow)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #F4C430)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Saffron Yellow)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8043,14 +7756,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 593,
                 "chromaOklab": 0.15980291485103396,
                 "spectralReflectancePeak": "593 nm",
                 "cieLab": {
                   "L": 81.25109694490547,
                   "a": 3.879763681201631,
                   "b": 74.14712648822272
-                }
+                },
+                "dominantWavelengthNm": 593
               },
               "artMovement": "طلای سرخ و کویر یزد",
               "historicalContextFa": "رنگ استاندارد زعفرانی جهانی نگین سرخ قائنات و گناباد",
@@ -8085,7 +7798,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8116,11 +7828,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Adobe Terracotta)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (کاهگل آفتاب‌خورده (Adobe))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #D27D46)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8160,9 +7869,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (کاهگل آفتاب‌خورده (Adobe))",
-                "chemicalName": "Persian Historical Pigment (Adobe Terracotta)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #D27D46)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Adobe Terracotta)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8172,14 +7879,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 627,
                 "chromaOklab": 0.1268326630517455,
                 "spectralReflectancePeak": "627 nm",
                 "cieLab": {
                   "L": 60.61452215244903,
                   "a": 28.19507023195428,
                   "b": 43.3587898289612
-                }
+                },
+                "dominantWavelengthNm": 627
               },
               "artMovement": "طلای سرخ و کویر یزد",
               "historicalContextFa": "اصلاح شده برای تناژ دقیق‌تر خشت و کاهگل معماری کویری یزد",
@@ -8214,7 +7921,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8245,11 +7951,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Rig-e Jenn Red Agate)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (عقیق سرخ ریگ‌جن)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #E63946)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8289,9 +7992,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (عقیق سرخ ریگ‌جن)",
-                "chemicalName": "Persian Historical Pigment (Rig-e Jenn Red Agate)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #E63946)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Rig-e Jenn Red Agate)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8301,14 +8002,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 644,
                 "chromaOklab": 0.20816788613808565,
                 "spectralReflectancePeak": "644 nm",
                 "cieLab": {
                   "L": 52.05297679643195,
                   "a": 65.72185047695662,
                   "b": 34.13866710907928
-                }
+                },
+                "dominantWavelengthNm": 644
               },
               "artMovement": "طلای سرخ و کویر یزد",
               "historicalContextFa": "عقیق‌های دشت کویر و سرخی افق هنگام طوفان شن",
@@ -8343,7 +8044,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8374,11 +8074,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Lut Golden Sand Dune)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (ماسه طلایی لوت)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F8E7D1)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8418,9 +8115,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (ماسه طلایی لوت)",
-                "chemicalName": "Persian Historical Pigment (Lut Golden Sand Dune)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #F8E7D1)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Lut Golden Sand Dune)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8430,14 +8125,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 604,
                 "chromaOklab": 0.034548272649921025,
                 "spectralReflectancePeak": "604 nm",
                 "cieLab": {
                   "L": 92.44748082957673,
                   "a": 2.2521267121689004,
                   "b": 12.79256782671232
-                }
+                },
+                "dominantWavelengthNm": 604
               },
               "artMovement": "طلای سرخ و کویر یزد",
               "historicalContextFa": "شن‌های روان تپه‌های ریگ یلان زیر نور آفتاب کویر",
@@ -8472,7 +8167,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8503,11 +8197,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Sun-baked Adobe Shadow)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (خشت سوخته کویر)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1B1917)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8547,9 +8238,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (خشت سوخته کویر)",
-                "chemicalName": "Persian Historical Pigment (Sun-baked Adobe Shadow)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #1B1917)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Sun-baked Adobe Shadow)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8559,14 +8248,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 610,
                 "chromaOklab": 0.004984075744772619,
                 "spectralReflectancePeak": "610 nm",
                 "cieLab": {
                   "L": 8.908989883149093,
                   "a": 0.4977017033220149,
                   "b": 1.7536198772947154
-                }
+                },
+                "dominantWavelengthNm": 610
               },
               "artMovement": "طلای سرخ و کویر یزد",
               "historicalContextFa": "تیرگی خنک بادگیرها و کوچه‌های مسقف خشتی یزد",
@@ -8601,7 +8290,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8632,11 +8320,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Senjed Windcatcher Timber)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (چوب سنجد بادگیر)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #6B4226)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8676,9 +8361,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (چوب سنجد بادگیر)",
-                "chemicalName": "Persian Historical Pigment (Senjed Windcatcher Timber)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #6B4226)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Senjed Windcatcher Timber)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8688,14 +8371,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 618,
                 "chromaOklab": 0.07044781620975853,
                 "spectralReflectancePeak": "618 nm",
                 "cieLab": {
                   "L": 32.173277142573006,
                   "a": 14.724166650898207,
                   "b": 24.198477160350585
-                }
+                },
+                "dominantWavelengthNm": 618
               },
               "artMovement": "طلای سرخ و کویر یزد",
               "historicalContextFa": "تیرهای مقاوم چوب سنجد در دهانه بادگیرهای باغ دولت‌آباد",
@@ -8730,7 +8413,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8764,11 +8446,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Turmeric Gold)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (زردچوبه ممتاز قلم (Turmeric))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FFC000)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8808,9 +8487,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (زردچوبه ممتاز قلم (Turmeric))",
-                "chemicalName": "Persian Historical Pigment (Turmeric Gold)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FFC000)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Turmeric Gold)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8820,14 +8497,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 592,
                 "chromaOklab": 0.17270503469411208,
                 "spectralReflectancePeak": "592 nm",
                 "cieLab": {
                   "L": 81.2692045780136,
                   "a": 9.855742100673249,
                   "b": 83.19999931274468
-                }
+                },
+                "dominantWavelengthNm": 592
               },
               "artMovement": "راسته ادویه‌فروشان بازار کهن",
               "historicalContextFa": "زرد درخشان‌تر و خالص‌تر زردچوبه اعلا در راسته‌های سنتی",
@@ -8862,7 +8539,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -8893,11 +8569,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Ancient Cinnamon Brown)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (دارچینی باستانی (Cinnamon))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #D2691E)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -8937,9 +8610,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (دارچینی باستانی (Cinnamon))",
-                "chemicalName": "Persian Historical Pigment (Ancient Cinnamon Brown)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #D2691E)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Ancient Cinnamon Brown)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -8949,14 +8620,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 631,
                 "chromaOklab": 0.1549924154304034,
                 "spectralReflectancePeak": "631 nm",
                 "cieLab": {
                   "L": 55.98605299432204,
                   "a": 37.0450467809601,
                   "b": 56.7400071133463
-                }
+                },
+                "dominantWavelengthNm": 631
               },
               "artMovement": "راسته ادویه‌فروشان بازار کهن",
               "historicalContextFa": "رنگ گرم و اصیل پوسته‌های دارچین بازار تبریز و اصفهان",
@@ -8991,7 +8662,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -9022,11 +8692,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Paprika & Pepper Crimson)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (پاپریکا و فلفل بیجار)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #C32F27)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -9066,9 +8733,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (پاپریکا و فلفل بیجار)",
-                "chemicalName": "Persian Historical Pigment (Paprika & Pepper Crimson)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #C32F27)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Paprika & Pepper Crimson)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -9078,14 +8743,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 639,
                 "chromaOklab": 0.1858961461176261,
                 "spectralReflectancePeak": "639 nm",
                 "cieLab": {
                   "L": 43.91810030074998,
                   "a": 57.25689577444887,
                   "b": 40.816979151699876
-                }
+                },
+                "dominantWavelengthNm": 639
               },
               "artMovement": "راسته ادویه‌فروشان بازار کهن",
               "historicalContextFa": "رنگدانه تند و آتشین فلفل‌های خشکیده آویخته در حجره‌ها",
@@ -9120,7 +8785,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -9151,11 +8815,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Pistachio Green)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (پسته خندان رفسنجان (Pistachio Green))",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #93C572)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -9195,9 +8856,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (پسته خندان رفسنجان (Pistachio Green))",
-                "chemicalName": "Persian Historical Pigment (Pistachio Green)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #93C572)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Pistachio Green)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -9207,14 +8866,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 520,
                 "chromaOklab": 0.12357701103150494,
                 "spectralReflectancePeak": "520 nm",
                 "cieLab": {
                   "L": 74.41337981760837,
                   "a": -31.20879676511207,
                   "b": 36.41504349781246
-                }
+                },
+                "dominantWavelengthNm": 520
               },
               "artMovement": "راسته ادویه‌فروشان بازار کهن",
               "historicalContextFa": "رنگ استاندارد Pistachio Green حاصل از پسته‌های نوبرانه",
@@ -9249,7 +8908,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -9280,11 +8938,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Ancient Saffron Pastry Cream)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (خامه شیرینی کهن)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FAF0CA)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -9324,9 +8979,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (خامه شیرینی کهن)",
-                "chemicalName": "Persian Historical Pigment (Ancient Saffron Pastry Cream)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #FAF0CA)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Ancient Saffron Pastry Cream)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -9336,14 +8989,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 607,
                 "chromaOklab": 0.050567011924564635,
                 "spectralReflectancePeak": "607 nm",
                 "cieLab": {
                   "L": 94.69940940065847,
                   "a": -2.6373926956238525,
                   "b": 19.605954210702524
-                }
+                },
+                "dominantWavelengthNm": 607
               },
               "artMovement": "راسته ادویه‌فروشان بازار کهن",
               "historicalContextFa": "سپیدی کرم آردی گز و شیرینی‌های سنتی بازار",
@@ -9378,7 +9031,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []
@@ -9409,11 +9061,8 @@
               "mineralogical": {
                 "mineralName": "Persian Historical Pigment (Nigella Seed & Black Cardamom)",
                 "mineralNameFa": "رنگدانه اصیل ایرانی (سیاه‌دانه و هل سیاه)",
-                "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1E1E24)",
                 "crystalSystem": "کریستالین بومی فلات ایران",
-                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی",
-                "historicalManuscriptRef": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "traditionalExtraction": "استخراج سنتی از منابع گیاهی و معدنی ایران بر اساس رسالات خطی تذهیب و رنگرزی"
               },
               "geoSpatial": {
                 "originSite": "Iranian Plateau Heritage Sites",
@@ -9453,9 +9102,7 @@
               },
               "chemical": {
                 "historicalPigmentFa": "رنگدانه اصیل ایرانی (سیاه‌دانه و هل سیاه)",
-                "chemicalName": "Persian Historical Pigment (Nigella Seed & Black Cardamom)",
-                "formula": "Natural Organic / Mineral Complex (Matrix #1E1E24)",
-                "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+                "chemicalName": "Persian Historical Pigment (Nigella Seed & Black Cardamom)"
               },
               "geo": {
                 "locationFa": "فلات ایران، مراکز سنتی هنر و معماری",
@@ -9465,14 +9112,14 @@
                 "unescoSiteId": "ثبت میراث فرهنگی ملموس و ناملموس یونسکو"
               },
               "physics": {
-                "dominantWavelengthNm": 445,
                 "chromaOklab": 0.01140490904434914,
                 "spectralReflectancePeak": "445 nm",
                 "cieLab": {
                   "L": 11.497061222579049,
                   "a": 1.6049053815251346,
                   "b": -4.066669096550251
-                }
+                },
+                "dominantWavelengthNm": 445
               },
               "artMovement": "راسته ادویه‌فروشان بازار کهن",
               "historicalContextFa": "دانه‌های معطر سیاه‌دانه، هل هندی و فلفل سیاه آسیاب‌نشده",
@@ -9507,7 +9154,6 @@
                   }
                 ],
                 "historicalReference": {
-                  "citation": "رسالات کهن رنگرزی سنتی و صنعتی ایران زمین",
                   "verification": "not-verified"
                 },
                 "conflicts": []

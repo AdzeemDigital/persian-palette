@@ -3,8 +3,17 @@ import { colorTokenKey, toDTCGToken } from './exporters/w3c.js';
 import { VERSION } from './version.js';
 /** Normalize Persian/Arabic letter variants, marks, spacing and English case. */
 export function normalizeColorName(value) {
-    return value.normalize('NFKC').toLowerCase().replace(/ي/g, 'ی').replace(/ك/g, 'ک')
-        .replace(/[\u064B-\u065F\u0670\u0640]/g, '').replace(/[^\p{L}\p{N}]/gu, '');
+    return value
+        .normalize('NFKC')
+        .toLowerCase()
+        .replace(/[\u0649\u064A\u0626]/g, '\u06CC')
+        .replace(/\u0643/g, '\u06A9')
+        .replace(/[\u06C0\u0629]/g, '\u0647')
+        .replace(/[\u0622\u0623\u0625]/g, '\u0627')
+        .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+        .replace(/[\u0660-\u0669]/g, d => String(d.charCodeAt(0) - 0x0660))
+        .replace(/[\u06F0-\u06F9]/g, d => String(d.charCodeAt(0) - 0x06F0))
+        .replace(/[^\p{L}\p{N}]/gu, '');
 }
 function token(color) {
     return { ...toDTCGToken(color), id: color.id, hex: color.hex, nameFa: color.nameFa, nameEn: color.nameEn, evidence: color.evidence };

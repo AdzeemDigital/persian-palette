@@ -2,6 +2,7 @@
   "name": "manshour-studio",
   "version": "3.0.0",
   "private": true,
+  "author": "Majid ZeidAbadiNejad (Adzeem Digital)",
   "type": "module",
   "scripts": {
     "build": "npm --prefix packages/core run build && node scripts/build-app.mjs",

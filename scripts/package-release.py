@@ -12,8 +12,8 @@ if hashlib.sha256(artifact.read_bytes()).hexdigest() != manifest['sha256']:
 
 files = [root / name for name in (
     'code_artifact.html', 'code_artifact_en.html', 'README.md', 'README.fa.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
-    'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'SECURITY.md', '.gitignore',
-    'walkthrough.md', 'implementation_plan.md', 'package.json', 'package-lock.json',
+    'CONTRIBUTING.md', 'CODE_OF_CONDUCT.md', 'SECURITY.md', '.gitignore', '.gitattributes',
+    'package.json', 'package-lock.json',
     'release/persian-palette-core-3.0.0.tgz', 'release/manshour-studio-en.html',
 )]
 for directory in ('app', 'docs', 'scripts', 'tests', 'packages/core', '.github', 'archive/v2.1.0'):

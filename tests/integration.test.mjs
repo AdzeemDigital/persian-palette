@@ -8,6 +8,7 @@ import StyleDictionary from 'style-dictionary';
 import * as core from '../packages/core/dist/index.js';
 import {createServer} from '../scripts/serve.mjs';
 const html=await fs.readFile(new URL('../code_artifact.html',import.meta.url),'utf8');
+const htmlEn=await fs.readFile(new URL('../code_artifact_en.html',import.meta.url),'utf8');
 const source=await fs.readFile(new URL('../app/app.js',import.meta.url),'utf8');
 const extra=await fs.readFile(new URL('../app/enhancements.js',import.meta.url),'utf8');
 const dom=parseHTML(html);
@@ -90,6 +91,14 @@ test('accessibility and provenance affordances are present in shipped source',()
  assert.ok(html.includes('prefers-reduced-motion:reduce'));
  assert.ok(source.includes('let soundEnabled = false'));
  assert.ok(!html.includes('سازگاری ۱۰۰٪'));
+ assert.ok(html.includes('@media (max-height: 480px), (max-width: 420px)'));
+ assert.ok(!html.includes('نام کانی‌شناسی اصیل (فارسی):'));
+ assert.ok(!html.includes('رساله کهن خطی و سند تاریخی مرجع'));
+ assert.ok(!html.includes('موزه هنرهای اسلامی'));
+ assert.ok(!source.includes('این ترکیب با رعایت کامل استانداردهای WCAG 2.2'));
+ const enTitle = htmlEn.match(/<title>(.*?)<\/title>/)?.[1];
+ assert.equal(enTitle, 'Persian Palette Vault | Heritage Color Studio & Design Tokens');
+ assert.ok(!/[\u0600-\u06FF]/.test(enTitle || ''));
 });
 test('local HTTP server serves artifact, rejects arbitrary files and unsupported methods',async(t)=>{
  const server=createServer();await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));

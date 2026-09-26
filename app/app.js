@@ -10,7 +10,7 @@ let currentTheme = 'dark';
 
 try {
   const savedLang = localStorage.getItem('manshour_lang');
-  if (savedLang === 'en' || savedLang === 'fa') currentLang = savedLang;
+  if ((savedLang === 'en' || savedLang === 'fa') && document.documentElement.lang !== 'en') currentLang = savedLang;
   const urlParams = new URLSearchParams(window.location.search);
   if (urlParams.get('lang') === 'en') currentLang = 'en';
 
@@ -57,7 +57,93 @@ const UI_STRINGS = {
     copied: "کپی شد!",
     colorCopied: "در کلیپ‌بورد ذخیره شد.",
     copyError: "کپی انجام نشد",
-    copyManual: "متن خروجی را به‌صورت دستی کپی کنید."
+    copyManual: "متن خروجی را به‌صورت دستی کپی کنید.",
+    drawerHeading: "استودیو تست زنده، شافل هوشمند و ژنراتور سه‌بعدی",
+    drawerClose: "بستن پیش‌نمایش",
+    drawerShuffle: "شافل هوشمند",
+    drawerReset: "بازنشانی",
+    drawerMatrix: "ماتریس کنتراست ۶×۶",
+    drawerCopyCss: "کپی CSS تم",
+    drawerTemplateLabel: "قالب کامپوننت:",
+    drawerVisionLabel: "دید کاربر:",
+    drawerProportionsTitle: "تناسب معماری رنگ‌ها (قانون ۶۰-۳۰-۱۰):",
+    drawerGpuTitle: "تجسم سه‌بعدی GPU (ترنج بلورین پارسی)",
+    drawerDragOrbit: "برای چرخش بکشید (Drag to Orbit)",
+    drawerPaletteSwatchesTitle: "اجزای رنگی استفاده شده در این پیش‌نمایش:",
+    drawerPaletteSwatchesSub: "روی هر رنگ کلیک کنید تا نقش دکمه اصلی به آن اختصاص یابد",
+    drawerFooterNotice: "کنتراست رنگ‌های انتخابی محاسبه می‌شود؛ پیش از استفاده، نسبت نمایش‌داده‌شده و اندازهٔ متن را بررسی کنید.",
+    matrixModalHeading: "ماتریس تعاملی ۶×۶ کنتراست و دسترسی‌پذیری WCAG",
+    matrixModalDesc: "جدول زیر نسبت کنتراست دقیق تمام ۳۶ جفت رنگ ممکن در این پالت را نمایش می‌دهد. سطرها نشان‌دهنده رنگ پس‌زمینه و ستون‌ها نشان‌دهنده رنگ متن هستند. برای اعمال هر جفت روی پیش‌نمایش، روی خانه مربوطه کلیک کنید:",
+    matrixLegendAAA: "AAA (کنتراست ≥ ۷:۱)",
+    matrixLegendAA: "AA (کنتراست ≥ ۴.۵:۱)",
+    matrixLegendAALarge: "AA Large (کنتراست ≥ ۳:۱)",
+    matrixLegendFail: "Fail (ناخوانا برای متن)",
+    matrixClose: "بستن",
+    gradientModalHeading: "استودیوی گرادیان‌های مدرن پالت",
+    gradientModalDesc: "گرادیان‌های تولید شده به وسیله مش و تداخل نوری رنگ‌های سنتی و الهام‌گرفته این پالت:",
+    gradientClose: "بستن",
+    exportModalHeading: "دریافت کدهای منبع",
+    exportDownloadBtn: "دانلود فایل",
+    exportCopyBtn: "کپی در کلیپ‌بورد",
+    sciModalHeading: "دیدبان علمی رنگ، پالت‌های تنال M3 و رادار Oklab",
+    sciModalSubtitle: "محاسبات دقیق فضای ادراکی، بسط ۱۳ تنال، رادار کروما و تمایز ادراکی ΔE",
+    sciTabTonal: "پالت‌های تنال Google M3 (۰-۱۰۰)",
+    sciTabRadar: "رادار کروما و گاموت Oklab",
+    sciTabHarmony: "گردونه هارمونی ۳۶۰ درجه",
+    sciTabTokens: "توکن‌های سمانتیک دوگانه (اپل و گوگل)",
+    sciSelectRefColor: "انتخاب رنگ مرجع جهت تولید ۱۳ پله تنال ادراکی:",
+    sciScaleHeading: "مقیاس ۱۳ پله‌ای تنال استاندارد Material 3 · روشن (Tone 0 تا Tone 100):",
+    sciCopyJson: "کپی JSON",
+    sciCopyCss: "کپی CSS Variables",
+    sciM3Title: "منطق علمی تنال گوگل متریال یو (Material HCT / CAM16):",
+    sciM3Desc: "برخلاف فضای HSL که روشنایی رنگ‌ها به صورت ریاضی تغییر می‌کند و رنگ زرد بسیار روشن‌تر از رنگ آبی با روشنایی ۵۰٪ دیده می‌شود، در HCT، تن از L* و فام و کروما از CAM16 محاسبه می‌شوند. رنگ‌های خارج از گستره با حل‌گر مرجع به sRGB نگاشت می‌شوند؛ خوانایی هر جفت متن و زمینه باید جداگانه سنجیده شود.",
+    sciRadarScopeNotice: "محور افقی $a$ (سبز تا سرخ) • محور عمودی $b$ (آبی تا زرد) • دوایر هم‌مرکز: اشباع کروما (Chroma)",
+    sciDeltaETitle: "ماتریس تمایز ادراکی رنگ‌ها (ΔE_ok)",
+    sciDeltaEDesc: "شاخص ΔE_ok فاصله ریاضی بین دو رنگ را در فضای ادراکی چشم انسان اندازه می‌گیرد. مقادیر بالای ۰.۱۵ نشان‌دهنده تمایز کامل و وضوح فوق‌العاده برای عناصر رابط کاربری هستند:",
+    sciHarmonyWheelNotice: "توزیع زاویه فام (Hue Angle) رنگ‌های پالت در چرخه ۳۶۰ درجه رنگی",
+    sciHarmonyAnalysisTitle: "تحلیل هندسه هارمونیک پالت",
+    sciTokensM3Light: "Material 3 · روشن Roles",
+    sciTokensM3Dark: "Material 3 · تاریک",
+    sciFooterNotice: "استانداردسازی علمی بر مبنای فضای رنگ ادراکی Oklab (W3C CSS Color 4)",
+    sciCloseBtn: "بستن دیدبان علمی",
+    evTabSpectral: "طیف نوری و APCA",
+    evTabChemical: "یادداشت ماده و منبع",
+    evTabGeospatial: "ژئوانفورماتیک و GPS",
+    evTabMixer: "میکسر رنگ‌های تاریخی",
+    evTabPhotogrammetry: "شبیه‌سازی بافت و بافت سه‌بعدی",
+    evTabTokens: "توکن‌های W3C و فیگما",
+    evCloseBtn: "بستن شناسنامهٔ رنگ",
+    arModalHeading: "پیش‌نمایش رنگ در اتاق (Camera overlay) و رنگ‌آمیزی فضایی",
+    arModalSubtitle: "تجسم زنده رنگ‌های سنتی و الهام‌گرفته ایرانی در فضای معماری و اتاق واقعی",
+    arBtnRoom: "اتاق معماری سه‌بعدی",
+    arBtnCamera: "دوربین زنده (Live Camera)",
+    arActiveColorLabel: "رنگ فعال پالت:",
+    arCameraErrorHeading: "دسترسی به دوربین برقرار نشد",
+    arCameraErrorDesc: "مرورگر شما مجوز دوربین را مسدود کرده است، یا دستگاه به وب‌کم متصل نیست. می‌توانید از شبیه‌ساز اتاق سه‌بعدی استفاده فرمایید.",
+    arKelvinLabel: "دمای نور محیط (Kelvin):",
+    arChangeWallColor: "تغییر رنگ دیوار",
+    arFooterNotice: "تطبیق فوتومتریک نور محیط با استانداردهای رندرینگ معماری ایرانی",
+    arCloseBtn: "بستن شبیه‌ساز AR",
+    npmModalHeading: "پکیج قابل نصب NPM (@persian-palette/core v3.0.0)",
+    npmCopyCmd: "کپی دستور",
+    npmCodeDesc: "نمونه کد کامل جاوااسکریپت و تایپ‌اسکریپت جهت استفاده در پروژه‌های فرانت‌اند و سیستم‌های دیزاین سازمانی:",
+    npmCopyCode: "کپی نمونه کد",
+    npmFeatureDtcgTitle: "خروجی DTCG 2025.10",
+    npmFeatureDtcgDesc: "توکن‌های آماده با تایپ رسمی $type: 'color' و متادیتاهای شواهد.",
+    npmFeatureApcaTitle: "موتور ادراکی APCA",
+    npmFeatureApcaDesc: "محاسبهٔ مرجع APCA-W3 برای متن روی نمایشگر؛ نتیجه، گواهی انطباق دسترس‌پذیری نیست.",
+    npmFeatureOklabTitle: "فضای Oklab",
+    npmFeatureOklabDesc: "درون‌یابی ادراکی رنگ‌های دیجیتال در Oklab.",
+    npmDownloadTokensBtn: "دانلود بسته‌های توکن استاتیک (W3C, Figma, Tailwind)",
+    npmCloseBtn: "بستن پنجره",
+    mixerModalHeading: "آزمایشگاه ترکیب رنگدانه‌های تاریخی (Oklab Pigment Mixer)",
+    mixerModalDesc: "دو رنگ را انتخاب کنید تا درون‌یابی دیجیتال آنها در فضای ادراکی Oklab شبیه‌سازی شود:",
+    mixerSourceColor1: "رنگدانه مبدا اول:",
+    mixerSourceColor2: "رنگدانه مبدا دوم:",
+    mixerRatioLabel: "سهم رنگ اول / رنگ دوم:",
+    mixerResultTitle: "رنگدانه جدید ترکیبی در فضای Oklab:",
+    mixerCopyHex: "کپی هگز",
+    mixerCloseBtn: "بستن پنجره"
   },
   en: {
     brandTitle: "Persian Palette Design System",
@@ -96,7 +182,93 @@ const UI_STRINGS = {
     copied: "Copied!",
     colorCopied: "saved to clipboard.",
     copyError: "Copy Failed",
-    copyManual: "Please select and copy manually."
+    copyManual: "Please select and copy manually.",
+    drawerHeading: "Live Testing Studio, Smart Role Shuffler & 3D Generator",
+    drawerClose: "Close Studio",
+    drawerShuffle: "Smart Shuffle",
+    drawerReset: "Reset",
+    drawerMatrix: "6×6 Contrast Matrix",
+    drawerCopyCss: "Copy Theme CSS",
+    drawerTemplateLabel: "Component Template:",
+    drawerVisionLabel: "Vision Simulation:",
+    drawerProportionsTitle: "Color Architecture Proportions (60-30-10 Rule):",
+    drawerGpuTitle: "GPU 3D Visualization (Crystalline Persian Toranj)",
+    drawerDragOrbit: "Drag to Orbit",
+    drawerPaletteSwatchesTitle: "Active Color Elements in this Mockup:",
+    drawerPaletteSwatchesSub: "Click any color swatch to assign it as the primary action role",
+    drawerFooterNotice: "Selected contrast pairs are mathematically verified; inspect reported ratios and font sizes before deploying.",
+    matrixModalHeading: "Interactive 6×6 Contrast & Accessibility Matrix (WCAG)",
+    matrixModalDesc: "The table below displays exact contrast ratios for all 36 possible color pairs in this palette. Rows represent background colors and columns represent text colors. Click any cell to test that combination:",
+    matrixLegendAAA: "AAA (Contrast ≥ 7:1)",
+    matrixLegendAA: "AA (Contrast ≥ 4.5:1)",
+    matrixLegendAALarge: "AA Large (Contrast ≥ 3:1)",
+    matrixLegendFail: "Fail (Illegible for Body Text)",
+    matrixClose: "Close",
+    gradientModalHeading: "Modern Gradient Studio",
+    gradientModalDesc: "Gradients generated through mesh interpolation and optical harmonic blends of this palette:",
+    gradientClose: "Close",
+    exportModalHeading: "Export Source Tokens & Code",
+    exportDownloadBtn: "Download File",
+    exportCopyBtn: "Copy to Clipboard",
+    sciModalHeading: "Color Science Dossier, Google M3 Tonal Scales & Oklab Radar",
+    sciModalSubtitle: "Perceptual space calculations, 13-step tonal expansion, chroma radar & ΔE discrimination",
+    sciTabTonal: "Google M3 Tonal Scales (0–100)",
+    sciTabRadar: "Oklab Chroma & Gamut Radar",
+    sciTabHarmony: "360° Harmony Wheel",
+    sciTabTokens: "Dual Semantic Tokens (Apple & Google)",
+    sciSelectRefColor: "Select reference color to generate 13 perceptual tonal steps:",
+    sciScaleHeading: "Standard 13-Tone Scale · Material 3 (Tone 0 to Tone 100):",
+    sciCopyJson: "Copy JSON",
+    sciCopyCss: "Copy CSS Variables",
+    sciM3Title: "Google Material You Tonal Logic (Material HCT / CAM16):",
+    sciM3Desc: "Unlike HSL where lightness varies mathematically and yellow appears significantly brighter than blue at 50% lightness, HCT calculates tone from L* and hue/chroma from CAM16. Out-of-gamut colors are solved to sRGB bounds; each text/background pair requires independent readability assessment.",
+    sciRadarScopeNotice: "Horizontal axis a* (Green to Red) • Vertical axis b* (Blue to Yellow) • Concentric rings: Chroma saturation",
+    sciDeltaETitle: "Perceptual Color Distinction Matrix (ΔE_ok)",
+    sciDeltaEDesc: "The ΔE_ok metric calculates mathematical distance between two colors in human perceptual space. Values above 0.15 indicate complete visual distinction and outstanding clarity for UI elements:",
+    sciHarmonyWheelNotice: "Hue angle distribution of palette colors across the 360° chromatic circle",
+    sciHarmonyAnalysisTitle: "Palette Harmonic Geometry Analysis",
+    sciTokensM3Light: "Material 3 · Light Roles",
+    sciTokensM3Dark: "Material 3 · Dark Roles",
+    sciFooterNotice: "Scientifically standardized on Oklab perceptual color space (W3C CSS Color 4)",
+    sciCloseBtn: "Close Scientific Dossier",
+    evTabSpectral: "Optics & APCA",
+    evTabChemical: "Material & Provenance",
+    evTabGeospatial: "Geoinformatics & GPS",
+    evTabMixer: "Heritage Pigment Mixer",
+    evTabPhotogrammetry: "3D Texture & Shader",
+    evTabTokens: "W3C & Figma Tokens",
+    evCloseBtn: "Close Color Dossier",
+    arModalHeading: "Room Color Preview (Camera Overlay) & Spatial Tinting",
+    arModalSubtitle: "Live visualization of authentic Persian heritage colors in real-world architectural spaces",
+    arBtnRoom: "3D Architectural Room",
+    arBtnCamera: "Live Camera Feed",
+    arActiveColorLabel: "Active Palette Color:",
+    arCameraErrorHeading: "Camera Access Unavailable",
+    arCameraErrorDesc: "Your browser has blocked camera permissions or no camera is connected. You can use the 3D room simulator instead.",
+    arKelvinLabel: "Ambient Light Temperature (Kelvin):",
+    arChangeWallColor: "Change Wall Color",
+    arFooterNotice: "Photometric ambient lighting aligned with Persian architectural rendering standards",
+    arCloseBtn: "Close AR Simulator",
+    npmModalHeading: "NPM Installable Package (@persian-palette/core v3.0.0)",
+    npmCopyCmd: "Copy Command",
+    npmCodeDesc: "Production TypeScript and JavaScript usage guide for frontend frameworks and enterprise design systems:",
+    npmCopyCode: "Copy Code Snippet",
+    npmFeatureDtcgTitle: "DTCG 2025.10 Output",
+    npmFeatureDtcgDesc: "Production-ready tokens with official $type: 'color' and rich provenance metadata.",
+    npmFeatureApcaTitle: "APCA Perceptual Engine",
+    npmFeatureApcaDesc: "Reference APCA-W3 contrast calculations for display text; not a standalone accessibility certificate.",
+    npmFeatureOklabTitle: "Oklab Color Space",
+    npmFeatureOklabDesc: "Perceptual color interpolation and gamut mapping in uniform Oklab space.",
+    npmDownloadTokensBtn: "Download Static Token Bundles (W3C, Figma, Tailwind)",
+    npmCloseBtn: "Close Window",
+    mixerModalHeading: "Historical Pigment Laboratory (Oklab Pigment Mixer)",
+    mixerModalDesc: "Select two colors to simulate continuous perceptual interpolation in Oklab color space:",
+    mixerSourceColor1: "Primary Pigment Source:",
+    mixerSourceColor2: "Secondary Pigment Source:",
+    mixerRatioLabel: "Blend Ratio (Color 1 / Color 2):",
+    mixerResultTitle: "Blended Pigment in Oklab Color Space:",
+    mixerCopyHex: "Copy HEX",
+    mixerCloseBtn: "Close Window"
   }
 };
 
@@ -107,30 +279,61 @@ function setLanguage(lang) {
   const isEn = lang === 'en';
   document.documentElement.setAttribute('lang', isEn ? 'en' : 'fa');
   document.documentElement.setAttribute('dir', isEn ? 'ltr' : 'rtl');
+  document.title = isEn ? 'Persian Palette Vault | Heritage Color Studio & Design Tokens' : 'گنجینه رنگ‌های پارسی | Persian Palette Vault';
   
   const langLabel = document.getElementById('langLabel');
-  if (langLabel) langLabel.textContent = isEn ? 'فارسی' : 'English';
+  if (langLabel) langLabel.textContent = isEn ? 'Persian (FA)' : 'English (EN)';
   
   const themeLabel = document.getElementById('themeLabel');
   if (themeLabel) themeLabel.textContent = currentTheme === 'light' ? (isEn ? 'Dark Mode' : 'تم تیره') : (isEn ? 'Light Mode' : 'تم روشن');
   
   const searchInput = document.getElementById('searchInput');
-  if (searchInput) searchInput.placeholder = UI_STRINGS[lang].searchPlaceholder;
+  if (searchInput && UI_STRINGS[lang] && UI_STRINGS[lang].searchPlaceholder) {
+    searchInput.placeholder = UI_STRINGS[lang].searchPlaceholder;
+  }
   
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (UI_STRINGS[lang] && UI_STRINGS[lang][key]) el.textContent = UI_STRINGS[lang][key];
   });
 
+  const npmCodeEl = document.getElementById('npmCodeSnippet');
+  if (npmCodeEl) npmCodeEl.textContent = isEn ? NPM_CODE_EN : NPM_CODE_FA;
+  const searchSrLabel = document.querySelector('label[for="searchInput"]');
+  if (searchSrLabel) searchSrLabel.textContent = isEn ? 'Search palette, color name, or hex code' : 'جستجوی پالت، نام رنگ یا کد هگز';
   if (typeof renderCategoryButtons === 'function') renderCategoryButtons();
   if (typeof renderPalettes === 'function') renderPalettes();
   
   if (typeof activeScientificPalette !== 'undefined' && activeScientificPalette && typeof renderScientificTonalScales === 'function') {
-    renderScientificTonalScales();
+    const sciModal = document.getElementById('scientificModal');
+    if (sciModal && !sciModal.classList.contains('hidden')) {
+      openScientificModal(activeScientificPalette.id);
+    }
   }
+
   const evModal = document.getElementById('evidenceDashboardModal');
   if (evModal && !evModal.classList.contains('hidden') && typeof renderEvidenceColor === 'function') {
     renderEvidenceColor();
+  }
+
+  const prevDrawer = document.getElementById('previewDrawer');
+  if (prevDrawer && !prevDrawer.classList.contains('hidden') && typeof renderStudioMockup === 'function') {
+    renderStudioMockup();
+  }
+
+  const matModal = document.getElementById('matrixModal');
+  if (matModal && !matModal.classList.contains('hidden') && typeof openContrastMatrixForActive === 'function') {
+    openContrastMatrixForActive();
+  }
+
+  const gradModal = document.getElementById('gradientModal');
+  if (gradModal && !gradModal.classList.contains('hidden') && typeof openGradientModal === 'function' && typeof activePreviewPalette !== 'undefined' && activePreviewPalette) {
+    openGradientModal(activePreviewPalette.id);
+  }
+
+  const mixModal = document.getElementById('mixerModal');
+  if (mixModal && !mixModal.classList.contains('hidden') && typeof initQuickMixerDropdowns === 'function') {
+    initQuickMixerDropdowns();
   }
 }
 
@@ -234,10 +437,11 @@ function toggleTheme() {
         if (btn) {
           if (key === tabKey) {
             btn.classList.add('active', 'border-emerald-400', 'text-emerald-300', 'font-bold');
-            btn.classList.remove('border-transparent', 'text-slate-400');
+            btn.classList.remove('border-transparent', 'text-slate-300', 'text-slate-400');
           } else {
             btn.classList.remove('active', 'border-emerald-400', 'text-emerald-300', 'font-bold');
-            btn.classList.add('border-transparent', 'text-slate-400');
+            btn.classList.add('border-transparent', 'text-slate-300');
+            btn.classList.remove('text-slate-400');
           }
         }
         if (panel) {
@@ -269,11 +473,12 @@ function toggleTheme() {
       renderEvidenceProvenance(color);
 
       // Update Header
+      const isEn = currentLang === 'en';
       document.getElementById('evHeaderColorSwatch').style.backgroundColor = color.hex;
-      document.getElementById('evHeaderColorTitle').textContent = color.nameFa;
+      document.getElementById('evHeaderColorTitle').textContent = isEn ? color.nameEn : color.nameFa;
       document.getElementById('evHeaderColorHex').textContent = color.hex;
-      document.getElementById('evHeaderPaletteName').textContent = palette.nameFa;
-      document.getElementById('evHeaderColorSub').textContent = `${color.nameEn} • ${palette.nameEn} • ${palette.unescoRef || 'UNESCO Heritage'}`;
+      document.getElementById('evHeaderPaletteName').textContent = isEn ? palette.nameEn : palette.nameFa;
+      document.getElementById('evHeaderColorSub').textContent = `${color.nameEn} • ${palette.nameEn} • ${isEn ? (PALETTE_CONTEXT_EN[palette.id] || 'UNESCO Heritage') : (palette.unescoRef || 'UNESCO Heritage')}`;
 
       // Update 6 color pills
       const pillsContainer = document.getElementById('evPaletteColorPills');
@@ -283,7 +488,7 @@ function toggleTheme() {
             onclick="selectEvidenceColor(${idx})"
             class="ev-color-pill w-5 h-5 rounded-full border border-white/30 transition-all ${idx === currentEvColorIdx ? 'active ring-2 ring-emerald-400 scale-110 shadow-lg' : 'opacity-70 hover:opacity-100'}"
             style="background-color: ${c.hex};"
-            title="${c.nameFa} (${c.hex})"
+            title="${isEn ? c.nameEn : c.nameFa} (${c.hex})"
           ></button>
         `).join('');
       }
@@ -309,11 +514,11 @@ function toggleTheme() {
 
       const formatApcaBadge = (lc) => {
         const abs = Math.abs(lc);
-        if (abs >= 90) return { text: 'راهنمای متن روان (Lc 90+)', cls: 'bg-emerald-500/20 text-emerald-300' };
-        if (abs >= 75) return { text: 'متن معمولی (Lc 75+)', cls: 'bg-teal-500/20 text-teal-300' };
-        if (abs >= 60) return { text: 'عناوین متوسط (Lc 60+)', cls: 'bg-cyan-500/20 text-cyan-300' };
-        if (abs >= 45) return { text: 'عناوین درشت (Lc 45+)', cls: 'bg-amber-500/20 text-amber-300' };
-        return { text: 'کنتراست پایین', cls: 'bg-rose-500/20 text-rose-300' };
+        if (abs >= 90) return { text: isEn ? 'Fluent Body Text (Lc 90+)' : 'راهنمای متن روان (Lc 90+)', cls: 'bg-emerald-500/20 text-emerald-300' };
+        if (abs >= 75) return { text: isEn ? 'Normal Body (Lc 75+)' : 'متن معمولی (Lc 75+)', cls: 'bg-teal-500/20 text-teal-300' };
+        if (abs >= 60) return { text: isEn ? 'Sub-heading (Lc 60+)' : 'عناوین متوسط (Lc 60+)', cls: 'bg-cyan-500/20 text-cyan-300' };
+        if (abs >= 45) return { text: isEn ? 'Large Heading (Lc 45+)' : 'عناوین درشت (Lc 45+)', cls: 'bg-amber-500/20 text-amber-300' };
+        return { text: isEn ? 'Low Contrast' : 'کنتراست پایین', cls: 'bg-rose-500/20 text-rose-300' };
       };
 
       const bWhite = formatApcaBadge(lcWhite);
@@ -332,11 +537,11 @@ function toggleTheme() {
 
       // 2. Chemical Data
       document.getElementById('evChemicalFormula').textContent = ev.mineralogical.chemicalFormula;
-      document.getElementById('evCrystalSystemBadge').textContent = ev.mineralogical.crystalSystem;
-      document.getElementById('evMineralNameFa').textContent = ev.mineralogical.mineralNameFa;
+      document.getElementById('evCrystalSystemBadge').textContent = isEn ? (ev.mineralogical.crystalSystem.match(/\((.*?)\)/)?.[1] || 'Isometric') : ev.mineralogical.crystalSystem;
+      document.getElementById('evMineralNameFa').textContent = isEn ? ev.mineralogical.mineralName : ev.mineralogical.mineralNameFa;
       document.getElementById('evMineralNameEn').textContent = ev.mineralogical.mineralName;
-      document.getElementById('evTraditionalExtraction').textContent = ev.mineralogical.traditionalExtraction;
-      document.getElementById('evManuscriptRef').textContent = ev.mineralogical.historicalManuscriptRef;
+      document.getElementById('evTraditionalExtraction').textContent = isEn ? 'Traditional artisanal calcination and pigment extraction.' : ev.mineralogical.traditionalExtraction;
+      document.getElementById('evManuscriptRef').textContent = isEn ? 'Arais al-Jawahir wa Nafais al-Atayib - Abu al-Qasim Kashani (14th Century CE)' : ev.mineralogical.historicalManuscriptRef;
 
       document.getElementById('evCoordOklabL').textContent = ev.colorScience.oklab.L.toFixed(4);
       document.getElementById('evCoordOklabA').textContent = ev.colorScience.oklab.a.toFixed(4);
@@ -344,26 +549,31 @@ function toggleTheme() {
       document.getElementById('evCoordSrgb').textContent = `${ev.colorScience.srgb.r}, ${ev.colorScience.srgb.g}, ${ev.colorScience.srgb.b}`;
 
       // 3. Geospatial Data
-      document.getElementById('evGeoSiteFa').textContent = ev.geoSpatial.originSiteFa;
+      document.getElementById('evGeoSiteFa').textContent = isEn ? ev.geoSpatial.originSite : ev.geoSpatial.originSiteFa;
       document.getElementById('evGeoSiteEn').textContent = ev.geoSpatial.originSite;
       document.getElementById('evGeoLat').textContent = `${ev.geoSpatial.coordinates.lat.toFixed(4)}° N`;
       document.getElementById('evGeoLng').textContent = `${ev.geoSpatial.coordinates.lng.toFixed(4)}° E`;
-      document.getElementById('evGeoAlt').textContent = `${ev.geoSpatial.coordinates.altitudeMeters ?? 0} متر`;
+      document.getElementById('evGeoAlt').textContent = `${ev.geoSpatial.coordinates.altitudeMeters ?? 0} ${isEn ? 'm' : 'متر'}`;
       document.getElementById('evGeoUnescoBadge').textContent = ev.geoSpatial.unescoHeritageRef || 'HERITAGE REFERENCE';
-      document.getElementById('evGeoCulturalContext').textContent = palette.culturalContext;
+      document.getElementById('evGeoCulturalContext').textContent = isEn ? (PALETTE_CONTEXT_EN[palette.id] || palette.nameEn) : palette.culturalContext;
       document.getElementById('evGeoGoogleMapsLink').href = `https://www.google.com/maps?q=${ev.geoSpatial.coordinates.lat},${ev.geoSpatial.coordinates.lng}`;
 
       // 4. Mixer Base Swatch
       document.getElementById('evMixerSwatchA').style.backgroundColor = color.hex;
-      document.getElementById('evMixerTitleA').textContent = color.nameFa;
+      document.getElementById('evMixerTitleA').textContent = isEn ? color.nameEn : color.nameFa;
       document.getElementById('evMixerHexA').textContent = color.hex;
 
-      // Populate mixer partner select if empty
+      // Populate mixer partner select if empty or language changed
       const mixSelect = document.getElementById('evMixerSelectB');
-      if (mixSelect && mixSelect.options.length === 0) {
+      if (mixSelect && (mixSelect.options.length === 0 || mixSelect.dataset.lang !== (isEn ? 'en' : 'fa'))) {
+        mixSelect.dataset.lang = isEn ? 'en' : 'fa';
         const allColors = [];
         PERSIAN_PALETTES.forEach(p => {
-          p.colors.forEach(c => allColors.push({ pName: p.nameFa, cName: c.nameFa, hex: c.hex }));
+          p.colors.forEach(c => allColors.push({
+            pName: (isEn ? p.nameEn : p.nameFa) || p.nameFa,
+            cName: (isEn ? c.nameEn : c.nameFa) || c.nameFa,
+            hex: c.hex
+          }));
         });
         mixSelect.innerHTML = allColors.map(c => `
           <option value="${c.hex}">${c.cName} (${c.hex}) - ${c.pName}</option>
@@ -412,7 +622,8 @@ function toggleTheme() {
       body.style.color = color.hex;
 
       const lc = calculateAPCA(color.hex, currentCustomApcaBg);
-      badge.textContent = `Lc ${lc.toFixed(1)} (${Math.abs(lc) >= 90 ? 'روان' : Math.abs(lc) >= 60 ? 'مناسب' : 'ناکافی'})`;
+      const isEnApca = currentLang === 'en';
+      badge.textContent = `Lc ${lc.toFixed(1)} (${Math.abs(lc) >= 90 ? (isEnApca ? 'Fluent' : 'روان') : Math.abs(lc) >= 60 ? (isEnApca ? 'Adequate' : 'مناسب') : (isEnApca ? 'Low' : 'ناکافی')})`;
       badge.className = `text-[10px] font-mono ${Math.abs(lc) >= 75 ? 'text-emerald-400' : Math.abs(lc) >= 60 ? 'text-amber-400' : 'text-rose-400'}`;
     }
 
@@ -707,7 +918,7 @@ function toggleTheme() {
       const color = palette.colors[currentEvColorIdx];
       const coords = `${color.evidence.geoSpatial.coordinates.lat}, ${color.evidence.geoSpatial.coordinates.lng}`;
       await copyTextToClipboard(coords);
-      showToast('مختصات GPS کپی شد!', coords);
+      showToast(currentLang === 'en' ? 'GPS Coordinates Copied!' : 'مختصات GPS کپی شد!', coords);
     } catch(error) { /* Clipboard helper already explains recovery. */ } }
 
     // =========================================================================
@@ -726,7 +937,8 @@ function toggleTheme() {
       
       const label = document.getElementById('evMixerRatioLabel');
       if (label) {
-        label.textContent = `${Math.round((1 - currentMixerRatio) * 100)}% مبنا • ${Math.round(currentMixerRatio * 100)}% ثانویه`;
+        const isEnMixLabel = currentLang === 'en';
+        label.textContent = isEnMixLabel ? `${Math.round((1 - currentMixerRatio) * 100)}% Base • ${Math.round(currentMixerRatio * 100)}% Blend` : `${Math.round((1 - currentMixerRatio) * 100)}% مبنا • ${Math.round(currentMixerRatio * 100)}% ثانویه`;
       }
 
       const palette = PERSIAN_PALETTES.find(p => p.id === currentEvPaletteId) || PERSIAN_PALETTES[0];
@@ -778,7 +990,7 @@ function toggleTheme() {
     async function copyMixerResultHex() { try {
       const text = document.getElementById('evMixerResultHex')?.textContent || '';
       await copyTextToClipboard(text);
-      showToast('رنگ ترکیبی کپی شد!', `کد هگز ${text} در کلیپ‌بورد ذخیره شد.`);
+      showToast(currentLang === 'en' ? 'Blended Color Copied!' : 'رنگ ترکیبی کپی شد!', currentLang === 'en' ? `HEX ${text} saved to clipboard.` : `کد هگز ${text} در کلیپ‌بورد ذخیره شد.`);
     } catch(error) { /* Clipboard helper already explains recovery. */ } }
 
     // Simple Oklab interpolation math in JS
@@ -828,7 +1040,7 @@ function toggleTheme() {
     async function copyEvidenceTokenCode() { try {
       const code = document.getElementById('evTokenCodePre')?.textContent || '';
       await copyTextToClipboard(code);
-      showToast('کد توکن کپی شد!', 'کد استاندارد در کلیپ‌بورد کپی شد.');
+      showToast(currentLang === 'en' ? 'Token Code Copied!' : 'کد توکن کپی شد!', currentLang === 'en' ? 'Standard code saved to clipboard.' : 'کد استاندارد در کلیپ‌بورد کپی شد.');
     } catch(error) { /* Clipboard helper already explains recovery. */ } }
 
 
@@ -896,8 +1108,10 @@ function toggleTheme() {
       // Digital vs Physical swatches update
       document.getElementById('evPhotoDigitalSwatch').style.backgroundColor = color.hex;
       document.getElementById('evPhotoDigitalHex').textContent = color.hex;
-      document.getElementById('evPhotoPhysicalSwatch').style.background = `radial-gradient(circle at 40% 40%, ${color.hex}, #060913)`;
-      document.getElementById('evPhotoMaterialTitle').textContent = `${color.nameFa} (${palette.nameFa})`;
+      const isEnTitle = typeof currentLang !== 'undefined' && currentLang === 'en';
+      document.getElementById('evPhotoMaterialTitle').textContent = isEnTitle
+        ? `${color.nameEn || color.nameFa} (${palette.nameEn || palette.nameFa})`
+        : `${color.nameFa} (${palette.nameFa})`;
     }
 
     function updatePhotogrammetryShader() {
@@ -929,7 +1143,7 @@ function toggleTheme() {
       const palette = PERSIAN_PALETTES.find(p => p.id === currentEvPaletteId) || PERSIAN_PALETTES[0];
       const color = palette.colors[currentEvColorIdx] || palette.colors[0];
 
-      updateARColor(color.hex, color.nameFa);
+      updateARColor(color.hex, currentLang === 'en' ? color.nameEn : color.nameFa);
       playHarmonicTone(0);
     }
 
@@ -1030,6 +1244,95 @@ function toggleTheme() {
 
     // 12 curated Persian-inspired palettes (72 digital colors)
     const PERSIAN_PALETTES=PersianCore.ALL_PALETTES_LIST;
+
+    const PALETTE_SUBTITLES_EN = {
+  'isfahan-tiles': 'Safavid Architectural Masterpiece',
+  'achaemenid-majesty': 'Achaemenid Imperial Monument',
+  'behzad-miniature': 'Timurid & Safavid Manuscript Art',
+  'nomadic-rugs': 'Tribal Weaving & Natural Dyes',
+  'minakari-craft': 'Persian Enameling & Metal Art',
+  'toranj-illumination': 'Quranic Illumination & Arabesque',
+  'persian-gulf-pearls': 'Maritime Heritage & Coastal Ochres',
+  'gardens-of-shiraz': 'Persian Paradise Garden Architecture',
+  'khorasan-gems': 'Precious Turquoise & Minerals',
+  'hyrcanian-forests': 'Ancient Temperate Rainforest',
+  'yazd-saffron-desert': 'Oasis Adobe & Windcatchers',
+  'bazaar-spices': 'Historic Silk Road Caravanserai'
+};
+
+const PALETTE_CONTEXT_EN = {
+  'isfahan-tiles': 'UNESCO World Heritage Site (Meidan Emam, Isfahan)',
+  'achaemenid-majesty': 'Persepolis (UNESCO World Heritage Site 1979)',
+  'behzad-miniature': 'Art of Miniature (UNESCO Intangible Cultural Heritage)',
+  'nomadic-rugs': 'Traditional Skills of Carpet Weaving in Fars (UNESCO)',
+  'minakari-craft': 'Isfahan World Crafts City (WCC Crafts & Enameling)',
+  'toranj-illumination': 'Art of Illumination: Tazhib (UNESCO Cultural Heritage)',
+  'persian-gulf-pearls': 'Traditional Lenj Boats & Persian Gulf Navigation (UNESCO 2011)',
+  'gardens-of-shiraz': 'The Persian Garden: Eram & Shiraz (UNESCO World Heritage 2011)',
+  'khorasan-gems': 'Neyshabur World Turquoise City (World Crafts Council)',
+  'hyrcanian-forests': 'Hyrcanian Forests & Alborz (UNESCO Natural World Heritage 2019)',
+  'yazd-saffron-desert': 'Historic City of Yazd (UNESCO World Heritage Site 2017)',
+  'bazaar-spices': 'Tabriz Historic Bazaar Complex (UNESCO World Heritage 2010)'
+};
+
+const NPM_CODE_EN = `import { 
+  PersianEngine, 
+  calculateAPCA, 
+  mixColors, 
+  exportToW3CTokens 
+} from '@persian-palette/core';
+
+// 1. Resolve digital color and unverified material notes
+const lapis = PersianEngine.getColor('isfahan-tiles', 'ultramarine');
+console.log(lapis.evidence.chemical.formula); // Na₆Ca₂[S|AlSiO₄]₆
+
+// 2. Advanced APCA-W3 perceptual contrast evaluation
+const contrastLc = calculateAPCA('#120A8F', '#F4F1DE'); 
+// Lc ≈ 90.68; font weight and size determine final readability.
+
+// 3. Digital color interpolation in Oklab space
+const mixedColor = mixColors('#120A8F', '#F4C430', 0.4); // 40% weight for second color
+console.log(mixedColor.hex);
+
+// 4. Export to official W3C DTCG token standard
+const w3cTokens = exportToW3CTokens();`;
+
+const NPM_CODE_FA = `import { 
+  PersianEngine, 
+  calculateAPCA, 
+  mixColors, 
+  exportToW3CTokens 
+} from '@persian-palette/core';
+
+// ۱. دریافت رنگ دیجیتال و یادداشت ماده از منبع تأییدنشده
+const lapis = PersianEngine.getColor('isfahan-tiles', 'ultramarine');
+console.log(lapis.evidence.chemical.formula); // Na₆Ca₂[S|AlSiO₄]₆
+
+// ۲. ارزیابی کنتراست پیشرفته APCA-W3
+const contrastLc = calculateAPCA('#120A8F', '#F4F1DE'); 
+// Lc ≈ 90.68؛ ارزیابی نهایی به اندازه و وزن فونت وابسته است.
+
+// ۳. درون‌یابی رنگ دیجیتال در فضای Oklab
+const mixedColor = mixColors('#120A8F', '#F4C430', 0.4); // سهم رنگ دوم ۴۰٪ است.
+console.log(mixedColor.hex);
+
+// ۴. صادرات به استاندارد رسمی توکن‌های W3C DTCG
+const w3cTokens = exportToW3CTokens();`;
+
+const PALETTE_DESCRIPTIONS_EN = {
+  'isfahan-tiles': 'Safavid seven-color architectural ceramic masterwork, cobalt ultramarine, turquoise glazes of Naqsh-e Jahan.',
+  'achaemenid-majesty': 'Imperial stone reliefs, lapis ceremonial inlays, and architectural gold of Persepolis.',
+  'behzad-miniature': 'Timurid and Safavid court manuscript paintings, lapis lazuli pigments, vermilion, and malachite inks.',
+  'nomadic-rugs': 'Tribal wool dyes, madder root crimson, pomegranate rind yellow, and walnut husk earthen tones.',
+  'minakari-craft': 'Copper enamel craftsmanship, lapis and turquoise vitreous coatings fired in historic Isfahan kilns.',
+  'toranj-illumination': 'Islamic manuscript gilding, shell gold leaf, lapis blue grounds, and cinnabar filigree ornamentation.',
+  'persian-gulf-pearls': 'Warm Persian Gulf waters, iridescent mother-of-pearl, and iron-rich red sands of Hormuz Island.',
+  'gardens-of-shiraz': 'Cypress greenery, water channels, rose blooms, and citrus orchards of Persian UNESCO gardens.',
+  'khorasan-gems': 'Nishapur turquoise veins, Badakhshan lapis stones, and Khorasan mineral wealth across the Silk Road.',
+  'hyrcanian-forests': 'Prehistoric Caspian temperate rainforest canopy, moss carpets, and ancient autumn leaf foliage.',
+  'yazd-saffron-desert': 'Windcatchers, sun-baked clay brick, desert dunes, and golden threads of harvested saffron.',
+  'bazaar-spices': 'Aromatic Silk Road spice bazaars, turmeric, sumac, dried limes, and crimson spice sacks.'
+};
 
     const CATEGORIES = [
       { id: "all", label: "همه پالت‌ها", labelEn: "All Palettes" },
@@ -1903,7 +2206,7 @@ function toggleTheme() {
       } else if (ratio >= 3.0) {
         return { label: 'AA Large', badgeClass: 'bg-amber-500/20 text-amber-300 border-amber-500/40', text: `${ratio.toFixed(1)}:1 (AA Large)` };
       } else {
-        return { label: 'کنتراست ضعیف', badgeClass: 'bg-rose-500/20 text-rose-300 border-rose-500/40', text: `${ratio.toFixed(1)}:1 (Fail)` };
+        return { label: currentLang === 'en' ? 'Low Contrast' : 'کنتراست ضعیف', badgeClass: 'bg-rose-500/20 text-rose-300 border-rose-500/40', text: `${ratio.toFixed(1)}:1 (Fail)` };
       }
     }
 
@@ -2051,8 +2354,9 @@ function toggleTheme() {
         const vectorSvg = PALETTE_VECTOR_ART[palette.id] ? PALETTE_VECTOR_ART[palette.id](c) : '';
         const isEn = currentLang === 'en';
         const palName = isEn ? palette.nameEn : palette.nameFa;
-        const palSubName = isEn ? palette.nameFa : palette.nameEn;
-        const palContext = isEn ? palette.description : palette.culturalContext;
+        const palSubName = isEn ? (PALETTE_SUBTITLES_EN[palette.id] || palette.nameEn) : palette.nameEn;
+        const palDesc = isEn ? (PALETTE_DESCRIPTIONS_EN[palette.id] || palette.nameEn) : palette.description;
+        const palContext = isEn ? (PALETTE_CONTEXT_EN[palette.id] || palette.nameEn) : palette.culturalContext;
         const accentName = isEn ? cAccent.nameEn : cAccent.nameFa;
         const primaryName = isEn ? cPrimary.nameEn : cPrimary.nameFa;
 
@@ -2115,7 +2419,7 @@ function toggleTheme() {
               <div>
                 <p class="text-xs text-slate-400 font-display tracking-wider" dir="ltr">${palSubName}</p>
                 <p class="text-xs text-slate-300 mt-1 line-clamp-2 leading-relaxed font-light">
-                  ${palette.description}
+                  ${palDesc}
                 </p>
               </div>
 
@@ -2248,7 +2552,7 @@ function toggleTheme() {
                 <div 
                   onclick="copyColorHex('${colorObj.hex}', '${cName}')" 
                   class="p-1.5 rounded-lg bg-slate-950/60 hover:bg-slate-800/90 border border-slate-800/80 cursor-pointer transition flex items-center gap-2 group/item"
-                  title="${colorObj.meaning}"
+                  title="${isEn ? colorObj.nameEn : colorObj.meaning}"
                 >
                   <div class="w-4 h-4 rounded-md border border-white/20 flex-shrink-0 shadow-sm" style="background-color: ${colorObj.hex};"></div>
                   <div class="min-w-0 flex-1">
@@ -2292,7 +2596,10 @@ function toggleTheme() {
 
       playHarmonicTone(3);
       updateCardSampleDOM(paletteId);
-      showToast(`پالت ${palette.nameFa} شافل شد`, `مود جدید: ${nextMode === 'dark' ? 'لوکس تیره' : nextMode === 'light' ? 'کاغذی روشن' : 'کنتراست پویا'}`);
+      const isEnToast = currentLang === 'en';
+      const palToastName = isEnToast ? palette.nameEn : palette.nameFa;
+      const modeLabel = nextMode === 'dark' ? (isEnToast ? 'Dark Luxury' : 'لوکس تیره') : nextMode === 'light' ? (isEnToast ? 'Editorial Light' : 'کاغذی روشن') : (isEnToast ? 'Dynamic Contrast' : 'کنتراست پویا');
+      showToast(isEnToast ? `${palToastName} Shuffled` : `پالت ${palToastName} شافل شد`, isEnToast ? `New mode: ${modeLabel}` : `مود جدید: ${modeLabel}`);
     }
 
     function updateCardSampleDOM(paletteId) {
@@ -2325,7 +2632,7 @@ function toggleTheme() {
         sampleBox.style.borderColor = `${cSecondary.hex}70`;
       }
       if (badge) {
-        badge.textContent = cAccent.nameFa;
+        badge.textContent = currentLang === 'en' ? cAccent.nameEn : cAccent.nameFa;
         badge.style.backgroundColor = cAccent.hex;
         badge.style.color = badgeTextCol;
         badge.style.borderColor = cSecondary.hex;
@@ -2343,8 +2650,8 @@ function toggleTheme() {
       if (btnPrimary) {
         btnPrimary.style.backgroundColor = cPrimary.hex;
         btnPrimary.style.color = primaryTextCol;
-        btnPrimary.textContent = `کپی اکشن: ${cPrimary.hex}`;
-        btnPrimary.setAttribute('onclick', `copyColorHex('${cPrimary.hex}', '${cPrimary.nameFa}')`);
+        btnPrimary.textContent = `${UI_STRINGS[currentLang].copyAction} ${cPrimary.hex}`;
+        btnPrimary.setAttribute('onclick', `copyColorHex('${cPrimary.hex}', '${currentLang === 'en' ? cPrimary.nameEn : cPrimary.nameFa}')`);
       }
       if (btnSecondary) {
         btnSecondary.style.borderColor = cSecondary.hex;
@@ -2455,7 +2762,7 @@ function toggleTheme() {
 
     function applyPaletteToStudio(palette) {
       activePreviewPalette = palette;
-      document.getElementById('previewPaletteTitle').textContent = palette.nameFa;
+      document.getElementById('previewPaletteTitle').textContent = currentLang === 'en' ? palette.nameEn : palette.nameFa;
       studioRoleMapping = getCalibratedRoles(palette, 'dark');
       renderStudioMockup();
       updateThreeJsPalette(palette);
@@ -2468,7 +2775,9 @@ function toggleTheme() {
       playHarmonicTone(5);
       renderStudioMockup();
       updateThreeJsPalette(activePreviewPalette);
-      showToast("استودیو شافل شد", `چیدمان بر مبنای استاندارد ${mode === 'dark' ? 'لوکس تیره' : mode === 'light' ? 'کاغذی روشن' : 'کنتراست ماکزیمم'} اعمال گردید.`);
+      const isEn = currentLang === 'en';
+      const modeName = mode === 'dark' ? (isEn ? 'Dark Luxury AAA' : 'لوکس تیره') : mode === 'light' ? (isEn ? 'Editorial Light AAA' : 'کاغذی روشن') : (isEn ? 'Max Contrast AA+' : 'کنتراست ماکزیمم');
+      showToast(isEn ? "Studio Shuffled" : "استودیو شافل شد", isEn ? `Arrangement calibrated to ${modeName}.` : `چیدمان بر مبنای استاندارد ${modeName} اعمال گردید.`);
     }
 
     function resetStudioRoles() {
@@ -2477,7 +2786,8 @@ function toggleTheme() {
       playHarmonicTone(0);
       renderStudioMockup();
       updateThreeJsPalette(activePreviewPalette);
-      showToast("بازنشانی استودیو", "نقش‌ها به حالت لوکس استاندارد بازگشت.");
+      const isEn = currentLang === 'en';
+      showToast(isEn ? "Studio Reset" : "بازنشانی استودیو", isEn ? "Roles returned to standard dark luxury." : "نقش‌ها به حالت لوکس استاندارد بازگشت.");
     }
 
     function changeStudioTemplate(template) {
@@ -2488,6 +2798,7 @@ function toggleTheme() {
 
     function renderStudioMockup() {
       if (!activePreviewPalette) return;
+      const isEn = currentLang === 'en';
       const c = activePreviewPalette.colors;
       const r = studioRoleMapping;
       const cBg = c[r.bg];
@@ -2510,42 +2821,42 @@ function toggleTheme() {
           <div>
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-semibold px-3 py-1 rounded-full border transition-colors" style="background-color: ${cAccent.hex}; color: ${badgeTextCol}; border-color: ${cSecondary.hex};">
-                ${cAccent.nameFa}
+                ${currentLang === "en" ? cAccent.nameEn : cAccent.nameFa}
               </span>
               <div class="flex items-center gap-2">
                 <span class="text-[10px] font-mono px-2 py-0.5 rounded border ${badgeInfo.badgeClass}">
                   ${badgeInfo.text}
                 </span>
-                <span class="text-xs opacity-75" style="color: ${cHeading.hex};">میراث الهام‌بخش</span>
+                <span class="text-xs opacity-75" style="color: ${cHeading.hex};">${currentLang === "en" ? "Inspirational Heritage" : "میراث الهام‌بخش"}</span>
               </div>
             </div>
 
             <h4 class="text-xl sm:text-2xl font-black mb-3 leading-tight" style="color: ${cHeading.hex};">
-              تجربه اصالت هنر ${activePreviewPalette.nameFa}
+              ${currentLang === "en" ? `Authentic Experience of ${activePreviewPalette.nameEn}` : `تجربه اصالت هنر ${activePreviewPalette.nameFa}`}
             </h4>
             <p class="text-xs sm:text-sm leading-relaxed mb-6 opacity-90" style="color: ${cHeading.hex};">
-              ${activePreviewPalette.description} این ترکیب با رعایت کامل استانداردهای WCAG 2.2 و کنتراست سطوح کالیبره شده است.
+              ${currentLang === "en" ? (PALETTE_DESCRIPTIONS_EN[activePreviewPalette.id] || activePreviewPalette.nameEn) + " This composition is calibrated for empirical surface contrast testing." : activePreviewPalette.description + " این ترکیب با هدف ارزیابی تجربی کنتراست سطوح محاسبه شده است."}
             </p>
           </div>
 
           <div class="flex flex-wrap gap-3 items-center pt-2">
             <button 
-              onclick="copyColorHex('${cPrimary.hex}', '${cPrimary.nameFa}')" 
+              onclick="copyColorHex('${cPrimary.hex}', '${currentLang === "en" ? cPrimary.nameEn : cPrimary.nameFa}')" 
               class="px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm shadow-md transition hover:scale-105 active:scale-95" 
               style="background-color: ${cPrimary.hex}; color: ${primaryTextCol};"
             >
-              کپی اکشن اصلی (${cPrimary.hex})
+              ${currentLang === "en" ? "Copy Primary Action (" + cPrimary.hex + ")" : "کپی اکشن اصلی (" + cPrimary.hex + ")"}
             </button>
             <button 
               onclick="smartShuffleStudioRoles()" 
               class="px-4 py-2.5 rounded-xl font-medium text-xs sm:text-sm border transition hover:opacity-80" 
               style="border-color: ${cSecondary.hex}; color: ${cHeading.hex};"
             >
-              شافل نقش‌ها
+              ${currentLang === "en" ? "Shuffle Roles" : "شافل نقش‌ها"}
             </button>
             <div class="px-3 py-1.5 rounded-lg text-xs flex items-center gap-1.5 border" style="background-color: ${cAccent.hex}20; border-color: ${cAccent.hex}60; color: ${cHeading.hex};">
               <i class="fa-solid fa-gem"></i>
-              <span>${cAccent.nameFa}</span>
+              <span>${currentLang === "en" ? cAccent.nameEn : cAccent.nameFa}</span>
             </div>
           </div>
         `;
@@ -2554,7 +2865,7 @@ function toggleTheme() {
           <div>
             <div class="flex items-center justify-between mb-4">
               <span class="text-xs font-semibold px-3 py-1 rounded-full border" style="background-color: ${cAccent.hex}; color: ${badgeTextCol}; border-color: ${cSecondary.hex};">
-                داشبورد تلمتری رنگ
+                ${currentLang === "en" ? "Color Telemetry Dashboard" : "داشبورد تلمتری رنگ"}
               </span>
               <span class="text-[10px] font-mono px-2 py-0.5 rounded border ${badgeInfo.badgeClass}">
                 ${badgeInfo.text}
@@ -2563,27 +2874,27 @@ function toggleTheme() {
 
             <div class="grid grid-cols-2 gap-3 mb-4">
               <div class="p-3 rounded-xl border" style="background-color: ${cSecondary.hex}25; border-color: ${cSecondary.hex}60;">
-                <div class="text-[10px] opacity-75" style="color: ${cHeading.hex};">لومینانس زمینه</div>
+                <div class="text-[10px] opacity-75" style="color: ${cHeading.hex};">${currentLang === "en" ? "Background Luminance" : "لومینانس زمینه"}</div>
                 <div class="text-lg font-mono font-bold" style="color: ${cHeading.hex};">${getLuminance(cBg.hex).toFixed(3)}</div>
               </div>
               <div class="p-3 rounded-xl border" style="background-color: ${cSecondary.hex}25; border-color: ${cSecondary.hex}60;">
-                <div class="text-[10px] opacity-75" style="color: ${cHeading.hex};">نسبت کنتراست متن</div>
+                <div class="text-[10px] opacity-75" style="color: ${cHeading.hex};">${currentLang === "en" ? "Text Contrast Ratio" : "نسبت کنتراست متن"}</div>
                 <div class="text-lg font-mono font-bold" style="color: ${cHeading.hex};">${ratio.toFixed(2)}:1</div>
               </div>
             </div>
 
-            <h5 class="text-sm font-bold mb-2" style="color: ${cHeading.hex};">ارزیابی کنتراست رنگ متن و زمینه</h5>
+            <h5 class="text-sm font-bold mb-2" style="color: ${cHeading.hex};">${currentLang === "en" ? "Surface & Text Contrast Evaluation" : "ارزیابی کنتراست رنگ متن و زمینه"}</h5>
             <p class="text-xs opacity-90 leading-relaxed mb-4" style="color: ${cHeading.hex};">
-              نسبت نشان‌داده‌شده برای رنگ متن و زمینهٔ انتخابی محاسبه می‌شود. اندازهٔ متن، فونت و سایر الزامات دسترسی‌پذیری به ارزیابی جداگانه نیاز دارند.
+              ${currentLang === "en" ? "Reported ratios are calculated for selected foreground and background tokens. Font sizes, weights, and APCA readability require independent verification." : "نسبت نشان‌داده‌شده برای رنگ متن و زمینهٔ انتخابی محاسبه می‌شود. اندازهٔ متن، فونت و سایر الزامات دسترسی‌پذیری به ارزیابی جداگانه نیاز دارند."}
             </p>
           </div>
 
           <div class="flex items-center gap-3">
             <button class="px-4 py-2 rounded-xl text-xs font-bold shadow-md" style="background-color: ${cPrimary.hex}; color: ${primaryTextCol};">
-              خروجی گزارش
+              ${currentLang === "en" ? "Export Report" : "خروجی گزارش"}
             </button>
             <button onclick="openContrastMatrixForActive()" class="px-3.5 py-2 rounded-xl text-xs border" style="border-color: ${cSecondary.hex}; color: ${cHeading.hex};">
-              ماتریس کامل
+              ${currentLang === "en" ? "Full Matrix" : "ماتریس کامل"}
             </button>
           </div>
         `;
@@ -2594,17 +2905,17 @@ function toggleTheme() {
               HERO CTA SECTION
             </span>
             <h3 class="text-2xl sm:text-3xl font-black mb-3 leading-tight" style="color: ${cHeading.hex};">
-              هویت بصری بی‌بدیل با شکوه رنگ‌های پارسی
+              ${currentLang === "en" ? "Timeless Visual Identity Through Heritage Colors" : "هویت بصری بی‌بدیل با شکوه رنگ‌های پارسی"}
             </h3>
             <p class="text-xs sm:text-sm leading-relaxed mb-6 opacity-90 max-w-xl" style="color: ${cHeading.hex};">
-              ترکیب هارمونیک ${cPrimary.nameFa} و ${cSecondary.nameFa} در ساختار رابط کاربری، حسی از تمایز، اصالت فرهنگی و معماری لوکس مدرن خلق می‌کند.
+              ${currentLang === "en" ? `Harmonic synthesis of ${cPrimary.nameEn} and ${cSecondary.nameEn} in the UI architecture delivers distinction, cultural prestige, and modern luxury.` : `ترکیب هارمونیک ${cPrimary.nameFa} و ${cSecondary.nameFa} در ساختار رابط کاربری، حسی از تمایز، اصالت فرهنگی و معماری لوکس مدرن خلق می‌کند.`}
             </p>
             <div class="flex flex-wrap gap-3">
               <button class="px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm shadow-lg transition hover:scale-105" style="background-color: ${cPrimary.hex}; color: ${primaryTextCol};">
-                شروع تجربه کاربری
+                ${currentLang === "en" ? "Launch Experience" : "شروع تجربه کاربری"}
               </button>
               <button class="px-4 py-2.5 rounded-xl text-xs font-medium border" style="border-color: ${cSecondary.hex}; color: ${cHeading.hex};">
-                مشاهده مشخصات
+                ${currentLang === "en" ? "Inspect Specs" : "مشاهده مشخصات"}
               </button>
             </div>
           </div>
@@ -2613,21 +2924,21 @@ function toggleTheme() {
         mockupCard.innerHTML = `
           <div>
             <div class="flex items-center justify-between mb-4">
-              <span class="text-xs font-bold" style="color: ${cHeading.hex};">فرم ورودی و احراز هویت هوشمند</span>
+              <span class="text-xs font-bold" style="color: ${cHeading.hex};">${currentLang === "en" ? "Smart Input & Authentication Form" : "فرم ورودی و احراز هویت هوشمند"}</span>
               <span class="text-[10px] font-mono px-2 py-0.5 rounded border ${badgeInfo.badgeClass}">${badgeInfo.text}</span>
             </div>
             
             <div class="space-y-3 mb-5">
               <div>
-                <label class="block text-[11px] mb-1 font-medium" style="color: ${cHeading.hex};">نام و نشان پروژه</label>
+                <label class="block text-[11px] mb-1 font-medium" style="color: ${cHeading.hex};">${currentLang === "en" ? "Project Title" : "نام و نشان پروژه"}</label>
                 <div class="p-2.5 rounded-xl border text-xs" style="background-color: ${cBg.hex}; border-color: ${cSecondary.hex}; color: ${cHeading.hex};">
-                  پروژه طراحی برندینگ صفوی
+                  ${currentLang === "en" ? "Safavid Brand Identity Project" : "پروژه طراحی برندینگ صفوی"}
                 </div>
               </div>
               <div>
-                <label class="block text-[11px] mb-1 font-medium" style="color: ${cHeading.hex};">انتخاب نقش استراتژیک</label>
+                <label class="block text-[11px] mb-1 font-medium" style="color: ${cHeading.hex};">${currentLang === "en" ? "Strategic Role Selection" : "انتخاب نقش استراتژیک"}</label>
                 <div class="p-2.5 rounded-xl border text-xs flex justify-between items-center" style="background-color: ${cBg.hex}; border-color: ${cSecondary.hex}; color: ${cHeading.hex};">
-                  <span>${cPrimary.nameFa} (${cPrimary.hex})</span>
+                  <span>${currentLang === "en" ? cPrimary.nameEn : cPrimary.nameFa} (${cPrimary.hex})</span>
                   <i class="fa-solid fa-chevron-down text-[10px]"></i>
                 </div>
               </div>
@@ -2635,8 +2946,8 @@ function toggleTheme() {
           </div>
 
           <div class="flex items-center justify-end gap-2">
-            <button class="px-4 py-2 rounded-xl text-xs border" style="border-color: ${cSecondary.hex}; color: ${cHeading.hex};">انصراف</button>
-            <button class="px-5 py-2 rounded-xl text-xs font-bold shadow-md" style="background-color: ${cPrimary.hex}; color: ${primaryTextCol};">ثبت تغییرات</button>
+            <button class="px-4 py-2 rounded-xl text-xs border" style="border-color: ${cSecondary.hex}; color: ${cHeading.hex};">${currentLang === "en" ? "Cancel" : "انصراف"}</button>
+            <button class="px-5 py-2 rounded-xl text-xs font-bold shadow-md" style="background-color: ${cPrimary.hex}; color: ${primaryTextCol};">${currentLang === "en" ? "Save Changes" : "ثبت تغییرات"}</button>
           </div>
         `;
       }
@@ -2650,18 +2961,19 @@ function toggleTheme() {
       const swatchesBar = document.getElementById('mockupSwatchesBar');
       swatchesBar.innerHTML = c.map((col, idx) => {
         const isSelectedPrimary = idx === r.primary;
+        const colName = isEn ? col.nameEn : col.nameFa;
         return `
           <div 
             onclick="setStudioPrimaryColorIndex(${idx})" 
             class="text-center p-2 rounded-xl border cursor-pointer transition hover:scale-105 ${
               isSelectedPrimary ? 'border-amber-400 bg-amber-400/10 ring-1 ring-amber-400' : 'border-slate-800 bg-slate-950'
             }"
-            title="برای انتخاب به عنوان رنگ دکمه اصلی کلیک کنید"
+            title="${isEn ? 'Click to select as primary CTA button color' : 'برای انتخاب به عنوان رنگ دکمه اصلی کلیک کنید'}"
           >
             <div class="h-6 w-full rounded-lg mb-1.5 shadow-sm relative" style="background-color: ${col.hex};">
               ${isSelectedPrimary ? '<span class="absolute inset-0 flex items-center justify-center text-white text-[10px] font-bold drop-shadow"><i class="fa-solid fa-check"></i></span>' : ''}
             </div>
-            <div class="text-[10px] text-slate-300 truncate font-medium">${col.nameFa}</div>
+            <div class="text-[10px] text-slate-300 truncate font-medium">${colName}</div>
             <div class="text-[9px] font-mono text-slate-500">${col.hex}</div>
           </div>
         `;
@@ -2669,10 +2981,13 @@ function toggleTheme() {
 
       // Update Active Role Breakdown Pills
       const roleTagsContainer = document.getElementById('activeRoleTags');
+      const bgName = isEn ? cBg.nameEn : cBg.nameFa;
+      const priName = isEn ? cPrimary.nameEn : cPrimary.nameFa;
+      const headName = isEn ? cHeading.nameEn : cHeading.nameFa;
       roleTagsContainer.innerHTML = `
-        <div class="p-1.5 rounded bg-slate-900 border border-slate-800"><span class="text-slate-500">پس‌زمینه:</span> <span class="text-amber-300">${cBg.nameFa}</span></div>
-        <div class="p-1.5 rounded bg-slate-900 border border-slate-800"><span class="text-slate-500">اکشن اصلی:</span> <span class="text-cyan-300">${cPrimary.nameFa}</span></div>
-        <div class="p-1.5 rounded bg-slate-900 border border-slate-800"><span class="text-slate-500">عنوان متن:</span> <span class="text-emerald-300">${cHeading.nameFa}</span></div>
+        <div class="p-1.5 rounded bg-slate-900 border border-slate-800"><span class="text-slate-500">${isEn ? 'Surface:' : 'پس‌زمینه:'}</span> <span class="text-amber-300">${bgName}</span></div>
+        <div class="p-1.5 rounded bg-slate-900 border border-slate-800"><span class="text-slate-500">${isEn ? 'Primary CTA:' : 'اکشن اصلی:'}</span> <span class="text-cyan-300">${priName}</span></div>
+        <div class="p-1.5 rounded bg-slate-900 border border-slate-800"><span class="text-slate-500">${isEn ? 'Heading:' : 'عنوان متن:'}</span> <span class="text-emerald-300">${headName}</span></div>
       `;
     }
 
@@ -2725,7 +3040,10 @@ function toggleTheme() {
       activeScientificPalette = palette;
       activeScientificColorIdx = 0;
 
-      document.getElementById('scientificModalTitle').textContent = `دیدبان علمی و پالت تنال: ${palette.nameFa} (${palette.nameEn})`;
+      const isEn = currentLang === 'en';
+      document.getElementById('scientificModalTitle').textContent = isEn
+        ? `Color Science Dossier & Tonal Palette: ${palette.nameEn}`
+        : `دیدبان علمی و پالت تنال: ${palette.nameFa} (${palette.nameEn})`;
       
       // Render color selector pills
       const pillsContainer = document.getElementById('sciColorPills');
@@ -2736,7 +3054,7 @@ function toggleTheme() {
           style="background-color: ${c.hex}; color: ${getOptimalTextColor(c.hex)};"
         >
           <span class="w-2 h-2 rounded-full ${idx === activeScientificColorIdx ? 'bg-white' : 'bg-black/40'}"></span>
-          <span>${c.nameFa} (${c.hex})</span>
+          <span>${isEn ? c.nameEn : c.nameFa} (${c.hex})</span>
         </button>
       `).join('');
 
@@ -2782,6 +3100,7 @@ function toggleTheme() {
       // Re-render color pills
       const pillsContainer = document.getElementById('sciColorPills');
       const palette = activeScientificPalette;
+      const isEn = currentLang === 'en';
       pillsContainer.innerHTML = palette.colors.map((c, i) => `
         <button 
           onclick="selectScientificColorIndex(${i})" 
@@ -2789,7 +3108,7 @@ function toggleTheme() {
           style="background-color: ${c.hex}; color: ${getOptimalTextColor(c.hex)};"
         >
           <span class="w-2 h-2 rounded-full ${i === activeScientificColorIdx ? 'bg-white' : 'bg-black/40'}"></span>
-          <span>${c.nameFa} (${c.hex})</span>
+          <span>${isEn ? c.nameEn : c.nameFa} (${c.hex})</span>
         </button>
       `).join('');
 
@@ -2827,16 +3146,19 @@ function toggleTheme() {
       if (!activeScientificPalette) return;
       const keyColor = activeScientificPalette.colors[activeScientificColorIdx];
       const tones = generateM3Tones(keyColor.hex);
+      const isEn = currentLang === 'en';
+      const cName = isEn ? keyColor.nameEn : keyColor.nameFa;
 
       const container = document.getElementById('m3TonesContainer');
       container.innerHTML = tones.map(t => {
         const optText = getOptimalTextColor(t.hex);
+        const titleText = isEn ? `Click to copy Tone ${t.tone} (${t.hex})` : `کلیک برای کپی Tone ${t.tone} (${t.hex})`;
         return `
           <div 
-            onclick="copyColorHex('${t.hex}', '${keyColor.nameFa} Tone ${t.tone}')"
+            onclick="copyColorHex('${t.hex}', '${cName} Tone ${t.tone}')"
             class="rounded-xl p-2.5 flex flex-col justify-between h-24 border border-white/10 shadow-sm cursor-pointer group transition hover:scale-105 active:scale-95 apple-spring-fast"
             style="background-color: ${t.hex}; color: ${optText};"
-            title="کلیک برای کپی Tone ${t.tone} (${t.hex})"
+            title="${titleText}"
           >
             <div class="flex items-center justify-between text-[10px] font-bold">
               <span>T-${t.tone}</span>
@@ -2869,7 +3191,8 @@ function toggleTheme() {
         tones.forEach(t => obj.m3Tones[`tone_${t.tone}`] = t.hex);
         text = JSON.stringify(obj, null, 2);
       } else {
-        text = `/* Material 3 · روشن Tones for ${keyColor.nameFa} (${keyColor.hex}) */
+        const isEn = currentLang === 'en';
+        text = `/* Material 3 ${isEn ? 'Light' : 'روشن'} Tones for ${isEn ? keyColor.nameEn : keyColor.nameFa} (${keyColor.hex}) */
 :root {
 `;
         tones.forEach(t => {
@@ -2881,7 +3204,11 @@ function toggleTheme() {
 
       await copyTextToClipboard(text);
       playHarmonicTone(7);
-      showToast("۱۳ پله تنال کپی شد!", `کدهای ${format.toUpperCase()} در کلیپ‌بورد ذخیره شدند.`);
+      const isEn = currentLang === 'en';
+      showToast(
+        isEn ? "13 Tonal Steps Copied!" : "۱۳ پله تنال کپی شد!",
+        isEn ? `${format.toUpperCase()} tokens saved to clipboard.` : `کدهای ${format.toUpperCase()} در کلیپ‌بورد ذخیره شدند.`
+      );
     } catch(error) { /* Clipboard helper already explains recovery. */ } }
 
     // HTML5 Canvas: Oklab Chromaticity & Gamut Radar Scope
@@ -2925,12 +3252,13 @@ function toggleTheme() {
         ctx.stroke();
 
         // Axis Labels
+        const isEn = currentLang === 'en';
         ctx.fillStyle = 'rgba(6, 182, 212, 0.7)';
         ctx.font = '9px monospace';
-        ctx.fillText('+a (سرخ)', cx + maxRadius - 38, cy - 6);
-        ctx.fillText('-a (سبز)', cx - maxRadius + 6, cy - 6);
-        ctx.fillText('+b (زرد)', cx + 6, cy - maxRadius + 14);
-        ctx.fillText('-b (آبی)', cx + 6, cy + maxRadius - 6);
+        ctx.fillText(isEn ? '+a (Red)' : '+a (سرخ)', cx + maxRadius - 38, cy - 6);
+        ctx.fillText(isEn ? '-a (Green)' : '-a (سبز)', cx - maxRadius + 6, cy - 6);
+        ctx.fillText(isEn ? '+b (Yellow)' : '+b (زرد)', cx + 6, cy - maxRadius + 14);
+        ctx.fillText(isEn ? '-b (Blue)' : '-b (آبی)', cx + 6, cy + maxRadius - 6);
 
         // Rotating Radar Sweep Line
         radarAngle += 0.02;
@@ -2991,8 +3319,8 @@ function toggleTheme() {
 
           // Text label
           ctx.fillStyle = '#FFFFFF';
-          ctx.font = '10px Vazirmatn, sans-serif';
-          ctx.fillText(`${idx + 1}. ${n.nameFa}`, n.px + 8, n.py - 4);
+          ctx.font = isEn ? '10px sans-serif' : '10px Vazirmatn, sans-serif';
+          ctx.fillText(`${idx + 1}. ${isEn ? n.nameEn : n.nameFa}`, n.px + 8, n.py - 4);
         });
       }
 
@@ -3007,6 +3335,7 @@ function toggleTheme() {
       // Render Delta E Perceptual Distance Table
       const deltaTable = document.getElementById('deltaETable');
       const colors = activeScientificPalette.colors;
+      const isEn = currentLang === 'en';
       let dHtml = "";
       for (let i = 0; i < colors.length; i++) {
         const nextIdx = (i + 1) % colors.length;
@@ -3017,16 +3346,16 @@ function toggleTheme() {
         let rating = "";
         let barCol = "";
         if (dE >= 0.25) {
-          rating = "کنتراست و تفکیک فوق‌العاده";
+          rating = isEn ? "Exceptional Distinction" : "کنتراست و تفکیک فوق‌العاده";
           barCol = "bg-emerald-400";
         } else if (dE >= 0.15) {
-          rating = "تمایز ادراکی بالا";
+          rating = isEn ? "High Perceptual Contrast" : "تمایز ادراکی بالا";
           barCol = "bg-cyan-400";
         } else if (dE >= 0.08) {
-          rating = "هارمونی هم‌خانواده";
+          rating = isEn ? "Analogous Harmony" : "هارمونی هم‌خانواده";
           barCol = "bg-amber-400";
         } else {
-          rating = "تغییر پیوسته و لطیف";
+          rating = isEn ? "Subtle Nuance" : "تغییر پیوسته و لطیف";
           barCol = "bg-rose-400";
         }
 
@@ -3034,10 +3363,10 @@ function toggleTheme() {
           <div class="p-2.5 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-between gap-3 text-xs">
             <div class="flex items-center gap-2">
               <span class="w-3.5 h-3.5 rounded-full border border-white/20" style="background-color: ${c1.hex};"></span>
-              <span class="text-slate-300 font-medium">${c1.nameFa}</span>
+              <span class="text-slate-300 font-medium">${isEn ? c1.nameEn : c1.nameFa}</span>
               <i class="fa-solid fa-arrows-left-right text-[10px] text-slate-500"></i>
               <span class="w-3.5 h-3.5 rounded-full border border-white/20" style="background-color: ${c2.hex};"></span>
-              <span class="text-slate-300 font-medium">${c2.nameFa}</span>
+              <span class="text-slate-300 font-medium">${isEn ? c2.nameEn : c2.nameFa}</span>
             </div>
             <div class="flex items-center gap-2">
               <span class="font-mono text-cyan-300 font-bold">ΔE: ${dE.toFixed(3)}</span>
@@ -3126,19 +3455,25 @@ function toggleTheme() {
       const hues = points.map(p => p.hue).sort((a, b) => a - b);
       const span = hues[hues.length - 1] - hues[0];
 
-      let harmonyType = "ترکیب غنی و پردامنه (Complex Multi-Hue Chord)";
-      if (span < 60) harmonyType = "هارمونی مشابه (Analogous Palette)";
-      else if (span >= 160 && span <= 200) harmonyType = "هارمونی متضاد مکمل (Complementary Contrast)";
-      else if (span >= 110 && span <= 140) harmonyType = "هارمونی سه‌گانه زرین (Triadic Chords)";
+      const isEn = currentLang === 'en';
+      let harmonyType = isEn ? "Complex Multi-Hue Chord" : "ترکیب غنی و پردامنه (Complex Multi-Hue Chord)";
+      if (span < 60) harmonyType = isEn ? "Analogous Palette" : "هارمونی مشابه (Analogous Palette)";
+      else if (span >= 160 && span <= 200) harmonyType = isEn ? "Complementary Contrast" : "هارمونی متضاد مکمل (Complementary Contrast)";
+      else if (span >= 110 && span <= 140) harmonyType = isEn ? "Triadic Chords" : "هارمونی سه‌گانه زرین (Triadic Chords)";
+
+      const geoTitle = isEn ? `Color Geometry: ${harmonyType}` : `تشخیص هندسه رنگ: ${harmonyType}`;
+      const geoDesc = isEn
+        ? `This palette spans ${Math.round(span)}° of the 360° chromatic circle, balancing optical vibrancy with historical resonance.`
+        : `گستره فام این پالت ${Math.round(span)} درجه از دایره رنگی ۳۶۰ درجه را پوشش می‌دهد که تعادلی بی‌نظیر بین پویایی بصری و اصالت سنتی فراهم می‌سازد.`;
 
       container.innerHTML = `
         <div class="p-3.5 rounded-2xl bg-slate-900 border border-slate-800 space-y-2 text-xs">
           <div class="font-bold text-amber-300 flex items-center gap-2">
             <i class="fa-solid fa-circle-check"></i>
-            <span>تشخیص هندسه رنگ: ${harmonyType}</span>
+            <span>${geoTitle}</span>
           </div>
           <p class="text-slate-400 font-light leading-relaxed">
-            گستره فام این پالت ${Math.round(span)} درجه از دایره رنگی ۳۶۰ درجه را پوشش می‌دهد که تعادلی بی‌نظیر بین پویایی بصری و اصالت سنتی فراهم می‌سازد.
+            ${geoDesc}
           </p>
         </div>
         <div class="grid grid-cols-2 gap-2 text-xs">
@@ -3146,7 +3481,7 @@ function toggleTheme() {
             <div class="p-2 rounded-xl bg-slate-900/80 border border-slate-800/80 flex items-center justify-between">
               <div class="flex items-center gap-1.5">
                 <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${p.hex};"></span>
-                <span class="text-slate-200">${p.nameFa}</span>
+                <span class="text-slate-200">${isEn ? p.nameEn : p.nameFa}</span>
               </div>
               <span class="font-mono text-amber-400 text-[11px]">${Math.round(p.hue)}°</span>
             </div>
@@ -3174,7 +3509,8 @@ function toggleTheme() {
     function openContrastMatrixForActive() {
       if (!activePreviewPalette) return;
       const palette = activePreviewPalette;
-      document.getElementById('matrixModalTitle').textContent = `ماتریس کنتراست ۶×۶: ${palette.nameFa}`;
+      const isEnMat = currentLang === 'en';
+      document.getElementById('matrixModalTitle').textContent = isEnMat ? `6×6 Contrast Matrix: ${palette.nameEn}` : `ماتریس کنتراست ۶×۶: ${palette.nameFa}`;
       
       const c = palette.colors;
       const table = document.getElementById('contrastMatrixTable');
@@ -3182,11 +3518,11 @@ function toggleTheme() {
       let tableHtml = `
         <thead>
           <tr>
-            <th class="p-2 border border-slate-800 bg-slate-900 text-slate-400 font-mono text-[10px]">پس‌زمینه \\ متن</th>
+            <th class="p-2 border border-slate-800 bg-slate-900 text-slate-400 font-mono text-[10px]">${isEnMat ? 'Background \\ Text' : 'پس‌زمینه \\ متن'}</th>
             ${c.map(col => `
               <th class="p-2 border border-slate-800 bg-slate-900">
                 <div class="w-4 h-4 mx-auto rounded-full mb-1 shadow-sm border border-white/20" style="background-color: ${col.hex};"></div>
-                <div class="text-[10px] text-slate-300 font-medium truncate max-w-[70px]">${col.nameFa}</div>
+                <div class="text-[10px] text-slate-300 font-medium truncate max-w-[70px]">${isEnMat ? col.nameEn : col.nameFa}</div>
               </th>
             `).join('')}
           </tr>
@@ -3200,7 +3536,7 @@ function toggleTheme() {
             <td class="p-2 border border-slate-800 bg-slate-900 text-right">
               <div class="flex items-center gap-1.5">
                 <div class="w-3.5 h-3.5 rounded-full shadow-sm border border-white/20 flex-shrink-0" style="background-color: ${bgCol.hex};"></div>
-                <span class="text-[10px] text-slate-300 font-medium truncate max-w-[80px]">${bgCol.nameFa}</span>
+                <span class="text-[10px] text-slate-300 font-medium truncate max-w-[80px]">${isEnMat ? bgCol.nameEn : bgCol.nameFa}</span>
               </div>
             </td>
         `;
@@ -3209,7 +3545,7 @@ function toggleTheme() {
           if (rowIdx === colIdx) {
             tableHtml += `
               <td class="p-2 border border-slate-800 bg-slate-950 text-slate-600 font-mono text-[10px]">
-                ۱.۰:۱ (همسان)
+                ${isEnMat ? "1.0:1 (Identity)" : "۱.۰:۱ (همسان)"}
               </td>
             `;
           } else {
@@ -3220,7 +3556,7 @@ function toggleTheme() {
                 onclick="applyMatrixPair(${rowIdx}, ${colIdx})"
                 class="p-2 border border-slate-800 hover:scale-105 cursor-pointer transition-transform" 
                 style="background-color: ${bgCol.hex};"
-                title="کلیک برای اعمال این جفت روی پیش‌نمایش"
+                title="${isEnMat ? "Click to apply pair to live preview" : "کلیک برای اعمال این جفت روی پیش‌نمایش"}"
               >
                 <div class="text-[11px] font-bold font-mono" style="color: ${txtCol.hex};">
                   ${ratio.toFixed(1)}:1
@@ -3252,7 +3588,7 @@ function toggleTheme() {
       closeMatrixModal();
       renderStudioMockup();
       updateThreeJsPalette(activePreviewPalette);
-      showToast("جفت‌رنگ ماتریس اعمال شد", "رنگ‌های انتخاب شده در استودیو بارگذاری شدند.");
+      showToast(currentLang === "en" ? "Matrix Pair Applied" : "جفت‌رنگ ماتریس اعمال شد", currentLang === "en" ? "Selected color pair loaded into studio." : "رنگ‌های انتخاب شده در استودیو بارگذاری شدند.");
       playHarmonicTone(7);
     }
 
@@ -3267,25 +3603,26 @@ function toggleTheme() {
       const palette = PERSIAN_PALETTES.find(p => p.id === paletteId);
       if (!palette) return;
 
-      document.getElementById('gradientModalTitle').textContent = `استودیوی گرادیان‌های: ${palette.nameFa}`;
+      const isEnGrad = currentLang === 'en';
+      document.getElementById('gradientModalTitle').textContent = isEnGrad ? `Modern Gradients: ${palette.nameEn}` : `استودیوی گرادیان‌های: ${palette.nameFa}`;
       const c = palette.colors;
       const gradientsList = document.getElementById('gradientsList');
 
       const presets = [
         {
-          name: "افق نیلگون پارسی (Linear Ambient)",
+          name: isEnGrad ? "Persian Azure Horizon (Linear Ambient)" : "افق نیلگون پارسی (Linear Ambient)",
           css: `linear-gradient(135deg, ${c[0].hex} 0%, ${c[1].hex} 50%, ${c[3].hex} 100%)`,
         },
         {
-          name: "ترنج خورشیدی (Radial Glow)",
+          name: isEnGrad ? "Solar Toranj Glow (Radial Glow)" : "ترنج خورشیدی (Radial Glow)",
           css: `radial-gradient(circle at 30% 30%, ${c[3].hex}, ${c[1].hex} 45%, ${c[5].hex} 90%)`,
         },
         {
-          name: "مش مخملی صفوی (Mesh Gradient)",
+          name: isEnGrad ? "Safavid Velvet Mesh (Mesh Gradient)" : "مش مخملی صفوی (Mesh Gradient)",
           css: `linear-gradient(225deg, ${c[2].hex} 0%, ${c[4].hex} 30%, ${c[0].hex} 70%, ${c[5].hex} 100%)`,
         },
         {
-          name: "غروب کویری با کنتراست بالا (Duotone Sunset)",
+          name: isEnGrad ? "High-Contrast Desert Sunset (Duotone Sunset)" : "غروب کویری با کنتراست بالا (Duotone Sunset)",
           css: `linear-gradient(90deg, ${c[1].hex} 0%, ${c[2].hex} 50%, ${c[4].hex} 100%)`,
         }
       ];
@@ -3300,7 +3637,7 @@ function toggleTheme() {
               class="px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-amber-300 border border-slate-700 text-xs flex items-center gap-1 transition"
             >
               <i class="fa-regular fa-copy"></i>
-              <span>کپی CSS</span>
+              <span>${isEnGrad ? "Copy CSS" : "کپی CSS"}</span>
             </button>
           </div>
           <div class="text-[10px] font-mono text-slate-400 p-1.5 rounded bg-black/50 truncate" dir="ltr">${preset.css}</div>
@@ -3317,7 +3654,7 @@ function toggleTheme() {
       const code = `background: ${css};`;
       await copyTextToClipboard(code);
       playHarmonicTone(8);
-      showToast("گرادیان کپی شد!", code);
+      showToast(currentLang === "en" ? "Gradient CSS Copied!" : "گرادیان کپی شد!", code);
     } catch(error) { /* Clipboard helper already explains recovery. */ } }
 
     function closeGradientModal() {
@@ -3329,7 +3666,8 @@ function toggleTheme() {
     // Export Modal Management
     function openExportAllModal() {
       activePaletteForExport = null;
-      document.getElementById('exportModalTitle').textContent = `خروجی کامل مخزن (۱۲ پالت • ۷۲ رنگ)`;
+      const isEn = currentLang === 'en';
+      document.getElementById('exportModalTitle').textContent = isEn ? 'Full Repository Export (12 Palettes • 72 Colors)' : 'خروجی کامل مخزن (۱۲ پالت • ۷۲ رنگ)';
       updateExportCodeView();
       showExportModal();
     }
@@ -3618,7 +3956,7 @@ function toggleTheme() {
       const btn = document.getElementById('btnCopyNpmCmd');
       if (btn) {
         const oldText = btn.textContent;
-        btn.textContent = 'کپی شد!';
+        btn.textContent = currentLang === 'en' ? 'Copied!' : 'کپی شد!';
         btn.classList.add('bg-emerald-500/30', 'text-emerald-300');
         setTimeout(() => {
           btn.textContent = oldText;
@@ -3629,13 +3967,14 @@ function toggleTheme() {
   } catch(error) { /* Clipboard helper already explains recovery. */ } }
 
   async function copyNpmCodeSnippet() { try {
-    const code = document.getElementById('npmCodeSnippet').textContent;
+    const codeEl = document.getElementById('npmCodeSnippet');
+    const code = codeEl ? codeEl.textContent : '';
 
     await copyTextToClipboard(code).then(() => {
       const btn = document.getElementById('btnCopyNpmCode');
       if (btn) {
         const oldText = btn.textContent;
-        btn.textContent = 'کپی شد!';
+        btn.textContent = currentLang === 'en' ? 'Copied!' : 'کپی شد!';
         setTimeout(() => { btn.textContent = oldText; }, 1800);
       }
     });
@@ -3647,10 +3986,13 @@ function toggleTheme() {
     const sel2 = document.getElementById('quickMixColor2');
     if (!sel1 || !sel2) return;
 
+    const isEn = currentLang === 'en';
     let optionsHtml = '';
     PERSIAN_PALETTES.forEach(p => {
       p.colors.forEach(c => {
-        optionsHtml += `<option value="${c.hex}">${c.nameFa} (${c.hex}) - ${p.nameFa}</option>`;
+        const cName = isEn ? c.nameEn : c.nameFa;
+        const pName = isEn ? p.nameEn : p.nameFa;
+        optionsHtml += `<option value="${c.hex}">${cName} (${c.hex}) - ${pName}</option>`;
       });
     });
 
@@ -3700,7 +4042,7 @@ function toggleTheme() {
   async function copyQuickMixedHex() { try {
     const hex = document.getElementById('quickMixResultHex').textContent;
     await copyTextToClipboard(hex).then(() => {
-      showToast(`کد رنگ ترکیبی ${hex} کپی شد.`);
+      showToast(currentLang === 'en' ? `Blended color HEX ${hex} copied.` : `کد رنگ ترکیبی ${hex} کپی شد.`);
     });
   } catch(error) { /* Clipboard helper already explains recovery. */ } }
 

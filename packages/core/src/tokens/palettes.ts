@@ -29,18 +29,31 @@ function normalizePalette(raw: RawPaletteDefinition): PersianPaletteDefinition {
       compare('geo.elevationMeters', coords.altitudeMeters ?? original.geo.elevationMeters, original.geo.elevationMeters);
       compare('chemical.formula', mineral.chemicalFormula, original.chemical.formula);
       const { molarMass: unverifiedMolarMass, ...chemical } = original.chemical;
+      const isNonSpectral = ['toranj-illumination-c6', 'gardens-of-shiraz-c1', 'gardens-of-shiraz-c2'].includes(color.id);
+      const dominantWavelengthNm = isNonSpectral ? undefined : (original.spectral?.dominantWavelengthNm ?? original.physics?.dominantWavelengthNm);
+      const { dominantWavelengthNm: _origDom, ...physicsRest } = original.physics;
+      const casNumber = mineral.casNumber ?? chemical.casNumber;
       return {
         ...color, hex,
         evidence: {
           ...original,
-          chemical: { ...chemical, chemicalName: mineral.mineralName, historicalPigmentFa: mineral.mineralNameFa,
-            formula: mineral.chemicalFormula, casNumber: mineral.casNumber ?? chemical.casNumber },
+          chemical: {
+            ...chemical,
+            chemicalName: mineral.mineralName,
+            historicalPigmentFa: mineral.mineralNameFa,
+            ...(mineral.chemicalFormula !== undefined ? { formula: mineral.chemicalFormula } : {}),
+            ...(casNumber !== undefined ? { casNumber } : {})
+          },
           geo: { locationFa: sourceGeo.originSiteFa, latitude: coords.lat, longitude: coords.lng,
             elevationMeters: coords.altitudeMeters ?? original.geo.elevationMeters, unescoSiteId: sourceGeo.unescoHeritageRef },
           geoSpatial: { ...sourceGeo, coordinates: { ...coords, altitudeMeters: coords.altitudeMeters ?? original.geo.elevationMeters } },
-          physics: { ...original.physics, dominantWavelengthNm: original.spectral.dominantWavelengthNm,
+          physics: {
+            ...physicsRest,
+            ...(dominantWavelengthNm !== undefined ? { dominantWavelengthNm } : {}),
             spectralReflectancePeak: original.spectral.peakWavelengthNm + ' nm',
-            chromaOklab: Math.hypot(oklab.a, oklab.b), cieLab: hexToLab(hex) },
+            chromaOklab: Math.hypot(oklab.a, oklab.b),
+            cieLab: hexToLab(hex)
+          },
           colorScience: { srgb, oklab, apca: {
             contrastOnWhite: calculateAPCA(hex, '#FFFFFF'), contrastOnBlack: calculateAPCA(hex, '#000000'),
             recommendedWeight: evaluateAPCA(hex, '#FFFFFF').rating,
@@ -55,7 +68,10 @@ function normalizePalette(raw: RawPaletteDefinition): PersianPaletteDefinition {
               { label: 'APCA reference', url: 'https://github.com/Myndex/apca-w3', scope: 'method' as const },
               { label: 'Material color utilities', url: 'https://github.com/material-foundation/material-color-utilities', scope: 'method' as const },
             ],
-            historicalReference: { citation: mineral.historicalManuscriptRef, verification: 'not-verified' as const },
+            historicalReference: {
+              ...(mineral.historicalManuscriptRef !== undefined ? { citation: mineral.historicalManuscriptRef } : {}),
+              verification: 'not-verified' as const
+            },
             conflicts,
           },
         },
@@ -68,8 +84,12 @@ export const ALL_PALETTES_LIST = freeze(Object.values(RAW_PALETTES).map(normaliz
 export const PERSIAN_PALETTES: Record<string, PersianPaletteDefinition> = freeze(Object.fromEntries(ALL_PALETTES_LIST.map(p => [p.id,p])));
 export function getDataQualityReport() {
   const colors = ALL_PALETTES_LIST.flatMap(p => p.colors);
-  return { palettes: ALL_PALETTES_LIST.length, colors: colors.length,
-    unverifiedHeritageColors: colors.length, measuredSpectra: 0,
+  return {
+    palettes: ALL_PALETTES_LIST.length,
+    colors: colors.length,
+    unverifiedHeritageColors: colors.filter(c => c.evidence.provenance.heritageStatus === 'unverified').length,
+    measuredSpectra: colors.filter(c => c.evidence.provenance.spectralStatus === 'measured').length,
     coordinateConflicts: colors.filter(c => c.evidence.provenance.conflicts.some(v => v.field === 'geo.latitude' || v.field === 'geo.longitude')).length,
-    conflicts: colors.filter(c => c.evidence.provenance.conflicts.length).map(c => ({ id: c.id, conflicts: c.evidence.provenance.conflicts })) };
+    conflicts: colors.filter(c => c.evidence.provenance.conflicts.length).map(c => ({ id: c.id, conflicts: c.evidence.provenance.conflicts }))
+  };
 }

@@ -7,9 +7,34 @@ button[aria-label="بستن پنجره"],button[aria-label="Close dialog"] { min
 .skip-link { position:fixed;top:8px;right:8px;z-index:200;transform:translateY(-160%);background:#fcd34d;color:#111827;padding:12px 18px;border-radius:8px;font-weight:700; }
 .skip-link:focus { transform:translateY(0); }
 [dir="ltr"] .skip-link { right:auto;left:8px; }
-.evidence-provenance,.apca-note { line-height:1.9;font-size:12px;color:#cbd5e1; }
-.evidence-provenance { margin:0 0 20px;padding:14px 16px;border:1px solid #475569;border-radius:12px;background:#0f172a; }
-.evidence-provenance[data-state=conflicting] { border-color:#b45309;color:#fde68a; }
+.no-scrollbar::-webkit-scrollbar,
+#evidenceDashboardModal .overflow-x-auto::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar,
+#evidenceDashboardModal .overflow-x-auto {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.evidence-provenance,.apca-note { line-height:1.7;font-size:12px;color:#cbd5e1; }
+.evidence-provenance {
+  margin:0 0 18px;
+  padding:12px 18px;
+  border:1px solid rgba(52, 211, 153, 0.28);
+  border-radius:14px;
+  background:rgba(15, 23, 42, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+.evidence-provenance[data-state=conflicting] {
+  border-color: rgba(245, 158, 11, 0.45);
+  background: rgba(30, 20, 10, 0.88);
+  color: #fde68a;
+}
 body.dialog-open { overflow:hidden; }
 [role=dialog] { overscroll-behavior:contain; }
 [dir=ltr],pre,code { unicode-bidi:isolate; }
@@ -52,8 +77,8 @@ html.light .glass-card:hover {
   border-color: rgba(212, 175, 55, 0.75) !important;
   box-shadow: 0 20px 45px -10px rgba(212, 175, 55, 0.2), 0 0 25px rgba(0, 168, 150, 0.12) !important;
 }
-html.light .glass-card p {
-  color: #334155 !important;
+html.light .glass-card p:not([id^="card-body-"]):not([style*="color"]) {
+  color: #334155;
 }
 html.light .bg-slate-900,
 html.light .bg-slate-950 {
@@ -61,19 +86,54 @@ html.light .bg-slate-950 {
   color: #0f172a !important;
   border-color: #cbd5e1 !important;
 }
+html.light .bg-slate-800 {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
 html.light .border-slate-800,
 html.light .border-slate-700 {
   border-color: #cbd5e1 !important;
 }
-html.light .text-slate-400 {
-  color: #475569 !important;
+html.light .text-slate-400:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *):not([style*="color"]) {
+  color: #475569;
 }
-html.light .text-slate-300 {
-  color: #334155 !important;
+html.light .text-slate-300:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *):not([style*="color"]) {
+  color: #334155;
 }
-html.light .text-slate-200,
-html.light .text-slate-100 {
-  color: #0f172a !important;
+html.light .text-slate-200:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *):not([style*="color"]),
+html.light .text-slate-100:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *):not([style*="color"]) {
+  color: #0f172a;
+}
+
+/* Light mode button, badge, and control contrast guarantees (>= 4.5:1) */
+html.light .text-amber-300:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *),
+html.light .text-amber-400:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *) {
+  color: #92400e !important;
+}
+html.light .text-cyan-300:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *),
+html.light .text-cyan-400:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *) {
+  color: #0e7490 !important;
+}
+html.light .text-emerald-300:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *),
+html.light .text-emerald-400:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *) {
+  color: #065f46 !important;
+}
+html.light .text-purple-300:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *),
+html.light .text-purple-400:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *) {
+  color: #6b21a8 !important;
+}
+html.light .text-rose-300:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *),
+html.light .text-rose-400:not([id^="card-sample"] *):not(.color-swatch-strip *):not(.palette-art-banner *):not(#evLiveTypePreview *) {
+  color: #9f1239 !important;
+}
+html.light .border-amber-500\/40,
+html.light .border-amber-500\/30,
+html.light .border-amber-500\/20 {
+  border-color: rgba(180, 83, 9, 0.4) !important;
+}
+html.light button:not([id^="card-btn-"]):not([style*="color"]):not(.bg-amber-500):not(.bg-gradient-to-r) {
+  color: #0f172a;
 }
 html.light #searchInput {
   background-color: #ffffff !important;
@@ -89,25 +149,79 @@ html.light .apple-liquid-glass {
   box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.15), inset 0 1px 0 0 rgba(255, 255, 255, 1) !important;
   color: #0f172a !important;
 }
-html.light [role="dialog"] .bg-slate-950,
-html.light [role="dialog"] .bg-slate-900 {
-  background-color: #f8fafc !important;
-  color: #0f172a !important;
-  border-color: #e2e8f0 !important;
+/* Fixed Laboratory & Scientific Modals: Dedicated Dark Cockpit Protocol */
+[id$="Modal"] {
+  color-scheme: dark !important;
 }
-html.light [role="dialog"] h3,
-html.light [role="dialog"] h4 {
-  color: #0f172a !important;
+
+html.light [id$="Modal"] .apple-liquid-glass,
+html.light [id$="Modal"] > div {
+  background: rgba(15, 23, 42, 0.95) !important;
+  border-color: rgba(52, 211, 153, 0.3) !important;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8) !important;
+  color: #f1f5f9 !important;
 }
-html.light .evidence-provenance {
-  background: #f8fafc !important;
-  border-color: #cbd5e1 !important;
-  color: #334155 !important;
+
+html.light [id$="Modal"] .bg-slate-950,
+html.light [id$="Modal"] .bg-slate-900,
+html.light [id$="Modal"] .bg-slate-800 {
+  background-color: #0f172a !important;
+  color: #f1f5f9 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
 }
-html.light .evidence-provenance[data-state=conflicting] {
-  border-color: #f59e0b !important;
-  background: #fffbeb !important;
-  color: #92400e !important;
+
+html.light [id$="Modal"] .text-slate-400 {
+  color: #94a3b8 !important;
+}
+html.light [id$="Modal"] .text-slate-300 {
+  color: #cbd5e1 !important;
+}
+html.light [id$="Modal"] .text-slate-200 {
+  color: #e2e8f0 !important;
+}
+html.light [id$="Modal"] .text-slate-100 {
+  color: #f8fafc !important;
+}
+html.light [id$="Modal"] .text-white {
+  color: #ffffff !important;
+}
+html.light [id$="Modal"] h3,
+html.light [id$="Modal"] h4,
+html.light [id$="Modal"] h5 {
+  color: #ffffff !important;
+}
+html.light [id$="Modal"] .text-emerald-300,
+html.light [id$="Modal"] .text-emerald-400 {
+  color: #34d399 !important;
+}
+html.light [id$="Modal"] .text-cyan-300,
+html.light [id$="Modal"] .text-cyan-400 {
+  color: #67e8f9 !important;
+}
+html.light [id$="Modal"] .text-amber-300,
+html.light [id$="Modal"] .text-amber-400 {
+  color: #fbbf24 !important;
+}
+html.light [id$="Modal"] button:not(.bg-amber-500):not(.bg-emerald-600):not(.bg-emerald-500):not(.bg-purple-600) {
+  color: #e2e8f0 !important;
+}
+html.light [id$="Modal"] button[data-i18n="evCloseBtn"],
+html.light [id$="Modal"] button[aria-label="بستن پنجره"],
+html.light [id$="Modal"] button[aria-label="Close dialog"] {
+  background-color: #1e293b !important;
+  color: #f1f5f9 !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+html.light #evidenceDashboardModal #evidenceProvenance {
+  background: rgba(15, 23, 42, 0.88) !important;
+  border-color: rgba(52, 211, 153, 0.28) !important;
+  color: #cbd5e1 !important;
+}
+html.light #evidenceDashboardModal #evidenceProvenance[data-state=conflicting] {
+  border-color: rgba(245, 158, 11, 0.45) !important;
+  background: rgba(30, 20, 10, 0.88) !important;
+  color: #fde68a !important;
 }
 html.light [data-i18n="heroHeading"],
 html.light h2.bg-clip-text {
@@ -153,6 +267,12 @@ html[dir="ltr"] .text-left {
 }
 html[dir="ltr"] .font-display {
   font-family: 'Cinzel', serif;
+}
+
+@media (max-height: 480px), (max-width: 420px) {
+  header.sticky {
+    position: static !important;
+  }
 }
 
 @media(max-width:640px) {

@@ -5,8 +5,8 @@ export interface APCAConformance {
     lcScore: number;
     rating: 'Fail' | 'Lc 45 (Large/Bold)' | 'Lc 60 (Sub-head)' | 'Lc 75 (Content Text)' | 'Lc 90 (Fluent Body Text)';
     minFontSizePx: {
-        fontNormal400: number;
-        fontBold700: number;
+        fontNormal400: number | null;
+        fontBold700: number | null;
     };
     passedFluentBody: boolean;
     method: 'apca-w3@0.1.9';

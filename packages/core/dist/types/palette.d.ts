@@ -10,6 +10,7 @@ export interface PersianColorDefinition {
     role?: string;
     meaning?: string;
     evidence: ColorEvidence;
+    tokenKey?: string;
 }
 export type PersianCategory = 'architecture' | 'history' | 'art' | 'arts' | 'craft' | 'textiles' | 'nature';
 export interface PersianPaletteDefinition {

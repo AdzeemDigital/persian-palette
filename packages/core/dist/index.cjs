@@ -21,6 +21,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var index_exports = {};
 __export(index_exports, {
   ALL_PALETTES_LIST: () => ALL_PALETTES_LIST,
+  CANONICAL_TOKEN_KEYS: () => CANONICAL_TOKEN_KEYS,
   DTCG_VERSION: () => DTCG_VERSION,
   M3_ROLES: () => M3_ROLES,
   PERSIAN_PALETTES: () => PERSIAN_PALETTES,
@@ -609,8 +610,7 @@ var RAW_PALETTES = {
             "chemicalFormula": "alpha-Fe2O3 (Hematite 92%)",
             "crystalSystem": "\u062A\u0631\u06CC\u200C\u06AF\u0648\u0646\u0627\u0644 (Trigonal Rhombohedral)",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u062F\u0633\u062A\u06CC \u062E\u0627\u06A9 \u0633\u0631\u062E \u0633\u0627\u062D\u0644 \u0647\u0631\u0645\u0632\u060C \u0634\u0633\u062A\u0634\u0648 \u062F\u0631 \u062D\u0648\u0636\u0686\u0647\u200C\u0647\u0627\u06CC \u062A\u0647\u200C\u0646\u0634\u06CC\u0646\u06CC \u0648 \u062E\u0634\u06A9\u200C\u06A9\u0631\u062F\u0646 \u0628\u0627 \u0646\u0648\u0631 \u062E\u0648\u0631\u0634\u06CC\u062F",
-            "historicalManuscriptRef": "\u0622\u062B\u0627\u0631 \u0627\u0644\u0628\u0644\u0627\u062F \u0648 \u0627\u062E\u0628\u0627\u0631 \u0627\u0644\u0639\u0628\u0627\u062F - \u0632\u06A9\u0631\u06CC\u0627 \u0642\u0632\u0648\u06CC\u0646\u06CC",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "historicalManuscriptRef": "\u0622\u062B\u0627\u0631 \u0627\u0644\u0628\u0644\u0627\u062F \u0648 \u0627\u062E\u0628\u0627\u0631 \u0627\u0644\u0639\u0628\u0627\u062F - \u0632\u06A9\u0631\u06CC\u0627 \u0642\u0632\u0648\u06CC\u0646\u06CC"
           },
           "geoSpatial": {
             "originSite": "Rainbow Island Hormuz / Persepolis",
@@ -652,7 +652,6 @@ var RAW_PALETTES = {
             "historicalPigmentFa": "\u06AF\u0644 \u0627\u062E\u0631\u0627 \u0642\u0631\u0645\u0632 \u062C\u0632\u06CC\u0631\u0647 \u0647\u0631\u0645\u0632",
             "chemicalName": "Hormuz Hematite Persian Red",
             "formula": "alpha-Fe2O3 (Hematite 92%)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -693,8 +692,7 @@ var RAW_PALETTES = {
             "chemicalFormula": "Au75-Ag20-Cu5 Alloy",
             "crystalSystem": "\u0645\u062A\u0627\u0644\u0648\u0631\u0698\u06CC \u0628\u0627\u0633\u062A\u0627\u0646\u06CC (Archaeometallurgical)",
             "traditionalExtraction": "\u0631\u06CC\u062E\u062A\u0647\u200C\u06AF\u0631\u06CC \u0645\u0648\u0645 \u06AF\u0645\u0634\u062F\u0647 \u0648 \u0686\u06A9\u0634\u200C\u06A9\u0627\u0631\u06CC \u06A9\u062A\u06CC\u0628\u0647\u200C\u0647\u0627\u06CC \u0637\u0644\u0627\u06CC\u06CC \u06A9\u0627\u062E \u0622\u067E\u0627\u062F\u0627\u0646\u0627",
-            "historicalManuscriptRef": "\u06A9\u062A\u06CC\u0628\u0647 \u067E\u06CC\u200C\u0628\u0646\u0627\u06CC \u062F\u0627\u0631\u06CC\u0648\u0634 \u0628\u0632\u0631\u06AF \u062F\u0631 \u0634\u0648\u0634 (DSf)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "historicalManuscriptRef": "\u06A9\u062A\u06CC\u0628\u0647 \u067E\u06CC\u200C\u0628\u0646\u0627\u06CC \u062F\u0627\u0631\u06CC\u0648\u0634 \u0628\u0632\u0631\u06AF \u062F\u0631 \u0634\u0648\u0634 (DSf)"
           },
           "geoSpatial": {
             "originSite": "Persepolis Treasury & Apadana",
@@ -736,7 +734,6 @@ var RAW_PALETTES = {
             "historicalPigmentFa": "\u0627\u0644\u06A9\u062A\u0631\u0648\u0645 \u0632\u0631 \u0647\u062E\u0627\u0645\u0646\u0634\u06CC",
             "chemicalName": "Native Electrum & Imperial Gold",
             "formula": "Au75-Ag20-Cu5 Alloy",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -777,8 +774,7 @@ var RAW_PALETTES = {
             "chemicalFormula": "C16H10N2O2 (Indigotin)",
             "crystalSystem": "\u0645\u0648\u0646\u0648\u06A9\u0644\u06CC\u0646\u06CC\u06A9 \u0622\u0644\u06CC (Organic Molecular)",
             "traditionalExtraction": "\u062A\u062E\u0645\u06CC\u0631 \u0628\u06CC \u0647\u0648\u0627\u0632\u06CC \u0628\u0631\u06AF\u200C\u0647\u0627\u06CC \u0648\u0633\u0645\u0647 \u0648 \u0646\u06CC\u0644 \u062F\u0631 \u062E\u0645\u0631\u0647\u200C\u0647\u0627\u06CC \u0633\u0641\u0627\u0644\u06CC \u0628\u0627 \u0634\u06CC\u0631\u0647 \u0642\u0644\u06CC\u0627\u0628",
-            "historicalManuscriptRef": "\u062A\u0627\u0631\u06CC\u062E \u0637\u0628\u06CC\u0639\u06CC \u067E\u0644\u06CC\u0646\u06CC (Naturalis Historia) - \u06A9\u062A\u0627\u0628 \u06F3\u06F3",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "historicalManuscriptRef": "\u062A\u0627\u0631\u06CC\u062E \u0637\u0628\u06CC\u0639\u06CC \u067E\u0644\u06CC\u0646\u06CC (Naturalis Historia) - \u06A9\u062A\u0627\u0628 \u06F3\u06F3"
           },
           "geoSpatial": {
             "originSite": "Pasargadae Imperial Enclosure",
@@ -820,7 +816,6 @@ var RAW_PALETTES = {
             "historicalPigmentFa": "\u0646\u06CC\u0644 \u0634\u0627\u0647\u06CC \u067E\u0627\u0633\u0627\u0631\u06AF\u0627\u062F",
             "chemicalName": "Pasargadae Indigofera Tinctoria",
             "formula": "C16H10N2O2 (Indigotin)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -861,8 +856,7 @@ var RAW_PALETTES = {
             "chemicalFormula": "CaCO3 + Bituminous Hydrocarbons",
             "crystalSystem": "\u0645\u06CC\u06A9\u0631\u0648\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0631\u0633\u0648\u0628\u06CC",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u06AF \u0627\u0632 \u06A9\u0648\u0647 \u0631\u062D\u0645\u062A \u0628\u0627 \u0642\u0644\u0645 \u0648 \u0686\u06A9\u0634 \u0645\u0641\u0631\u063A\u06CC \u0648 \u067E\u0648\u0644\u06CC\u0634 \u0628\u0627 \u0686\u0631\u0645 \u0648 \u062E\u0627\u06A9\u0633\u062A\u0631",
-            "historicalManuscriptRef": "\u06A9\u062A\u06CC\u0628\u0647\u200C\u0647\u0627\u06CC \u0628\u0627\u0631\u0639\u0627\u0645 \u062E\u0634\u0627\u06CC\u0627\u0631\u0634\u0627 \u062F\u0631 \u062F\u0631\u06AF\u0627\u0647 \u0634\u0631\u0642\u06CC \u0622\u067E\u0627\u062F\u0627\u0646\u0627",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "historicalManuscriptRef": "\u06A9\u062A\u06CC\u0628\u0647\u200C\u0647\u0627\u06CC \u0628\u0627\u0631\u0639\u0627\u0645 \u062E\u0634\u0627\u06CC\u0627\u0631\u0634\u0627 \u062F\u0631 \u062F\u0631\u06AF\u0627\u0647 \u0634\u0631\u0642\u06CC \u0622\u067E\u0627\u062F\u0627\u0646\u0627"
           },
           "geoSpatial": {
             "originSite": "Apadana Palace Reliefs, Persepolis",
@@ -904,7 +898,6 @@ var RAW_PALETTES = {
             "historicalPigmentFa": "\u0633\u0646\u06AF \u062E\u0627\u06A9\u0633\u062A\u0631\u06CC \u0642\u06CC\u0631\u062F\u0627\u0631 \u0622\u067E\u0627\u062F\u0627\u0646\u0627",
             "chemicalName": "Apadana Bituminous Grey Basalt",
             "formula": "CaCO3 + Bituminous Hydrocarbons",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -945,8 +938,7 @@ var RAW_PALETTES = {
             "chemicalFormula": "SiO2 + CaCO3 Matrix",
             "crystalSystem": "\u06A9\u0648\u0627\u0631\u062A\u0632 \u0647\u06AF\u0632\u0627\u06AF\u0648\u0646\u0627\u0644",
             "traditionalExtraction": "\u0628\u0631\u0634 \u0628\u0644\u0648\u06A9\u200C\u0647\u0627\u06CC \u0639\u0638\u06CC\u0645 \u0633\u0646\u06AF\u06CC \u06A9\u0648\u0647 \u0645\u0647\u0631 \u0648 \u0645\u0647\u0627\u0631 \u0628\u0627 \u0628\u0633\u062A\u200C\u0647\u0627\u06CC \u062F\u0645 \u0686\u0644\u0686\u0644\u0647\u200C\u0627\u06CC \u0633\u0631\u0628\u06CC",
-            "historicalManuscriptRef": "\u0627\u0644\u0648\u0627\u062D \u0628\u0627\u0631\u0648\u06CC \u062A\u062E\u062A \u062C\u0645\u0634\u06CC\u062F (Fortification Tablets)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "historicalManuscriptRef": "\u0627\u0644\u0648\u0627\u062D \u0628\u0627\u0631\u0648\u06CC \u062A\u062E\u062A \u062C\u0645\u0634\u06CC\u062F (Fortification Tablets)"
           },
           "geoSpatial": {
             "originSite": "Tachara & Palace of Xerxes",
@@ -988,7 +980,6 @@ var RAW_PALETTES = {
             "historicalPigmentFa": "\u0645\u0627\u0633\u0647\u200C\u0633\u0646\u06AF \u06A9\u0648\u0627\u0631\u062A\u0632\u06CC \u0635\u0641\u0647 \u062A\u062E\u062A \u062C\u0645\u0634\u06CC\u062F",
             "chemicalName": "Persepolis Quartz Sandstone",
             "formula": "SiO2 + CaCO3 Matrix",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -1029,8 +1020,7 @@ var RAW_PALETTES = {
             "chemicalFormula": "Cu88-Sn12 Alloy",
             "crystalSystem": "\u0622\u0644\u06CC\u0627\u0698 \u062F\u0648\u0641\u0627\u0632\u06CC \u0627\u0644\u0641\u0627-\u062F\u0644\u062A\u0627 \u0645\u0633-\u0642\u0644\u0639",
             "traditionalExtraction": "\u0630\u0648\u0628 \u0647\u0645\u0632\u0645\u0627\u0646 \u06A9\u0627\u0644\u06A9\u0648\u067E\u06CC\u0631\u06CC\u062A \u0648 \u06A9\u0627\u0633\u06CC\u062A\u0631\u06CC\u062A \u062F\u0631 \u06A9\u0648\u0631\u0647\u200C\u0647\u0627\u06CC \u062F\u0645\u0634 \u0628\u0627\u062F\u06CC \u0628\u0627\u0633\u062A\u0627\u0646\u06CC",
-            "historicalManuscriptRef": "\u0628\u0627\u0633\u062A\u0627\u0646\u200C\u0634\u0646\u0627\u0633\u06CC \u0641\u0644\u0632\u06A9\u0627\u0631\u06CC \u06A9\u0647\u0646 \u0627\u06CC\u0631\u0627\u0646 - \u0631\u0648\u0645\u0646 \u06AF\u06CC\u0631\u0634\u0645\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "historicalManuscriptRef": "\u0628\u0627\u0633\u062A\u0627\u0646\u200C\u0634\u0646\u0627\u0633\u06CC \u0641\u0644\u0632\u06A9\u0627\u0631\u06CC \u06A9\u0647\u0646 \u0627\u06CC\u0631\u0627\u0646 - \u0631\u0648\u0645\u0646 \u06AF\u06CC\u0631\u0634\u0645\u0646"
           },
           "geoSpatial": {
             "originSite": "Persepolis Armory & Lorestan Sites",
@@ -1072,7 +1062,6 @@ var RAW_PALETTES = {
             "historicalPigmentFa": "\u0645\u0641\u0631\u063A \u0628\u0627\u0633\u062A\u0627\u0646\u06CC \u0644\u0631\u0633\u062A\u0627\u0646 \u0648 \u0647\u062E\u0627\u0645\u0646\u0634\u06CC",
             "chemicalName": "Persian Archaeometallurgical Bronze",
             "formula": "Cu88-Sn12 Alloy",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -1128,7 +1117,6 @@ var RAW_PALETTES = {
             "chemicalFormula": "HgS",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
             "casNumber": "1344-48-5"
           },
           "geoSpatial": {
@@ -1212,7 +1200,6 @@ var RAW_PALETTES = {
             "chemicalFormula": "Cu\u2082CO\u2083(OH)\u2082",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
             "casNumber": "12069-69-1"
           },
           "geoSpatial": {
@@ -1296,7 +1283,6 @@ var RAW_PALETTES = {
             "chemicalFormula": "C\u2081\u2086H\u2081\u2080N\u2082O\u2082 + Na\u2086Ca\u2082[S|AlSiO\u2084]\u2086",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
             "casNumber": "482-89-3"
           },
           "geoSpatial": {
@@ -1380,7 +1366,6 @@ var RAW_PALETTES = {
             "chemicalFormula": "C\u2082\u2082H\u2082\u2080O\u2081\u2083",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
             "casNumber": "1260-15-5"
           },
           "geoSpatial": {
@@ -1464,7 +1449,6 @@ var RAW_PALETTES = {
             "chemicalFormula": "Au + Complex Polysaccharides",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
             "casNumber": "9000-01-5"
           },
           "geoSpatial": {
@@ -1548,7 +1532,6 @@ var RAW_PALETTES = {
             "chemicalFormula": "(C\u2086H\u2081\u2080O\u2085)\u2099",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
             "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
             "casNumber": "9004-34-6"
           },
           "geoSpatial": {
@@ -1644,11 +1627,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Madder Root Red)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0642\u0631\u0645\u0632 \u0631\u0648\u0646\u0627\u0633\u06CC \u0646\u0627\u0628 (Madder Root))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #A81C07)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -1689,8 +1669,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0642\u0631\u0645\u0632 \u0631\u0648\u0646\u0627\u0633\u06CC \u0646\u0627\u0628 (Madder Root))",
             "chemicalName": "Persian Historical Pigment (Madder Root Red)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #A81C07)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -1728,11 +1706,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Persian Crimson Lacquer)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0644\u0627\u06A9\u06CC \u0634\u0627\u0647\u200C\u0639\u0628\u0627\u0633\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #540B0E)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -1773,8 +1748,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0644\u0627\u06A9\u06CC \u0634\u0627\u0647\u200C\u0639\u0628\u0627\u0633\u06CC)",
             "chemicalName": "Persian Historical Pigment (Persian Crimson Lacquer)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #540B0E)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -1812,11 +1785,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Persian Orange)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062D\u0646\u0627\u06CC\u06CC \u0627\u0641\u0634\u0627\u0631\u06CC (Persian Orange))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #D99058)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -1857,8 +1827,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062D\u0646\u0627\u06CC\u06CC \u0627\u0641\u0634\u0627\u0631\u06CC (Persian Orange))",
             "chemicalName": "Persian Historical Pigment (Persian Orange)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #D99058)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -1896,11 +1864,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Peacock Forest Green)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u06A9\u0644\u0647\u200C\u063A\u0627\u0632\u06CC \u0639\u0634\u0627\u06CC\u0631)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #2B3A1C)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -1941,8 +1906,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u06A9\u0644\u0647\u200C\u063A\u0627\u0632\u06CC \u0639\u0634\u0627\u06CC\u0631)",
             "chemicalName": "Persian Historical Pigment (Peacock Forest Green)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #2B3A1C)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -1980,11 +1943,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Raw Wool Cream)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06A9\u0631\u0645 \u062E\u0627\u0645\u0647 \u067E\u0634\u0645\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #EADDCF)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2025,8 +1985,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06A9\u0631\u0645 \u062E\u0627\u0645\u0647 \u067E\u0634\u0645\u06CC)",
             "chemicalName": "Persian Historical Pigment (Raw Wool Cream)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #EADDCF)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2064,11 +2022,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Walnut Husk Brown)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0642\u0647\u0648\u0647\u200C\u0627\u06CC \u067E\u0648\u0633\u062A \u06AF\u0631\u062F\u0648)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #422006)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2109,8 +2064,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0642\u0647\u0648\u0647\u200C\u0627\u06CC \u067E\u0648\u0633\u062A \u06AF\u0631\u062F\u0648)",
             "chemicalName": "Persian Historical Pigment (Walnut Husk Brown)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #422006)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2163,11 +2116,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Persian Blue)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u0645\u06CC\u0646\u0627\u06CC\u06CC \u0698\u0631\u0641 (Persian Blue))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1C39BB)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2208,8 +2158,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u0645\u06CC\u0646\u0627\u06CC\u06CC \u0698\u0631\u0641 (Persian Blue))",
             "chemicalName": "Persian Historical Pigment (Persian Blue)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #1C39BB)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2247,11 +2195,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Deep Persian Green)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u0641\u06CC\u0631\u0648\u0632\u0647 \u0642\u0644\u0645\u06CC (Persian Green))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #008679)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2292,8 +2237,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u0641\u06CC\u0631\u0648\u0632\u0647 \u0642\u0644\u0645\u06CC (Persian Green))",
             "chemicalName": "Persian Historical Pigment (Deep Persian Green)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #008679)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2331,11 +2274,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Gilded Brass Yellow)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0631\u062F \u0637\u0644\u0627\u0627\u0646\u062F\u0648\u062F)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #E09F3E)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2376,8 +2316,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0631\u062F \u0637\u0644\u0627\u0627\u0646\u062F\u0648\u062F)",
             "chemicalName": "Persian Historical Pigment (Gilded Brass Yellow)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #E09F3E)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2415,11 +2353,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Pearl Turquoise Glaze)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0641\u06CC\u0631\u0648\u0632\u0647\u200C\u0627\u06CC \u0645\u0631\u0648\u0627\u0631\u06CC\u062F\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #94D2BD)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2460,8 +2395,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0641\u06CC\u0631\u0648\u0632\u0647\u200C\u0627\u06CC \u0645\u0631\u0648\u0627\u0631\u06CC\u062F\u06CC)",
             "chemicalName": "Persian Historical Pigment (Pearl Turquoise Glaze)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #94D2BD)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2499,11 +2432,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Porcelain Enamel White)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0641\u06CC\u062F \u0644\u0639\u0627\u0628 \u0686\u06CC\u0646\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FDFBF7)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2544,8 +2474,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0641\u06CC\u062F \u0644\u0639\u0627\u0628 \u0686\u06CC\u0646\u06CC)",
             "chemicalName": "Persian Historical Pigment (Porcelain Enamel White)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FDFBF7)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2583,11 +2511,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Kiln Shadow Navy)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0631\u0645\u0647\u200C\u0627\u06CC \u06A9\u0648\u0631\u0647 \u0645\u06CC\u0646\u0627)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #0A192F)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2628,8 +2553,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0631\u0645\u0647\u200C\u0627\u06CC \u06A9\u0648\u0631\u0647 \u0645\u06CC\u0646\u0627)",
             "chemicalName": "Persian Historical Pigment (Kiln Shadow Navy)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #0A192F)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2682,11 +2605,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Timurid Crimson Carmine)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0631\u0634\u06A9\u06CC \u062A\u0630\u0647\u06CC\u0628 \u062A\u06CC\u0645\u0648\u0631\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #780000)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2727,8 +2647,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0631\u0634\u06A9\u06CC \u062A\u0630\u0647\u06CC\u0628 \u062A\u06CC\u0645\u0648\u0631\u06CC)",
             "chemicalName": "Persian Historical Pigment (Timurid Crimson Carmine)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #780000)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2766,11 +2684,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Indigo Shamseh Navy)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0646\u06CC\u0644\u06CC \u0644\u0627\u062C\u0648\u0631\u062F\u06CC \u0634\u0645\u0633\u0647 (Indigo))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #283655)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2811,8 +2726,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0646\u06CC\u0644\u06CC \u0644\u0627\u062C\u0648\u0631\u062F\u06CC \u0634\u0645\u0633\u0647 (Indigo))",
             "chemicalName": "Persian Historical Pigment (Indigo Shamseh Navy)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #283655)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2850,11 +2763,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Goldenrod Gold)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0637\u0644\u0627\u06CC \u0646\u0627\u0628 \u0634\u0645\u0633\u0647 (Goldenrod))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #DAA520)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2895,8 +2805,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0637\u0644\u0627\u06CC \u0646\u0627\u0628 \u0634\u0645\u0633\u0647 (Goldenrod))",
             "chemicalName": "Persian Historical Pigment (Goldenrod Gold)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #DAA520)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -2934,11 +2842,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Malachite Resin Green)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u0635\u0645\u063A\u06CC \u06A9\u0647\u0646)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #386641)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -2979,8 +2884,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u0635\u0645\u063A\u06CC \u06A9\u0647\u0646)",
             "chemicalName": "Persian Historical Pigment (Malachite Resin Green)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #386641)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3018,11 +2921,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Parchment Vellum White)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u067E\u0648\u0633\u062A \u0622\u0647\u0648\u06CC \u062E\u0637\u0627\u0637\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FDFBF4)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3063,8 +2963,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u067E\u0648\u0633\u062A \u0622\u0647\u0648\u06CC \u062E\u0637\u0627\u0637\u06CC)",
             "chemicalName": "Persian Historical Pigment (Parchment Vellum White)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FDFBF4)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3102,11 +3000,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (India Ink Black)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0631\u06A9\u0628 \u0633\u06CC\u0627\u0647 \u06A9\u062A\u0627\u0628\u062A (India Ink))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #000000)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3120,7 +3015,6 @@ var RAW_PALETTES = {
           },
           "spectral": {
             "peakWavelengthNm": 610,
-            "dominantWavelengthNm": 610,
             "reflectanceRange": [
               0.05,
               0.75
@@ -3147,8 +3041,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0631\u06A9\u0628 \u0633\u06CC\u0627\u0647 \u06A9\u062A\u0627\u0628\u062A (India Ink))",
             "chemicalName": "Persian Historical Pigment (India Ink Black)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #000000)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3159,7 +3051,6 @@ var RAW_PALETTES = {
             "unescoSiteId": "\u062B\u0628\u062A \u0645\u06CC\u0631\u0627\u062B \u0641\u0631\u0647\u0646\u06AF\u06CC \u0645\u0644\u0645\u0648\u0633 \u0648 \u0646\u0627\u0645\u0644\u0645\u0648\u0633 \u06CC\u0648\u0646\u0633\u06A9\u0648"
           },
           "physics": {
-            "dominantWavelengthNm": 610,
             "chromaOklab": 0,
             "spectralReflectancePeak": "610 nm",
             "cieLab": {
@@ -3201,11 +3092,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Medium Persian Blue)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u067E\u0627\u0631\u0633\u06CC \u0627\u0635\u06CC\u0644 (Medium Persian Blue))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #0067A5)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3246,8 +3134,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u067E\u0627\u0631\u0633\u06CC \u0627\u0635\u06CC\u0644 (Medium Persian Blue))",
             "chemicalName": "Persian Historical Pigment (Medium Persian Blue)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #0067A5)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3285,11 +3171,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Qeshm Turquoise Shore)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u0641\u06CC\u0631\u0648\u0632\u0647\u200C\u0627\u06CC \u0642\u0634\u0645)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #00B4D8)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3330,8 +3213,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u0641\u06CC\u0631\u0648\u0632\u0647\u200C\u0627\u06CC \u0642\u0634\u0645)",
             "chemicalName": "Persian Historical Pigment (Qeshm Turquoise Shore)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #00B4D8)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3369,11 +3250,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Hormuz Red Ochre)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0627\u06A9 \u0633\u0631\u062E \u0647\u0631\u0645\u0632 (Red Ochre))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #901C1C)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3414,8 +3292,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0627\u06A9 \u0633\u0631\u062E \u0647\u0631\u0645\u0632 (Red Ochre))",
             "chemicalName": "Persian Historical Pigment (Hormuz Red Ochre)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #901C1C)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3453,11 +3329,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Persian Gulf Pearl)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0631\u0648\u0627\u0631\u06CC\u062F \u0635\u06CC\u062F \u0644\u0646\u06AF\u0647)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F2ECE4)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3498,8 +3371,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0631\u0648\u0627\u0631\u06CC\u062F \u0635\u06CC\u062F \u0644\u0646\u06AF\u0647)",
             "chemicalName": "Persian Historical Pigment (Persian Gulf Pearl)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #F2ECE4)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3537,11 +3408,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Sun-warmed Coastal Sand)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0627\u0633\u0647 \u06AF\u0631\u0645 \u0633\u0627\u062D\u0644\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #DDA15E)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3582,8 +3450,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0627\u0633\u0647 \u06AF\u0631\u0645 \u0633\u0627\u062D\u0644\u06CC)",
             "chemicalName": "Persian Historical Pigment (Sun-warmed Coastal Sand)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #DDA15E)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3621,11 +3487,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Abyssal Persian Deep Blue)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u0698\u0631\u0641\u0627\u06CC \u062E\u0644\u06CC\u062C)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #03071E)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3666,8 +3529,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0622\u0628\u06CC \u0698\u0631\u0641\u0627\u06CC \u062E\u0644\u06CC\u062C)",
             "chemicalName": "Persian Historical Pigment (Abyssal Persian Deep Blue)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #03071E)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3720,11 +3581,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Persian Rose)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06AF\u0644 \u0633\u0631\u062E \u0645\u062D\u0645\u062F\u06CC (Persian Rose))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FE28A2)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3738,7 +3596,6 @@ var RAW_PALETTES = {
           },
           "spectral": {
             "peakWavelengthNm": 652,
-            "dominantWavelengthNm": 652,
             "reflectanceRange": [
               0.05,
               0.75
@@ -3765,8 +3622,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06AF\u0644 \u0633\u0631\u062E \u0645\u062D\u0645\u062F\u06CC (Persian Rose))",
             "chemicalName": "Persian Historical Pigment (Persian Rose)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FE28A2)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3777,7 +3632,6 @@ var RAW_PALETTES = {
             "unescoSiteId": "\u062B\u0628\u062A \u0645\u06CC\u0631\u0627\u062B \u0641\u0631\u0647\u0646\u06AF\u06CC \u0645\u0644\u0645\u0648\u0633 \u0648 \u0646\u0627\u0645\u0644\u0645\u0648\u0633 \u06CC\u0648\u0646\u0633\u06A9\u0648"
           },
           "physics": {
-            "dominantWavelengthNm": 652,
             "chromaOklab": 0.257,
             "spectralReflectancePeak": "652 nm",
             "cieLab": {
@@ -3804,11 +3658,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Ghasrodasht Ruby Pomegranate)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0627\u0646\u0627\u0631 \u0642\u0635\u0631\u0627\u0644\u062F\u0634\u062A)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #8B1E3F)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3822,7 +3673,6 @@ var RAW_PALETTES = {
           },
           "spectral": {
             "peakWavelengthNm": 631,
-            "dominantWavelengthNm": 631,
             "reflectanceRange": [
               0.05,
               0.75
@@ -3849,8 +3699,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0627\u0646\u0627\u0631 \u0642\u0635\u0631\u0627\u0644\u062F\u0634\u062A)",
             "chemicalName": "Persian Historical Pigment (Ghasrodasht Ruby Pomegranate)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #8B1E3F)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3861,7 +3709,6 @@ var RAW_PALETTES = {
             "unescoSiteId": "\u062B\u0628\u062A \u0645\u06CC\u0631\u0627\u062B \u0641\u0631\u0647\u0646\u06AF\u06CC \u0645\u0644\u0645\u0648\u0633 \u0648 \u0646\u0627\u0645\u0644\u0645\u0648\u0633 \u06CC\u0648\u0646\u0633\u06A9\u0648"
           },
           "physics": {
-            "dominantWavelengthNm": 631,
             "chromaOklab": 0.145,
             "spectralReflectancePeak": "631 nm",
             "cieLab": {
@@ -3888,11 +3735,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Cypress Green)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u0633\u0631\u0648 \u0646\u0627\u0632 (Cypress Green))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #228B22)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -3933,8 +3777,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0628\u0632 \u0633\u0631\u0648 \u0646\u0627\u0632 (Cypress Green))",
             "chemicalName": "Persian Historical Pigment (Cypress Green)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #228B22)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -3972,11 +3814,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Orange Blossom Yellow)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0634\u06A9\u0648\u0641\u0647 \u0628\u0647\u0627\u0631\u0646\u0627\u0631\u0646\u062C)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FDE68A)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4017,8 +3856,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0634\u06A9\u0648\u0641\u0647 \u0628\u0647\u0627\u0631\u0646\u0627\u0631\u0646\u062C)",
             "chemicalName": "Persian Historical Pigment (Orange Blossom Yellow)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FDE68A)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4056,11 +3893,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Shirazi Jasmine White)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0641\u06CC\u062F \u06CC\u0627\u0633\u0645\u0646 \u0634\u06CC\u0631\u0627\u0632\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F9F6F0)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4101,8 +3935,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0641\u06CC\u062F \u06CC\u0627\u0633\u0645\u0646 \u0634\u06CC\u0631\u0627\u0632\u06CC)",
             "chemicalName": "Persian Historical Pigment (Shirazi Jasmine White)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #F9F6F0)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4140,11 +3972,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Deep Eram Garden Shade)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0627\u06CC\u0647\u200C\u0633\u0627\u0631 \u0628\u0627\u063A \u0627\u0631\u0645)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #182C18)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4185,8 +4014,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0627\u06CC\u0647\u200C\u0633\u0627\u0631 \u0628\u0627\u063A \u0627\u0631\u0645)",
             "chemicalName": "Persian Historical Pigment (Deep Eram Garden Shade)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #182C18)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4239,11 +4066,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Turquoise)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0641\u06CC\u0631\u0648\u0632\u0647 \u0634\u062C\u0631\u06CC \u0646\u06CC\u0634\u0627\u0628\u0648\u0631 (Turquoise))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #40E0D0)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4284,8 +4108,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0641\u06CC\u0631\u0648\u0632\u0647 \u0634\u062C\u0631\u06CC \u0646\u06CC\u0634\u0627\u0628\u0648\u0631 (Turquoise))",
             "chemicalName": "Persian Historical Pigment (Turquoise)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #40E0D0)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4323,11 +4145,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Persian Ruby)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06CC\u0627\u0642\u0648\u062A \u0627\u0646\u0627\u0631\u06CC \u067E\u0627\u0631\u0633\u06CC (Ruby))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #9B111E)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4368,8 +4187,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06CC\u0627\u0642\u0648\u062A \u0627\u0646\u0627\u0631\u06CC \u067E\u0627\u0631\u0633\u06CC (Ruby))",
             "chemicalName": "Persian Historical Pigment (Persian Ruby)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #9B111E)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4407,11 +4224,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Emerald Green)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0645\u0631\u062F \u0646\u0627\u062F\u0631\u06CC (Emerald))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #50C878)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4452,8 +4266,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0645\u0631\u062F \u0646\u0627\u062F\u0631\u06CC (Emerald))",
             "chemicalName": "Persian Historical Pigment (Emerald Green)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #50C878)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4491,11 +4303,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Amber Gold)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06A9\u0647\u0631\u0628\u0627\u06CC \u06A9\u0647\u0646 \u062A\u0648\u0633 (Amber))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FFBF00)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4536,8 +4345,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06A9\u0647\u0631\u0628\u0627\u06CC \u06A9\u0647\u0646 \u062A\u0648\u0633 (Amber))",
             "chemicalName": "Persian Historical Pigment (Amber Gold)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FFBF00)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4575,11 +4382,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Silver Pearl Luster)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0631\u0648\u0627\u0631\u06CC\u062F \u0646\u0642\u0631\u0647\u200C\u0641\u0627\u0645)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F4F6F8)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4620,8 +4424,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0631\u0648\u0627\u0631\u06CC\u062F \u0646\u0642\u0631\u0647\u200C\u0641\u0627\u0645)",
             "chemicalName": "Persian Historical Pigment (Silver Pearl Luster)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #F4F6F8)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4659,11 +4461,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Flint Basalt Dark)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0646\u06AF \u0686\u062E\u0645\u0627\u0642 \u062F\u0648\u062F\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1B1E23)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4704,8 +4503,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0646\u06AF \u0686\u062E\u0645\u0627\u0642 \u062F\u0648\u062F\u06CC)",
             "chemicalName": "Persian Historical Pigment (Flint Basalt Dark)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #1B1E23)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4758,11 +4555,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Ancient Hyrcanian Fern)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0631\u062E\u0633 \u06A9\u0647\u0646\u0633\u0627\u0644 \u0647\u06CC\u0631\u06A9\u0627\u0646\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1B4332)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4803,8 +4597,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u0631\u062E\u0633 \u06A9\u0647\u0646\u0633\u0627\u0644 \u0647\u06CC\u0631\u06A9\u0627\u0646\u06CC)",
             "chemicalName": "Persian Historical Pigment (Ancient Hyrcanian Fern)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #1B4332)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4842,11 +4634,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Moist Rock Moss)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0632\u0647 \u0645\u0631\u0637\u0648\u0628 \u0633\u0646\u06AF)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #40916C)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4887,8 +4676,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0632\u0647 \u0645\u0631\u0637\u0648\u0628 \u0633\u0646\u06AF)",
             "chemicalName": "Persian Historical Pigment (Moist Rock Moss)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #40916C)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -4926,11 +4713,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Beech Leaf Fresh Sprout)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062C\u0648\u0627\u0646\u0647 \u0631\u0627\u0634\u0633\u062A\u0627\u0646)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #74C69D)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -4971,8 +4755,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062C\u0648\u0627\u0646\u0647 \u0631\u0627\u0634\u0633\u062A\u0627\u0646)",
             "chemicalName": "Persian Historical Pigment (Beech Leaf Fresh Sprout)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #74C69D)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5010,11 +4792,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Caspian Oak Wood)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0628\u0644\u0648\u0637 \u06A9\u0647\u0646\u0633\u0627\u0644 \u062E\u0632\u0631\u06CC)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #4A3525)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5055,8 +4834,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0628\u0644\u0648\u0637 \u06A9\u0647\u0646\u0633\u0627\u0644 \u062E\u0632\u0631\u06CC)",
             "chemicalName": "Persian Historical Pigment (Caspian Oak Wood)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #4A3525)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5094,11 +4871,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Damavand Glacier White)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u067E\u06CC\u062F\u06CC \u0628\u0631\u0641 \u062F\u0645\u0627\u0648\u0646\u062F)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F8F9FA)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5139,8 +4913,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u067E\u06CC\u062F\u06CC \u0628\u0631\u0641 \u062F\u0645\u0627\u0648\u0646\u062F)",
             "chemicalName": "Persian Historical Pigment (Damavand Glacier White)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #F8F9FA)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5178,11 +4950,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Deep Forest Shadow)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0698\u0631\u0641\u0627\u06CC \u062C\u0646\u06AF\u0644 \u0645\u0647\u200C\u0622\u0644\u0648\u062F)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #0D1F18)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5223,8 +4992,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0698\u0631\u0641\u0627\u06CC \u062C\u0646\u06AF\u0644 \u0645\u0647\u200C\u0622\u0644\u0648\u062F)",
             "chemicalName": "Persian Historical Pigment (Deep Forest Shadow)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #0D1F18)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5277,11 +5044,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Saffron Yellow)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0639\u0641\u0631\u0627\u0646\u06CC \u0633\u0631\u06AF\u0644 (Saffron))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F4C430)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5322,8 +5086,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0639\u0641\u0631\u0627\u0646\u06CC \u0633\u0631\u06AF\u0644 (Saffron))",
             "chemicalName": "Persian Historical Pigment (Saffron Yellow)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #F4C430)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5361,11 +5123,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Adobe Terracotta)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06A9\u0627\u0647\u06AF\u0644 \u0622\u0641\u062A\u0627\u0628\u200C\u062E\u0648\u0631\u062F\u0647 (Adobe))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #D27D46)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5406,8 +5165,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u06A9\u0627\u0647\u06AF\u0644 \u0622\u0641\u062A\u0627\u0628\u200C\u062E\u0648\u0631\u062F\u0647 (Adobe))",
             "chemicalName": "Persian Historical Pigment (Adobe Terracotta)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #D27D46)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5445,11 +5202,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Rig-e Jenn Red Agate)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0639\u0642\u06CC\u0642 \u0633\u0631\u062E \u0631\u06CC\u06AF\u200C\u062C\u0646)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #E63946)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5490,8 +5244,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0639\u0642\u06CC\u0642 \u0633\u0631\u062E \u0631\u06CC\u06AF\u200C\u062C\u0646)",
             "chemicalName": "Persian Historical Pigment (Rig-e Jenn Red Agate)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #E63946)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5529,11 +5281,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Lut Golden Sand Dune)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0627\u0633\u0647 \u0637\u0644\u0627\u06CC\u06CC \u0644\u0648\u062A)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #F8E7D1)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5574,8 +5323,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0645\u0627\u0633\u0647 \u0637\u0644\u0627\u06CC\u06CC \u0644\u0648\u062A)",
             "chemicalName": "Persian Historical Pigment (Lut Golden Sand Dune)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #F8E7D1)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5613,11 +5360,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Sun-baked Adobe Shadow)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0634\u062A \u0633\u0648\u062E\u062A\u0647 \u06A9\u0648\u06CC\u0631)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1B1917)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5658,8 +5402,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0634\u062A \u0633\u0648\u062E\u062A\u0647 \u06A9\u0648\u06CC\u0631)",
             "chemicalName": "Persian Historical Pigment (Sun-baked Adobe Shadow)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #1B1917)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5697,11 +5439,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Senjed Windcatcher Timber)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0686\u0648\u0628 \u0633\u0646\u062C\u062F \u0628\u0627\u062F\u06AF\u06CC\u0631)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #6B4226)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5742,8 +5481,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0686\u0648\u0628 \u0633\u0646\u062C\u062F \u0628\u0627\u062F\u06AF\u06CC\u0631)",
             "chemicalName": "Persian Historical Pigment (Senjed Windcatcher Timber)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #6B4226)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5796,11 +5533,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Turmeric Gold)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0631\u062F\u0686\u0648\u0628\u0647 \u0645\u0645\u062A\u0627\u0632 \u0642\u0644\u0645 (Turmeric))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FFC000)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5841,8 +5575,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0632\u0631\u062F\u0686\u0648\u0628\u0647 \u0645\u0645\u062A\u0627\u0632 \u0642\u0644\u0645 (Turmeric))",
             "chemicalName": "Persian Historical Pigment (Turmeric Gold)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FFC000)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5880,11 +5612,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Ancient Cinnamon Brown)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062F\u0627\u0631\u0686\u06CC\u0646\u06CC \u0628\u0627\u0633\u062A\u0627\u0646\u06CC (Cinnamon))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #D2691E)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -5925,8 +5654,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062F\u0627\u0631\u0686\u06CC\u0646\u06CC \u0628\u0627\u0633\u062A\u0627\u0646\u06CC (Cinnamon))",
             "chemicalName": "Persian Historical Pigment (Ancient Cinnamon Brown)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #D2691E)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -5964,11 +5691,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Paprika & Pepper Crimson)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u067E\u0627\u067E\u0631\u06CC\u06A9\u0627 \u0648 \u0641\u0644\u0641\u0644 \u0628\u06CC\u062C\u0627\u0631)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #C32F27)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -6009,8 +5733,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u067E\u0627\u067E\u0631\u06CC\u06A9\u0627 \u0648 \u0641\u0644\u0641\u0644 \u0628\u06CC\u062C\u0627\u0631)",
             "chemicalName": "Persian Historical Pigment (Paprika & Pepper Crimson)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #C32F27)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -6048,11 +5770,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Pistachio Green)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u067E\u0633\u062A\u0647 \u062E\u0646\u062F\u0627\u0646 \u0631\u0641\u0633\u0646\u062C\u0627\u0646 (Pistachio Green))",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #93C572)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -6093,8 +5812,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u067E\u0633\u062A\u0647 \u062E\u0646\u062F\u0627\u0646 \u0631\u0641\u0633\u0646\u062C\u0627\u0646 (Pistachio Green))",
             "chemicalName": "Persian Historical Pigment (Pistachio Green)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #93C572)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -6132,11 +5849,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Ancient Saffron Pastry Cream)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0627\u0645\u0647 \u0634\u06CC\u0631\u06CC\u0646\u06CC \u06A9\u0647\u0646)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #FAF0CA)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -6177,8 +5891,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u062E\u0627\u0645\u0647 \u0634\u06CC\u0631\u06CC\u0646\u06CC \u06A9\u0647\u0646)",
             "chemicalName": "Persian Historical Pigment (Ancient Saffron Pastry Cream)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #FAF0CA)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -6216,11 +5928,8 @@ var RAW_PALETTES = {
           "mineralogical": {
             "mineralName": "Persian Historical Pigment (Nigella Seed & Black Cardamom)",
             "mineralNameFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u06CC\u0627\u0647\u200C\u062F\u0627\u0646\u0647 \u0648 \u0647\u0644 \u0633\u06CC\u0627\u0647)",
-            "chemicalFormula": "Natural Organic / Mineral Complex (Matrix #1E1E24)",
             "crystalSystem": "\u06A9\u0631\u06CC\u0633\u062A\u0627\u0644\u06CC\u0646 \u0628\u0648\u0645\u06CC \u0641\u0644\u0627\u062A \u0627\u06CC\u0631\u0627\u0646",
-            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC",
-            "historicalManuscriptRef": "\u0631\u0633\u0627\u0644\u0627\u062A \u06A9\u0647\u0646 \u0631\u0646\u06AF\u0631\u0632\u06CC \u0633\u0646\u062A\u06CC \u0648 \u0635\u0646\u0639\u062A\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0632\u0645\u06CC\u0646",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)"
+            "traditionalExtraction": "\u0627\u0633\u062A\u062E\u0631\u0627\u062C \u0633\u0646\u062A\u06CC \u0627\u0632 \u0645\u0646\u0627\u0628\u0639 \u06AF\u06CC\u0627\u0647\u06CC \u0648 \u0645\u0639\u062F\u0646\u06CC \u0627\u06CC\u0631\u0627\u0646 \u0628\u0631 \u0627\u0633\u0627\u0633 \u0631\u0633\u0627\u0644\u0627\u062A \u062E\u0637\u06CC \u062A\u0630\u0647\u06CC\u0628 \u0648 \u0631\u0646\u06AF\u0631\u0632\u06CC"
           },
           "geoSpatial": {
             "originSite": "Iranian Plateau Heritage Sites",
@@ -6261,8 +5970,6 @@ var RAW_PALETTES = {
           "chemical": {
             "historicalPigmentFa": "\u0631\u0646\u06AF\u062F\u0627\u0646\u0647 \u0627\u0635\u06CC\u0644 \u0627\u06CC\u0631\u0627\u0646\u06CC (\u0633\u06CC\u0627\u0647\u200C\u062F\u0627\u0646\u0647 \u0648 \u0647\u0644 \u0633\u06CC\u0627\u0647)",
             "chemicalName": "Persian Historical Pigment (Nigella Seed & Black Cardamom)",
-            "formula": "Natural Organic / Mineral Complex (Matrix #1E1E24)",
-            "casNumber": "7732-18-5 (Authentic Historical Specimen)",
             "molarMass": "Calculated Complex"
           },
           "geo": {
@@ -6528,10 +6235,15 @@ function getApcaFontSizes(lc) {
 function evaluateAPCA(txtHex, bgHex) {
   const lc = calculateAPCA(txtHex, bgHex), abs = Math.abs(lc);
   const sizes = fontLookupAPCA(lc);
+  const raw400 = Number(sizes[4]);
+  const raw700 = Number(sizes[7]);
   return {
     lcScore: lc,
     rating: abs >= 90 ? "Lc 90 (Fluent Body Text)" : abs >= 75 ? "Lc 75 (Content Text)" : abs >= 60 ? "Lc 60 (Sub-head)" : abs >= 45 ? "Lc 45 (Large/Bold)" : "Fail",
-    minFontSizePx: { fontNormal400: Number(sizes[4]), fontBold700: Number(sizes[7]) },
+    minFontSizePx: {
+      fontNormal400: raw400 >= 400 ? null : raw400,
+      fontBold700: raw700 >= 400 ? null : raw700
+    },
     passedFluentBody: abs >= 90,
     method: "apca-w3@0.1.9"
   };
@@ -9445,6 +9157,10 @@ function normalizePalette(raw) {
       compare2("geo.elevationMeters", coords.altitudeMeters ?? original.geo.elevationMeters, original.geo.elevationMeters);
       compare2("chemical.formula", mineral.chemicalFormula, original.chemical.formula);
       const { molarMass: unverifiedMolarMass, ...chemical } = original.chemical;
+      const isNonSpectral = ["toranj-illumination-c6", "gardens-of-shiraz-c1", "gardens-of-shiraz-c2"].includes(color.id);
+      const dominantWavelengthNm = isNonSpectral ? void 0 : original.spectral?.dominantWavelengthNm ?? original.physics?.dominantWavelengthNm;
+      const { dominantWavelengthNm: _origDom, ...physicsRest } = original.physics;
+      const casNumber = mineral.casNumber ?? chemical.casNumber;
       return {
         ...color,
         hex,
@@ -9454,8 +9170,8 @@ function normalizePalette(raw) {
             ...chemical,
             chemicalName: mineral.mineralName,
             historicalPigmentFa: mineral.mineralNameFa,
-            formula: mineral.chemicalFormula,
-            casNumber: mineral.casNumber ?? chemical.casNumber
+            ...mineral.chemicalFormula !== void 0 ? { formula: mineral.chemicalFormula } : {},
+            ...casNumber !== void 0 ? { casNumber } : {}
           },
           geo: {
             locationFa: sourceGeo.originSiteFa,
@@ -9466,8 +9182,8 @@ function normalizePalette(raw) {
           },
           geoSpatial: { ...sourceGeo, coordinates: { ...coords, altitudeMeters: coords.altitudeMeters ?? original.geo.elevationMeters } },
           physics: {
-            ...original.physics,
-            dominantWavelengthNm: original.spectral.dominantWavelengthNm,
+            ...physicsRest,
+            ...dominantWavelengthNm !== void 0 ? { dominantWavelengthNm } : {},
             spectralReflectancePeak: original.spectral.peakWavelengthNm + " nm",
             chromaOklab: Math.hypot(oklab.a, oklab.b),
             cieLab: hexToLab(hex)
@@ -9489,7 +9205,10 @@ function normalizePalette(raw) {
               { label: "APCA reference", url: "https://github.com/Myndex/apca-w3", scope: "method" },
               { label: "Material color utilities", url: "https://github.com/material-foundation/material-color-utilities", scope: "method" }
             ],
-            historicalReference: { citation: mineral.historicalManuscriptRef, verification: "not-verified" },
+            historicalReference: {
+              ...mineral.historicalManuscriptRef !== void 0 ? { citation: mineral.historicalManuscriptRef } : {},
+              verification: "not-verified"
+            },
             conflicts
           }
         }
@@ -9504,8 +9223,8 @@ function getDataQualityReport() {
   return {
     palettes: ALL_PALETTES_LIST.length,
     colors: colors.length,
-    unverifiedHeritageColors: colors.length,
-    measuredSpectra: 0,
+    unverifiedHeritageColors: colors.filter((c) => c.evidence.provenance.heritageStatus === "unverified").length,
+    measuredSpectra: colors.filter((c) => c.evidence.provenance.spectralStatus === "measured").length,
     coordinateConflicts: colors.filter((c) => c.evidence.provenance.conflicts.some((v) => v.field === "geo.latitude" || v.field === "geo.longitude")).length,
     conflicts: colors.filter((c) => c.evidence.provenance.conflicts.length).map((c) => ({ id: c.id, conflicts: c.evidence.provenance.conflicts }))
   };
@@ -9516,7 +9235,81 @@ var VERSION = "3.0.0";
 var DTCG_VERSION = "2025.10";
 
 // src/exporters/w3c.ts
-var colorTokenKey = (color) => color.nameEn.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+var CANONICAL_TOKEN_KEYS = Object.freeze({
+  "isfahan-tiles-c1": "ultramarine-lapis",
+  "isfahan-tiles-c2": "persian-turquoise",
+  "isfahan-tiles-c3": "persian-green",
+  "isfahan-tiles-c4": "arabesque-gold",
+  "isfahan-tiles-c5": "alabaster-glaze",
+  "isfahan-tiles-c6": "midnight-muqarnas",
+  "achaemenid-majesty-c1": "persian-red",
+  "achaemenid-majesty-c2": "old-gold",
+  "achaemenid-majesty-c3": "persepolis-deep-navy",
+  "achaemenid-majesty-c4": "ancient-royal-jade",
+  "achaemenid-majesty-c5": "apadana-alabaster",
+  "achaemenid-majesty-c6": "tacara-basalt-black",
+  "behzad-miniature-c1": "cinnabar-vermilion",
+  "behzad-miniature-c2": "malachite-green",
+  "behzad-miniature-c3": "night-sky-miniature-navy",
+  "behzad-miniature-c4": "persian-plum",
+  "behzad-miniature-c5": "illuminated-leaf-gold",
+  "behzad-miniature-c6": "samarkand-silk-paper",
+  "nomadic-rugs-c1": "madder-root-red",
+  "nomadic-rugs-c2": "persian-crimson-lacquer",
+  "nomadic-rugs-c3": "persian-orange",
+  "nomadic-rugs-c4": "peacock-forest-green",
+  "nomadic-rugs-c5": "raw-wool-cream",
+  "nomadic-rugs-c6": "walnut-husk-brown",
+  "minakari-craft-c1": "persian-blue",
+  "minakari-craft-c2": "deep-persian-green",
+  "minakari-craft-c3": "gilded-brass-yellow",
+  "minakari-craft-c4": "pearl-turquoise-glaze",
+  "minakari-craft-c5": "porcelain-enamel-white",
+  "minakari-craft-c6": "kiln-shadow-navy",
+  "toranj-illumination-c1": "timurid-crimson-carmine",
+  "toranj-illumination-c2": "indigo-shamseh-navy",
+  "toranj-illumination-c3": "goldenrod-gold",
+  "toranj-illumination-c4": "malachite-resin-green",
+  "toranj-illumination-c5": "parchment-vellum-white",
+  "toranj-illumination-c6": "india-ink-black",
+  "persian-gulf-pearls-c1": "medium-persian-blue",
+  "persian-gulf-pearls-c2": "qeshm-turquoise-shore",
+  "persian-gulf-pearls-c3": "hormuz-red-ochre",
+  "persian-gulf-pearls-c4": "persian-gulf-pearl",
+  "persian-gulf-pearls-c5": "sun-warmed-coastal-sand",
+  "persian-gulf-pearls-c6": "abyssal-persian-deep-blue",
+  "gardens-of-shiraz-c1": "persian-rose",
+  "gardens-of-shiraz-c2": "ghasrodasht-ruby-pomegranate",
+  "gardens-of-shiraz-c3": "cypress-green",
+  "gardens-of-shiraz-c4": "orange-blossom-yellow",
+  "gardens-of-shiraz-c5": "shirazi-jasmine-white",
+  "gardens-of-shiraz-c6": "deep-eram-garden-shade",
+  "khorasan-gems-c1": "turquoise",
+  "khorasan-gems-c2": "persian-ruby",
+  "khorasan-gems-c3": "emerald-green",
+  "khorasan-gems-c4": "amber-gold",
+  "khorasan-gems-c5": "silver-pearl-luster",
+  "khorasan-gems-c6": "flint-basalt-dark",
+  "hyrcanian-forests-c1": "ancient-hyrcanian-fern",
+  "hyrcanian-forests-c2": "moist-rock-moss",
+  "hyrcanian-forests-c3": "beech-leaf-fresh-sprout",
+  "hyrcanian-forests-c4": "caspian-oak-wood",
+  "hyrcanian-forests-c5": "damavand-glacier-white",
+  "hyrcanian-forests-c6": "deep-forest-shadow",
+  "yazd-saffron-desert-c1": "saffron-yellow",
+  "yazd-saffron-desert-c2": "adobe-terracotta",
+  "yazd-saffron-desert-c3": "rig-e-jenn-red-agate",
+  "yazd-saffron-desert-c4": "lut-golden-sand-dune",
+  "yazd-saffron-desert-c5": "sun-baked-adobe-shadow",
+  "yazd-saffron-desert-c6": "senjed-windcatcher-timber",
+  "bazaar-spices-c1": "turmeric-gold",
+  "bazaar-spices-c2": "ancient-cinnamon-brown",
+  "bazaar-spices-c3": "paprika-pepper-crimson",
+  "bazaar-spices-c4": "pistachio-green",
+  "bazaar-spices-c5": "ancient-saffron-pastry-cream",
+  "bazaar-spices-c6": "nigella-seed-black-cardamom"
+});
+var colorTokenKey = (color) => color.tokenKey ?? CANONICAL_TOKEN_KEYS[color.id] ?? color.nameEn.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 function toDTCGColorValue(hex) {
   const rgb = hexToRgb(hex);
   return { colorSpace: "srgb", components: [rgb.r / 255, rgb.g / 255, rgb.b / 255], alpha: 1, hex: rgbToHex(rgb).toLowerCase() };
@@ -9555,7 +9348,7 @@ function exportTokensStudio(palettes = ALL_PALETTES_LIST) {
 
 // src/engine.ts
 function normalizeColorName(value) {
-  return value.normalize("NFKC").toLowerCase().replace(/ي/g, "\u06CC").replace(/ك/g, "\u06A9").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[^\p{L}\p{N}]/gu, "");
+  return value.normalize("NFKC").toLowerCase().replace(/[\u0649\u064A\u0626]/g, "\u06CC").replace(/\u0643/g, "\u06A9").replace(/[\u06C0\u0629]/g, "\u0647").replace(/[\u0622\u0623\u0625]/g, "\u0627").replace(/[\u064B-\u065F\u0670\u0640]/g, "").replace(/[\u0660-\u0669]/g, (d) => String(d.charCodeAt(0) - 1632)).replace(/[\u06F0-\u06F9]/g, (d) => String(d.charCodeAt(0) - 1776)).replace(/[^\p{L}\p{N}]/gu, "");
 }
 function token(color) {
   return { ...toDTCGToken(color), id: color.id, hex: color.hex, nameFa: color.nameFa, nameEn: color.nameEn, evidence: color.evidence };
@@ -9700,15 +9493,26 @@ function exportTailwindTheme(palettes = ALL_PALETTES_LIST) {
     }
   };
 }
+function sanitizeComment(text) {
+  let s = String(text ?? "");
+  s = s.replace(/[{}\r\n]/g, "");
+  while (s.includes("*/") || s.includes("/*")) {
+    s = s.replace(/\/\*|\*\//g, "");
+  }
+  return s.trim();
+}
 function exportTailwindV4CSS(palettes = ALL_PALETTES_LIST) {
   let css = "@theme {\n";
   for (const palette of palettes) {
-    css += `  /* ${palette.nameFa} (${palette.nameEn}) */
+    const pNameFa = sanitizeComment(palette.nameFa);
+    const pNameEn = sanitizeComment(palette.nameEn);
+    css += `  /* ${pNameFa} (${pNameEn}) */
 `;
     for (let i = 0; i < palette.colors.length; i++) {
       const color = palette.colors[i];
       const step = (i + 1) * 100;
-      css += `  --color-persian-${palette.id}-${step}: ${color.hex}; /* ${color.nameFa} */
+      const cNameFa = sanitizeComment(color.nameFa);
+      css += `  --color-persian-${palette.id}-${step}: ${color.hex}; /* ${cNameFa} */
 `;
     }
   }
@@ -9740,6 +9544,7 @@ function exportMaterialKotlin(palettes = ALL_PALETTES_LIST) {
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   ALL_PALETTES_LIST,
+  CANONICAL_TOKEN_KEYS,
   DTCG_VERSION,
   M3_ROLES,
   PERSIAN_PALETTES,

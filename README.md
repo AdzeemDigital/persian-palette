@@ -80,8 +80,14 @@ These images illustrate the studio; they are not accessibility or runtime audit 
 ![Dark studio preview](docs/shot_v3_dark_theme.png)
 ![Light studio preview](docs/shot_v3_light_theme.png)
 
+## About and Maintenance
+
+Maintained by Majid ZeidAbadiNejad at Adzeem Digital.
+This project uses AI assistance (Google Antigravity, Claude, and OpenAI Codex) for code generation, mathematical models, audit diagnostics, and test automation under human architectural oversight.
+
 ## Contribute and license
 
 See the [roadmap](docs/ROADMAP.md) and [contribution instructions](CONTRIBUTING.md). Source corrections should provide citations and distinguish documentary research from measurement.
 
 Original project code is [MIT licensed](LICENSE). Dependencies retain their own licenses, including APCA-W3's terms and colorparsley's AGPL v3 license; see [third-party notices](THIRD_PARTY_NOTICES.md).
+

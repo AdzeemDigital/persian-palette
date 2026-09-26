@@ -1,6 +1,8 @@
 /**
  * Spectral Reflectance Distribution Model (380nm - 700nm)
- * Models physical reflectance curves of historical minerals and natural organic dyes
+ *
+ * NOTE: Gaussian spectral curves generated here are illustrative mathematical
+ * simulations for UI rendering, not physical laboratory measurements.
  */
 
 export interface SpectralDataPoint {

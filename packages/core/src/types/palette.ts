@@ -2,6 +2,7 @@ import type { ColorEvidence, LegacyColorEvidence } from './evidence.js';
 export interface PersianColorDefinition {
   id: string; hex: string; nameFa: string; nameEn: string; roleFa: string; roleEn: string;
   meaningFa: string; role?: string; meaning?: string; evidence: ColorEvidence;
+  tokenKey?: string;
 }
 export type PersianCategory = 'architecture' | 'history' | 'art' | 'arts' | 'craft' | 'textiles' | 'nature';
 export interface PersianPaletteDefinition {
